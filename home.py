@@ -25,7 +25,7 @@ t0 = time.perf_counter()
 
 st.set_page_config(layout='wide')
 
-paginas = 'Home','Carteiras','Produtos','Divisão de operadores','Carteiras Co Admin','Analitico','Análise Tecnica','Basket geral'
+paginas = 'Home','Carteiras','Produtos','Divisão de operadores','Carteiras Co Admin','Analitico','Análise Tecnica','Basket geral','Carteiras Desenquadradas'
 selecionar = st.sidebar.radio('Selecione uma opção', paginas)
 
 
@@ -1001,6 +1001,39 @@ if selecionar == 'Basket geral':
         with pd.ExcelWriter(output8, engine='xlsxwriter') as writer:basket_geral.to_excel(writer,sheet_name=f'Basket__{carteira_escolhida}__{dia_e_hora}',index=False)
         output8.seek(0)
         st.download_button(type='primary',label="Basket Download",data=output8,file_name=f'Basket___{carteira_escolhida}__{dia_e_hora}.xlsx',key='download_button')
+
+if selecionar == 'Carteiras Desenquadradas':
+    
+    from contas_desenquadradas import Contas_desenquadradas
+
+    inciando_programa = Contas_desenquadradas()
+    dados = inciando_programa.lendo_e_tratando_arquivos()
+    encontrando_contas_desenquadradas = inciando_programa.criando_dfs_e_checando_enquadramento(dados,10)
+    
+
+    seletor_operados = st.sidebar.selectbox("Operador :",options=encontrando_contas_desenquadradas['Operador'].unique())
+    seletor_carteiras = st.sidebar.selectbox("Carteira :",options=encontrando_contas_desenquadradas['Carteira'].unique())
+    status = st.sidebar.selectbox("Status :",options=encontrando_contas_desenquadradas['Status'].unique())
+    encontrando_contas_desenquadradas = encontrando_contas_desenquadradas[(encontrando_contas_desenquadradas['Operador']==seletor_operados)&(encontrando_contas_desenquadradas['Carteira']==seletor_carteiras)&(encontrando_contas_desenquadradas['Status']==status)]
+    encontrando_contas_desenquadradas = encontrando_contas_desenquadradas.rename(columns={'Valor Líquido_x':'Valor da posição na carteira',
+                                                                                          'Valor Líquido_y':'PL Total',
+                                                                                          'Posicao Porcentagem':'% da Posição na Carteira',
+                                                                                          'Proporção':'% Ideal da Posição',
+                                                                                          'Enquadramento':'Variação %'}).drop(columns='Ativo_Income').iloc[:,[
+                                                                                              0,1,11,12,13,2,3,8,9,10,7
+                                                                                          ]]
+    
+    def color_map(val):
+        if val == '':
+            return 'background-color: DarkCyan'
+        elif isinstance(val, str):
+            return f'background-color: {val}'
+        elif val > 0:
+            return 'background-color: green'
+        elif val < 0:
+            return 'background-color: red'
+
+    st.dataframe(encontrando_contas_desenquadradas,use_container_width=True)
 
 
 
