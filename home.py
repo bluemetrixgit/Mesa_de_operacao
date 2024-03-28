@@ -507,6 +507,8 @@ if selecionar == 'Divisão de operadores':
         print(arquivo_final.info())
         col1,col2 = st.columns(2)
         st.text(f"{dividindo_operadores['Operador'].value_counts().to_string()}")
+        
+        '''Separação das contas a se operar por operados, requisição para retirar a funcionalidade, porém mantive o codigo caso voltem atrás na decisaão'''
         # with col1:
         #     seletor_operador = st.selectbox('Operadores',options=dividindo_operadores['Operador'].unique())
         #     dividindo_operadores = dividindo_operadores.loc[dividindo_operadores['Operador']==seletor_operador] 

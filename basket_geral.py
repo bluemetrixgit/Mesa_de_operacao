@@ -57,6 +57,8 @@ class Basket_geral():
     
     def trantamento_de_dados_posicao(self,posicao):
         planilha_posicao = pd.read_excel(posicao).iloc[:-2,[0,4,13,14]]
+        planilha_posicao = planilha_posicao.loc[~planilha_posicao['Produto'].str.contains('PREV').fillna(True)]
+        planilha_posicao = planilha_posicao.loc[~planilha_posicao['Produto'].str.contains('COE').fillna(True)]
         posicao = planilha_posicao.groupby(['Conta','Produto','Produto'])['Valor Líquido'].sum().reset_index()
         return posicao
     
@@ -138,67 +140,6 @@ class Basket_geral():
 
     
 
-
-    
-
-# if __name__=='__main__':
-#     dia_e_hora = datetime.datetime.now()
-#     inciando_programa = Basket_enquadramento_carteiras()
-    
-#     carteira_equity = inciando_programa.criando_carteiras('Carteira_equity',equities)
-#     carteira_income = inciando_programa.criando_carteiras('Carteira Income',income)
-#     carteira_small = inciando_programa.criando_carteiras('Carteira Small',small_caps)
-#     carteira_dividendos = inciando_programa.criando_carteiras('Carteira Dividendos',dividendos)
-#     carteira_fii = inciando_programa.criando_carteiras('Carteira FII', fii)
-#     carteira_conservadora = inciando_programa.criando_carteiras_hibridas('Carteira Conservadora',0.15,0.85)
-#     carteira_moderada = inciando_programa.criando_carteiras_hibridas('Carteira Moderada',0.30,0.70)
-#     carteira_arrojada = inciando_programa.criando_carteiras_hibridas('Carteira Arrojada',0.50,0.50)
-
-#     dados_finais = inciando_programa.juntando_arqeuivos(controle=controle_psicao,posicao=posicao_btg1)
-#     trantrando_dados_controle = inciando_programa.tratamento_de_dados_controle(controle_psicao)
-
-
-#     arquivo_com_pl = pd.merge(dados_finais,pl_original,on='Conta',how='outer')
-
-#     basket_geral_con = arquivo_com_pl[(arquivo_com_pl['Carteira']=='CON')&(arquivo_com_pl['Estratégia']=='Renda Variável')]
-#     basket_geral_con = basket_geral_con.merge(carteira_conservadora,left_on='Produto',right_on='Ativo',how='outer')
-#     basket_geral_con['Porcentagem da carteira'] = basket_geral_con['Valor Líquido']/basket_geral_con['Valor']
-#     basket_geral_con['Valor R$ Ideal'] = round(basket_geral_con['Proporção']*basket_geral_con['Valor'],2)
-#     basket_geral_con['Valor R$ da carteira'] = basket_geral_con['Porcentagem da carteira']*basket_geral_con['Valor']
-#     basket_geral_con['Diferença VI X VC'] = basket_geral_con['Valor R$ Ideal']-basket_geral_con['Valor R$ da carteira']
-#     basket_geral_con = basket_geral_con[basket_geral_con['Status']=='Ativo']
-
-#     basket_geral_con = basket_geral_con.iloc[:,[0,1,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18]]
-#     basket_geral_con['BOVA11'] = (0.015*basket_geral_con['Valor']).drop_duplicates()
-#     ativo_novo = basket_geral_con.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,15,16,17]].rename(columns={'BOVA11':'Valor R$ Ideal'})
-#     ativo_novo['Valor R$ Ideal'] = ativo_novo['Valor R$ Ideal'].fillna(0.00)
-#     ativo_novo = ativo_novo[ativo_novo['Valor R$ Ideal']!=0.00]
-#     ativo_novo['Produto'] = 'BOVA11'
-#     ativo_novo['Proporção'] = 'BOVA11'
-#     ativo_novo[['Porcentagem da carteira','Valor R$ da carteira']] = ''
-#     ativo_novo['Diferença VI X VC'] = ativo_novo['Valor R$ Ideal']
-
-
-#     basket_geral_con = pd.concat([basket_geral_con,ativo_novo]).drop(columns='BOVA11')
-
-
-#     precos_de_mercado = []
-#     for ativo in lista_acoes_em_caixa:
-#                 ticker = yf.Ticker(ativo +'.SA')
-#                 preco_atual = ticker.history(period='2m')['Close'].iloc[-1]
-            
-#                 precos_de_mercado.append([ativo,preco_atual])
-
-#     cotacoes_momento = pd.DataFrame(precos_de_mercado,columns =['Ativo','Cotação atual'])   
-#     basket = basket_geral_con.merge(cotacoes_momento,left_on='Produto',right_on='Ativo',how='outer').fillna(0)
-#     basket['Quantidade'] = round(basket['Diferença VI X VC']/basket['Cotação atual'],0).abs()
-#     basket['C/V'] = np.where(basket['Diferença VI X VC']>0,'C','V')
-#     basket['Validade']='DIA'
-#     basket = basket.rename(columns={'Cotação atual':'Preço'}).iloc[:-6,[7,20,19,18,1,21,4,5,6,16]].dropna().rename(columns={'Produto':'Ativo'})
-
-
-
-#     st.dataframe(basket)
 
 
 
