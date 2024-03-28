@@ -16,15 +16,14 @@ class Contas_desenquadradas():
     def __init__(self):
         print('hello world')
 
-    def lendo_e_tratando_arquivos(self):
+    def lendo_e_tratando_arquivos(self,controle,posicao):
 
-        controle = pd.read_excel(r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos.xlsx',2,skiprows=1).iloc[:,[2,12,6,7,8,16,17,18]]
-        print(controle.info())
+        controle = controle.iloc[:,[2,12,6,7,8,16,17,18]]
         controle['Conta'] = controle['Conta'].astype(str).apply(lambda x: '00'+x).str[:-2]
 
 
 
-        self.posicao = pd.read_excel(r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Posição.xlsx')
+        self.posicao = posicao
         self.posicao = self.posicao.loc[~self.posicao['Produto'].str.contains('PREV').fillna(True)]
         self.posicao = self.posicao.loc[~self.posicao['Produto'].str.contains('COE').fillna(True)]
 
