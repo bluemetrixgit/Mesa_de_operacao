@@ -977,6 +977,8 @@ if selecionar == 'Basket geral':
 
         dados_finais_1 = inciando_programa.juntando_arqeuivos(controle=controle_psicao,posicao=posicao_btg1)
         trantrando_dados_controle = inciando_programa.tratamento_de_dados_controle(controle_psicao)
+        coe_e_prev = inciando_programa.valor_de_coe_e_prev(posicao_base=posicao_btg1)
+
 
         carteira_escolhida = st.sidebar.radio('Selecione a carteire',['INC','CON','MOD','ARR','EQT'])
 
@@ -993,7 +995,7 @@ if selecionar == 'Basket geral':
 
 
         basket_geral = inciando_programa.basket_geral(dados_finais=dados_finais_1,pl_original=pl_original,
-                                                      carteira=carteira_escolhida,carteira_modelo=carteira_modelo)
+                                                      carteira=carteira_escolhida,carteira_modelo=carteira_modelo,coe_prev=coe_e_prev)
         st.dataframe(basket_geral)
         #def basket_geral(dados_finais,pl_original,carteira,carteira_modelo):
            

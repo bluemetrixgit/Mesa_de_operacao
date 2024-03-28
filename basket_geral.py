@@ -55,10 +55,16 @@ class Basket_geral():
         self.carteira['Proporção'] = self.carteira['Proporção']/100
         return self.carteira
     
+    def valor_de_coe_e_prev(self,posicao_base):
+        planilha_posicao =posicao_base.iloc[:-2,[0,4,13,14]]
+        planilha_posicao = planilha_posicao.loc[(planilha_posicao['Produto'].str.contains('PREV'))|(planilha_posicao['Produto']=='COE')]
+        posicao = planilha_posicao.groupby('Conta')['Valor Líquido'].sum().reset_index()
+        return posicao
+         
+         
     def trantamento_de_dados_posicao(self,posicao):
         planilha_posicao = pd.read_excel(posicao).iloc[:-2,[0,4,13,14]]
-        planilha_posicao = planilha_posicao.loc[~planilha_posicao['Produto'].str.contains('PREV').fillna(True)]
-        planilha_posicao = planilha_posicao.loc[~planilha_posicao['Produto'].str.contains('COE').fillna(True)]
+        planilha_posicao = planilha_posicao.loc[~(planilha_posicao['Produto'].str.contains('PREV'))|(planilha_posicao['Produto']=='COE')]
         posicao = planilha_posicao.groupby(['Conta','Produto','Produto'])['Valor Líquido'].sum().reset_index()
         return posicao
     
@@ -97,7 +103,13 @@ class Basket_geral():
         return carteira_utilizada
     
     
-    def basket_geral(self,dados_finais,pl_original,carteira,carteira_modelo):
+    def basket_geral(self,dados_finais,pl_original,carteira,carteira_modelo,coe_prev):
+
+        pl_original= pl_original.merge(coe_prev,on='Conta',how='outer')
+        pl_original['Valor Líquido'] = pl_original['Valor Líquido'].fillna(0)
+        pl_original['PL Real'] = pl_original['Valor']-pl_original['Valor Líquido']
+        pl_original = pl_original.iloc[:,[0,1,4]].rename(columns={'PL Real':'Valor'})
+
         arquivo_com_pl = pd.merge(dados_finais,pl_original,on='Conta',how='outer')
 
         basket_geral_con = arquivo_com_pl[(arquivo_com_pl['Carteira']==carteira)&(arquivo_com_pl['Estratégia']=='Renda Variável')]
