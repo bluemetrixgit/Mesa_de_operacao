@@ -483,7 +483,7 @@ if selecionar == 'Divisão de operadores':
         
         st.dataframe(filtrando_saldo.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
 
-        contas_faltantes = arquivo1.contas_nao_encontradas(arquivo_compilado=arquivo_compilado)
+        contas_faltantes = arquivo1.contas_nao_encontradas(arquivo_compilado=arquivo_compilado,controle_novas=controle_novas)
         st.subheader('Novas Contas ')
         st.dataframe(arquivo_novas_contas)
         st.text(f" Contagem Total de clientes por {contando_operadores['Operador'].value_counts().to_string()}")
