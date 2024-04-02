@@ -68,8 +68,8 @@ class Divisao_de_contas():
         self.saldo = saldo
         self.pl =  pl
 
-        self.controle_novas_contas['Conta'] = self.controle_novas_contas['Conta'].astype(str).apply(lambda x: '00'+x).str[:-2]
-
+        self.controle_novas_contas['Conta'] = self.controle_novas_contas['Conta'].astype(str)#.apply(lambda x: '00'+x).str[:-2]
+        st.dataframe(self.controle_novas_contas)
         self.saldo = saldo.iloc[:,[0,2]]
         self.pl = pl.iloc[:,[0,2]]
         contas_novas = list(self.controle_novas_contas['Conta'])
