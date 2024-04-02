@@ -993,9 +993,10 @@ if selecionar == 'Basket geral':
         elif carteira_escolhida == 'EQT':
             carteira_modelo = carteira_equity    
 
-
+        operadores = st.sidebar.radio('',['Breno','Bruno','Augusto'])
+        
         basket_geral = inciando_programa.basket_geral(dados_finais=dados_finais_1,pl_original=pl_original,
-                                                      carteira=carteira_escolhida,carteira_modelo=carteira_modelo,coe_prev=coe_e_prev)
+                                                      carteira=carteira_escolhida,carteira_modelo=carteira_modelo,coe_prev=coe_e_prev,operador=operadores)
         st.dataframe(basket_geral)
         #def basket_geral(dados_finais,pl_original,carteira,carteira_modelo):
            
@@ -1003,6 +1004,8 @@ if selecionar == 'Basket geral':
         with pd.ExcelWriter(output8, engine='xlsxwriter') as writer:basket_geral.to_excel(writer,sheet_name=f'Basket__{carteira_escolhida}__{dia_e_hora}',index=False)
         output8.seek(0)
         st.download_button(type='primary',label="Basket Download",data=output8,file_name=f'Basket___{carteira_escolhida}__{dia_e_hora}.xlsx',key='download_button')
+
+
 
 if selecionar == 'Carteiras Desenquadradas':
     

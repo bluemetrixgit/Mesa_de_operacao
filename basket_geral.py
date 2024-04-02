@@ -103,7 +103,7 @@ class Basket_geral():
         return carteira_utilizada
     
     
-    def basket_geral(self,dados_finais,pl_original,carteira,carteira_modelo,coe_prev):
+    def basket_geral(self,dados_finais,pl_original,carteira,carteira_modelo,coe_prev,operador):
 
         pl_original= pl_original.merge(coe_prev,on='Conta',how='outer')
         pl_original['Valor Líquido'] = pl_original['Valor Líquido'].fillna(0)
@@ -112,7 +112,7 @@ class Basket_geral():
 
         arquivo_com_pl = pd.merge(dados_finais,pl_original,on='Conta',how='outer')
 
-        basket_geral_con = arquivo_com_pl[(arquivo_com_pl['Carteira']==carteira)&(arquivo_com_pl['Estratégia']=='Renda Variável')]
+        basket_geral_con = arquivo_com_pl[(arquivo_com_pl['Carteira']==carteira)&(arquivo_com_pl['Estratégia']=='Renda Variável')&(arquivo_com_pl['Operador']==operador)]
         basket_geral_con = basket_geral_con.merge(carteira_modelo,left_on='Produto',right_on='Ativo',how='outer')
         basket_geral_con['Porcentagem da carteira'] = basket_geral_con['Valor Líquido']/basket_geral_con['Valor']
         basket_geral_con['Valor R$ Ideal'] = round(basket_geral_con['Proporção']*basket_geral_con['Valor'],2)
@@ -120,9 +120,9 @@ class Basket_geral():
         basket_geral_con['Diferença VI X VC'] = basket_geral_con['Valor R$ Ideal']-basket_geral_con['Valor R$ da carteira']
         basket_geral_con = basket_geral_con[basket_geral_con['Status']=='Ativo']
 
-        basket_geral_con = basket_geral_con.iloc[:,[0,1,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18]]
+        basket_geral_con = basket_geral_con.iloc[:,[0,1,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,2]]
         basket_geral_con['BOVA11'] = (0.015*basket_geral_con['Valor']).drop_duplicates()
-        ativo_novo = basket_geral_con.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,15,16,17]].rename(columns={'BOVA11':'Valor R$ Ideal'})
+        ativo_novo = basket_geral_con.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18]].rename(columns={'BOVA11':'Valor R$ Ideal'})
         ativo_novo['Valor R$ Ideal'] = ativo_novo['Valor R$ Ideal'].fillna(0.00)
         ativo_novo = ativo_novo[ativo_novo['Valor R$ Ideal']!=0.00]
         ativo_novo['Produto'] = 'BOVA11'
@@ -146,7 +146,7 @@ class Basket_geral():
         basket['Quantidade'] = round(basket['Diferença VI X VC']/basket['Cotação atual'],0).abs()
         basket['C/V'] = np.where(basket['Diferença VI X VC']>0,'C','V')
         basket['Validade']='DIA'
-        basket = basket.rename(columns={'Cotação atual':'Preço'}).iloc[:-6,[7,20,19,18,1,21,4,5,6,16]].dropna().rename(columns={'Produto':'Ativo'})
+        basket = basket.rename(columns={'Cotação atual':'Preço'}).iloc[:-6,[7,20,19,18,1,21,4,5,6,16,-6]].dropna().rename(columns={'Produto':'Ativo'})
         return basket
 
 
