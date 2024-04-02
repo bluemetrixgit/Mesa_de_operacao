@@ -24,7 +24,7 @@ class Contas_desenquadradas():
 
 
         self.posicao = posicao
-        self.posicao = self.posicao.loc[(self.posicao['Produto'].str.contains('PREV'))|(self.posicao['Produto']=='COE')]
+        self.posicao = self.posicao.loc[~((self.posicao['Produto'].str.contains('PREV'))|(self.posicao['Produto']=='COE'))]
 
         self.posicao = self.posicao.groupby(['Conta','Estratégia'])['Valor Líquido'].sum().reset_index()
         pl_das_contas = self.posicao.groupby('Conta')['Valor Líquido'].sum().reset_index()

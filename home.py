@@ -1010,8 +1010,9 @@ if selecionar == 'Carteiras Desenquadradas':
 
     inciando_programa = Contas_desenquadradas()
     dados = inciando_programa.lendo_e_tratando_arquivos(controle_psicao,posicao_original)
-    encontrando_contas_desenquadradas = inciando_programa.criando_dfs_e_checando_enquadramento(dados,5)
-    
+    encontrando_contas_desenquadradas = inciando_programa.criando_dfs_e_checando_enquadramento(dados,10)
+    contas_desen_tabela_geral = inciando_programa.criando_dfs_e_checando_enquadramento(dados,10)
+    st.write('Não contém COE ou Previdência na contagem')
     st.warning(f"Total de contas : {encontrando_contas_desenquadradas['Conta'].shape[0]}")
 
     seletor_operados = st.sidebar.selectbox("Operador :",options=encontrando_contas_desenquadradas['Operador'].unique())
@@ -1026,6 +1027,8 @@ if selecionar == 'Carteiras Desenquadradas':
                                                                                               0,1,11,12,13,2,3,8,9,10,7
                                                                                           ]]
 
+    if st.toggle('Ver Tabela sem filtros:'):
+        st.dataframe(contas_desen_tabela_geral)
 
 
     st.dataframe(encontrando_contas_desenquadradas,use_container_width=True)
