@@ -24,7 +24,7 @@ from basket_geral import  Basket_geral
 t0 = time.perf_counter()
 
 st.set_page_config(layout='wide')
-
+print('asa')
 paginas = 'Home','Carteiras','Produtos','Divisão de operadores','Carteiras Co Admin','Analitico','Análise Tecnica','Basket geral','Carteiras Desenquadradas'
 selecionar = st.sidebar.radio('Selecione uma opção', paginas)
 
