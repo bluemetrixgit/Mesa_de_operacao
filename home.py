@@ -539,7 +539,7 @@ if selecionar == 'Analitico':
     posicao_btg = posicao_original.iloc[:,[0,4,10]]
     planilha_controle = controle.iloc[:,[2,12,]]
     posicao_btg = posicao_btg.rename(columns={'CONTA':'Conta','PRODUTO':'Produto','ATIVO':'Ativo','VALOR BRUTO':'Valor Bruto','QUANTIDADE':'Quantidade'})
-
+    posicao_btg = posicao_btg[~((posicao_btg['Produto'].str.contains('PREV'))|(posicao_btg['Produto']=='COE'))]
     planilha_controle = planilha_controle.drop(0)
     planilha_controle['Unnamed: 2'] =planilha_controle['Unnamed: 2'].map((lambda x: '00'+str(x))) 
     planilha_final = pd.merge(posicao_btg,planilha_controle,left_on='Conta',right_on='Unnamed: 2',how='outer').reset_index()
@@ -979,32 +979,50 @@ if selecionar == 'Basket geral':
         trantrando_dados_controle = inciando_programa.tratamento_de_dados_controle(controle_psicao)
         coe_e_prev = inciando_programa.valor_de_coe_e_prev(posicao_base=posicao_btg1)
 
-
-        carteira_escolhida = st.sidebar.radio('Selecione a carteire',['INC','CON','MOD','ARR','EQT'])
-
-        if carteira_escolhida == 'INC':
-            carteira_modelo = carteira_income
-        elif carteira_escolhida == 'CON':
-            carteira_modelo = carteira_conservadora
-        elif carteira_escolhida == 'MOD':
-            carteira_modelo = carteira_moderada
-        elif carteira_escolhida == 'ARR':
-            carteira_modelo = carteira_arrojada
-        elif carteira_escolhida == 'EQT':
-            carteira_modelo = carteira_equity    
-
+        tipos_de_carteira = ['INC','CON','MOD','ARR','EQT']
+        carteiras_escolhidas_possiveis = [carteira_income,carteira_conservadora,carteira_moderada,carteira_arrojada,carteira_equity]
+        carteiras_ou_operador = st.sidebar.radio('',['Operadores','Carteiras'])
         operadores = st.sidebar.radio('',['Breno','Bruno','Augusto'])
-        
-        basket_geral = inciando_programa.basket_geral(dados_finais=dados_finais_1,pl_original=pl_original,
-                                                      carteira=carteira_escolhida,carteira_modelo=carteira_modelo,coe_prev=coe_e_prev,operador=operadores)
-        st.dataframe(basket_geral)
-        #def basket_geral(dados_finais,pl_original,carteira,carteira_modelo):
-           
-        output8 = io.BytesIO()
-        with pd.ExcelWriter(output8, engine='xlsxwriter') as writer:basket_geral.to_excel(writer,sheet_name=f'Basket__{carteira_escolhida}__{dia_e_hora}',index=False)
-        output8.seek(0)
-        st.download_button(type='primary',label="Basket Download",data=output8,file_name=f'Basket___{carteira_escolhida}__{dia_e_hora}.xlsx',key='download_button')
 
+        
+        if carteiras_ou_operador == 'Carteiras':
+            carteira_escolhida = st.sidebar.radio('Selecione a carteire',['INC','CON','MOD','ARR','EQT'])
+
+            if carteira_escolhida == 'INC':
+                carteira_modelo = carteira_income
+            elif carteira_escolhida == 'CON':
+                carteira_modelo = carteira_conservadora
+            elif carteira_escolhida == 'MOD':
+                carteira_modelo = carteira_moderada
+            elif carteira_escolhida == 'ARR':
+                carteira_modelo = carteira_arrojada
+            elif carteira_escolhida == 'EQT':
+                carteira_modelo = carteira_equity   
+
+            basket_geral = inciando_programa.basket_geral(dados_finais=dados_finais_1,pl_original=pl_original,
+                                                        carteira=carteira_escolhida,carteira_modelo=carteira_modelo,coe_prev=coe_e_prev,operador=operadores)
+            st.dataframe(basket_geral)
+            
+            output8 = io.BytesIO()
+            with pd.ExcelWriter(output8, engine='xlsxwriter') as writer:basket_geral.to_excel(writer,sheet_name=f'Basket__{carteira_escolhida}__{dia_e_hora}',index=False)
+            output8.seek(0)
+            st.download_button(type='primary',label="Basket Download",data=output8,file_name=f'Basket___{carteira_escolhida}__{dia_e_hora}.xlsx',key='download_button')
+
+
+        elif carteiras_ou_operador == 'Operadores':
+            todas_as_carteiras = []
+            for carteira_,carteira_escolhida in zip(tipos_de_carteira,carteiras_escolhidas_possiveis):
+                gerando_arquivos = inciando_programa.basket_geral(dados_finais=dados_finais_1,pl_original=pl_original,
+                                                            carteira=carteira_,carteira_modelo=carteira_escolhida,coe_prev=coe_e_prev,operador=operadores)
+                todas_as_carteiras.append(gerando_arquivos)
+
+            arquivo_com_todas_as_carteiras_basket_final = pd.concat(todas_as_carteiras)
+            st.dataframe(arquivo_com_todas_as_carteiras_basket_final)
+
+            output9 = io.BytesIO()
+            with pd.ExcelWriter(output9, engine='xlsxwriter') as writer:arquivo_com_todas_as_carteiras_basket_final.to_excel(writer,sheet_name=f'Basket__{operadores}',index=False)
+            output9.seek(0)
+            st.download_button(type='primary',label="Basket Download",data=output9,file_name=f'Basket_____{operadores}.xlsx',key='download_button')
 
 
 if selecionar == 'Carteiras Desenquadradas':
