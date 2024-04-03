@@ -12,8 +12,7 @@ colors_dark_rainbow = ['#9400D3', '#4B0082', '#0000FF', '#00FF00', '#FFFF00',
                        '#FF7F00', '#FF0000']
 colors_dark_brewers = ['#2c7bb6', '#abd9e9', '#ffffbf', '#fdae61', '#d7191c']
 
-equities = {'ARZZ3': 5,'ASAI3':6.50,'BBSE3':5,'CPFE3':5.50,'EGIE3':5.50,'HYPE3':8.00,'KEPL3':8,
-            'LEVE3':5,'PRIO3':8,'PSSA3':2.50,'SBSP3':4,'SLCE3':7,'VALE3':10,'VIVT3':5,'BOVA11':10,'Caixa':5}
+equities = {'ARZZ3': 5,'ASAI3':6.50,'BBSE3':5,'CPFE3':5.50,'EGIE3':5.50,'HYPE3':8.00,'KEPL3':8, 'Caixs':5, 'LEVE3':5,'PRIO3':8,'PSSA3':2.50,'SBSP3':4,'SLCE3':7,'VALE3':10,'VIVT3':5,'BOVA11':10}
 
 income = {'POS':15,'Inflação':38,'PRE':44,'FundoDI':3,'Caixa':3}
 
@@ -109,7 +108,7 @@ class Basket_enquadramento_carteiras():
     
     def criacao_basket(self,carteira_modelo,dados_finais,input_conta):
         carteira_modelo = carteira_modelo[(carteira_modelo['Ativo'].str.contains('3'))|(carteira_modelo['Ativo'].str.contains('11'))]
-        dados_finais = dados_finais[dados_finais['Produto'].str.contains('3')]
+        dados_finais = dados_finais[dados_finais['Produto'].str.contains('3')|(dados_finais['Produto'].str.contains('11'))]
         basket = pd.merge(carteira_modelo.iloc[:,[0,2]],dados_finais.iloc[:,[0,2]],left_on='Ativo',right_on='Produto',how='outer')
         precos_de_mercado = []
         for ativo in lista_acoes_em_caixa:
@@ -125,6 +124,7 @@ class Basket_enquadramento_carteiras():
         self.basket['C/V'] = np.where(self.basket['Valor_compra_venda']>0,'C','V')
         self.basket['Validade']='DIA'
         self.basket['Conta'] = input_conta
+        st.data_editor(self.basket)
         self.basket = self.basket.rename(columns={'Cotação atual':'Preço'}).iloc[:,[0,7,6,4,9,8]]
 
         return self.basket
