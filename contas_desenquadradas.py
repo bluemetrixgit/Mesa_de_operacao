@@ -18,7 +18,7 @@ class Contas_desenquadradas():
 
     def lendo_e_tratando_arquivos(self,controle,posicao):
 
-        controle = controle.iloc[:,[2,12,6,7,8,16,17,18]]
+        controle = controle.iloc[:,[1,2,12,6,7,8,16,17,18,9]]
         controle['Conta'] = controle['Conta'].astype(str).apply(lambda x: '00'+x).str[:-2]
 
 
