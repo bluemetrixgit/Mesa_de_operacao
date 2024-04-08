@@ -858,7 +858,7 @@ if selecionar == 'Risco':
     with col2:
 
 
-        st.subheader('Simulção Monte Carlo Equities')
+        st.subheader('Simulação Monte Carlo Equities')
         st.text('')
         st.text('')
 
@@ -877,7 +877,7 @@ if selecionar == 'Risco':
         st.text('')
         st.text('')
         st.text('')
-        st.subheader('Simular Monte Carolo')
+        st.subheader('Simular Monte Carlo')
         st.text('')
         st.text('')
         st.text('')
