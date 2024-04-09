@@ -1024,7 +1024,6 @@ if selecionar == 'Carteiras Desenquadradas':
                                                                                             [ 0,1,14,15,13,11,2,3,8,9,10,4,12]]
     
     encontrando_contas_desenquadradas['Diferença R$ da carteira e valor ideal'] = ((encontrando_contas_desenquadradas['% Ideal da Posição']/100)*encontrando_contas_desenquadradas['PL Total'])-encontrando_contas_desenquadradas['Valor da posição na carteira']
-
     encontrando_contas_desenquadradas = encontrando_contas_desenquadradas.iloc[:,[0,1,2,3,4,13,6,7,8,5,9,10,11,12]]
 
 
