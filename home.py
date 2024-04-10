@@ -61,9 +61,6 @@ posicao_btg = posicao_btg1.copy()
 planilha_controle = planilha_controle1.copy()
 controle_co_admin = co_admin.copy()
 
-#----------------------------------  ---------------------------------- ---------------------------------- ---------------------------------- 
-# Pagina de Carteiras
-#---------------------------------- ---------------------------------- ---------------------------------- ---------------------------------- 
 
 
 colors_dark_rainbow = ['#9400D3', '#4B0082', '#0000FF', '#00FF00', '#FFFF00',
@@ -170,10 +167,6 @@ if selecionar == 'Carteiras':
         except:
             st.write('Conta nâo encontrada')
 
-
-#----------------------------------  ---------------------------------- ---------------------------------- ---------------------------------- 
-# Pagina de produtos
-#---------------------------------- ---------------------------------- ---------------------------------- ---------------------------------- 
 
 if selecionar == 'Produtos':
 
@@ -447,11 +440,10 @@ if selecionar == 'Produtos':
         st.dataframe(produtos)
 
 
-#----------------------------------  ---------------------------------- ---------------------------------- ---------------------------------- 
-# Pagina de divisão de contas por operador
-#---------------------------------- ---------------------------------- ---------------------------------- ---------------------------------- 
+
 
 if selecionar == 'Divisão de operadores':
+    from co_admin import Carteiras_co_admin
     corretora = st.radio('',['BTG','Guide'])
     if corretora == 'BTG':
         controle_novas = le_excel('Controle de Contratos.xlsx',1,0)    
@@ -463,7 +455,14 @@ if selecionar == 'Divisão de operadores':
         arquivo_compilado = arquivo1.limpando_dados(controle=controle_2,saldo=saldo_original1,pl=pl_original1)
         arquivo_novas_contas = arquivo1.novas_contas(controle_novas=controle_novas,saldo=saldo,pl=pl)
 
-        filtrando_saldo = arquivo1.filtrando_dados_e_separando_operadores(arquivo_compilado=arquivo_compilado)
+        filtrando_saldo_1 = arquivo1.filtrando_dados_e_separando_operadores(arquivo_compilado=arquivo_compilado)
+        ler_arquivos = Carteiras_co_admin()            
+        dados_agregados = ler_arquivos.juntando_planilhas(pl,controle_co_admin,saldo)
+        dados_agregados = dados_agregados.iloc[:,[0,2,1,4,3,5,6,9,7,8]].rename(columns={'PL':'Valor'})
+        
+        filtrando_saldo = pd.concat([filtrando_saldo_1,dados_agregados]).reset_index(drop='index')
+        #filtrando_saldo = filtrando_saldo.loc[(filtrando_saldo['Saldo']>1000)|(filtrando_saldo['Saldo']<0)].sort_values(by='Saldo',ascending=False)
+        print(filtrando_saldo.info())
         contando_operadores = arquivo1.contando_oepradores(arquivo_compilado=arquivo_compilado)
 
         col1,col2 = st.columns(2)
@@ -480,7 +479,6 @@ if selecionar == 'Divisão de operadores':
                 'Checar conta':'background-color: red',
                 np.nan:'background-color: #B8860B'}
             
-        
         st.dataframe(filtrando_saldo.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
 
         contas_faltantes = arquivo1.contas_nao_encontradas(arquivo_compilado=arquivo_compilado,controle_novas=controle_novas)
@@ -492,6 +490,8 @@ if selecionar == 'Divisão de operadores':
             st.dataframe(contas_faltantes)
         else:
             ''
+
+
     if corretora == 'Guide':
 
         controle_g = le_excel('Controle de Contratos.xlsx',3,1)
@@ -528,18 +528,16 @@ if selecionar == 'Divisão de operadores':
         st.dataframe(contas_nao_contradas)
         st.text(f" Contagem Total de clientes por {contando_operadoress['Operador'].value_counts().to_string()}")
 
-#----------------------------------  ---------------------------------- ---------------------------------- ---------------------------------- 
-# Pagina de Analise
-#---------------------------------- ---------------------------------- ---------------------------------- ---------------------------------- 
+
 if selecionar == 'Analitico':
 
 
 
-
-    posicao_btg = posicao_original.iloc[:,[0,4,10]]
+    posicao_btg = posicao_original.iloc[:,[0,4,10]].fillna(0)
     planilha_controle = controle.iloc[:,[2,12,]]
-    posicao_btg = posicao_btg.rename(columns={'CONTA':'Conta','PRODUTO':'Produto','ATIVO':'Ativo','VALOR BRUTO':'Valor Bruto','QUANTIDADE':'Quantidade'})
+    #posicao_btg = posicao_btg.rename(columns={'CONTA':'Conta','PRODUTO':'Produto','ATIVO':'Ativo','VALOR BRUTO':'Valor Bruto','QUANTIDADE':'Quantidade'})
     posicao_btg = posicao_btg[~((posicao_btg['Produto'].str.contains('PREV'))|(posicao_btg['Produto']=='COE'))]
+
     planilha_controle = planilha_controle.drop(0)
     planilha_controle['Unnamed: 2'] =planilha_controle['Unnamed: 2'].map((lambda x: '00'+str(x))) 
     planilha_final = pd.merge(posicao_btg,planilha_controle,left_on='Conta',right_on='Unnamed: 2',how='outer').reset_index()
@@ -624,9 +622,9 @@ if selecionar == 'Analitico':
     lista_acoes_em_caixa = [ 'ARZZ3', 'ASAI3', 'BBSE3', 'CPFE3', 'EGIE3','HYPE3', 'KEPL3', 'LEVE3', 'PRIO3', 'PSSA3', 'SBSP3', 'VIVT3', 'SLCE3', 'VALE3','BOVA11']
     
     caixa = [
-        'BTG PACT TESOURO SELIC PREV FI RF REF DI',
-        'TESOURO DIRETO - LFT',      
-    ]
+        'BTG PACTUAL TESOURO SELIC FI RF REF DI',
+        'TESOURO DIRETO - LFT']
+    
     small_caps = ['BPAC11','ENEV3','HBSA3','IFCM3','JALL3','KEPL3',
     'MYPK3','PRIO3','SIMH3','TASA4','TUPY3','WIZC3']
 
@@ -914,7 +912,7 @@ if selecionar == 'Carteiras Co Admin':
             coluna_final = arquivo_final_completo.columns[-1]
 
             arquivo_final_completo = arquivo_final_completo.rename(columns={coluna_final:'PL Planilha Controle'}).iloc[:,[0,2,3,5,6,7,8,1,4,9,10]]
-
+            
             return arquivo_final_completo
 
     if __name__=='__main__':
@@ -924,7 +922,6 @@ if selecionar == 'Carteiras Co Admin':
         print(dados_agregados)
         st.dataframe(dados_agregados)
 
-    print(controle_co_admin.info())
 
 if selecionar == 'Basket geral':
     if __name__=='__main__':
