@@ -25,7 +25,7 @@ t0 = time.perf_counter()
 
 st.set_page_config(layout='wide')
 print('asa')
-paginas = 'Home','Carteiras','Produtos','Divisão de operadores','Carteiras Co Admin','Analitico','Risco','Basket geral','Carteiras Desenquadradas'
+paginas = 'Home','Carteiras','Produtos','Divisão de operadores','Analitico','Risco','Basket geral','Carteiras Desenquadradas'
 selecionar = st.sidebar.radio('Selecione uma opção', paginas)
 
 
@@ -461,8 +461,6 @@ if selecionar == 'Divisão de operadores':
         dados_agregados = dados_agregados.iloc[:,[0,2,1,4,3,5,6,9,7,8]].rename(columns={'PL':'Valor'})
         
         filtrando_saldo = pd.concat([filtrando_saldo_1,dados_agregados]).reset_index(drop='index')
-        #filtrando_saldo = filtrando_saldo.loc[(filtrando_saldo['Saldo']>1000)|(filtrando_saldo['Saldo']<0)].sort_values(by='Saldo',ascending=False)
-        print(filtrando_saldo.info())
         contando_operadores = arquivo1.contando_oepradores(arquivo_compilado=arquivo_compilado)
 
         col1,col2 = st.columns(2)
