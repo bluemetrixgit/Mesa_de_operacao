@@ -20,6 +20,7 @@ import divisao_de_operadores
 from divisao_de_operadores import Divisao_de_contas
 from divisao_guide import Guide_Divisao_contas
 from basket_geral import  Basket_geral
+from ativos_e_proporcoes import Ativos_e_proporcoes as ap
 
 t0 = time.perf_counter()
 
@@ -67,20 +68,20 @@ colors_dark_rainbow = ['#9400D3', '#4B0082', '#0000FF', '#00FF00', '#FFFF00',
                        '#FF7F00', '#FF0000']
 colors_dark_brewers = ['#2c7bb6', '#abd9e9', '#ffffbf', '#fdae61', '#d7191c']
 
-equities = {'ARZZ3': 5,'ASAI3':6.50,'BBSE3':5,'CPFE3':5.50,'EGIE3':5.50,'HYPE3':8.00,'KEPL3':8,
-            'LEVE3':5,'PRIO3':8,'PSSA3':2.50,'SBSP3':4,'SLCE3':7,'VALE3':10,'VIVT3':5,'BOVA11':10,'Caixa':5}
 
-income = {'POS':15,'Inflação':38,'PRE':44,'FundoDI':3,'Caixa':3}
+carteira = ap()
 
-small_caps = {'BPAC11':10,'ENEV3':4,'HBSA3':7,'IFCM3':5,'IFCM3':5,'JALL3':10,'KEPL3':12,'MYPK3':5,'PRIO3':12,'SIMH3':8,'TASA4':8,'TUPY3':11,'WIZC3':5}
+equities = carteira.equities()
 
-dividendos = {'TAEE11':9,'VIVT3':12,'BBSE3':17, 'ABCB4':16,' VBBR3':15,' CPLE6':16,' TRPL4':5}
+income = carteira.income()
 
-fii = {'BTLG11':22.30,'Caixa':6,'HGLG11':22.30,'KNCA11':7.25,'MALL11':7.75,'PLCR11':13.57,'RURA11':7.26,'TRXF11':13.57}
+small_caps = carteira.small_caps()
 
-lista_acoes_em_caixa = [ 'ARZZ3', 'ASAI3', 'BBSE3', 'CPFE3', 'EGIE3','HYPE3', 'KEPL3', 'LEVE3', 'PRIO3', 'PSSA3', 'SBSP3', 'VIVT3', 'SLCE3', 'VALE3','BOVA11']
+dividendos = carteira.dividendos()
 
+fii = carteira.fii()
 
+lista_acoes_em_caixa = carteira.acoes_em_caixa()
 
 if selecionar == 'Carteiras':
     from carteiras_indiv import Basket_enquadramento_carteiras
@@ -617,8 +618,7 @@ if selecionar == 'Analitico':
     colors_dark10 = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
                  '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']
     
-    lista_acoes_em_caixa = [ 'ARZZ3', 'ASAI3', 'BBSE3', 'CPFE3', 'EGIE3','HYPE3', 'KEPL3', 'LEVE3', 'PRIO3', 'PSSA3', 'SBSP3', 'VIVT3', 'SLCE3', 'VALE3','BOVA11']
-    
+    lista_acoes_em_caixa = carteira.acoes_em_caixa()
     caixa = [
         'BTG PACTUAL TESOURO SELIC FI RF REF DI',
         'TESOURO DIRETO - LFT']
