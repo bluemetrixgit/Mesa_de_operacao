@@ -455,7 +455,7 @@ if selecionar == 'Divisão de operadores':
         arquivo_compilado = arquivo1.limpando_dados(controle=controle_2,saldo=saldo_original1,pl=pl_original1)
         arquivo_novas_contas = arquivo1.novas_contas(controle_novas=controle_novas,saldo=saldo,pl=pl)
 
-        filtrando_saldo_1 = arquivo1.filtrando_dados_e_separando_operadores(arquivo_compilado=arquivo_compilado)
+        filtrando_saldo_1 = arquivo1.filtrando_dados_e_separando_operadores(arquivo_compilado=arquivo_compilado,co_admin=co_admin)
         ler_arquivos = Carteiras_co_admin()            
         dados_agregados = ler_arquivos.juntando_planilhas(pl,controle_co_admin,saldo)
         dados_agregados = dados_agregados.iloc[:,[0,2,1,4,3,5,6,9,7,8]].rename(columns={'PL':'Valor'})

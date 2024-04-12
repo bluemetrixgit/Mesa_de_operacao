@@ -19,6 +19,7 @@ class Carteiras_co_admin():
         coluna_final = arquivo_final_completo.columns[-1]
         arquivo_final_completo = arquivo_final_completo.rename(columns={coluna_final:'PL Planilha Controle'}).iloc[:,[0,2,3,5,6,7,8,1,4,9,10]]
         arquivo_final_completo = arquivo_final_completo[(arquivo_final_completo['Saldo']>1000)|(arquivo_final_completo['Saldo']<0)].sort_values(by='Saldo',ascending=False)
+        arquivo_final_completo['Saldo'] = arquivo_final_completo['Saldo'].apply(lambda x: '{:.2f}'.format(x))
         return arquivo_final_completo
 
 if __name__=='__main__':
