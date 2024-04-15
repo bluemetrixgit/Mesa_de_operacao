@@ -9,8 +9,13 @@ from numpy import linalg as LA
 from plotly import graph_objects as go
 from bs4 import BeautifulSoup
 import requests
+import matplotlib.ticker as mtick
+from scipy.optimize import minimize
 
 
+
+lista_acoes_yf = ['ARZZ3.SA','ASAI3.SA','BBSE3.SA','CPFE3.SA','EGIE3.SA','HYPE3.SA','KEPL3.SA','LEVE3.SA','PRIO3.SA','PSSA3.SA','SLCE3.SA','VALE3.SA','VIVT3.SA']
+pesos_carteira_eq = [0.05,0.06,0.05,0.10,0.05,0.05,0.08,0.08,0.05,0.08,0.02,0.07,0.05]
 
 
 
@@ -21,8 +26,8 @@ class Risco():
     def var_historico(self,periodo_inicial,period_final):
 
 
-        lista_acoes = ['ARZZ3.SA','ASAI3.SA','BBSE3.SA','BOVA11.SA','CPFE3.SA','EGIE3.SA','HYPE3.SA','KEPL3.SA','LEVE3.SA','PRIO3.SA','PSSA3.SA','SBSP3.SA','SLCE3.SA','VALE3.SA','VIVT3.SA']
-        pesos_carteira = [0.05,0.06,0.05,0.10,0.05,0.05,0.08,0.08,0.05,0.08,0.02,0.04,0.07,0.10,0.05]
+        lista_acoes = lista_acoes_yf
+        pesos_carteira = pesos_carteira_eq
 
 
         carteira = yf.download(lista_acoes,start=periodo_inicial,end=period_final)['Adj Close']
@@ -93,8 +98,8 @@ class Risco():
 
     def monte_carlo(self,dias):
             
-        lista_acoes = ['ARZZ3','ASAI3','BBSE3','BOVA11','CPFE3','EGIE3','HYPE3','KEPL3','LEVE3','PRIO3','PSSA3','SBSP3','SLCE3','VALE3','VIVT3']
-        lista_acoes = [acao + ".SA" for acao in lista_acoes]
+        lista_acoes = lista_acoes_yf
+
 
         data_final = dt.datetime.now()
         data_inicial = data_final - dt.timedelta(days=300)
@@ -106,7 +111,7 @@ class Risco():
         retornos = precos.pct_change().dropna()
         media_retornos = retornos.mean()
         matriz_covariancia = retornos.cov()
-        pesos_carteira = [0.05,0.06,0.05,0.10,0.05,0.05,0.08,0.08,0.05,0.08,0.02,0.04,0.07,0.10,0.05]
+        pesos_carteira = pesos_carteira_eq
         numero_acoes = len(lista_acoes)
 
 
@@ -253,93 +258,223 @@ class Risco():
         return st.pyplot(fig)
 
 
+    def markovitz_equities(self):
+
+        data_final = dt.date.today()#.strftime('%Y/%m/%d')
+        print(data_final)
+
+        lista_acoes =  lista_acoes_yf
+        precos = yf.download(lista_acoes,start='2015-01-01', end=data_final)['Adj Close']
+        retornos = precos.pct_change().apply(lambda x: np.log(1+x)).dropna()
+        media_retornos = retornos.mean()
+        matriz_cov = retornos.cov()
+        numero_carteiras = 100000
+        vetor_retornos_esperados = np.zeros(numero_carteiras +1)
+        vetor_volatilidades_esperadas = np.zeros(numero_carteiras+1)
+        vetor_sharpe = np.zeros(numero_carteiras+ 1)
+        tabela_pesos = np.zeros((numero_carteiras+1, len(lista_acoes)))
+
+        for k in range(numero_carteiras+1):
+
+            if k < numero_carteiras:
+                pesos = np.random.random(len(lista_acoes))
+                pesos = pesos/np.sum(pesos)
+                tabela_pesos[k, :] = pesos
+                
+                vetor_retornos_esperados[k] = np.sum(media_retornos * pesos * 252)
+                vetor_volatilidades_esperadas[k] = np.sqrt(np.dot(pesos.T, np.dot(matriz_cov*252, pesos)))
+                
+                vetor_sharpe[k] = vetor_retornos_esperados[k]/vetor_volatilidades_esperadas[k]
+            else:
+                pesos = pesos_carteira_eq / np.sum(pesos_carteira_eq)  # Use predefined weights for the last iteration
+                tabela_pesos[k, :] = pesos
+                vetor_retornos_esperados[k] = np.sum(media_retornos * pesos * 252)
+                vetor_volatilidades_esperadas[k] = np.sqrt(np.dot(pesos.T, np.dot(matriz_cov * 252, pesos)))
+                vetor_sharpe[k] = vetor_retornos_esperados[k] / vetor_volatilidades_esperadas[k]
 
 
 
-from pandas_datareader import data as pdr
-import numpy as np
-import matplotlib.pyplot as plt
-import datetime as dt
-import pandas as pd
-from scipy.optimize import minimize
-import matplotlib.ticker as mtick
-lista_acoes = ["WEGE3.SA", "LREN3.SA", "VALE3.SA", "PETR4.SA"]
-#lista_acoes = ["AAPL", "NKE", "GOOGL", "AMZN"]
-precos = yf.download(lista_acoes,start='2015-01-01', end='2022-12-31')['Adj Close']
-retornos = precos.pct_change().apply(lambda x: np.log(1+x)).dropna()
-media_retornos = retornos.mean()
-matriz_cov = retornos.cov()
-numero_carteiras = 100000
-vetor_retornos_esperados = np.zeros(numero_carteiras)
-vetor_volatilidades_esperadas = np.zeros(numero_carteiras)
-vetor_sharpe = np.zeros(numero_carteiras)
-tabela_pesos = np.zeros((numero_carteiras, len(lista_acoes)))
+        posicao_sharpe_maximo = vetor_sharpe.argmax()
+        pesos_otimos = tabela_pesos[posicao_sharpe_maximo, :]
+        pesos_otimos = [str((peso * 100).round(2)) + "%" for peso in pesos_otimos]
 
-for k in range(numero_carteiras):
+        tabela_pesos_otimos = pd.DataFrame(columns=['Ação','Peso Otimo'])
+
+        for i, acao in enumerate(lista_acoes):
+
+            tabela_pesos_otimos.loc[i] = [acao, pesos_otimos[i]]
+        print(tabela_pesos_otimos)    
+
+
+        vetor_retornos_esperados_arit = np.exp(vetor_retornos_esperados) - 1
+
+        eixo_y_fronteira_eficiente = np.linspace(vetor_retornos_esperados_arit.min(), 
+                                                vetor_retornos_esperados_arit.max(), 50)
+
+        def pegando_retorno(peso_teste):
+            peso_teste = np.array(peso_teste)
+            retorno = np.sum(media_retornos * peso_teste) * 252
+            retorno = np.exp(retorno) - 1
+
+            return retorno
+
+        def checando_soma_pesos(peso_teste):
+
+            return np.sum(peso_teste)-1
+
+        def pegando_vol(peso_teste):
+            peso_teste = np.array(peso_teste)
+            vol = np.sqrt(np.dot(peso_teste.T, np.dot(matriz_cov*252, peso_teste)))
+            
+            return vol
+
+        peso_inicial = [1/len(lista_acoes)] * len(lista_acoes) 
+        limites = tuple([(0, 1) for ativo in lista_acoes])
+
+
+        eixo_x_fronteira_eficiente = []
+        pesos_eficientes = []
+
+        for retorno_possivel in eixo_y_fronteira_eficiente:
+
+            restricoes = ({'type': 'eq', 'fun': checando_soma_pesos},
+                        {'type': 'eq', 'fun': lambda w: pegando_retorno(w) - retorno_possivel})
+
+            result = minimize(pegando_vol, peso_inicial, method='SLSQP', bounds=limites, constraints=restricoes)
+
+            eixo_x_fronteira_eficiente.append(result['fun'])     
+        
+            pesos_eficientes.append(result['x'])
+
+        pesos_eficientes = np.array(pesos_eficientes)
+
+        fig, ax = plt.subplots()
+        ax.plot(eixo_x_fronteira_eficiente, eixo_y_fronteira_eficiente, label='Efficient Frontier')
+
+ 
+        ax.scatter(vetor_volatilidades_esperadas[:-1], vetor_retornos_esperados_arit[:-1], c=vetor_sharpe[:-1], cmap='viridis', label='Random Portfolios')
+
+        ax.scatter(vetor_volatilidades_esperadas[-1], vetor_retornos_esperados_arit[-1], c='red', label='Portfolio Equities')
+
+        scatter_max_sharpe = ax.scatter(vetor_volatilidades_esperadas[posicao_sharpe_maximo], vetor_retornos_esperados_arit[posicao_sharpe_maximo], c='#C71585', label='Portfolio with Best Sharpe Ratio')
+
+        plt.xlabel("Volatilidade esperada")
+        plt.ylabel("Retorno esperado")
+        ax.yaxis.set_major_formatter(mtick.PercentFormatter(1.0))
+        ax.xaxis.set_major_formatter(mtick.PercentFormatter(1.0))
+        plt.legend()
+        fig = plt.show()
+        st.pyplot(fig)
+        st.write('Pesos da carteira com melhor Sharpe Ratio')
+        return st.table(tabela_pesos_otimos)
     
-    pesos = np.random.random(len(lista_acoes))
-    pesos = pesos/np.sum(pesos)
-    tabela_pesos[k, :] = pesos
-    
-    vetor_retornos_esperados[k] = np.sum(media_retornos * pesos * 252)
-    vetor_volatilidades_esperadas[k] = np.sqrt(np.dot(pesos.T, np.dot(matriz_cov*252, pesos)))
-    
-    vetor_sharpe[k] = vetor_retornos_esperados[k]/vetor_volatilidades_esperadas[k]
-posicao_sharpe_maximo = vetor_sharpe.argmax()
-pesos_otimos = tabela_pesos[posicao_sharpe_maximo, :]
-pesos_otimos = [str((peso * 100).round(2)) + "%" for peso in pesos_otimos]
 
-for i, acao in enumerate(lista_acoes):
-    print(f"Peso {acao}: {pesos_otimos[i]}")
+    def markovitz_simulando_carteira(self,lista_de_acoes,pesos_sim):
 
-vetor_retornos_esperados_arit = np.exp(vetor_retornos_esperados) - 1
+        data_final = dt.date.today()#.strftime('%Y/%m/%d')
+        print(data_final)
 
-eixo_y_fronteira_eficiente = np.linspace(vetor_retornos_esperados_arit.min(), 
-                                         vetor_retornos_esperados_arit.max(), 50)
+        lista_acoes =  lista_de_acoes
+        precos = yf.download(lista_acoes,start='2015-01-01', end=data_final)['Adj Close']
+        retornos = precos.pct_change().apply(lambda x: np.log(1+x)).dropna()
+        media_retornos = retornos.mean()
+        matriz_cov = retornos.cov()
+        numero_carteiras = 100000
+        vetor_retornos_esperados = np.zeros(numero_carteiras +1)
+        vetor_volatilidades_esperadas = np.zeros(numero_carteiras+1)
+        vetor_sharpe = np.zeros(numero_carteiras+ 1)
+        tabela_pesos = np.zeros((numero_carteiras+1, len(lista_acoes)))
 
-def pegando_retorno(peso_teste):
-    peso_teste = np.array(peso_teste)
-    retorno = np.sum(media_retornos * peso_teste) * 252
-    retorno = np.exp(retorno) - 1
+        for k in range(numero_carteiras+1):
 
-    return retorno
-
-def checando_soma_pesos(peso_teste):
-
-    return np.sum(peso_teste)-1
-
-def pegando_vol(peso_teste):
-    peso_teste = np.array(peso_teste)
-    vol = np.sqrt(np.dot(peso_teste.T, np.dot(matriz_cov*252, peso_teste)))
-    
-    return vol
-
-peso_inicial = [1/len(lista_acoes)] * len(lista_acoes) 
-limites = tuple([(0, 1) for ativo in lista_acoes])
-
-eixo_x_fronteira_eficiente = []
-
-for retorno_possivel in eixo_y_fronteira_eficiente:
-    
-    #vamos pegar a melhor volatilidade para cada retorno possível
-    
-    restricoes = ({'type':'eq', 'fun':checando_soma_pesos},
-            {'type':'eq', 'fun': lambda w: pegando_retorno(w) - retorno_possivel})
-    
-    result = minimize(pegando_vol,peso_inicial,method='SLSQP', bounds=limites, 
-                      constraints=restricoes)
-    eixo_x_fronteira_eficiente.append(result['fun'])
-fig, ax = plt.subplots()
-
-ax.scatter(vetor_volatilidades_esperadas, vetor_retornos_esperados_arit, c = vetor_sharpe)
-plt.xlabel("Volatilidade esperada")
-plt.ylabel("Retorno esperado")
-ax.scatter(vetor_volatilidades_esperadas[posicao_sharpe_maximo], 
-            vetor_retornos_esperados_arit[posicao_sharpe_maximo], c = "red")
-ax.plot(eixo_x_fronteira_eficiente, eixo_y_fronteira_eficiente)
-ax.yaxis.set_major_formatter(mtick.PercentFormatter(1.0))
-ax.xaxis.set_major_formatter(mtick.PercentFormatter(1.0))
-
-plt.show()
+            if k < numero_carteiras:
+                pesos = np.random.random(len(lista_acoes))
+                pesos = pesos/np.sum(pesos)
+                tabela_pesos[k, :] = pesos
+                
+                vetor_retornos_esperados[k] = np.sum(media_retornos * pesos * 252)
+                vetor_volatilidades_esperadas[k] = np.sqrt(np.dot(pesos.T, np.dot(matriz_cov*252, pesos)))
+                
+                vetor_sharpe[k] = vetor_retornos_esperados[k]/vetor_volatilidades_esperadas[k]
+            else:
+                pesos = pesos_sim / np.sum(pesos_sim) 
+                tabela_pesos[k, :] = pesos
+                vetor_retornos_esperados[k] = np.sum(media_retornos * pesos * 252)
+                vetor_volatilidades_esperadas[k] = np.sqrt(np.dot(pesos.T, np.dot(matriz_cov * 252, pesos)))
+                vetor_sharpe[k] = vetor_retornos_esperados[k] / vetor_volatilidades_esperadas[k]
 
 
+
+        posicao_sharpe_maximo = vetor_sharpe.argmax()
+        pesos_otimos = tabela_pesos[posicao_sharpe_maximo, :]
+        pesos_otimos = [str((peso * 100).round(2)) + "%" for peso in pesos_otimos]
+
+        tabela_pesos_otimos = pd.DataFrame(columns=['Ação','Peso Otimo'])
+
+        for i, acao in enumerate(lista_acoes):
+
+            tabela_pesos_otimos.loc[i] = [acao, pesos_otimos[i]]
+        print(tabela_pesos_otimos)    
+
+
+        vetor_retornos_esperados_arit = np.exp(vetor_retornos_esperados) - 1
+
+        eixo_y_fronteira_eficiente = np.linspace(vetor_retornos_esperados_arit.min(), 
+                                                vetor_retornos_esperados_arit.max(), 50)
+
+        def pegando_retorno(peso_teste):
+            peso_teste = np.array(peso_teste)
+            retorno = np.sum(media_retornos * peso_teste) * 252
+            retorno = np.exp(retorno) - 1
+
+            return retorno
+
+        def checando_soma_pesos(peso_teste):
+
+            return np.sum(peso_teste)-1
+
+        def pegando_vol(peso_teste):
+            peso_teste = np.array(peso_teste)
+            vol = np.sqrt(np.dot(peso_teste.T, np.dot(matriz_cov*252, peso_teste)))
+            
+            return vol
+
+        peso_inicial = [1/len(lista_acoes)] * len(lista_acoes) 
+        limites = tuple([(0, 1) for ativo in lista_acoes])
+
+
+        eixo_x_fronteira_eficiente = []
+        pesos_eficientes = []
+
+        for retorno_possivel in eixo_y_fronteira_eficiente:
+
+            restricoes = ({'type': 'eq', 'fun': checando_soma_pesos},
+                        {'type': 'eq', 'fun': lambda w: pegando_retorno(w) - retorno_possivel})
+
+            result = minimize(pegando_vol, peso_inicial, method='SLSQP', bounds=limites, constraints=restricoes)
+
+            eixo_x_fronteira_eficiente.append(result['fun'])     
+        
+            pesos_eficientes.append(result['x'])
+
+        pesos_eficientes = np.array(pesos_eficientes)
+
+        fig, ax = plt.subplots()
+        ax.plot(eixo_x_fronteira_eficiente, eixo_y_fronteira_eficiente, label='Efficient Frontier')
+
+ 
+        ax.scatter(vetor_volatilidades_esperadas[:-1], vetor_retornos_esperados_arit[:-1], c=vetor_sharpe[:-1], cmap='viridis', label='Random Portfolios')
+
+        ax.scatter(vetor_volatilidades_esperadas[-1], vetor_retornos_esperados_arit[-1], c='red', label='Portfolio Equities')
+
+        scatter_max_sharpe = ax.scatter(vetor_volatilidades_esperadas[posicao_sharpe_maximo], vetor_retornos_esperados_arit[posicao_sharpe_maximo], c='#C71585', label='Portfolio with Best Sharpe Ratio')
+
+        plt.xlabel("Volatilidade esperada")
+        plt.ylabel("Retorno esperado")
+        ax.yaxis.set_major_formatter(mtick.PercentFormatter(1.0))
+        ax.xaxis.set_major_formatter(mtick.PercentFormatter(1.0))
+        plt.legend()
+        fig = plt.show()
+        st.pyplot(fig)
+        st.write('Pesos da carteira com melhor Sharpe Ratio')
+        return st.table(tabela_pesos_otimos)

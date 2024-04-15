@@ -834,6 +834,14 @@ if selecionar == 'Risco':
         st.text('')
         st.text('')
         st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
         st.subheader(' Simular VAR Metodo historico ')
         st.text('')
         data_inicial_var_simulacao = st.date_input('Selecione a data inicial',key='simulacao_var')
@@ -849,6 +857,29 @@ if selecionar == 'Risco':
        
         if st.button('Rodar VAR'):   
             var_historico = rc.var_historico_simulacao(data_inicial_var_simulacao,data_final_var_simulacao,lista_de_acoes_var,lista_de_pesos_var)
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.subheader('Markovitz')
+        lista_de_acoes_mark = st.multiselect('Coloque os ativos para simulação:',options=lista_ativos_b3,key='Simulacao_mark')
+        lista_de_pesos_mark = []
+        try:
+            for ativo in lista_de_acoes_mark:
+                peso = int(float(st.text_input(f'Coloque o peso para o {ativo}')))
+                lista_de_pesos_mark.append(peso)
+        except:st.write('Preencha todos os campos de pesos')
+        if st.button('Markovitz nova carteira'):
+            simulacao_mark = rc.markovitz_simulando_carteira(lista_de_acoes_mark,lista_de_pesos_mark)    
 
     
     with col2:
@@ -857,7 +888,7 @@ if selecionar == 'Risco':
         st.subheader('Simulação Monte Carlo Equities')
         st.text('')
         st.text('')
-
+        st.text('')
         st.text('')
         dias_uteis = float(st.text_input('Coloque o número de dias úteis:', value=1))
         try:
@@ -867,6 +898,17 @@ if selecionar == 'Risco':
                 pass
         except:
             pass
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
         st.text('')
         st.text('')
         st.text('')
@@ -889,7 +931,27 @@ if selecionar == 'Risco':
 
         if st.button('Rodar Simulação'):
             monte_carlo_nova_carteira = rc.nova_carteira_monte_carlo(lista_de_acoes, dias_uteis_nova_simulacao, lista_de_pesos)
-
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.text('')
+        st.subheader('Markovitz Equities')
+        st.text('')
+        if st.button('Markovitz'):
+            markovitz = rc.markovitz_equities()
 
 
 if selecionar == 'Carteiras Co Admin':
