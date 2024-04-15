@@ -8,23 +8,24 @@ import io
 import datetime
 from ativos_e_proporcoes import Ativos_e_proporcoes as ap
 
+carteira = ap()
+
+equities = carteira.equities()
+
+income = carteira.income()
+
+small_caps = carteira.small_caps()
+
+dividendos = carteira.dividendos()
+
+fii = carteira.fii()
+
+lista_acoes_em_caixa = carteira.acoes_em_caixa()
+
 
 colors_dark_rainbow = ['#9400D3', '#4B0082', '#0000FF', '#00FF00', '#FFFF00',
                        '#FF7F00', '#FF0000']
 colors_dark_brewers = ['#2c7bb6', '#abd9e9', '#ffffbf', '#fdae61', '#d7191c']
-carteira = ap()
-equities = carteira.equities()
-
-income = {'POS':15,'Inflação':38,'PRE':44,'FundoDI':3,'Caixa':3}
-
-small_caps = {'BPAC11':10,'ENEV3':4,'HBSA3':7,'IFCM3':5,'IFCM3':5,'JALL3':10,'KEPL3':12,'MYPK3':5,'PRIO3':12,'SIMH3':8,'TASA4':8,'TUPY3':11,'WIZC3':5}
-
-dividendos = {'TAEE11':9,'VIVT3':12,'BBSE3':17, 'ABCB4':16,' VBBR3':15,' CPLE6':16,' TRPL4':5}
-
-fii = {'BTLG11':22.30,'Caixa':6,'HGLG11':22.30,'KNCA11':7.25,'MALL11':7.75,'PLCR11':13.57,'RURA11':7.26,'TRXF11':13.57}
-
-lista_acoes_em_caixa = [ 'ARZZ3', 'ASAI3', 'BBSE3', 'CPFE3', 'EGIE3','HYPE3', 'KEPL3', 'LEVE3', 'PRIO3', 'PSSA3', 'SBSP3', 'VIVT3', 'SLCE3', 'VALE3','BOVA11']
-
 class Basket_enquadramento_carteiras():
     def __init__(self):
         print("O programa iniciou")
