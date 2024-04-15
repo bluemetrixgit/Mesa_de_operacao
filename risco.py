@@ -268,7 +268,7 @@ class Risco():
         retornos = precos.pct_change().apply(lambda x: np.log(1+x)).dropna()
         media_retornos = retornos.mean()
         matriz_cov = retornos.cov()
-        numero_carteiras = 100000
+        numero_carteiras = 50000
         vetor_retornos_esperados = np.zeros(numero_carteiras +1)
         vetor_volatilidades_esperadas = np.zeros(numero_carteiras+1)
         vetor_sharpe = np.zeros(numero_carteiras+ 1)
@@ -379,7 +379,7 @@ class Risco():
         retornos = precos.pct_change().apply(lambda x: np.log(1+x)).dropna()
         media_retornos = retornos.mean()
         matriz_cov = retornos.cov()
-        numero_carteiras = 100000
+        numero_carteiras = 50000
         vetor_retornos_esperados = np.zeros(numero_carteiras +1)
         vetor_volatilidades_esperadas = np.zeros(numero_carteiras+1)
         vetor_sharpe = np.zeros(numero_carteiras+ 1)
