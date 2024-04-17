@@ -83,6 +83,7 @@ fii = carteira.fii()
 
 lista_acoes_em_caixa = carteira.acoes_em_caixa()
 
+
 if selecionar == 'Carteiras':
     from carteiras_indiv import Basket_enquadramento_carteiras
 
