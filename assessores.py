@@ -22,7 +22,7 @@ controle = pd.read_excel(r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_
 ordens['Valor'] = round(ordens['Qt. Executada']*ordens['Preço Médio'],2).astype(str).apply(lambda x: f'R$ {x}')
 print(ordens.info())
 ordens = ordens.iloc[:,[1,2,3,4,5,27]]
-st.dataframe(ordens)
+
 controle = controle.iloc[:-5,[1,2,4,5]]
 
 renda_variavel = pd.merge(ordens,controle,on='Conta',how='outer')
@@ -52,6 +52,8 @@ seletor_assessor_go = st.sidebar.selectbox('Selecione o Assessor GO',options=go[
 seletor_assessor_sul = st.sidebar.selectbox('Selecione o Assessor Sul',options=sul['Assessor'].unique(),key='Assessor sul')
 
 assessores_sul = list(sul['Assessor'].unique())
+assessores_df = list(df['Assessor'].unique())
+assessores_go = list(go['Assessor'].unique())
 
 df = df[df['Assessor']==seletor_assessor_df].reset_index(drop='index')
 sul = sul[sul['Assessor']==seletor_assessor_sul].reset_index(drop='index')
@@ -117,3 +119,7 @@ if st.button('Gerar Relatorio '):
     for assessor in assessores_sul:
             tabela_assessor = arquivo_final_truncado[arquivo_final_truncado['Assessor']==assessor]
             gerar_pdf = gerando_pdf(assessor,dia_e_hora,tabela_assessor)
+    for assessor in assessores_go:
+            tabela_assessor = arquivo_final_truncado[arquivo_final_truncado['Assessor']==assessor]
+            gerar_pdf = gerando_pdf(assessor,dia_e_hora,tabela_assessor)
+    
