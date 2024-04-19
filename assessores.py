@@ -28,28 +28,32 @@ class Comercial():
         print('hello world')
 
 
-    def tratando_dados(self,ordens,acompanhamentos_de_assessores,controle):
+    def tratando_dados(self,ordens,acompanhamentos_de_assessores,controle,controle_co_admin):
 
 
 
        # Certifique-se de que ordens, acompanhamentos_de_assessores e controle não sejam None
-        if ordens is None or acompanhamentos_de_assessores is None or controle is None:
+        if ordens is None or acompanhamentos_de_assessores is None or controle is None or controle_co_admin is None:
             return None   
+
 
         acompanhamentos_de_assessores = acompanhamentos_de_assessores.rename(columns={'Solicitada':'Data/Hora'})
         ordens['Valor'] = round(ordens['Qt. Executada']*ordens['Preço Médio'],2).astype(str).apply(lambda x: f'R$ {x}')
-        print(ordens.info())
         ordens = ordens.iloc[:,[1,2,3,4,5,27]]
-
         controle = controle.iloc[:-5,[1,2,4,5]]
+        controle_co_admin = controle_co_admin.iloc[:-5,[1,2,4,5]]
+        controle_e_co_admin = pd.concat([controle,controle_co_admin])
+     
 
-        renda_variavel = pd.merge(ordens,controle,on='Conta',how='outer')
-        assesores_e_controle = pd.merge(controle,acompanhamentos_de_assessores,on='Conta',how='outer')
+
+        renda_variavel = pd.merge(ordens,controle_e_co_admin,on='Conta',how='outer')
+        assesores_e_controle = pd.merge(controle_e_co_admin,acompanhamentos_de_assessores,on='Conta',how='outer')
         assesores_e_controle= assesores_e_controle[assesores_e_controle['Produto'].notnull()]
         renda_variavel = renda_variavel[renda_variavel['Ativo'].notnull()].rename(columns={'Ativo':'Descricao','Status':'Situacao','Direção':'Operacao'})
         arquivo_final = pd.concat([assesores_e_controle,renda_variavel]).rename(columns={'Data/Hora':'Data'}).drop(columns=['Requisitante','Produto'])
         arquivo_final['Data'] = dia_e_hora.strftime('%d/%m/%Y')
-        arquivo_final = arquivo_final.drop(columns=['Cliente_x','Conta']).rename(columns={'Cliente_y':'Cliente'})
+        arquivo_final = arquivo_final.drop(columns='Cliente_x').rename(columns={'Cliente_y':'Cliente'})
+        arquivo_final['Conta'] = arquivo_final['Conta'].astype(str).str[:-2].apply(lambda x: '00'+x)
         return arquivo_final
     
     def truncar_descricao(self,tabela,coluna,n_de_palvras):
@@ -60,7 +64,7 @@ class Comercial():
 
 
     def gerando_pdf(self,asssssor, data_dia, tabela):
-        filename = f'relatorio__{assessor}__.pdf'
+        filename = f'relatorio__{asssssor}__.pdf'
 
         # Cria um objeto SimpleDocTemplate para gerar o PDF
         doc = SimpleDocTemplate(filename, pagesize=letter,topMargin=25)
@@ -109,6 +113,8 @@ class Comercial():
 
 
     def enviar_email(self,nome_assessor,nome_do_arquivo_pdf):
+        lista_email_assessores = {'Rodrigo Milanez':'laurotfl@gmail.com'}
+        
         email_assessor = lista_email_assessores.get(nome_assessor)
         corpo_do_email = """
         Operações

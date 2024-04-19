@@ -27,6 +27,7 @@ from streamlit_authenticator import Authenticate
 from assessores import Comercial
 from yaml.loader import SafeLoader
 
+dia_e_hora = datetime.datetime.now()
 t0 = time.perf_counter()
 
 st.set_page_config(layout='wide')
@@ -121,69 +122,35 @@ authenticator = stauth.Authenticate(
 
 if selecionar == 'Comercial':
     cl = Comercial()
-    arquivo_final = cl.tratando_dados(ordens,acompanhamentos_de_assessores,controle_psicao)
+    arquivo_final = cl.tratando_dados(ordens,acompanhamentos_de_assessores,controle_psicao,controle_co_admin)
 
-    lista_email_assessores = {'Rodrigo Milanez':'laurotfl@gmail.com'}
+
 
     arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Descricao',100)
     arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Cliente',24)
 
-    df = arquivo_final_truncado[arquivo_final_truncado['UF']=='DF']
-    go = arquivo_final_truncado[arquivo_final_truncado['UF']=='GO']
-    sul = arquivo_final_truncado[arquivo_final_truncado['UF']=='SUL']
 
+    seletor_assessor_uf = st.sidebar.selectbox('Selecione a região ',options=arquivo_final_truncado['UF'].unique(),key='UF')
+    tabela_estado = arquivo_final_truncado[arquivo_final_truncado['UF']==seletor_assessor_uf]
+    seletor_assessor = st.sidebar.selectbox('Selecione o Assessor',options=tabela_estado['Assessor'].unique(),key='Assessor go')
+    
+    tabela_de_visualização = arquivo_final_truncado[(arquivo_final_truncado['UF']==seletor_assessor_uf)&(arquivo_final_truncado['Assessor']==seletor_assessor)].reset_index(drop='index')
 
-    seletor_assessor_df = st.sidebar.selectbox('Selecione o Assessor DF',options=df['Assessor'].unique(),key='Assessor df')
-    seletor_assessor_go = st.sidebar.selectbox('Selecione o Assessor GO',options=go['Assessor'].unique(),key='Assessor go')
-    seletor_assessor_sul = st.sidebar.selectbox('Selecione o Assessor Sul',options=sul['Assessor'].unique(),key='Assessor sul')
+    st.dataframe(tabela_de_visualização,use_container_width=True,)
 
-    assessores_sul = list(sul['Assessor'].unique())
-    assessores_df = list(df['Assessor'].unique())
-    assessores_go = list(go['Assessor'].unique())
+    assessores_lista_nomes = list(arquivo_final_truncado['Assessor'].unique())
 
-    df = df[df['Assessor']==seletor_assessor_df].reset_index(drop='index')
-    sul = sul[sul['Assessor']==seletor_assessor_sul].reset_index(drop='index')
-    go = go[go['Assessor']==seletor_assessor_go].reset_index(drop='index')
-    sul = sul.drop(columns='UF')
-    go = go.drop(columns='UF')
-    df = df.drop(columns='UF')
-
-    st.subheader('Assessores DF')
-    st.dataframe(df)
-    st.subheader('Assessores GO')
-    st.dataframe(go)
-    st.subheader('Assessores Sul')
-    st.dataframe(sul)
-
-
-
+    lista_email_assessores = {'Rodrigo Milanez':'laurotfl@gmail.com'}
 
     if st.button('Gerar Relatorio '):
-        for assessor in assessores_sul:
+        for assessor in assessores_lista_nomes:
                 tabela_assessor = arquivo_final_truncado[arquivo_final_truncado['Assessor']==assessor]
                 gerar_pdf = cl.gerando_pdf(assessor,dia_e_hora,tabela_assessor)
                 email_assessor = lista_email_assessores.get(assessor)
                 if email_assessor:  # Verifica se o e-mail do assessor foi encontrado
                     cl.enviar_email(assessor, gerar_pdf)
                 else:
-                    print(f'E-mail do assessor {assessor} não encontrado.')
-        
-        for assessor in assessores_go:
-                tabela_assessor = arquivo_final_truncado[arquivo_final_truncado['Assessor']==assessor]
-                gerar_pdf = cl.gerando_pdf(assessor,dia_e_hora,tabela_assessor)
-                email_assessor = lista_email_assessores.get(assessor)
-                if email_assessor:  # Verifica se o e-mail do assessor foi encontrado
-                    cl.enviar_email(assessor, gerar_pdf)
-                else:
-                    print(f'E-mail do assessor {assessor} não encontrado.')
-        for assessor in assessores_df:
-                tabela_assessor = arquivo_final_truncado[arquivo_final_truncado['Assessor']==assessor]
-                gerar_pdf = cl.gerando_pdf(assessor,dia_e_hora,tabela_assessor)
-                email_assessor = lista_email_assessores.get(assessor)
-                if email_assessor:  # Verifica se o e-mail do assessor foi encontrado
-                    cl.enviar_email(assessor, gerar_pdf)
-                else:
-                    print(f'E-mail do assessor {assessor} não encontrado.')
+                    st.warning(f'E-mail do assessor {assessor} não encontrado.')
         
 
 elif authenticator.login():
