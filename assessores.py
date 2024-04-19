@@ -41,6 +41,7 @@ class Comercial():
         ordens['Valor'] = round(ordens['Qt. Executada']*ordens['Preço Médio'],2).astype(str).apply(lambda x: f'R$ {x}')
         ordens = ordens.iloc[:,[1,2,3,4,5,27]]
         controle = controle.iloc[:-5,[1,2,4,5]]
+
         controle_co_admin = controle_co_admin.iloc[:-5,[1,2,4,5]]
         controle_e_co_admin = pd.concat([controle,controle_co_admin])
      
@@ -54,6 +55,7 @@ class Comercial():
         arquivo_final['Data'] = dia_e_hora.strftime('%d/%m/%Y')
         arquivo_final = arquivo_final.drop(columns='Cliente_x').rename(columns={'Cliente_y':'Cliente'})
         arquivo_final['Conta'] = arquivo_final['Conta'].astype(str).str[:-2].apply(lambda x: '00'+x)
+
         return arquivo_final
     
     def truncar_descricao(self,tabela,coluna,n_de_palvras):
@@ -113,7 +115,8 @@ class Comercial():
 
 
     def enviar_email(self,nome_assessor,nome_do_arquivo_pdf):
-        lista_email_assessores = {'Rodrigo Milanez':'laurotfl@gmail.com'}
+        lista_email_assessores = {'Rodrigo Milanez':'laurotfl@gmail.com',
+                                  'Vivian':'laurotfl@gmail.com'}
         
         email_assessor = lista_email_assessores.get(nome_assessor)
         corpo_do_email = """

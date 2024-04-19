@@ -140,7 +140,9 @@ if selecionar == 'Comercial':
 
     assessores_lista_nomes = list(arquivo_final_truncado['Assessor'].unique())
 
-    lista_email_assessores = {'Rodrigo Milanez':'laurotfl@gmail.com'}
+    lista_email_assessores = {'Rodrigo Milanez':'laurotfl@gmail.com',
+                              'Vivian':'laurotfl@gmail.com'
+                              }
 
     if st.button('Gerar Relatorio '):
         for assessor in assessores_lista_nomes:
