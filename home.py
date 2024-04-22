@@ -719,7 +719,8 @@ elif authenticator.login():
                 fig.update_layout(title_text=title,
                                     title_x=0.2,
                                     title_font_size = 23,
-                                    uniformtext_minsize=14,)
+                                    uniformtext_minsize=14,
+                                    paper_bgcolor='rgba(0,0,0,0)')
                 st.plotly_chart(fig,use_container_width=True)
 
                 return df
@@ -734,7 +735,8 @@ elif authenticator.login():
                 fig2.update_layout(title_text=title,
                                     title_x=0.2,
                                     title_font_size = 23,
-                                    uniformtext_minsize=14,)
+                                    uniformtext_minsize=14,
+                                    paper_bgcolor='rgba(0,0,0,0)')
                 st.plotly_chart(fig2,use_container_width=True)
 
                 return df
@@ -749,7 +751,8 @@ elif authenticator.login():
                 fig2.update_layout(title_text=title,
                                     title_x=0.2,
                                     title_font_size = 23,
-                                    uniformtext_minsize=14,)
+                                    uniformtext_minsize=14,
+                                    paper_bgcolor='rgba(0,0,0,0)')
                 st.plotly_chart(fig2,use_container_width=True)
 
                 return df
@@ -790,6 +793,7 @@ elif authenticator.login():
                                     title_x=0.2,
                                     title_font_size = 23,
                                     uniformtext_minsize=14,
+                                    paper_bgcolor='rgba(0,0,0,0)'
                                     #uniformtext_mode='hide'
                                     )
 
