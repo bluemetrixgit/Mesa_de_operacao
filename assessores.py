@@ -118,7 +118,9 @@ class Comercial():
         lista_email_assessores = {'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
                               'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
                               'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
-                              'Luca Bueno':'luca.bueno@bluemetrix.com.br',      
+                              'Luca Bueno':'luca.bueno@bluemetrix.com.br',
+                              'Compilado':'orilene@bluemetrix.com.br',
+                              'Compilado.2':'norton@bluemetrixasset.com'      
                               }
         
         email_assessor = lista_email_assessores.get(nome_assessor)

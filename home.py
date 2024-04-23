@@ -128,12 +128,12 @@ if selecionar == 'Comercial':
 
     arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Descricao',100)
     arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Cliente',24)
-
+    compilado_de_operacoes = arquivo_final_truncado.drop(columns=['UF','Data']).sort_values(by='Conta')
+    
 
     seletor_assessor_uf = st.sidebar.selectbox('Selecione a região ',options=arquivo_final_truncado['UF'].unique(),key='UF')
     tabela_estado = arquivo_final_truncado[arquivo_final_truncado['UF']==seletor_assessor_uf]
     seletor_assessor = st.sidebar.selectbox('Selecione o Assessor',options=tabela_estado['Assessor'].unique(),key='Assessor go')
-    print(list(arquivo_final['Assessor'].unique()))
     tabela_de_visualização = arquivo_final_truncado[(arquivo_final_truncado['UF']==seletor_assessor_uf)&(arquivo_final_truncado['Assessor']==seletor_assessor)].reset_index(drop='index')
 
     st.dataframe(tabela_de_visualização,use_container_width=True,)
@@ -144,9 +144,12 @@ if selecionar == 'Comercial':
                               'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
                               'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
                               'Luca Bueno':'luca.bueno@bluemetrix.com.br',
-                              
+                              'Compilado':'orilene@bluemetrix.com.br',
+                              'Compilado.2':'norton@bluemetrixasset.com'       
                               }
+    
     dia_e_hora_pdf = datetime.datetime.now()-datetime.timedelta(days=1)
+    
     if st.button('Gerar Relatorio '):
         for assessor in assessores_lista_nomes:
                 tabela_assessor = arquivo_final_truncado[arquivo_final_truncado['Assessor']==assessor]
@@ -156,7 +159,15 @@ if selecionar == 'Comercial':
                     cl.enviar_email(assessor, gerar_pdf)
                 else:
                     st.warning(f'E-mail do assessor {assessor} não encontrado.')
-        
+
+        pdf_comp = cl.gerando_pdf('Compilado',dia_e_hora_pdf,compilado_de_operacoes)
+        email_assessor_comp = lista_email_assessores.get('Compilado')
+        if email_assessor_comp:  
+                    cl.enviar_email('Compilado', pdf_comp)
+
+        email_assessor_comp2 = lista_email_assessores.get('Compilado.2')
+        if email_assessor_comp:  
+                    cl.enviar_email('Compilado.2', pdf_comp)                 
 
 elif authenticator.login():
 
