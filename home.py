@@ -133,23 +133,26 @@ if selecionar == 'Comercial':
     seletor_assessor_uf = st.sidebar.selectbox('Selecione a região ',options=arquivo_final_truncado['UF'].unique(),key='UF')
     tabela_estado = arquivo_final_truncado[arquivo_final_truncado['UF']==seletor_assessor_uf]
     seletor_assessor = st.sidebar.selectbox('Selecione o Assessor',options=tabela_estado['Assessor'].unique(),key='Assessor go')
-    
+    print(list(arquivo_final['Assessor'].unique()))
     tabela_de_visualização = arquivo_final_truncado[(arquivo_final_truncado['UF']==seletor_assessor_uf)&(arquivo_final_truncado['Assessor']==seletor_assessor)].reset_index(drop='index')
 
     st.dataframe(tabela_de_visualização,use_container_width=True,)
 
     assessores_lista_nomes = list(arquivo_final_truncado['Assessor'].unique())
 
-    lista_email_assessores = {'Rodrigo Milanez':'laurotfl@gmail.com',
-                              'Vivian':'laurotfl@gmail.com'
+    lista_email_assessores = {'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
+                              'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
+                              'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
+                              'Luca Bueno':'luca.bueno@bluemetrix.com.br',
+                              
                               }
-
+    dia_e_hora_pdf = datetime.datetime.now()-datetime.timedelta(days=1)
     if st.button('Gerar Relatorio '):
         for assessor in assessores_lista_nomes:
                 tabela_assessor = arquivo_final_truncado[arquivo_final_truncado['Assessor']==assessor]
-                gerar_pdf = cl.gerando_pdf(assessor,dia_e_hora,tabela_assessor)
+                gerar_pdf = cl.gerando_pdf(assessor,dia_e_hora_pdf,tabela_assessor)
                 email_assessor = lista_email_assessores.get(assessor)
-                if email_assessor:  # Verifica se o e-mail do assessor foi encontrado
+                if email_assessor:  
                     cl.enviar_email(assessor, gerar_pdf)
                 else:
                     st.warning(f'E-mail do assessor {assessor} não encontrado.')

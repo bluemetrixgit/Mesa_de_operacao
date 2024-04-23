@@ -21,7 +21,7 @@ import base64
 
 
 
-dia_e_hora = datetime.datetime.now()
+dia_e_hora = datetime.datetime.now()-datetime.timedelta(days=1)
 
 class Comercial():
     def __init__(self):
@@ -32,7 +32,7 @@ class Comercial():
 
 
 
-       # Certifique-se de que ordens, acompanhamentos_de_assessores e controle não sejam None
+
         if ordens is None or acompanhamentos_de_assessores is None or controle is None or controle_co_admin is None:
             return None   
 
@@ -68,23 +68,23 @@ class Comercial():
     def gerando_pdf(self,asssssor, data_dia, tabela):
         filename = f'relatorio__{asssssor}__.pdf'
 
-        # Cria um objeto SimpleDocTemplate para gerar o PDF
+
         doc = SimpleDocTemplate(filename, pagesize=letter,topMargin=25)
         story = []
 
-        # Adiciona a imagem ao início do PDF
+
         img_path = "LOGO_BLUEMETRIX_VERTICAL jpg.jpg"
         img = Image(img_path, width=250, height=200)
         story.append(img)
 
-        # Adiciona o assessor e a data ao início do PDF
+
         styles = getSampleStyleSheet()
         assessor_text = f'<b>Assessor:</b> {asssssor}'
         data_text = f'<b>Data:</b> {data_dia}'
         story.append(Paragraph(assessor_text, styles["Normal"]))
         story.append(Paragraph(data_text, styles["Normal"]))
 
-        # # Define o estilo da tabela
+
         table_style = [('GRID', (0, 0), (-1, -1), 1, 'grey'),
                 ('FONTNAME', (0, 0), (-1, -1), 'Helvetica'),
                 ('FONTSIZE', (0, 0), (-1, -1), 4.5),
@@ -93,21 +93,21 @@ class Comercial():
                 ('COLWIDTHS', (0, 0), (-1, -1), [1.2*inch, 1.2*inch, 2.4*inch, 1.2*inch, 0.5*inch, 1.2*inch, 1.2*inch]),
         ]
 
-        #t.setStyle(style)
+
         data = [tabela.columns.values.tolist()] + tabela.values.tolist()
         t = Table(data, style=table_style) 
 
-        # Adiciona a tabela à história do PDF
+
         story.append(t)
 
-        # Verifica se a tabela cabe em uma única página
+
         w, h = t.wrap(doc.width, doc.height)
 
-        # Se a tabela não couber em uma única página, adiciona uma quebra de página
+
         if h < doc.height:
             story.append(PageBreak())
 
-        # Constrói o PDF com a história gerada
+
         doc.build(story)
 
         return filename
@@ -115,8 +115,11 @@ class Comercial():
 
 
     def enviar_email(self,nome_assessor,nome_do_arquivo_pdf):
-        lista_email_assessores = {'Rodrigo Milanez':'laurotfl@gmail.com',
-                                  'Vivian':'laurotfl@gmail.com'}
+        lista_email_assessores = {'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
+                              'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
+                              'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
+                              'Luca Bueno':'luca.bueno@bluemetrix.com.br',      
+                              }
         
         email_assessor = lista_email_assessores.get(nome_assessor)
         corpo_do_email = """
