@@ -141,11 +141,36 @@ if selecionar == 'Comercial':
     assessores_lista_nomes = list(arquivo_final_truncado['Assessor'].unique())
 
     lista_email_assessores = {'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
-                              'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
-                              'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
-                              'Luca Bueno':'luca.bueno@bluemetrix.com.br',
-                              'Compilado':'operacional@bluemetrix.com.br',     
-                              }
+  'Vivian':'vivianpinheiro@bluemetrix.com.br',
+    'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
+      'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
+          'Matheus Vilar':'matheus.vilar@bluemetrix.com.br',
+            'Gustavo Amorim':'gustavo.amorim@bluemetrix.com.br',
+  'Guilherme Marques':'guilherme.marques@grupovoga.com',
+    'Rodrigo Milanez':'rodrigo.milanez@bluemetrix.com.br',
+      'Lucas Zambrin':'lucas.zambrin@bluemetrix.com.br',
+    'Yasmin Maia Muniz Xavier':'yasmin.muniz@grupovoga.com',
+      'Hugo Motta':'hugo.motta@bluemetrix.com.br',
+          'Felipe Rios':'felipe.rios@bluemetrix.com.br',
+            'Rafael Vilela':'rafael.vilela@bluemetrix.com.br',
+      'Alexandre Moraes Xavier':'alexandre.xavier@grupovoga.com',
+        'Luca Bueno':'luca.bueno@bluemetrix.com.br',
+          'Norton Fritzsche':'norton@bluemetrix.com.br',
+            'Fabrício Bonfim':'fabricio.bonfim@bluemetrix.com.br',
+              'Pedro Vinicius Pereira De Andrade':'pedro.andrade@grupovoga.com',
+        'Breno Lemes':'breno.lemes@bluemetrix.com.br',
+            'Guilherme Rios Guercio':'guilherme.rios@bluemetrix.com.br',
+                'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
+                  'Eduardo Leopoldino':'eduardo.leopoldino@bluemetrix.com.br',
+            'Leandro Soares Lemos De Sousa':'',
+                'Bruno Ribeiro':'bruno@ligadosinvestimentos.com.br',
+                  'Victor Caldeira':'victor.caldeira@bluemetrix.com.br',
+                'Caroline Facó Ehlers':'caroline.ehlers@grupovoga.com',
+                  'Augusto Sampaio':'',
+                    'Alexandre Teixeira Campos':'alexandre.campos@grupovoga.com',
+                     'Joney Alves ':'joney.alves@bluemetrix.com.br',
+                     'Acompanhamento de operações':'operacional@bluemetrix.com.br'
+                     }
     
     dia_e_hora_pdf = datetime.datetime.now()-datetime.timedelta(days=1)
     
@@ -159,10 +184,10 @@ if selecionar == 'Comercial':
                 else:
                     st.warning(f'E-mail do assessor {assessor} não encontrado.')
 
-        pdf_comp = cl.gerando_pdf('Compilado',dia_e_hora_pdf,compilado_de_operacoes)
-        email_assessor_comp = lista_email_assessores.get('Compilado')
+        pdf_comp = cl.gerando_pdf('Acompanhamento de operações',dia_e_hora_pdf,compilado_de_operacoes)
+        email_assessor_comp = lista_email_assessores.get('Acompanhamento de operações')
         if email_assessor_comp:  
-                    cl.enviar_email('Compilado', pdf_comp)
+                    cl.enviar_email('Acompanhamento de operações', pdf_comp)
 
              
 

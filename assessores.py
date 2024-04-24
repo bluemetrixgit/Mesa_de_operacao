@@ -30,9 +30,6 @@ class Comercial():
 
     def tratando_dados(self,ordens,acompanhamentos_de_assessores,controle,controle_co_admin):
 
-
-
-
         if ordens is None or acompanhamentos_de_assessores is None or controle is None or controle_co_admin is None:
             return None   
 
@@ -44,7 +41,7 @@ class Comercial():
 
         controle_co_admin = controle_co_admin.iloc[:-5,[1,2,4,5]]
         controle_e_co_admin = pd.concat([controle,controle_co_admin])
-     
+        print(list(controle_e_co_admin['Assessor'].unique()))
 
 
         renda_variavel = pd.merge(ordens,controle_e_co_admin,on='Conta',how='outer')
@@ -116,11 +113,36 @@ class Comercial():
 
     def enviar_email(self,nome_assessor,nome_do_arquivo_pdf):
         lista_email_assessores = {'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
-                              'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
-                              'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
-                              'Luca Bueno':'luca.bueno@bluemetrix.com.br',
-                              'Compilado':'operacional@bluemetrix.com.br',
-                              }
+  'Vivian':'vivianpinheiro@bluemetrix.com.br',
+    'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
+      'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
+          'Matheus Vilar':'matheus.vilar@bluemetrix.com.br',
+            'Gustavo Amorim':'gustavo.amorim@bluemetrix.com.br',
+  'Guilherme Marques':'guilherme.marques@grupovoga.com',
+    'Rodrigo Milanez':'rodrigo.milanez@bluemetrix.com.br',
+      'Lucas Zambrin':'lucas.zambrin@bluemetrix.com.br',
+    'Yasmin Maia Muniz Xavier':'yasmin.muniz@grupovoga.com',
+      'Hugo Motta':'hugo.motta@bluemetrix.com.br',
+          'Felipe Rios':'felipe.rios@bluemetrix.com.br',
+            'Rafael Vilela':'rafael.vilela@bluemetrix.com.br',
+      'Alexandre Moraes Xavier':'alexandre.xavier@grupovoga.com',
+        'Luca Bueno':'luca.bueno@bluemetrix.com.br',
+          'Norton Fritzsche':'norton@bluemetrix.com.br',
+            'Fabrício Bonfim':'fabricio.bonfim@bluemetrix.com.br',
+              'Pedro Vinicius Pereira De Andrade':'pedro.andrade@grupovoga.com',
+        'Breno Lemes':'breno.lemes@bluemetrix.com.br',
+            'Guilherme Rios Guercio':'guilherme.rios@bluemetrix.com.br',
+                'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
+                  'Eduardo Leopoldino':'eduardo.leopoldino@bluemetrix.com.br',
+            'Leandro Soares Lemos De Sousa':'',
+                'Bruno Ribeiro':'bruno@ligadosinvestimentos.com.br',
+                  'Victor Caldeira':'victor.caldeira@bluemetrix.com.br',
+                'Caroline Facó Ehlers':'caroline.ehlers@grupovoga.com',
+                  'Augusto Sampaio':'',
+                    'Alexandre Teixeira Campos':'alexandre.campos@grupovoga.com',
+                     'Joney Alves ':'joney.alves@bluemetrix.com.br',
+                     'Acompanhamento de operações':'operacional@bluemetrix.com.br'
+                     }
         
         email_assessor = lista_email_assessores.get(nome_assessor)
         corpo_do_email = """
@@ -149,3 +171,36 @@ class Comercial():
         print('email enviado')
 
 
+
+
+# lista_email_assessores = {'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
+#   'Vivian':'vivianpinheiro@bluemetrix.com.br',
+#     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
+#       'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
+#           'Matheus Vilar':'matheus.vilar@bluemetrix.com.br',
+#             'Gustavo Amorim':'gustavo.amorim@bluemetrix.com.br',
+#   'Guilherme Marques':'guilherme.marques@grupovoga.com',
+#     'Rodrigo Milanez':'rodrigo.milanez@bluemetrix.com.br',
+#       'Lucas Zambrin':'lucas.zambrin@bluemetrix.com.br',
+#     'Yasmin Maia Muniz Xavier':'yasmin.muniz@grupovoga.com',
+#       'Hugo Motta':'hugo.motta@bluemetrix.com.br',
+#           'Felipe Rios':'felipe.rios@bluemetrix.com.br',
+#             'Rafael Vilela':'rafael.vilela@bluemetrix.com.br',
+#       'Alexandre Moraes Xavier':'alexandre.xavier@grupovoga.com',
+#         'Luca Bueno':'luca.bueno@bluemetrix.com.br',
+#           'Norton Fritzsche':'norton@bluemetrix.com.br',
+#             'Fabrício Bonfim':'fabricio.bonfim@bluemetrix.com.br',
+#               'Pedro Vinicius Pereira De Andrade':'pedro.andrade@grupovoga.com',
+#         'Breno Lemes':'breno.lemes@bluemetrix.com.br',
+#             'Guilherme Rios Guercio':'guilherme.rios@bluemetrix.com.br',
+#                 'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
+#                   'Eduardo Leopoldino':'eduardo.leopoldino@bluemetrix.com.br',
+#             'Leandro Soares Lemos De Sousa':'',
+#                 'Bruno Ribeiro':'bruno@ligadosinvestimentos.com.br',
+#                   'Victor Caldeira':'victor.caldeira@bluemetrix.com.br',
+#                 'Caroline Facó Ehlers':'caroline.ehlers@grupovoga.com',
+#                   'Augusto Sampaio':'',
+#                     'Alexandre Teixeira Campos':'alexandre.campos@grupovoga.com',
+#                      'Joney Alves ':'joney.alves@bluemetrix.com.br',
+#                      'Acompanhamento de operações':'operacional@bluemetrix.com.br'
+#                      }

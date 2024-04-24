@@ -6,7 +6,7 @@ from functools import reduce
 
 
 
-equities = {'Renda Variável': 90,'Pós-fixado':5}
+equities = {'Renda Variável': 81,'Pós-fixado':19}
 income = {'Pós-fixado':32,'Inflação':32,'Pré-fixado':35,'FundoDI':1}
 conservadora = {'Pós-fixado':26.70,'Inflação':27.20,'Pré-fixado':29.75,'FundoDI':0.85, 'Renda Variável':15}
 moderada = {'Pós-fixado':22.40,'Inflação':22.40,'Pré-fixado':24.50,'FundoDI':0.70, 'Renda Variável':30}
