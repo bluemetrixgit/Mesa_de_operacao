@@ -144,8 +144,7 @@ if selecionar == 'Comercial':
                               'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
                               'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
                               'Luca Bueno':'luca.bueno@bluemetrix.com.br',
-                              'Compilado':'orilene@bluemetrix.com.br',
-                              'Compilado.2':'norton@bluemetrixasset.com'       
+                              'Compilado':'operacional@bluemetrix.com.br',     
                               }
     
     dia_e_hora_pdf = datetime.datetime.now()-datetime.timedelta(days=1)
@@ -165,9 +164,7 @@ if selecionar == 'Comercial':
         if email_assessor_comp:  
                     cl.enviar_email('Compilado', pdf_comp)
 
-        email_assessor_comp2 = lista_email_assessores.get('Compilado.2')
-        if email_assessor_comp:  
-                    cl.enviar_email('Compilado.2', pdf_comp)                 
+             
 
 elif authenticator.login():
 
