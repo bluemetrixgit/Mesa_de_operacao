@@ -1,26 +1,26 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-04-18 11:36:46,4912314,Fabricio Massula Dutra,VIVT3F,Executada,Venda,98.0,98.0,,48.65285714,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284521,,5KP,4912314
-2024-04-18 11:36:39,4912314,Fabricio Massula Dutra,EGIE3F,Executada,Venda,45.0,45.0,,40.48822222,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284506,,5KP,4912314
-2024-04-18 11:36:35,4912314,Fabricio Massula Dutra,PRIO3F,Executada,Venda,63.0,63.0,,49.68507937,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284514,,5KP,4912314
-2024-04-18 11:36:31,4912314,Fabricio Massula Dutra,HYPE3F,Executada,Venda,67.0,67.0,,27.90731343,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284508,,5KP,4912314
-2024-04-18 11:36:27,4912314,Fabricio Massula Dutra,CPFE3F,Executada,Venda,73.0,73.0,,34.9069863,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284504,,5KP,4912314
-2024-04-18 11:36:16,4912314,Fabricio Massula Dutra,KEPL3F,Executada,Venda,42.0,42.0,,9.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284510,,5KP,4912314
-2024-04-18 11:36:12,4912314,Fabricio Massula Dutra,HYPE3,Executada,Venda,500.0,500.0,,27.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284507,,5KP,4912314
-2024-04-18 11:36:09,4912314,Fabricio Massula Dutra,BBSE3F,Executada,Venda,80.0,80.0,,32.66,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284502,,5KP,4912314
-2024-04-18 11:36:07,4912314,Fabricio Massula Dutra,LEVE3,Executada,Venda,700.0,700.0,,33.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284511,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,VALE3F,Executada,Venda,91.0,91.0,,62.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284519,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,VIVT3,Executada,Venda,300.0,300.0,,48.66,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284520,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,VALE3,Executada,Venda,700.0,700.0,,62.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284518,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,SLCE3F,Executada,Venda,31.0,31.0,,18.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284517,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,SLCE3,Executada,Venda,1400.0,1400.0,,18.37,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284516,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,PSSA3,Executada,Venda,400.0,400.0,,29.67,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284515,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,PRIO3,Executada,Venda,1000.0,1000.0,,49.72,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284513,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,LEVE3F,Executada,Venda,10.0,10.0,,33.51,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284512,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,KEPL3,Executada,Venda,3300.0,3300.0,,9.93,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284509,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,EGIE3,Executada,Venda,400.0,400.0,,40.49,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284505,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,CPFE3,Executada,Venda,700.0,700.0,,34.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284503,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,BBSE3,Executada,Venda,600.0,600.0,,32.66,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284501,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,ASAI3F,Executada,Venda,41.0,41.0,,13.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284500,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,ASAI3,Executada,Venda,1000.0,1000.0,,13.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284499,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,ARZZ3F,Executada,Venda,85.0,85.0,,50.59,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284497,,5KP,4912314
-2024-04-18 11:36:06,4912314,Fabricio Massula Dutra,ARZZ3,Executada,Venda,200.0,200.0,,50.62,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240418143606284496,,5KP,4912314
+2024-04-23 16:32:49,3836362,Isabella Prado Miranda,PLCR11,Executada,Compra,5.0,5.0,,88.302,Limitada,88.31,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411741649601,f76932cfb97d409bb6bb58bb3d117478,CNI,3836362
+2024-04-23 16:32:42,3836362,Isabella Prado Miranda,TRXF11,Executada,Compra,4.0,4.0,,110.45,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411741649600,649dd9098b0d4d02937a3d667f2e48a4,CNI,3836362
+2024-04-23 16:32:42,3836362,Isabella Prado Miranda,BTLG11,Executada,Compra,7.0,7.0,,101.06,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411741649604,467149f579d843a2b508726e5cba0547,CNI,3836362
+2024-04-23 16:32:42,3836362,Isabella Prado Miranda,KNCA11,Executada,Compra,2.0,2.0,,103.75,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610534050895,562fa96e29714708a525527501496586,CNI,3836362
+2024-04-23 16:32:42,3836362,Isabella Prado Miranda,HGLG11,Executada,Compra,4.0,4.0,,163.83,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411741649603,26fcd9a23d3b4be493f0955be4068100,CNI,3836362
+2024-04-23 16:32:42,3836362,Isabella Prado Miranda,MALL11,Executada,Compra,2.0,2.0,,114.93,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411741649602,0e0a3ecda49342a98a2f144b9af9ab60,CNI,3836362
+2024-04-23 16:31:00,4809902,Pedro Augusto Prado Miranda,PLCR11,Executada,Compra,11.0,11.0,,88.17545455,Limitada,88.28,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411741600044,d13edda85fb842719ee68917088c7984,CNI,4809902
+2024-04-23 16:30:49,4809902,Pedro Augusto Prado Miranda,MALL11,Executada,Compra,5.0,5.0,,114.778,Limitada,114.81,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411741600045,1429502218e14aa087697afadc2f5b58,CNI,4809902
+2024-04-23 16:30:20,4809902,Pedro Augusto Prado Miranda,BTLG11,Executada,Compra,16.0,16.0,,101.04,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411741600047,94abbb0754544e598a52574b123f84dd,CNI,4809902
+2024-04-23 16:30:20,4809902,Pedro Augusto Prado Miranda,KNCA11,Executada,Compra,5.0,5.0,,103.74,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610533996150,59f9a54d3e15419b8eb36f3f03293d2e,CNI,4809902
+2024-04-23 16:30:20,4809902,Pedro Augusto Prado Miranda,HGLG11,Executada,Compra,10.0,10.0,,163.85,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411741600046,627d8cec8ab84a3c9246865b04c2d6a3,CNI,4809902
+2024-04-23 16:30:20,4809902,Pedro Augusto Prado Miranda,TRXF11,Executada,Compra,9.0,9.0,,110.45,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411741600043,4f77196cb23a439aae09ab442a6b7ea0,CNI,4809902
+2024-04-23 12:30:26,4575632,Adele Rossi Heusi,VALE3F,Executada,Compra,6.0,6.0,,62.70666667,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298969,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,VIVT3F,Executada,Compra,5.0,5.0,,48.37,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298970,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,SLCE3F,Executada,Compra,37.0,37.0,,18.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298968,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,PSSA3F,Executada,Venda,9.0,9.0,,29.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298967,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,PRIO3F,Executada,Venda,12.0,12.0,,48.24,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298966,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,LEVE3F,Executada,Venda,3.0,3.0,,32.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298965,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,KEPL3F,Executada,Compra,36.0,36.0,,9.84,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298964,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,HYPE3F,Executada,Compra,63.0,63.0,,29.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298963,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,EGIE3F,Executada,Compra,20.0,20.0,,40.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298962,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,CPFE3F,Executada,Venda,5.0,5.0,,34.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298961,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,BBSE3F,Executada,Venda,1.0,1.0,,32.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298960,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,ASAI3F,Executada,Compra,53.0,53.0,,13.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298959,,5KP,4575632
+2024-04-23 12:29:58,4575632,Adele Rossi Heusi,ARZZ3F,Executada,Compra,14.0,14.0,,51.83,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240423152958298958,,5KP,4575632
