@@ -128,7 +128,7 @@ if selecionar == 'Comercial':
 
     arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Descricao',100)
     arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Cliente',24)
-    compilado_de_operacoes = arquivo_final_truncado.drop(columns=['UF','Data']).sort_values(by='Conta')
+    compilado_de_operacoes = arquivo_final_truncado.drop(columns='UF').sort_values(by='Conta')
     
 
     seletor_assessor_uf = st.sidebar.selectbox('Selecione a região ',options=arquivo_final_truncado['UF'].unique(),key='UF')
@@ -140,7 +140,8 @@ if selecionar == 'Comercial':
 
     assessores_lista_nomes = list(arquivo_final_truncado['Assessor'].unique())
 
-    lista_email_assessores = {'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
+    lista_email_assessores = {#'Thiago Canabrava':'laurotfl@gmail.com',
+         'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
       'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
@@ -161,12 +162,12 @@ if selecionar == 'Comercial':
         'Breno Lemes':'breno.lemes@bluemetrix.com.br',
             'Guilherme Rios Guercio':'guilherme.rios@bluemetrix.com.br',
                 'Guilherme dos Santos':'guilherme.santos@bluemetrix.com.br',
-                  'Eduardo Leopoldino':'eduardo.leopoldino@bluemetrix.com.br',
+                  'Eduardo Leopoldino':'',
             'Leandro Soares Lemos De Sousa':'',
                 'Bruno Ribeiro':'bruno@ligadosinvestimentos.com.br',
                   'Victor Caldeira':'victor.caldeira@bluemetrix.com.br',
                 'Caroline Facó Ehlers':'caroline.ehlers@grupovoga.com',
-                  'Augusto Sampaio':'',
+                  'Augusto Sampaio':'augusto.correia@bluemetrix.com.br',
                     'Alexandre Teixeira Campos':'alexandre.campos@grupovoga.com',
                      'Joney Alves ':'joney.alves@bluemetrix.com.br',
                      'Acompanhamento de operações':'operacional@bluemetrix.com.br'
@@ -177,14 +178,14 @@ if selecionar == 'Comercial':
     if st.button('Gerar Relatorio '):
         for assessor in assessores_lista_nomes:
                 tabela_assessor = arquivo_final_truncado[arquivo_final_truncado['Assessor']==assessor]
-                gerar_pdf = cl.gerando_pdf(assessor,dia_e_hora_pdf,tabela_assessor)
+                gerar_pdf = cl.gerando_pdf(assessor,arquivo_final_truncado['Solicitada'].iloc[0],tabela_assessor)
                 email_assessor = lista_email_assessores.get(assessor)
                 if email_assessor:  
                     cl.enviar_email(assessor, gerar_pdf)
                 else:
                     st.warning(f'E-mail do assessor {assessor} não encontrado.')
 
-        pdf_comp = cl.gerando_pdf('Acompanhamento de operações',dia_e_hora_pdf,compilado_de_operacoes)
+        pdf_comp = cl.gerando_pdf('Acompanhamento de operações',arquivo_final_truncado['Solicitada'].iloc[0],compilado_de_operacoes)
         email_assessor_comp = lista_email_assessores.get('Acompanhamento de operações')
         if email_assessor_comp:  
                     cl.enviar_email('Acompanhamento de operações', pdf_comp)
