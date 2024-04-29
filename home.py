@@ -126,7 +126,7 @@ if selecionar == 'Comercial':
 
 
 
-    arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Descricao',100)
+    arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Descricao',60)
     arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Cliente',24)
     compilado_de_operacoes = arquivo_final_truncado.drop(columns='UF').sort_values(by='Conta')
     
@@ -140,7 +140,7 @@ if selecionar == 'Comercial':
 
     assessores_lista_nomes = list(arquivo_final_truncado['Assessor'].unique())
 
-    lista_email_assessores = {#'Thiago Canabrava':'laurotfl@gmail.com',
+    lista_email_assessores = {#'Theo Ramos Moutinho':'laurotfl@gmail.com',
          'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
@@ -1176,7 +1176,7 @@ elif authenticator.login():
 
 
             seletor_operados = st.sidebar.selectbox("Operador :",options=encontrando_contas_desenquadradas['Operador'].unique())
-            seletor_carteiras = st.sidebar.selectbox("Carteira :",options=encontrando_contas_desenquadradas['Carteira'].unique())
+            seletor_carteiras = st.sidebar.selectbox("Estratégia :",options=encontrando_contas_desenquadradas['Estratégia'].unique())
             if st.toggle('Ver Tabela sem filtros:'):
                 st.dataframe(contas_desen_tabela_geral)
             if st.toggle('Remover contas "Exeção"'):
@@ -1185,7 +1185,7 @@ elif authenticator.login():
             st.warning(f"Total de contas : {encontrando_contas_desenquadradas['Conta'].shape[0]}")     
         
             status = st.sidebar.selectbox("Status :",options=encontrando_contas_desenquadradas['Status'].unique())
-            encontrando_contas_desenquadradas = encontrando_contas_desenquadradas[(encontrando_contas_desenquadradas['Operador']==seletor_operados)&(encontrando_contas_desenquadradas['Carteira']==seletor_carteiras)&(encontrando_contas_desenquadradas['Status']==status)]
+            encontrando_contas_desenquadradas = encontrando_contas_desenquadradas[(encontrando_contas_desenquadradas['Operador']==seletor_operados)&(encontrando_contas_desenquadradas['Estratégia']==seletor_carteiras)&(encontrando_contas_desenquadradas['Status']==status)]
 
 
 

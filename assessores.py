@@ -114,7 +114,7 @@ class Comercial():
 
 
     def enviar_email(self,nome_assessor,nome_do_arquivo_pdf):
-        lista_email_assessores = {#'Thiago Canabrava':'laurotfl@gmail.com',
+        lista_email_assessores = {#'Theo Ramos Moutinho':'laurotfl@gmail.com',
          'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
