@@ -33,8 +33,8 @@ class Divisao_de_contas():
         self.arquivo_compilado = arquivo_compilado
         self.filtrando_saldo = self.arquivo_compilado.loc[(self.arquivo_compilado['Saldo']>1000)|(self.arquivo_compilado['Saldo']<0)].sort_values(by='Saldo',ascending=False)
 
-        self.filtrando_saldo.loc[self.filtrando_saldo['Valor']>700000, 'Operador'] = 'Bruno'
-        self.filtrando_saldo.loc[(self.filtrando_saldo['Valor'] > 400000) & (self.filtrando_saldo['Valor'] < 700000), 'Operador'] = 'Breno'
+        self.filtrando_saldo.loc[self.filtrando_saldo['Valor']>1000000, 'Operador'] = 'Bruno'
+        self.filtrando_saldo.loc[(self.filtrando_saldo['Valor'] > 400000) & (self.filtrando_saldo['Valor'] < 1000000), 'Operador'] = 'Breno'
         self.filtrando_saldo.loc[self.filtrando_saldo['Valor']<400000, 'Operador'] = 'Augusto'
         colunas_ajustar_decimal = ['Saldo','Valor']
         contas_co_admin = list(co_admin['Conta'].astype(str).str[:-2].apply(lambda x: '00'+x).unique())
