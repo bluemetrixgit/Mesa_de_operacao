@@ -1,6 +1,15 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-04-30 10:40:58,4996634,Hiroko Nishiwaki Yanigiharo,ARZZ3F,Executada,Compra,4.0,4.0,,51.4,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610568051990,194f87ad5ac041749f2a832dac26172d,6NA,4996634
-2024-04-30 10:40:58,4996634,Hiroko Nishiwaki Yanigiharo,HYPE3F,Executada,Compra,43.0,43.0,,29.69,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610568051989,301110bc9c0b4caca8bb3e53f6ad1146,6NA,4996634
-2024-04-30 10:40:58,4996634,Hiroko Nishiwaki Yanigiharo,PRIO3F,Executada,Venda,23.0,23.0,,48.87,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,828969373570,ab5e4b67f00140ac89a9f9a8f32f68bc,6NA,4996634
-2024-04-30 10:40:58,4996634,Hiroko Nishiwaki Yanigiharo,KEPL3F,Executada,Compra,30.0,30.0,,9.8,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610568051986,1d3ca54205224e45b671e0f639d9c25d,6NA,4996634
-2024-04-30 10:40:58,4996634,Hiroko Nishiwaki Yanigiharo,PSSA3F,Executada,Venda,14.0,14.0,,30.05,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610568051985,f1334210816940b5b0dbd153a67b16ca,6NA,4996634
+2024-05-02 13:50:40,4363260,Larissa Weber Gomes Reis,KEPL3F,Executada,Compra,89.0,89.0,,10.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455331,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,VIVT3F,Executada,Compra,68.0,68.0,,48.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455337,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,VALE3F,Executada,Compra,13.0,13.0,,63.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455336,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,SLCE3F,Executada,Compra,72.0,72.0,,18.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455335,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,PSSA3F,Executada,Compra,12.0,12.0,,29.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455334,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,PRIO3F,Executada,Compra,31.0,31.0,,47.69,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455333,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,LEVE3F,Executada,Compra,16.0,16.0,,30.71,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455332,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,HYPE3F,Executada,Compra,62.0,62.0,,30.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455330,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,EGIE3F,Executada,Compra,4.0,4.0,,41.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455329,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,CPFE3F,Executada,Compra,2.0,2.0,,33.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455328,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,BBSE3F,Executada,Compra,5.0,5.0,,32.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455327,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,ASAI3F,Executada,Compra,52.0,52.0,,13.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455326,,03Q,4363260
+2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,ARZZ3F,Executada,Compra,11.0,11.0,,52.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455325,,03Q,4363260
+2024-05-02 13:14:14,5366255,Raphaela Neves De Queiroz Cavalcanti,PFIZ34,Executada,Venda,24.0,24.0,,35.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502161414436797,,03Q,5366255
