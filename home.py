@@ -633,7 +633,8 @@ elif authenticator.login():
                         'Pode Operar':'background-color: green',
                         'Checar conta':'background-color: red',
                         'Encerrado':'background-color: #A0522D',
-                        np.nan:'background-color: #A0522D'}
+                        np.nan:'background-color: #A0522D',
+                        'Pode operar':'background-color: green'}
                     
                 
                 st.dataframe(dividindo_operadores.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
