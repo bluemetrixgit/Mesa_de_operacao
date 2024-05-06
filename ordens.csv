@@ -1,15 +1,21 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-05-02 13:50:40,4363260,Larissa Weber Gomes Reis,KEPL3F,Executada,Compra,89.0,89.0,,10.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455331,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,VIVT3F,Executada,Compra,68.0,68.0,,48.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455337,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,VALE3F,Executada,Compra,13.0,13.0,,63.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455336,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,SLCE3F,Executada,Compra,72.0,72.0,,18.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455335,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,PSSA3F,Executada,Compra,12.0,12.0,,29.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455334,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,PRIO3F,Executada,Compra,31.0,31.0,,47.69,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455333,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,LEVE3F,Executada,Compra,16.0,16.0,,30.71,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455332,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,HYPE3F,Executada,Compra,62.0,62.0,,30.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455330,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,EGIE3F,Executada,Compra,4.0,4.0,,41.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455329,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,CPFE3F,Executada,Compra,2.0,2.0,,33.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455328,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,BBSE3F,Executada,Compra,5.0,5.0,,32.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455327,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,ASAI3F,Executada,Compra,52.0,52.0,,13.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455326,,03Q,4363260
-2024-05-02 13:50:35,4363260,Larissa Weber Gomes Reis,ARZZ3F,Executada,Compra,11.0,11.0,,52.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502165035455325,,03Q,4363260
-2024-05-02 13:14:14,5366255,Raphaela Neves De Queiroz Cavalcanti,PFIZ34,Executada,Venda,24.0,24.0,,35.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240502161414436797,,03Q,5366255
+2024-05-03 13:45:20,4237325,Ricardo Jose Lacerda Prudencio,SBSP3F,Executada,Venda,35.0,35.0,,80.55,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503164452361725,,CNI,4237325
+2024-05-03 13:45:19,4813088,Juliana Gomes Falleiros Cavalheiro,SBSP3F,Executada,Venda,47.0,47.0,,80.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503164452361728,,CNI,4813088
+2024-05-03 13:44:52,5429528,Bianca Faria E Rocha,SBSP3F,Executada,Venda,50.0,50.0,,80.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503164452361730,,CNI,5429528
+2024-05-03 13:44:52,4999434,Eduardo Augusto Rosa,SBSP3F,Executada,Venda,7.0,7.0,,80.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503164452361729,,CNI,4999434
+2024-05-03 13:44:52,4332747,Lohran Soares De Oliveira,SBSP3F,Executada,Venda,28.0,28.0,,80.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503164452361727,,CNI,4332747
+2024-05-03 13:44:52,4332747,Lohran Soares De Oliveira,SBSP3,Executada,Venda,200.0,200.0,,80.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503164452361726,,CNI,4332747
+2024-05-03 12:57:28,4482102,Natalia Falavigna Silva,ARZZ3F,Executada,Compra,41.0,41.0,,52.74317073,Limitada,52.86,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328371,,CNI,4482102
+2024-05-03 12:57:07,4482102,Natalia Falavigna Silva,ASAI3F,Executada,Compra,98.0,98.0,,13.60785714,Limitada,13.62,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328372,,CNI,4482102
+2024-05-03 12:54:24,4482102,Natalia Falavigna Silva,PSSA3F,Executada,Compra,14.0,14.0,,30.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328382,,CNI,4482102
+2024-05-03 12:53:22,4482102,Natalia Falavigna Silva,BBSE3F,Executada,Venda,3.0,3.0,,32.63,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328373,,CNI,4482102
+2024-05-03 12:53:09,4482102,Natalia Falavigna Silva,CPFE3F,Executada,Compra,30.0,30.0,,33.1,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328374,,CNI,4482102
+2024-05-03 12:53:04,4482102,Natalia Falavigna Silva,VIVT3F,Executada,Compra,16.0,16.0,,50.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328384,,CNI,4482102
+2024-05-03 12:53:04,4482102,Natalia Falavigna Silva,SLCE3F,Executada,Compra,91.0,91.0,,18.13,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328383,,CNI,4482102
+2024-05-03 12:53:04,4482102,Natalia Falavigna Silva,PRIO3F,Executada,Compra,25.0,25.0,,46.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328381,,CNI,4482102
+2024-05-03 12:53:04,4482102,Natalia Falavigna Silva,LEVE3F,Executada,Compra,8.0,8.0,,31.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328380,,CNI,4482102
+2024-05-03 12:53:04,4482102,Natalia Falavigna Silva,KEPL3F,Executada,Compra,92.0,92.0,,10.33,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328379,,CNI,4482102
+2024-05-03 12:53:04,4482102,Natalia Falavigna Silva,KEPL3,Executada,Compra,100.0,100.0,,10.33,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328378,,CNI,4482102
+2024-05-03 12:53:04,4482102,Natalia Falavigna Silva,HYPE3F,Executada,Compra,31.0,31.0,,30.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328377,,CNI,4482102
+2024-05-03 12:53:04,4482102,Natalia Falavigna Silva,HYPE3,Executada,Compra,100.0,100.0,,30.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328376,,CNI,4482102
+2024-05-03 12:53:04,4482102,Natalia Falavigna Silva,EGIE3F,Executada,Venda,11.0,11.0,,42.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240503155304328375,,CNI,4482102
