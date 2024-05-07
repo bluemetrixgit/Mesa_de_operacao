@@ -72,3 +72,76 @@ class Contas_desenquadradas():
 
         return self.arquivo_final
 
+
+    def intermediacao_lendo_e_tratando_arquivos(self,controle,posicao):
+        from datetime import datetime,timedelta
+        
+        data_limite = datetime.now()+timedelta(days=180)
+
+
+        controle = controle.iloc[:,[1,2,12,6,7,8,16,17,18,9]]
+        controle['Conta'] = controle['Conta'].astype(str).apply(lambda x: '00'+x).str[:-2]
+
+        self.posicao = posicao
+        self.posicao = self.posicao[self.posicao['Vencimento']>data_limite]
+
+        
+        self.posicao = self.posicao.loc[~(
+            (self.posicao['Produto'].str.contains('PREV'))|(
+                self.posicao['Produto']=='COE')|(
+                    self.posicao['Estratégia'].str.contains('Renda Variável'))|(
+                        self.posicao['Produto'].str.contains('BLUEMETRIX RF ATIVO FI RF'))|(
+                            self.posicao['Produto'].str.contains('CDB')&self.posicao['Emissor'].str.contains('BANCO BTG PACTUAL S A'))|(
+                        self.posicao['Produto'].str.contains('TESOURO DIRETO'))|(
+                            self.posicao['Produto'].str.contains('NTN'))|(
+                                self.posicao['Produto'].str.contains('NTNB'))|(
+                                    self.posicao['Produto'].str.contains('FII'))|(
+                                        self.posicao['Produto'].str.contains('FI'))|(
+                                            self.posicao['Produto'].str.contains('LTN'))|(
+                                                self.posicao['Produto'].str.contains('LF'))
+                            )]
+
+        self.posicao = self.posicao.groupby(['Conta','Estratégia'])['Valor Líquido'].sum().reset_index()
+        pl_das_contas = self.posicao.groupby('Conta')['Valor Líquido'].sum().reset_index()
+        self.posicao = self.posicao.merge(pl_das_contas,on='Conta',how='outer').merge(controle,on='Conta',how='outer')
+        self.posicao['Posicao Porcentagem'] = round((self.posicao['Valor Líquido_x']/self.posicao['Valor Líquido_y'])*100,2)
+
+        return self.posicao
+    def rem_cri_cra_intermediacao_lendo_e_tratando_arquivos(self,controle,posicao):
+        from datetime import datetime,timedelta
+        
+        data_limite = datetime.now()+timedelta(days=180)
+
+
+        controle = controle.iloc[:,[1,2,12,6,7,8,16,17,18,9]]
+        controle['Conta'] = controle['Conta'].astype(str).apply(lambda x: '00'+x).str[:-2]
+        
+        self.posicao = posicao
+
+        self.posicao = self.posicao[self.posicao['Vencimento']>data_limite]
+
+        
+        self.posicao = self.posicao.loc[~(
+            (self.posicao['Produto'].str.contains('PREV'))|(
+                self.posicao['Produto']=='COE')|(
+                    self.posicao['Estratégia'].str.contains('Renda Variável'))|(
+                        self.posicao['Produto'].str.contains('BLUEMETRIX RF ATIVO FI RF'))|(
+                            self.posicao['Produto'].str.contains('CDB')&self.posicao['Emissor'].str.contains('BANCO BTG PACTUAL S A'))|(
+                        self.posicao['Produto'].str.contains('TESOURO DIRETO'))|(
+                            self.posicao['Produto'].str.contains('NTN'))|(
+                                self.posicao['Produto'].str.contains('NTNB'))|(
+                                    self.posicao['Produto'].str.contains('FII'))|(
+                                        self.posicao['Produto'].str.contains('FI'))|(
+                                            self.posicao['Produto'].str.contains('LTN'))|(
+                                                self.posicao['Produto'].str.contains('LF'))|(
+                                                    self.posicao['Produto'].str.contains('CRI'))|(
+                                                        self.posicao['Produto'].str.contains('CRA'))|(
+                                                            self.posicao['Produto'].str.contains('Deb'))
+                            )]
+
+        self.posicao = self.posicao.groupby(['Conta','Estratégia'])['Valor Líquido'].sum().reset_index()
+        pl_das_contas = self.posicao.groupby('Conta')['Valor Líquido'].sum().reset_index()
+        self.posicao = self.posicao.merge(pl_das_contas,on='Conta',how='outer').merge(controle,on='Conta',how='outer')
+        self.posicao['Posicao Porcentagem'] = round((self.posicao['Valor Líquido_x']/self.posicao['Valor Líquido_y'])*100,2)
+
+        return self.posicao

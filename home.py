@@ -1167,7 +1167,7 @@ elif authenticator.login():
 
 
         if selecionar == 'Carteiras Desenquadradas':
-            
+
             from contas_desenquadradas import Contas_desenquadradas
 
             inciando_programa = Contas_desenquadradas()
@@ -1175,13 +1175,38 @@ elif authenticator.login():
             encontrando_contas_desenquadradas = inciando_programa.criando_dfs_e_checando_enquadramento(dados,10)
             contas_desen_tabela_geral = inciando_programa.criando_dfs_e_checando_enquadramento(dados,10)
 
-
             seletor_operados = st.sidebar.selectbox("Operador :",options=encontrando_contas_desenquadradas['Operador'].unique())
             seletor_carteiras = st.sidebar.selectbox("Estratégia :",options=encontrando_contas_desenquadradas['Estratégia'].unique())
+
+            st.subheader('Contas para intermediação')
+            if st.toggle('Remover CRI, CRA, Debenture',key='Remv_cri'):
+                intermediacao = inciando_programa.rem_cri_cra_intermediacao_lendo_e_tratando_arquivos(controle_psicao,posicao_original)
+            else:
+                intermediacao = inciando_programa.intermediacao_lendo_e_tratando_arquivos(controle_psicao,posicao_original)    
+
+            intermediacao_estrategia = inciando_programa.criando_dfs_e_checando_enquadramento(intermediacao,10)
+            intermediacao_estrategia = intermediacao_estrategia.rename(columns={'Valor Líquido_x'   :'Valor da posição na carteira',
+                                                    'Valor Líquido_y'    :  'PL Total',
+                                                    'Posicao Porcentagem':'% da Posição na Carteira',
+                                                    'Proporção'          :'% Ideal da Posição',
+                                                    'Enquadramento'      :'Variação %'}).drop(columns='Ativo_Income').iloc[:,
+                                                                                                                            [ 0,1,14,15,13,11,2,3,8,9,10,4,12]]
+            
+            intermediacao_estrategia['Diferença R$ da carteira e valor ideal'] = ((intermediacao_estrategia['% Ideal da Posição']/100)*intermediacao_estrategia['PL Total'])-intermediacao_estrategia['Valor da posição na carteira']
+            intermediacao_estrategia = intermediacao_estrategia.iloc[:,[0,1,2,3,4,13,6,7,8,5,9,10,11,12]]
+
+            intermediacao_estrategia=intermediacao_estrategia[intermediacao_estrategia['Estratégia']==seletor_carteiras]
+            st.dataframe(intermediacao_estrategia)
+
+            st.text('')
+            st.text('')
+            st.text('')
+
             if st.toggle('Ver Tabela sem filtros:'):
                 st.dataframe(contas_desen_tabela_geral)
             if st.toggle('Remover contas "Exeção"'):
                 encontrando_contas_desenquadradas=encontrando_contas_desenquadradas[encontrando_contas_desenquadradas['Exceção']!='Sim']
+
             st.write('Não contém COE ou Previdência na contagem')
             st.warning(f"Total de contas : {encontrando_contas_desenquadradas['Conta'].shape[0]}")     
         
@@ -1201,11 +1226,6 @@ elif authenticator.login():
             
             encontrando_contas_desenquadradas['Diferença R$ da carteira e valor ideal'] = ((encontrando_contas_desenquadradas['% Ideal da Posição']/100)*encontrando_contas_desenquadradas['PL Total'])-encontrando_contas_desenquadradas['Valor da posição na carteira']
             encontrando_contas_desenquadradas = encontrando_contas_desenquadradas.iloc[:,[0,1,2,3,4,13,6,7,8,5,9,10,11,12]]
-
-
-
-
-
 
             st.dataframe(encontrando_contas_desenquadradas,use_container_width=True)
 
