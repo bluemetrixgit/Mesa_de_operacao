@@ -1,1 +1,20 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
+2024-05-07 16:46:26,4958578,Assako Utsumi Okada,BOVA11,Executada,Compra,12.0,12.0,,125.42,Limitada,125.47,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8812954646703,19c99873f0944370b15571b8e6e0bc4e,6NA,4958578
+2024-05-07 15:58:16,4413537,Claudia Marques De Barros Rodrigues,VALE3F,Executada,Venda,20.0,20.0,,64.63,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507185808357163,,CNI,4413537
+2024-05-07 15:58:08,4413537,Claudia Marques De Barros Rodrigues,BBSE3F,Executada,Venda,19.0,19.0,,32.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507185808357164,,CNI,4413537
+2024-05-07 15:58:08,4413537,Claudia Marques De Barros Rodrigues,SLCE3F,Executada,Venda,44.0,44.0,,18.67,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507185808357162,,CNI,4413537
+2024-05-07 15:58:08,4413537,Claudia Marques De Barros Rodrigues,PSSA3F,Executada,Venda,2.0,2.0,,29.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507185808357161,,CNI,4413537
+2024-05-07 15:58:08,4413537,Claudia Marques De Barros Rodrigues,LEVE3F,Executada,Venda,20.0,20.0,,31.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507185808357160,,CNI,4413537
+2024-05-07 15:58:08,4413537,Claudia Marques De Barros Rodrigues,KEPL3F,Executada,Venda,2.0,2.0,,10.16,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507185808357159,,CNI,4413537
+2024-05-07 15:58:08,4413537,Claudia Marques De Barros Rodrigues,KEPL3,Executada,Venda,100.0,100.0,,10.16,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507185808357158,,CNI,4413537
+2024-05-07 15:58:08,4413537,Claudia Marques De Barros Rodrigues,CPFE3F,Executada,Venda,21.0,21.0,,32.8,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507185808357157,,CNI,4413537
+2024-05-07 15:58:08,4413537,Claudia Marques De Barros Rodrigues,ASAI3F,Executada,Venda,54.0,54.0,,13.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507185808357156,,CNI,4413537
+2024-05-07 15:44:16,4374943,Leonardo Luis De Barros Rodrigues,BBSE3F,Executada,Venda,22.0,22.0,,32.87,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507184416350018,,CNI,4374943
+2024-05-07 15:44:16,4374943,Leonardo Luis De Barros Rodrigues,KEPL3F,Executada,Venda,3.0,3.0,,10.17,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507184416350017,,CNI,4374943
+2024-05-07 15:44:16,4374943,Leonardo Luis De Barros Rodrigues,KEPL3,Executada,Venda,100.0,100.0,,10.17,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507184416350016,,CNI,4374943
+2024-05-07 15:44:16,4374943,Leonardo Luis De Barros Rodrigues,SLCE3F,Executada,Venda,43.0,43.0,,18.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507184416350015,,CNI,4374943
+2024-05-07 15:44:16,4374943,Leonardo Luis De Barros Rodrigues,PSSA3F,Executada,Venda,2.0,2.0,,29.39,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507184416350014,,CNI,4374943
+2024-05-07 15:44:16,4374943,Leonardo Luis De Barros Rodrigues,PRIO3F,Executada,Venda,24.0,24.0,,46.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507184416350013,,CNI,4374943
+2024-05-07 15:44:16,4374943,Leonardo Luis De Barros Rodrigues,LEVE3F,Executada,Venda,22.0,22.0,,31.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507184416350012,,CNI,4374943
+2024-05-07 15:44:16,4374943,Leonardo Luis De Barros Rodrigues,CPFE3F,Executada,Venda,24.0,24.0,,32.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507184416350011,,CNI,4374943
+2024-05-07 15:44:16,4374943,Leonardo Luis De Barros Rodrigues,ASAI3F,Executada,Venda,48.0,48.0,,13.57,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240507184416350010,,CNI,4374943
