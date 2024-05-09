@@ -4,7 +4,7 @@ class Ativos_e_proporcoes():
         print('Hello world')
 
     def equities(self):
-        equities = {'ARZZ3': 5,'ASAI3':6.50,'BBSE3':5,'CPFE3':5.50,'EGIE3':5.50,'HYPE3':8.00,'KEPL3':8, 'Caixs':19, 'LEVE3':5,'PRIO3':8,'PSSA3':2.50,'SLCE3':7,'VALE3':10,'VIVT3':5,}
+        equities = {'ARZZ3': 7.0,'ASAI3':7.0,'BBSE3':7.0,'CPFE3':6.0,'HYPE3':8.00,'KEPL3':8,'ITUB4':7.00, 'Caixs':11.5, 'LEVE3':6.50,'PRIO3':8,'SLCE3':7,'VALE3':11,'VIVT3':7,}
         
         return equities
     
@@ -23,7 +23,7 @@ class Ativos_e_proporcoes():
         return fii
     
     def acoes_em_caixa(self):
-        lista_acoes_em_caixa = [ 'ARZZ3', 'ASAI3', 'BBSE3', 'CPFE3', 'EGIE3','HYPE3', 'KEPL3', 'LEVE3', 'PRIO3', 'PSSA3', 'VIVT3', 'SLCE3', 'VALE3']
+        lista_acoes_em_caixa = [ 'ARZZ3', 'ASAI3', 'BBSE3', 'CPFE3','HYPE3', 'KEPL3', 'LEVE3', 'PRIO3', 'ITUB4', 'VIVT3', 'SLCE3', 'VALE3']
 
         return lista_acoes_em_caixa
         
