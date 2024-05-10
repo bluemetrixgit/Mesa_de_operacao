@@ -1185,6 +1185,8 @@ elif authenticator.login():
                 intermediacao = inciando_programa.intermediacao_lendo_e_tratando_arquivos(controle_psicao,posicao_original)    
 
             intermediacao_estrategia = inciando_programa.criando_dfs_e_checando_enquadramento(intermediacao,10)
+            st.subheader('TESTE')
+            st.dataframe(intermediacao_estrategia)
             intermediacao_estrategia = intermediacao_estrategia.rename(columns={'Valor Líquido_x'   :'Valor da posição na carteira',
                                                     'Valor Líquido_y'    :  'PL Total',
                                                     'Posicao Porcentagem':'% da Posição na Carteira',
