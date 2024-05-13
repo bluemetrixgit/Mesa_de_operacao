@@ -125,20 +125,22 @@ if selecionar == 'Comercial':
     arquivo_final = cl.tratando_dados(ordens,acompanhamentos_de_assessores,controle_psicao,controle_co_admin)
 
 
+    ## ---- >> Previamente utilizado para retirar caracteres das colunas 'Clientes' e 'Descrição', porém o metodo itrrows estava trocando nomes de clientes para diferentes assessores e foi substituido no arquivo backend asssessores.py pelo metódo .slice. 
+    #arquivo_final = cl.truncar_descricao(arquivo_final,'Descricao',60)
+    #arquivo_final = cl.truncar_descricao(arquivo_final,'Cliente',24)
 
-    arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Descricao',60)
-    #arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Cliente',24)
-    compilado_de_operacoes = arquivo_final_truncado.drop(columns='UF').sort_values(by='Conta')
+
+    compilado_de_operacoes = arquivo_final.drop(columns='UF').sort_values(by='Conta')
     
 
-    seletor_assessor_uf = st.sidebar.selectbox('Selecione a região ',options=arquivo_final_truncado['UF'].unique(),key='UF')
-    tabela_estado = arquivo_final_truncado[arquivo_final_truncado['UF']==seletor_assessor_uf]
+    seletor_assessor_uf = st.sidebar.selectbox('Selecione a região ',options=arquivo_final['UF'].unique(),key='UF')
+    tabela_estado = arquivo_final[arquivo_final['UF']==seletor_assessor_uf]
     seletor_assessor = st.sidebar.selectbox('Selecione o Assessor',options=tabela_estado['Assessor'].unique(),key='Assessor go')
-    tabela_de_visualização = arquivo_final_truncado[(arquivo_final_truncado['UF']==seletor_assessor_uf)&(arquivo_final_truncado['Assessor']==seletor_assessor)].reset_index(drop='index')
+    tabela_de_visualização = arquivo_final[(arquivo_final['UF']==seletor_assessor_uf)&(arquivo_final['Assessor']==seletor_assessor)].reset_index(drop='index')
 
     st.dataframe(tabela_de_visualização,use_container_width=True,)
 
-    assessores_lista_nomes = list(arquivo_final_truncado['Assessor'].unique())
+    assessores_lista_nomes = list(arquivo_final['Assessor'].unique())
 
     lista_email_assessores = {#'Theo Ramos Moutinho':'laurotfl@gmail.com',
          'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
@@ -177,15 +179,15 @@ if selecionar == 'Comercial':
     
     if st.button('Gerar Relatorio '):
         for assessor in assessores_lista_nomes:
-                tabela_assessor = arquivo_final_truncado[arquivo_final_truncado['Assessor']==assessor]
-                gerar_pdf = cl.gerando_pdf(assessor,arquivo_final_truncado['Solicitada'].iloc[0],tabela_assessor)
+                tabela_assessor = arquivo_final[arquivo_final['Assessor']==assessor]
+                gerar_pdf = cl.gerando_pdf(assessor,arquivo_final['Solicitada'].iloc[0],tabela_assessor)
                 email_assessor = lista_email_assessores.get(assessor)
                 if email_assessor:  
                     cl.enviar_email(assessor, gerar_pdf)
                 else:
                     st.warning(f'E-mail do assessor {assessor} não encontrado.')
 
-        pdf_comp = cl.gerando_pdf('Acompanhamento de operações',arquivo_final_truncado['Solicitada'].iloc[0],compilado_de_operacoes)
+        pdf_comp = cl.gerando_pdf('Acompanhamento de operações',arquivo_final['Solicitada'].iloc[0],compilado_de_operacoes)
         email_assessor_comp = lista_email_assessores.get('Acompanhamento de operações')
         if email_assessor_comp:  
                     cl.enviar_email('Acompanhamento de operações', pdf_comp)
@@ -930,7 +932,7 @@ elif authenticator.login():
                             'SLBG34.SA', 'HALI34F.SA', 'HALI34.SA', 'COPH34.SA', 'COPH34.SA', 'CHVX34F.SA', 'CHVX34.SA', 'PRIO3F.SA', 'PRIO3.SA', 'OSXB3F.SA', 'OSXB3.SA', 'DMMO11.SA', 'DMMO3F.SA', 'DMMO3.SA', 'RPMG3F.SA', 'RPMG3.SA', 'UGPA3.SA', 'UGPA3F.SA', 'PETR4F.SA', 'PETR4.SA', 'PETR3F.SA', 'PETR3.SA', 'EXXO34.SA', 'ENAT3.SA', 'ONCO3.SA', 'VVEO3.SA', 'PARD3.SA', 'BIOM3F.SA', 'BIOM3.SA', 'BALM3F.SA', 'BALM4F.SA', 'BALM4.SA', 'BALM3.SA', 'PFIZ34F.SA', 'PFIZ34.SA', 'MRCK34F.SA', 'MRCK34.SA', 'GBIO33F.SA', 'GBIO33.SA', 'PNVL3F.SA', 'PNVL3.SA', 'AALR3F.SA', 'AALR3.SA', 'ODPV3F.SA', 'ODPV3.SA', 'RADL3F.SA', 'RADL3.SA', 'QUAL3F.SA', 'QUAL3.SA', 'OFSA3.SA', 'JNJB34.SA', 'HYPE3.SA', 'FLRY3.SA', 'BMYB34.SA', 'ABTT34.SA', 'CLSA3.SA', 'LVTC3.SA', 'G2DI33.SA', 'IFCM3.SA', 'GOGL35.SA', 'LWSA3.SA', 'TOTS3F.SA', 'TOTS3.SA', 'XRXB34F.SA', 'XRXB34.SA', 'QCOM34F.SA', 'QCOM34.SA', 'ORCL34F.SA', 'ORCL34.SA', 'MSFT34F.SA', 'MSFT34.SA', 'IBMB34F.SA', 'IBMB34.SA', 'ITLC34F.SA', 'ITLC34.SA', 'HPQB34F.SA', 'HPQB34.SA', 'EBAY34F.SA', 'CSCO34F.SA', 'CSCO34.SA', 'ATTB34F.SA', 'AAPL34F.SA', 'AAPL34.SA', 'LINX3F.SA', 'LINX3.SA', 'POSI3F.SA', 'POSI3.SA', 'EBAY34.SA', 'BRIT3.SA', 'FIQE3.SA', 'DESK3.SA', 'VERZ34F.SA', 'VERZ34.SA', 'OIBR4F.SA', 'OIBR4.SA', 'OIBR.SA', 'TIMS3F.SA', 'TIMS3.SA', 'VIVT3F.SA', 'VIVT3.SA', 'TELB4F.SA', 'TELB4.SA', 'TELB3F.SA', 'TELB3.SA', 'ATTB34.SA', 'AURE3.SA', 'MEGA3.SA', 'CEPE6F.SA', 'CEPE5F.SA', 'CEPE3F.SA', 'CEPE6.SA', 'CEPE5.SA', 'CEPE3.SA', 'CEED3F.SA', 'CEED4F.SA', 'CEED4.SA', 'CEED3.SA', 'EEEL4F.SA', 'EEEL3F.SA', 'EEEL4.SA', 'EEEL3.SA', 'CASN4F.SA', 'CASN3F.SA', 'CASN4.SA', 'CASN3.SA', 'CEGR3F.SA', 'CEGR3.SA', 'CEBR3F.SA', 'CEBR6F.SA', 'CEBR5F.SA', 'CEBR6.SA', 'CEBR5.SA', 'CEBR3.SA', 'RNEW11F.SA', 'RNEW11F.SA', 'RNEW4F.SA', 'RNEW4.SA', 'RNEW3.SA', 'COCE6F.SA', 
                             'COCE5F.SA', 'COCE3F.SA', 'COCE6.SA', 'COCE5.SA', 'COCE3.SA', 'CLSC4F.SA', 'CLSC3F.SA', 'CLSC4.SA', 'CLSC3.SA', 'ALUP4F.SA', 'ALUP3F.SA', 'ALUP11F.SA', 'ALUP4.SA', 'ALUP3.SA', 'ALUP11.SA', 'SAPR11F.SA', 'SAPR4F.SA', 'SAPR3F.SA', 'SAPR4.SA', 'SAPR3.SA', 'SAPR11.SA', 'CPRE3F.SA', 'CPRE3.SA', 'CPLE5F.SA', 'CPLE6F.SA', 'CPLE6.SA', 'CPLE5.SA', 'CPLE3F.SA', 
                             'CPLE3.SA', 'CPFE3F.SA', 'CPFE3.SA', 'CGAS3F.SA', 'CGAS5F.SA', 'CGAS5.SA', 'CGAS3.SA', 'AESB3F.SA', 'AESB3.SA', 'NEOE3.SA', 'TRPL4F.SA', 'TRPL4.SA', 'TRPL3F.SA', 'TRPL3.SA', 'EGIE3.SA', 'TAEE4.SA', 'TAEE3.SA', 'TAEE11.SA', 'SBSP3F.SA', 'SBSP3.SA', 'RNEW11.SA', 'GEPA4.SA', 'GEPA3.SA', 'CESP6.SA',
-                            'CESP5.SA', 'CESP3F.SA', 'CESP3.SA', 'CMIG4.SA', 'CMIG3F.SA', 'CMIG3.SA', 'AFLT3.SA','VALE3.SA']
+                            'CESP5.SA', 'CESP3F.SA', 'CESP3.SA', 'CMIG4.SA', 'CMIG3F.SA', 'CMIG3.SA', 'AFLT3.SA','VALE3.SA','ARZZ3.SA']
                                 
 
             col1, col2 = st.columns(2)
