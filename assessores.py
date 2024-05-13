@@ -54,7 +54,10 @@ class Comercial():
 
         arquivo_final = arquivo_final.drop(columns='Cliente_x').rename(columns={'Cliente_y':'Cliente'})
         arquivo_final['Conta'] = arquivo_final['Conta'].astype(str).str[:-2].apply(lambda x: '00'+x)
+        arquivo_final['Cliente'] = arquivo_final['Cliente'].str.slice(stop=16)
+        arquivo_final['Descricao'] = arquivo_final['Descricao'].str.slice(stop=50)
 
+   
         return arquivo_final
     
     def truncar_descricao(self,tabela,coluna,n_de_palvras):

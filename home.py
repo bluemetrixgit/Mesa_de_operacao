@@ -127,7 +127,7 @@ if selecionar == 'Comercial':
 
 
     arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Descricao',60)
-    arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Cliente',24)
+    #arquivo_final_truncado = cl.truncar_descricao(arquivo_final,'Cliente',24)
     compilado_de_operacoes = arquivo_final_truncado.drop(columns='UF').sort_values(by='Conta')
     
 
@@ -1212,7 +1212,6 @@ elif authenticator.login():
                                                     'Enquadramento'      :'Variação %'}).drop(columns='Ativo_Income')#.iloc[:,[ 0,1,17,14,15,13,11,2,3,8,9,10,4,12]]
             
             intermediacao_estrategia['Diferença R$ da carteira e valor ideal'] = ((intermediacao_estrategia['% Ideal da Posição']/100)*intermediacao_estrategia['PL Total'])-intermediacao_estrategia['Valor da posição na carteira']
-            print(intermediacao_estrategia.info())
             intermediacao_estrategia = intermediacao_estrategia.iloc[:,[0,1,17,2,3,4,13,6,7,8,5,9,10,11,12]]
 
             intermediacao_estrategia=intermediacao_estrategia[intermediacao_estrategia['Estratégia']==seletor_carteiras]

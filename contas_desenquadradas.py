@@ -178,6 +178,7 @@ class Contas_desenquadradas():
                                             self.posicao['Produto'].str.contains('LTN'))|(
                                                 self.posicao['Produto'].str.contains('LF'))
                             )]
+        
 
         self.posicao = self.posicao.groupby(['Conta','Estratégia'])['Valor Líquido'].sum().reset_index()
         pl_das_contas = self.posicao.groupby('Conta')['Valor Líquido'].sum().reset_index()
