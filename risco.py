@@ -34,18 +34,18 @@ class Risco():
         retornos = carteira.pct_change()
         retorno_da_carteira = (retornos*pesos_carteira).sum(axis=1)
 
-        self.retorno_portfolio = pd.DataFrame()
-        self.retorno_portfolio['Retornos'] = retorno_da_carteira
-        var_95 = round((np.nanpercentile(self.retorno_portfolio,5))*100, 2) 
+        self.retorno = pd.DataFrame()
+        self.retorno['Retornos'] = retorno_da_carteira
+        var_95 = round((np.nanpercentile(self.retorno,5))*100, 2) 
         st.write('O VAR pelo metodo historico da carteira para o período selecionado e :')
         st.warning(var_95)
         fig = go.Figure()
-        fig.add_trace(go.Histogram(x=self.retorno_portfolio['Retornos']))
+        fig.add_trace(go.Histogram(x=self.retorno['Retornos']))
         fig.update_layout(title ='Distribuição dos Retornos Carteira')
 
-        retorno_acumulado = round((((1+self.retorno_portfolio['Retornos']).cumprod())-1)*100,2)
+        retorno_acumulado = round((((1+self.retorno['Retornos']).cumprod())-1)*100,2)
         grafico_de_linha = go.Figure()
-        grafico_de_linha.add_trace(go.Scatter(x=self.retorno_portfolio.index,y=retorno_acumulado,mode='lines',name= 'Retorno Acumulado'))
+        grafico_de_linha.add_trace(go.Scatter(x=self.retorno.index,y=retorno_acumulado,mode='lines',name= 'Retorno Acumulado'))
         grafico_de_linha.update_traces(line=dict(color='#ADFF2F'))
         grafico_de_linha.update_layout(title='Retorno Acumulado ao Longo do Tempo')
        
@@ -68,33 +68,57 @@ class Risco():
 
         retorno_da_carteira = (retornos*pesos_carteira).sum(axis=1) 
 
-        self.retorno_portfolio = pd.DataFrame()
-        self.retorno_portfolio['Retornos'] = retorno_da_carteira
+        self.retorno = pd.DataFrame()
+        self.retorno['Retornos'] = retorno_da_carteira
 
-        var_95 = round((np.nanpercentile(self.retorno_portfolio,5))*100, 2) 
+        var_95 = round((np.nanpercentile(self.retorno,5))*100, 2) 
         st.write('O VAR pelo metodo historico da carteira para o período selecionado e :')
         st.warning(var_95)
         fig = go.Figure()
-        fig.add_trace(go.Histogram(x=self.retorno_portfolio['Retornos']))
+        fig.add_trace(go.Histogram(x=self.retorno['Retornos']))
         fig.update_layout(title ='Distribuição dos Retornos Carteira')
     
-        retorno_acumulado = round(((self.retorno_portfolio['Retornos']+1).cumprod()-1)*100,2)
+        retorno_acumulado = round(((self.retorno['Retornos']+1).cumprod()-1)*100,2)
 
         grafico_de_linha = go.Figure()
-        grafico_de_linha.add_trace(go.Scatter(x=self.retorno_portfolio.index,y=retorno_acumulado,mode='lines',name= 'Retorno Acumulado'))
+        grafico_de_linha.add_trace(go.Scatter(x=self.retorno.index,y=retorno_acumulado,mode='lines',name= 'Retorno Acumulado'))
         grafico_de_linha.update_traces(line=dict(color='#1E90FF'))
         grafico_de_linha.update_layout(title='Retorno Acumulado ao Longo do Tempo')
-       
+
+
+    def var_historico_single_stock(self,periodo_inicial,period_final,acoes):
+
+
+        lista_acoes = acoes
+        pesos_carteira = 1
+
+
+        carteira = yf.download(lista_acoes,start=periodo_inicial,end=period_final)['Adj Close']
+        retornos = carteira.pct_change()
+        retornos = pd.DataFrame(retornos)
+        
+
+        var_95 = round((np.nanpercentile(retornos,5))*100, 2) 
+        
+        st.write('O VAR pelo metodo historico da carteira para o período selecionado e :')
+        st.warning(var_95)
+
+        fig = go.Figure()
+        fig.add_trace(go.Histogram(x=retornos['Adj Close']))
+        fig.update_layout(title ='Distribuição dos Retornos Carteira')
+    
+        retorno_acumulado = round(((retornos['Adj Close']+1).cumprod()-1)*100,2)
+
+        grafico_de_linha = go.Figure()
+        grafico_de_linha.add_trace(go.Scatter(x=retornos.index,y=retorno_acumulado,mode='lines',name= 'Retorno Acumulado'))
+        grafico_de_linha.update_traces(line=dict(color='#1E90FF'))
+        grafico_de_linha.update_layout(title='Retorno Acumulado ao Longo do Tempo')
      
 
         st.plotly_chart(grafico_de_linha)        
        
         return st.plotly_chart(fig)
-
-
-
-
-    '''Monte carlo'''
+    
 
     def monte_carlo(self,dias):
             

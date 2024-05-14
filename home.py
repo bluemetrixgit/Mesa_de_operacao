@@ -975,23 +975,29 @@ elif authenticator.login():
                         lista_de_pesos_var.append(peso)
                 except:st.write('Preencha todos os campos de pesos')                
 
-            
-                if st.button('Rodar VAR'):   
-                    var_historico = rc.var_historico_simulacao(data_inicial_var_simulacao,data_final_var_simulacao,lista_de_acoes_var,lista_de_pesos_var)
-                st.text('')
-                st.text('')
-                st.text('')
-                st.text('')
-                st.text('')
-                st.text('')
-                st.text('')
-                st.text('')
-                st.text('')
-                st.text('')
-                st.text('')
-                st.text('')
-                st.text('')
-                st.subheader('Markovitz')
+                if st.toggle('Var carteira ou Var ação :',key='Var_single_stocK'):
+                    if st.button('Rodar VAR'):   
+                        var_historico = rc.var_historico_simulacao(data_inicial_var_simulacao,data_final_var_simulacao,lista_de_acoes_var,lista_de_pesos_var)
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.text('')
+                    st.subheader('Markovitz')
+                    
+                else:
+                    try:
+                        var_historico = rc.var_historico_single_stock(data_inicial_var_simulacao,data_final_var_simulacao,lista_de_acoes_var)
+                    except:
+                        pass
                 lista_de_acoes_mark = st.multiselect('Coloque os ativos para simulação:',options=lista_ativos_b3,key='Simulacao_mark')
                 lista_de_pesos_mark = []
                 try:
