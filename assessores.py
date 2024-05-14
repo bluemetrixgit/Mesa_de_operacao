@@ -121,7 +121,7 @@ class Comercial():
          'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
-      'Thiago Canabrava':'thiago.canabrava@bluemetrix.com.br',
+      'Thiago Canabrava':'thiagocanabrava99@gmail.com',
           'Matheus Vilar':'matheus.vilar@bluemetrix.com.br',
             'Gustavo Amorim':'gustavo.amorim@bluemetrix.com.br',
   'Guilherme Marques':'guilherme.marques@grupovoga.com',
@@ -132,7 +132,7 @@ class Comercial():
           'Felipe Rios':'felipe.rios@bluemetrix.com.br',
             'Rafael Vilela':'rafael.vilela@bluemetrix.com.br',
       'Alexandre Moraes Xavier':'alexandre.xavier@grupovoga.com',
-        'Luca Bueno':'luca.bueno@bluemetrix.com.br',
+        'Luca Bueno':'lucadiasbueno@gmail.com',
           'Norton Fritzsche':'norton@bluemetrix.com.br',
             'Fabrício Bonfim':'fabricio.bonfim@bluemetrix.com.br',
               'Pedro Vinicius Pereira De Andrade':'pedro.andrade@grupovoga.com',
@@ -147,7 +147,11 @@ class Comercial():
                   'Augusto Sampaio':'augusto.correia@bluemetrix.com.br',
                     'Alexandre Teixeira Campos':'alexandre.campos@grupovoga.com',
                      'Joney Alves ':'joney.alves@bluemetrix.com.br',
-                     'Acompanhamento de operações':'operacional@bluemetrix.com.br'
+                     'Acompanhamento de operações':'operacional@bluemetrix.com.br',
+                     'Acompanhamento de operações':'guilherme@bluemetrix.com.br',
+                     'Acompanhamento de operações':'orilene@bluemetrixasset.com',
+                     'Acompanhamento de operações':'norton@bluemetrixasset.com',
+
                      }
         
         email_assessor = lista_email_assessores.get(nome_assessor)
