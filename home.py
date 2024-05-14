@@ -168,7 +168,7 @@ if selecionar == 'Comercial':
             'Leandro Soares Lemos De Sousa':'',
                 'Bruno Ribeiro':'bruno@ligadosinvestimentos.com.br',
                   'Victor Caldeira':'victor.caldeira@bluemetrix.com.br',
-                'Caroline Facó Ehlers':'caroline.ehlers@grupovoga.com',
+                'Caroline Facó Ehlers':'caroline.faco@bluemetrix.com.br',
                   'Augusto Sampaio':'augusto.correia@bluemetrix.com.br',
                     'Alexandre Teixeira Campos':'alexandre.campos@grupovoga.com',
                      'Joney Alves ':'joney.alves@bluemetrix.com.br',
