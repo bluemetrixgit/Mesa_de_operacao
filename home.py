@@ -172,7 +172,10 @@ if selecionar == 'Comercial':
                   'Augusto Sampaio':'augusto.correia@bluemetrix.com.br',
                     'Alexandre Teixeira Campos':'alexandre.campos@grupovoga.com',
                      'Joney Alves ':'joney.alves@bluemetrix.com.br',
-                     'Acompanhamento de operações':'operacional@bluemetrix.com.br'
+                     'Acompanhamento de operações':'operacional@bluemetrix.com.br',
+                     'Acompanhamento de operações':'guilherme@bluemetrix.com.br',
+                     'Acompanhamento de operações':'orilene@bluemetrixasset.com',
+                     'Acompanhamento de operações':'norton@bluemetrixasset.com',
                      }
     
     dia_e_hora_pdf = datetime.datetime.now()-datetime.timedelta(days=1)
