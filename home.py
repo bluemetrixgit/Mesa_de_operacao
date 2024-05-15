@@ -124,12 +124,6 @@ if selecionar == 'Comercial':
     cl = Comercial()
     arquivo_final = cl.tratando_dados(ordens,acompanhamentos_de_assessores,controle_psicao,controle_co_admin)
 
-
-    ## ---- >> Previamente utilizado para retirar caracteres das colunas 'Clientes' e 'Descrição', porém o metodo itrrows estava trocando nomes de clientes para diferentes assessores e foi substituido no arquivo backend asssessores.py pelo metódo .slice. 
-    #arquivo_final = cl.truncar_descricao(arquivo_final,'Descricao',60)
-    #arquivo_final = cl.truncar_descricao(arquivo_final,'Cliente',24)
-
-
     compilado_de_operacoes = arquivo_final.drop(columns='UF').sort_values(by='Conta')
     
 
@@ -147,7 +141,7 @@ if selecionar == 'Comercial':
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
       'Thiago Canabrava':'thiagocanabrava99@gmail.com',
-          'Matheus Vilar':'matheus.vilar@bluemetrix.com.br',
+          'Matheus Vilar':'matheusmvilar@gmail.com',
             'Gustavo Amorim':'gustavo.amorim@bluemetrix.com.br',
   'Guilherme Marques':'guilherme.marques@grupovoga.com',
     'Rodrigo Milanez':'rodrigo.milanez@bluemetrix.com.br',

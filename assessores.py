@@ -122,7 +122,7 @@ class Comercial():
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
       'Thiago Canabrava':'thiagocanabrava99@gmail.com',
-          'Matheus Vilar':'matheus.vilar@bluemetrix.com.br',
+          'Matheus Vilar':'matheusmvilar@gmail.com',
             'Gustavo Amorim':'gustavo.amorim@bluemetrix.com.br',
   'Guilherme Marques':'guilherme.marques@grupovoga.com',
     'Rodrigo Milanez':'rodrigo.milanez@bluemetrix.com.br',
