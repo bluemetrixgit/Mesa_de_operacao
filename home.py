@@ -136,7 +136,7 @@ if selecionar == 'Comercial':
 
     assessores_lista_nomes = list(arquivo_final['Assessor'].unique())
 
-    lista_email_assessores = {#'Theo Ramos Moutinho':'laurotfl@gmail.com',
+    lista_email_assessores = {#'Theo Ramos Moutinho':'orilene@bluemetrix.com.br',
          'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
@@ -167,9 +167,8 @@ if selecionar == 'Comercial':
                     'Alexandre Teixeira Campos':'alexandre.campos@grupovoga.com',
                      'Joney Alves ':'joney.alves@bluemetrix.com.br',
                      'Acompanhamento de operações':'operacional@bluemetrix.com.br',
-                     'Acompanhamento de operações':'guilherme@bluemetrix.com.br',
-                     'Acompanhamento de operações':'orilene@bluemetrixasset.com',
-                     'Acompanhamento de operações':'norton@bluemetrixasset.com',
+                     'Acompanhamento de operações.':'guilherme@bluemetrix.com.br',
+
                      }
     
     dia_e_hora_pdf = datetime.datetime.now()-datetime.timedelta(days=1)
@@ -188,6 +187,13 @@ if selecionar == 'Comercial':
         email_assessor_comp = lista_email_assessores.get('Acompanhamento de operações')
         if email_assessor_comp:  
                     cl.enviar_email('Acompanhamento de operações', pdf_comp)
+
+        pdf_comp2 = cl.gerando_pdf('Acompanhamento de operações.',arquivo_final['Solicitada'].iloc[0],compilado_de_operacoes)
+        email_assessor_comp = lista_email_assessores.get('Acompanhamento de operações.')
+        if email_assessor_comp:  
+                    cl.enviar_email('Acompanhamento de operações.', pdf_comp2)
+                    
+
 
              
 
@@ -552,8 +558,6 @@ elif authenticator.login():
                 st.dataframe(bancos)    
             with col2 :
                 st.dataframe(produtos)
-
-
 
 
         if selecionar == 'Divisão de operadores':

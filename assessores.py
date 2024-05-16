@@ -117,7 +117,7 @@ class Comercial():
 
 
     def enviar_email(self,nome_assessor,nome_do_arquivo_pdf):
-        lista_email_assessores = {#'Theo Ramos Moutinho':'laurotfl@gmail.com',
+        lista_email_assessores = {#'Theo Ramos Moutinho':'orilene@bluemetrix.com.br',
          'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
@@ -148,10 +148,7 @@ class Comercial():
                     'Alexandre Teixeira Campos':'alexandre.campos@grupovoga.com',
                      'Joney Alves ':'joney.alves@bluemetrix.com.br',
                      'Acompanhamento de operações':'operacional@bluemetrix.com.br',
-                     'Acompanhamento de operações':'guilherme@bluemetrix.com.br',
-                     'Acompanhamento de operações':'orilene@bluemetrixasset.com',
-                     'Acompanhamento de operações':'norton@bluemetrixasset.com',
-
+                     'Acompanhamento de operações.':'guilherme@bluemetrix.com.br',
                      }
         
         email_assessor = lista_email_assessores.get(nome_assessor)
