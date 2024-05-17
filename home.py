@@ -168,7 +168,6 @@ if selecionar == 'Comercial':
                      'Joney Alves ':'joney.alves@bluemetrix.com.br',
                      'Acompanhamento de operações':'operacional@bluemetrix.com.br',
                      'Acompanhamento de operações.':'guilherme@bluemetrix.com.br',
-
                      }
     
     dia_e_hora_pdf = datetime.datetime.now()-datetime.timedelta(days=1)
