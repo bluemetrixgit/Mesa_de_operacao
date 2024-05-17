@@ -1,70 +1,15 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-05-15 14:52:17,4211368,Ilton Luis Guimaraes De Siqueira,PLCR11,Executada,Compra,36.0,36.0,,87.495,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515175104398779,,4211368,4211368
-2024-05-15 14:52:08,4211368,Ilton Luis Guimaraes De Siqueira,TRXF11,Executada,Compra,28.0,28.0,,109.29,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515175104398780,,4211368,4211368
-2024-05-15 14:52:04,4211368,Ilton Luis Guimaraes De Siqueira,MALL11,Executada,Compra,18.0,18.0,,113.09222222,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515175104398778,,4211368,4211368
-2024-05-15 14:51:58,4211368,Ilton Luis Guimaraes De Siqueira,HGLG11,Executada,Compra,34.0,34.0,,161.78735294,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515175104398776,,4211368,4211368
-2024-05-15 14:51:42,4211368,Ilton Luis Guimaraes De Siqueira,BTLG11,Executada,Compra,57.0,57.0,,101.98,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515175104398775,,4211368,4211368
-2024-05-15 14:51:04,4211368,Ilton Luis Guimaraes De Siqueira,KNCA11,Executada,Compra,15.0,15.0,,100.62,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515175104398777,,4211368,4211368
-2024-05-15 12:43:02,1090818,Maria Carmelita Dos Santos,BBSE3F,Executada,Compra,59.0,59.0,,34.22,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334353,,CNI,1090818
-2024-05-15 12:43:01,1090818,Maria Carmelita Dos Santos,ITSA4F,Executada,Venda,84.0,84.0,,10.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154301334374,,CNI,1090818
-2024-05-15 12:43:01,1090818,Maria Carmelita Dos Santos,ITSA4,Executada,Venda,4500.0,4500.0,,10.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154301334373,,CNI,1090818
-2024-05-15 12:43:01,1090818,Maria Carmelita Dos Santos,VIVT3F,Executada,Compra,71.0,71.0,,45.43,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154301334372,,CNI,1090818
-2024-05-15 12:43:01,1090818,Maria Carmelita Dos Santos,VIVT3,Executada,Compra,100.0,100.0,,45.37,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154301334371,,CNI,1090818
-2024-05-15 12:43:01,1090818,Maria Carmelita Dos Santos,VALE3F,Executada,Venda,45.0,45.0,,64.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154301334370,,CNI,1090818
-2024-05-15 12:43:01,1090818,Maria Carmelita Dos Santos,VALE3,Executada,Venda,200.0,200.0,,64.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154301334369,,CNI,1090818
-2024-05-15 12:43:01,1090818,Maria Carmelita Dos Santos,SLCE3F,Executada,Compra,60.0,60.0,,18.49,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154301334368,,CNI,1090818
-2024-05-15 12:43:01,1090818,Maria Carmelita Dos Santos,SLCE3,Executada,Compra,400.0,400.0,,18.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334366,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,PRIO3F,Executada,Compra,8.0,8.0,,46.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334365,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,PRIO3,Executada,Compra,200.0,200.0,,46.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334364,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,LEVE3F,Executada,Compra,49.0,49.0,,32.28,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334363,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,LEVE3,Executada,Compra,200.0,200.0,,32.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334362,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,KEPL3F,Executada,Compra,65.0,65.0,,10.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334361,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,KEPL3,Executada,Compra,900.0,900.0,,10.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334360,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,ITUB4F,Executada,Compra,57.0,57.0,,33.42,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334359,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,ITUB4,Executada,Compra,200.0,200.0,,33.41,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334358,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,HYPE3F,Executada,Compra,23.0,23.0,,30.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334357,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,HYPE3,Executada,Compra,300.0,300.0,,30.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334356,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,CPFE3F,Executada,Compra,15.0,15.0,,33.98,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334355,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,CPFE3,Executada,Compra,200.0,200.0,,33.97,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334354,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,BBSE3,Executada,Compra,200.0,200.0,,34.22,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334352,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,ASAI3F,Executada,Compra,41.0,41.0,,13.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334351,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,ASAI3,Executada,Compra,600.0,600.0,,13.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334350,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,ARZZ3F,Executada,Compra,64.0,64.0,,47.66,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334349,,CNI,1090818
-2024-05-15 12:43:00,1090818,Maria Carmelita Dos Santos,ARZZ3,Executada,Compra,100.0,100.0,,47.59,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515154300334348,,CNI,1090818
-2024-05-15 12:03:04,4749928,Nady Dequech,BBSE3F,Executada,Compra,28.0,28.0,,34.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311857,,6NA,4749928
-2024-05-15 12:02:59,5152037,Rodrigo De Biagi Lopes,VIVT3F,Rejeitada,Compra,3.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150259311880,,6NA,5152037
-2024-05-15 12:02:59,5152037,Rodrigo De Biagi Lopes,PRIO3F,Executada,Venda,35.0,35.0,,46.62,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150259311877,,6NA,5152037
-2024-05-15 12:02:59,5152037,Rodrigo De Biagi Lopes,VALE3F,Executada,Venda,23.0,23.0,,63.76,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150259311879,,6NA,5152037
-2024-05-15 12:02:59,5152037,Rodrigo De Biagi Lopes,SLCE3F,Executada,Venda,48.0,48.0,,18.49,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150259311878,,6NA,5152037
-2024-05-15 12:02:59,5152037,Rodrigo De Biagi Lopes,LEVE3F,Executada,Venda,4.0,4.0,,32.22,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150259311876,,6NA,5152037
-2024-05-15 12:02:59,5152037,Rodrigo De Biagi Lopes,KEPL3F,Executada,Venda,61.0,61.0,,10.06,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150259311875,,6NA,5152037
-2024-05-15 12:02:59,5152037,Rodrigo De Biagi Lopes,ITUB4F,Rejeitada,Compra,42.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150258311874,,6NA,5152037
-2024-05-15 12:02:58,5152037,Rodrigo De Biagi Lopes,HYPE3F,Executada,Venda,22.0,22.0,,30.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311873,,6NA,5152037
-2024-05-15 12:02:58,5152037,Rodrigo De Biagi Lopes,CPFE3F,Executada,Venda,11.0,11.0,,33.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311872,,6NA,5152037
-2024-05-15 12:02:58,5152037,Rodrigo De Biagi Lopes,BBSE3F,Executada,Venda,3.0,3.0,,34.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311871,,6NA,5152037
-2024-05-15 12:02:58,5152037,Rodrigo De Biagi Lopes,ASAI3F,Executada,Venda,48.0,48.0,,13.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311870,,6NA,5152037
-2024-05-15 12:02:58,5152037,Rodrigo De Biagi Lopes,ARZZ3F,Executada,Venda,7.0,7.0,,47.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311869,,6NA,5152037
-2024-05-15 12:02:58,4749928,Nady Dequech,VIVT3F,Executada,Compra,30.0,30.0,,45.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311867,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,VALE3F,Executada,Compra,6.0,6.0,,63.82,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311866,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,SLCE3F,Executada,Venda,41.0,41.0,,18.49,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311865,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,PRIO3F,Executada,Venda,8.0,8.0,,46.62,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311864,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,LEVE3F,Executada,Compra,27.0,27.0,,32.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311863,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,KEPL3F,Executada,Compra,26.0,26.0,,10.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311862,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,ITUB4F,Executada,Compra,3.0,3.0,,33.44,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311861,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,ITUB4,Executada,Compra,100.0,100.0,,33.41,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311860,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,HYPE3F,Executada,Compra,29.0,29.0,,30.18,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311859,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,CPFE3F,Executada,Compra,9.0,9.0,,33.97,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311858,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,ASAI3F,Executada,Compra,69.0,69.0,,13.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311856,,6NA,4749928
-2024-05-15 12:02:58,4749928,Nady Dequech,ARZZ3F,Executada,Compra,21.0,21.0,,47.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240515150258311855,,6NA,4749928
-2024-05-15 12:02:58,4313254,Gustavo Machado Amorim,VIVT3F,Rejeitada,Compra,11.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150258311851,,6NA,4313254
-2024-05-15 12:02:58,4313254,Gustavo Machado Amorim,VALE3F,Rejeitada,Compra,8.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150258311849,,6NA,4313254
-2024-05-15 12:02:58,4313254,Gustavo Machado Amorim,SLCE3F,Rejeitada,Compra,27.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150257311843,,6NA,4313254
-2024-05-15 12:02:57,4313254,Gustavo Machado Amorim,PRIO3F,Rejeitada,Compra,12.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150257311841,,6NA,4313254
-2024-05-15 12:02:57,4313254,Gustavo Machado Amorim,LEVE3F,Rejeitada,Compra,14.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150257311840,,6NA,4313254
-2024-05-15 12:02:57,4313254,Gustavo Machado Amorim,KEPL3F,Rejeitada,Compra,7.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150256311838,,6NA,4313254
-2024-05-15 12:02:56,4313254,Gustavo Machado Amorim,ITUB4F,Rejeitada,Compra,15.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150256311837,,6NA,4313254
-2024-05-15 12:02:56,4313254,Gustavo Machado Amorim,HYPE3F,Rejeitada,Compra,19.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150256311836,,6NA,4313254
-2024-05-15 12:02:56,4313254,Gustavo Machado Amorim,CPFE3F,Rejeitada,Compra,13.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150256311835,,6NA,4313254
-2024-05-15 12:02:56,4313254,Gustavo Machado Amorim,BBSE3F,Rejeitada,Compra,15.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150255311833,,6NA,4313254
-2024-05-15 12:02:55,4313254,Gustavo Machado Amorim,ASAI3F,Rejeitada,Compra,37.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150255311832,,6NA,4313254
-2024-05-15 12:02:55,4313254,Gustavo Machado Amorim,ARZZ3F,Rejeitada,Compra,11.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240515150255311831,,6NA,4313254
+2024-05-16 15:14:07,5171652,Bruno Henrique Borges Silva,ITUB4F,Executada,Compra,9.0,9.0,,33.3,Mercado,,Posição,BTG_TRADER,BVSP,Dia,,,,,,,20240516181357380573,,5171652,5171652
+2024-05-16 12:17:58,4996634,Hiroko Nishiwaki Yanigiharo,ASAI3F,Executada,Compra,30.0,30.0,,13.52966667,Limitada,13.53,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300484,,CNI,4996634
+2024-05-16 12:17:37,4996634,Hiroko Nishiwaki Yanigiharo,BBSE3F,Executada,Venda,3.0,3.0,,34.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300486,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,SLCE3F,Executada,Compra,7.0,7.0,,18.33,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300495,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,PRIO3F,Executada,Compra,4.0,4.0,,47.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300494,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,LEVE3F,Executada,Venda,9.0,9.0,,32.77,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300493,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,LEVE3,Executada,Venda,100.0,100.0,,32.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300492,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,KEPL3F,Executada,Venda,9.0,9.0,,10.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300491,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,ITUB4F,Executada,Compra,10.0,10.0,,33.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300490,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,ITUB4,Executada,Compra,100.0,100.0,,33.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300489,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,CPFE3F,Executada,Venda,40.0,40.0,,34.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300488,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,CPFE3,Executada,Venda,100.0,100.0,,34.28,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300487,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,BBSE3,Executada,Venda,100.0,100.0,,34.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300485,,CNI,4996634
+2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,ARZZ3F,Executada,Compra,7.0,7.0,,48.18,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300483,,CNI,4996634
