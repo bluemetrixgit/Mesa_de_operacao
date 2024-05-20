@@ -1191,7 +1191,7 @@ elif authenticator.login():
                                                                                                                             [ 0,1,2]]
 
             st.subheader(' conta base de calculo para retirar produtos')
-            st.dataframe(r_produtos)
+            #st.dataframe(r_produtos)
 
 
 
@@ -1203,27 +1203,27 @@ elif authenticator.login():
             seletor_operados = st.sidebar.selectbox("Operador :",options=encontrando_contas_desenquadradas['Operador'].unique())
             seletor_carteiras = st.sidebar.selectbox("Estratégia :",options=encontrando_contas_desenquadradas['Estratégia'].unique())
 
-            st.subheader('Contas para intermediação')
-            if st.toggle('Remover CRI, CRA, Debenture',key='Remv_cri'):
-                intermediacao = inciando_programa.rem_cri_cra_intermediacao_lendo_e_tratando_arquivos(controle_psicao,posicao_original)
-            else:
-                intermediacao = inciando_programa.intermediacao_lendo_e_tratando_arquivos(controle_psicao,posicao_original)    
+            # st.subheader('Contas para intermediação')
+            # if st.toggle('Remover CRI, CRA, Debenture',key='Remv_cri'):
+            #     intermediacao = inciando_programa.rem_cri_cra_intermediacao_lendo_e_tratando_arquivos(controle_psicao,posicao_original)
+            # else:
+            #     intermediacao = inciando_programa.intermediacao_lendo_e_tratando_arquivos(controle_psicao,posicao_original)    
 
-            intermediacao_estrategia = inciando_programa.criando_dfs_e_checando_enquadramento(intermediacao,10)
-            intermediacao_estrategia = intermediacao_estrategia.merge(r_produtos,on=['Conta','Estratégia'],how='outer').iloc[:,[ 0,1,17,14,15,13,11,2,3,8,9,10,4,12]]
-            print(intermediacao_estrategia.info())
-            st.dataframe(intermediacao_estrategia)
-            intermediacao_estrategia = intermediacao_estrategia.rename(columns={'Valor Líquido_x':'Valor da posição na carteira',
-                                                    'Valor Líquido_y'    :  'PL Total',
-                                                    'Posicao Porcentagem':'% da Posição na Carteira',
-                                                    'Proporção'          :'% Ideal da Posição',
-                                                    'Enquadramento'      :'Variação %'}).drop(columns='Ativo_Income')#.iloc[:,[ 0,1,17,14,15,13,11,2,3,8,9,10,4,12]]
+            # intermediacao_estrategia = inciando_programa.criando_dfs_e_checando_enquadramento(intermediacao,10)
+            # intermediacao_estrategia = intermediacao_estrategia.merge(r_produtos,on=['Conta','Estratégia'],how='outer').iloc[:,[ 0,1,17,14,15,13,11,2,3,8,9,10,4,12]]
+            # print(intermediacao_estrategia.info())
+            # st.dataframe(intermediacao_estrategia)
+            # intermediacao_estrategia = intermediacao_estrategia.rename(columns={'Valor Líquido_x':'Valor da posição na carteira',
+            #                                         'Valor Líquido_y'    :  'PL Total',
+            #                                         'Posicao Porcentagem':'% da Posição na Carteira',
+            #                                         'Proporção'          :'% Ideal da Posição',
+            #                                         'Enquadramento'      :'Variação %'}).drop(columns='Ativo_Income')#.iloc[:,[ 0,1,17,14,15,13,11,2,3,8,9,10,4,12]]
             
-            intermediacao_estrategia['Diferença R$ da carteira e valor ideal'] = ((intermediacao_estrategia['% Ideal da Posição']/100)*intermediacao_estrategia['PL Total'])-intermediacao_estrategia['Valor da posição na carteira']
-            intermediacao_estrategia = intermediacao_estrategia.iloc[:,[0,1,17,2,3,4,13,6,7,8,5,9,10,11,12]]
+            # intermediacao_estrategia['Diferença R$ da carteira e valor ideal'] = ((intermediacao_estrategia['% Ideal da Posição']/100)*intermediacao_estrategia['PL Total'])-intermediacao_estrategia['Valor da posição na carteira']
+            # intermediacao_estrategia = intermediacao_estrategia.iloc[:,[0,1,17,2,3,4,13,6,7,8,5,9,10,11,12]]
 
-            intermediacao_estrategia=intermediacao_estrategia[intermediacao_estrategia['Estratégia']==seletor_carteiras]
-            st.dataframe(intermediacao_estrategia)
+            # intermediacao_estrategia=intermediacao_estrategia[intermediacao_estrategia['Estratégia']==seletor_carteiras]
+            # st.dataframe(intermediacao_estrategia)
 
             st.text('')
             st.text('')
