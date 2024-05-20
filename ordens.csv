@@ -1,15 +1,1 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-05-16 15:14:07,5171652,Bruno Henrique Borges Silva,ITUB4F,Executada,Compra,9.0,9.0,,33.3,Mercado,,Posição,BTG_TRADER,BVSP,Dia,,,,,,,20240516181357380573,,5171652,5171652
-2024-05-16 12:17:58,4996634,Hiroko Nishiwaki Yanigiharo,ASAI3F,Executada,Compra,30.0,30.0,,13.52966667,Limitada,13.53,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300484,,CNI,4996634
-2024-05-16 12:17:37,4996634,Hiroko Nishiwaki Yanigiharo,BBSE3F,Executada,Venda,3.0,3.0,,34.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300486,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,SLCE3F,Executada,Compra,7.0,7.0,,18.33,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300495,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,PRIO3F,Executada,Compra,4.0,4.0,,47.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300494,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,LEVE3F,Executada,Venda,9.0,9.0,,32.77,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300493,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,LEVE3,Executada,Venda,100.0,100.0,,32.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300492,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,KEPL3F,Executada,Venda,9.0,9.0,,10.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300491,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,ITUB4F,Executada,Compra,10.0,10.0,,33.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300490,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,ITUB4,Executada,Compra,100.0,100.0,,33.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300489,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,CPFE3F,Executada,Venda,40.0,40.0,,34.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300488,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,CPFE3,Executada,Venda,100.0,100.0,,34.28,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300487,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,BBSE3,Executada,Venda,100.0,100.0,,34.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300485,,CNI,4996634
-2024-05-16 12:17:36,4996634,Hiroko Nishiwaki Yanigiharo,ARZZ3F,Executada,Compra,7.0,7.0,,48.18,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240516151736300483,,CNI,4996634
