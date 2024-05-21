@@ -1,1 +1,85 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
+2024-05-20 15:14:15,4254210,Marco Rafael Dos Remedios Evangelista,ENEV3F,Executada,Venda,12.0,12.0,,12.72,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411869373065,1e4ce521d890462ebe3c356094bceb3b,6NA,4254210
+2024-05-20 15:14:14,4254210,Marco Rafael Dos Remedios Evangelista,VIVT3F,Executada,Compra,34.0,34.0,,45.93294118,Limitada,46.01,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386976,744c472c07584ac5a4d134f505307aca,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,KEPL3F,Executada,Compra,72.0,72.0,,10.13,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386982,eb04a0f9826346a1907ba392fe753fa4,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,PRIO3F,Executada,Compra,95.0,95.0,,47.65,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829051945080,8d4d079577d44a38a7f1667cde9bf674,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,PRIO3,Executada,Compra,100.0,100.0,,47.63,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829051945077,041a20b86e064db98d424102fdef9f1d,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,ARZZ3,Executada,Compra,100.0,100.0,,49.66,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386996,c884ef9f0333414e8776708e95d35844,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,ASAI3F,Executada,Compra,57.0,57.0,,13.51,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386995,9e7715c077ba4ac1a480442f7d5c20c5,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,ASAI3,Executada,Compra,200.0,200.0,,13.49,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386994,571acc7d9a06452496d54deee617aec9,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,BBSE3F,Executada,Compra,59.0,59.0,,33.73,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386986,be10dfc24bfb415bb1479cf5c76c0b7b,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,BBSE3,Executada,Compra,200.0,200.0,,33.7,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386985,cea538ff3b63435c88976bbdd269290e,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,CPFE3F,Executada,Compra,90.0,90.0,,34.16,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411869373073,97d62bdb24d1400d85764008ec905eb1,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,HYPE3F,Executada,Venda,47.0,47.0,,30.81,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386984,8047dd25399848c597587b51c0db0148,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,KEPL3,Executada,Compra,600.0,600.0,,10.12,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386980,677f9153a054444c9064e1ddd594aa70,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,LEVE3F,Executada,Compra,36.0,36.0,,33.14,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411869373072,a0e11046fa514e23ba711869e04149e3,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,LEVE3,Executada,Compra,200.0,200.0,,33.12,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411869373071,d9cbad80060840569445b6262e314eab,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,ITUB4F,Executada,Compra,1.0,1.0,,33.16,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905362005306,e375dacf3570441fa7ae4727b3cc1299,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,ITUB4,Executada,Compra,1000.0,1000.0,,33.15,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905362005305,dcce4d08833d40758df35a146b150f29,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,SLCE3F,Executada,Venda,2.0,2.0,,18.52,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386977,c392e7b400604a3abe84b54771fe8da9,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,VALE3F,Executada,Compra,15.0,15.0,,66.02,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807303131103,f110433b116a415b9ab7761544a2c0cb,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,VIVT3,Executada,Compra,200.0,200.0,,45.93,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386969,4999ad979bdd4b76b6d1c4c8b87e432b,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,HBSA3F,Executada,Venda,8.0,8.0,,4.05,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386968,2f6a62443bd44c8ca55b6d2c4dda4f72,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,JALL3F,Executada,Compra,78.0,78.0,,6.91,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386966,c0e663c1e84842679bb257762f180011,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,KEPL3F,Executada,Compra,46.0,46.0,,10.13,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386965,95556251ee664bfdad61df3ef3717ab4,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,KEPL3,Executada,Compra,600.0,600.0,,10.12,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386964,fd76814027ba4612a462ec52ea9bce87,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,MYPK3F,Executada,Compra,86.0,86.0,,11.13,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411869373064,c7c56ef12e6748cf8702e7be562db655,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,PRIO3F,Executada,Compra,51.0,51.0,,47.65,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829051945035,38ef88e438a449c1bc321eb8449498ac,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,PRIO3,Executada,Compra,100.0,100.0,,47.63,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829051945034,4ca8e29ee8e949ec98b104c3e5347b5c,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,SIMH3F,Executada,Compra,14.0,14.0,,6.38,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386959,503db612e6ea45dba130d8dd8388e14e,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,WIZC3F,Executada,Compra,58.0,58.0,,6.57,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386952,c0e52f3b88874cbb96abbfe4d12a5ec1,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,SIMH3,Executada,Compra,100.0,100.0,,6.37,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386955,15067dc4e0534e95b39493c194a5cde1,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,TASA4F,Executada,Compra,79.0,79.0,,11.33,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610671386953,12acecdb74f4416fb0a91560d810e206,6NA,4254210
+2024-05-20 15:14:01,4254210,Marco Rafael Dos Remedios Evangelista,TUPY3F,Executada,Compra,63.0,63.0,,24.02,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411869373059,8103573a413b40eaa8dba7b8cdd2d523,6NA,4254210
+2024-05-20 12:54:55,5190138,Ana Maria Pacheco Keremian,BITH11,Executada,Compra,91.0,91.0,,79.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520155415316376,,03Q,5190138
+2024-05-20 11:32:03,4230529,Lais Loureiro Braga Donzelli,PRIO3F,Executada,Venda,53.0,53.0,,47.98566038,Limitada,47.92,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267402,,6NA,4230529
+2024-05-20 11:31:43,5135281,Rafael Guerzoni,ITUB4F,Executada,Compra,90.0,90.0,,33.33,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267414,,6NA,5135281
+2024-05-20 11:30:58,4230529,Lais Loureiro Braga Donzelli,HYPE3F,Executada,Venda,81.0,81.0,,30.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267397,,6NA,4230529
+2024-05-20 11:30:37,4948033,Guilherme De Macedo Soares,ARZZ3F,Executada,Compra,16.0,16.0,,49.565,Limitada,49.62,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267367,,6NA,4948033
+2024-05-20 11:30:36,5135281,Rafael Guerzoni,BBSE3F,Executada,Compra,27.0,27.0,,33.68,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267411,,6NA,5135281
+2024-05-20 11:30:27,4948033,Guilherme De Macedo Soares,PRIO3F,Executada,Compra,11.0,11.0,,48.00181818,Limitada,48.08,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267375,,6NA,4948033
+2024-05-20 11:30:18,4230529,Lais Loureiro Braga Donzelli,ARZZ3F,Executada,Venda,43.0,43.0,,49.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267392,,6NA,4230529
+2024-05-20 11:30:08,4230529,Lais Loureiro Braga Donzelli,ASAI3F,Executada,Venda,61.0,61.0,,13.65,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267394,,6NA,4230529
+2024-05-20 11:30:06,5135281,Rafael Guerzoni,VIVT3F,Executada,Compra,25.0,25.0,,46.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267420,,6NA,5135281
+2024-05-20 11:30:06,5135281,Rafael Guerzoni,VALE3F,Executada,Compra,6.0,6.0,,66.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267419,,6NA,5135281
+2024-05-20 11:30:06,5135281,Rafael Guerzoni,KEPL3F,Executada,Compra,59.0,59.0,,10.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267415,,6NA,5135281
+2024-05-20 11:30:06,5135281,Rafael Guerzoni,SLCE3F,Executada,Compra,12.0,12.0,,18.55,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267418,,6NA,5135281
+2024-05-20 11:30:06,5135281,Rafael Guerzoni,PRIO3F,Executada,Compra,3.0,3.0,,48.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267417,,6NA,5135281
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,ITUB4F,Executada,Venda,66.0,66.0,,33.33,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267398,,6NA,4230529
+2024-05-20 11:30:06,5135281,Rafael Guerzoni,LEVE3F,Executada,Compra,25.0,25.0,,32.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267416,,6NA,5135281
+2024-05-20 11:30:06,5135281,Rafael Guerzoni,HYPE3F,Executada,Compra,18.0,18.0,,30.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267413,,6NA,5135281
+2024-05-20 11:30:06,5135281,Rafael Guerzoni,CPFE3F,Executada,Compra,10.0,10.0,,34.28,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267412,,6NA,5135281
+2024-05-20 11:30:06,5135281,Rafael Guerzoni,ASAI3F,Executada,Compra,45.0,45.0,,13.65,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267410,,6NA,5135281
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,VIVT3F,Executada,Venda,47.0,47.0,,46.17,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267406,,6NA,4230529
+2024-05-20 11:30:06,5135281,Rafael Guerzoni,ARZZ3F,Executada,Compra,19.0,19.0,,49.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267409,,6NA,5135281
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,VALE3F,Executada,Venda,52.0,52.0,,66.36,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267405,,6NA,4230529
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,SLCE3F,Executada,Venda,17.0,17.0,,18.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267404,,6NA,4230529
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,SLCE3,Executada,Venda,100.0,100.0,,18.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267403,,6NA,4230529
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,PRIO3F,Executada,Compra,13.0,13.0,,48.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267387,,6NA,4332783
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,LEVE3F,Executada,Venda,62.0,62.0,,32.86,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267401,,6NA,4230529
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,KEPL3F,Executada,Venda,45.0,45.0,,9.97,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267400,,6NA,4230529
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,KEPL3,Executada,Venda,200.0,200.0,,9.98,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267399,,6NA,4230529
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,CPFE3F,Executada,Venda,56.0,56.0,,34.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267396,,6NA,4230529
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,BBSE3F,Executada,Venda,66.0,66.0,,33.67,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267395,,6NA,4230529
+2024-05-20 11:30:06,4230529,Lais Loureiro Braga Donzelli,ASAI3,Executada,Venda,100.0,100.0,,13.65,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267393,,6NA,4230529
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,ARZZ3F,Executada,Compra,13.0,13.0,,49.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267379,,6NA,4332783
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,VIVT3F,Executada,Compra,12.0,12.0,,46.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267390,,6NA,4332783
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,VALE3F,Executada,Compra,13.0,13.0,,66.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267389,,6NA,4332783
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,SLCE3F,Executada,Compra,31.0,31.0,,18.55,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267388,,6NA,4332783
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,LEVE3F,Executada,Compra,16.0,16.0,,32.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267386,,6NA,4332783
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,KEPL3F,Executada,Compra,68.0,68.0,,10.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267385,,6NA,4332783
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,ITUB4F,Executada,Compra,16.0,16.0,,33.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267384,,6NA,4332783
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,HYPE3F,Executada,Compra,22.0,22.0,,30.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267383,,6NA,4332783
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,CPFE3F,Executada,Compra,11.0,11.0,,34.28,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267382,,6NA,4332783
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,BBSE3F,Executada,Compra,15.0,15.0,,33.68,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267381,,6NA,4332783
+2024-05-20 11:30:06,4332783,Iron Luiz Gomes Dos Reis,ASAI3F,Executada,Compra,40.0,40.0,,13.66,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267380,,6NA,4332783
+2024-05-20 11:30:06,4948033,Guilherme De Macedo Soares,VIVT3F,Executada,Compra,13.0,13.0,,46.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267378,,6NA,4948033
+2024-05-20 11:30:06,4948033,Guilherme De Macedo Soares,VALE3F,Executada,Compra,8.0,8.0,,66.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267377,,6NA,4948033
+2024-05-20 11:30:06,4948033,Guilherme De Macedo Soares,SLCE3F,Executada,Compra,34.0,34.0,,18.55,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267376,,6NA,4948033
+2024-05-20 11:30:06,4948033,Guilherme De Macedo Soares,LEVE3F,Executada,Compra,11.0,11.0,,32.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267374,,6NA,4948033
+2024-05-20 11:30:06,4948033,Guilherme De Macedo Soares,KEPL3F,Executada,Compra,73.0,73.0,,10.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267373,,6NA,4948033
+2024-05-20 11:30:06,4948033,Guilherme De Macedo Soares,ITUB4F,Executada,Compra,16.0,16.0,,33.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267372,,6NA,4948033
+2024-05-20 11:30:06,4948033,Guilherme De Macedo Soares,HYPE3F,Executada,Compra,19.0,19.0,,30.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267371,,6NA,4948033
+2024-05-20 11:30:06,4948033,Guilherme De Macedo Soares,CPFE3F,Executada,Compra,9.0,9.0,,34.28,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267370,,6NA,4948033
+2024-05-20 11:30:06,4948033,Guilherme De Macedo Soares,BBSE3F,Executada,Compra,9.0,9.0,,33.68,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267369,,6NA,4948033
+2024-05-20 11:30:06,4948033,Guilherme De Macedo Soares,ASAI3F,Executada,Compra,36.0,36.0,,13.66,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240520143006267368,,6NA,4948033
