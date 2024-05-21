@@ -570,7 +570,7 @@ elif authenticator.login():
 
                 arquivo1 = Divisao_de_contas()
                 arquivo_compilado = arquivo1.limpando_dados(controle=controle_2,saldo=saldo_original1,pl=pl_original1)
-                arquivo_novas_contas = arquivo1.novas_contas(controle_novas=controle_novas,saldo=saldo,pl=pl)
+                arquivo_novas_contas = arquivo1.novas_contas(controle_novas=controle_novas,saldo=saldo,pl=pl,controle_btg=controle_2)
 
                 filtrando_saldo_1 = arquivo1.filtrando_dados_e_separando_operadores(arquivo_compilado=arquivo_compilado,co_admin=co_admin)
                 ler_arquivos = Carteiras_co_admin()            

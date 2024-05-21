@@ -66,18 +66,25 @@ class Divisao_de_contas():
 
         return self.arquivo_compilado
     
-    def novas_contas(self,controle_novas,saldo,pl):
+    def novas_contas(self,controle_novas,saldo,pl,controle_btg):
         self.controle_novas_contas = controle_novas
         self.saldo = saldo
         self.pl =  pl
+        self.controle_btg = controle_btg
 
-        self.controle_novas_contas['Conta'] = self.controle_novas_contas['Conta'].astype(str)#.apply(lambda x: '00'+x).str[:-2]
+ 
+        self.controle_novas_contas = self.controle_novas_contas.loc[self.controle_novas_contas['Observações'] == 'Cancelado ']
+        self.controle_btg['Conta'] = self.controle_btg['Conta'].astype(str).str[:-2].apply(lambda x: '00'+x)
+        self.controle_novas_contas['Conta'] = self.controle_novas_contas['Conta'].astype(str)
         self.saldo = saldo.iloc[:,[0,2]]
         self.pl = pl.iloc[:,[0,2]]
+
         contas_novas = list(self.controle_novas_contas['Conta'])
         self.arquivo_compilado = pd.merge(self.saldo,self.pl,on='Conta',how='outer').merge(self.controle_novas_contas,on='Conta',how='outer').iloc[:,[0,3,1,5,6,7,8,9,10,2,4]]
         self.arquivo_compilado = self.arquivo_compilado[self.arquivo_compilado['Conta'].isin(contas_novas)]
         self.arquivo_compilado = self.arquivo_compilado[self.arquivo_compilado['Saldo'].notnull()]
+        self.arquivo_compilado = self.arquivo_compilado[~self.arquivo_compilado['Conta'].isin(list(self.controle_btg['Conta']))]
+
         return self.arquivo_compilado       
 
 
