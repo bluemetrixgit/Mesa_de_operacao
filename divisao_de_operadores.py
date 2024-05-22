@@ -78,7 +78,7 @@ class Divisao_de_contas():
         self.controle_novas_contas['Conta'] = self.controle_novas_contas['Conta'].astype(str)
         self.saldo = saldo.iloc[:,[0,2]]
         self.pl = pl.iloc[:,[0,2]]
-
+        
         contas_novas = list(self.controle_novas_contas['Conta'])
         self.arquivo_compilado = pd.merge(self.saldo,self.pl,on='Conta',how='outer').merge(self.controle_novas_contas,on='Conta',how='outer').iloc[:,[0,3,1,5,6,7,8,9,10,2,4]]
         self.arquivo_compilado = self.arquivo_compilado[self.arquivo_compilado['Conta'].isin(contas_novas)]
