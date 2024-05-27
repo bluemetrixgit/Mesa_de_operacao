@@ -67,7 +67,7 @@ if __name__=='__main__':
     st.subheader('Arquivo Final')
     st.dataframe(planilha)
 
-    planilha.to_excel('Dados comercial.xlsx')
+    #planilha.to_excel('Dados comercial.xlsx')
 
 
 

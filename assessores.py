@@ -116,8 +116,8 @@ class Comercial():
 
 
 
-    def enviar_email(self,nome_assessor,nome_do_arquivo_pdf):
-        lista_email_assessores = {#'Theo Ramos Moutinho':'orilene@bluemetrix.com.br',
+    def enviar_email(self,nome_assessor,nome_do_arquivo_pdf,dia_e_hora_pdf):
+        lista_email_assessores = {#'Theo Ramos Moutinho':'laurotfl@gmail.com',
          'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
@@ -156,7 +156,7 @@ class Comercial():
         Operações
         """
         msg = MIMEMultipart()
-        msg['Subject'] = f'Operações Clientes - {nome_assessor} - {dia_e_hora}'
+        msg['Subject'] = f'Operações Clientes - {nome_assessor} - {dia_e_hora_pdf}'
         msg['From'] = 'lauro.bluemetrix@gmail.com'
         msg['To'] = email_assessor
         password = 'dlthvrayjsecacbt'

@@ -136,7 +136,7 @@ if selecionar == 'Comercial':
 
     assessores_lista_nomes = list(arquivo_final['Assessor'].unique())
 
-    lista_email_assessores = {#'Theo Ramos Moutinho':'orilene@bluemetrix.com.br',
+    lista_email_assessores = {#'Theo Ramos Moutinho':'laurotfl@gmail.com',
          'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
@@ -178,19 +178,19 @@ if selecionar == 'Comercial':
                 gerar_pdf = cl.gerando_pdf(assessor,arquivo_final['Solicitada'].iloc[0],tabela_assessor)
                 email_assessor = lista_email_assessores.get(assessor)
                 if email_assessor:  
-                    cl.enviar_email(assessor, gerar_pdf)
+                    cl.enviar_email(assessor, gerar_pdf,arquivo_final['Solicitada'].iloc[0])
                 else:
                     st.warning(f'E-mail do assessor {assessor} não encontrado.')
 
         pdf_comp = cl.gerando_pdf('Acompanhamento de operações',arquivo_final['Solicitada'].iloc[0],compilado_de_operacoes)
         email_assessor_comp = lista_email_assessores.get('Acompanhamento de operações')
         if email_assessor_comp:  
-                    cl.enviar_email('Acompanhamento de operações', pdf_comp)
+                    cl.enviar_email('Acompanhamento de operações', pdf_comp,arquivo_final['Solicitada'].iloc[0])
 
         pdf_comp2 = cl.gerando_pdf('Acompanhamento de operações.',arquivo_final['Solicitada'].iloc[0],compilado_de_operacoes)
         email_assessor_comp = lista_email_assessores.get('Acompanhamento de operações.')
         if email_assessor_comp:  
-                    cl.enviar_email('Acompanhamento de operações.', pdf_comp2)
+                    cl.enviar_email('Acompanhamento de operações.', pdf_comp2,arquivo_final['Solicitada'].iloc[0])
                     
 
 
