@@ -1,14 +1,13 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-05-24 12:22:32,4940560,Cristiano Augusto Andrade De Resende,ONCO3,Executada,Venda,2000.0,2000.0,,8.98,Mercado,,Posição,BTG_TRADER,BVSP,Dia,,,,,,,20240524152232305118,,4940560,4940560
-2024-05-24 11:44:10,4460491,Pedro Guilherme Ramos Goya,BTLG11,Executada,Compra,7.0,7.0,,101.05,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411894536571,fc23a7a7d76843da80b36fe79f7b956a,6NA,4460491
-2024-05-24 11:44:10,4460491,Pedro Guilherme Ramos Goya,KNCA11,Executada,Compra,12.0,12.0,,100.78,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610697490800,5b77b9a2faae46a0809dbe9db2dca49a,6NA,4460491
-2024-05-24 11:44:10,4460491,Pedro Guilherme Ramos Goya,HGLG11,Executada,Compra,6.0,6.0,,161.75,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411894536569,ac65d07c228c4a93bba8e7010c71d312,6NA,4460491
-2024-05-24 11:44:10,4460491,Pedro Guilherme Ramos Goya,MALL11,Executada,Compra,11.0,11.0,,111.74,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411894536567,e3d3f77c42fc41cea9ccd9fae0a1237a,6NA,4460491
-2024-05-24 11:44:10,4460491,Pedro Guilherme Ramos Goya,PLCR11,Executada,Compra,10.0,10.0,,88.39,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411894536566,bf383975c3da41129d37a380120daf08,6NA,4460491
-2024-05-24 11:44:10,4460491,Pedro Guilherme Ramos Goya,TRXF11,Executada,Compra,8.0,8.0,,109.05,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411894536565,dc3725b738dd400aa10ae14752314dd6,6NA,4460491
-2024-05-24 11:35:53,4237325,Ricardo Jose Lacerda Prudencio,BTLG11,Executada,Compra,35.0,35.0,,101.12,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411894399457,1792560a1b5247e78857e8701bbbdb14,6NA,4237325
-2024-05-24 11:35:53,4237325,Ricardo Jose Lacerda Prudencio,HGLG11,Executada,Compra,21.0,21.0,,161.8,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411894399456,e26ffbb3d884463b9aced8becdc32485,6NA,4237325
-2024-05-24 11:35:53,4237325,Ricardo Jose Lacerda Prudencio,KNCA11,Executada,Compra,11.0,11.0,,100.7,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610697364912,111852de6069490bbf687afe461fe2bf,6NA,4237325
-2024-05-24 11:35:53,4237325,Ricardo Jose Lacerda Prudencio,TRXF11,Executada,Compra,19.0,19.0,,109.08,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411894399439,861aedb06dc94d9fb15555fcd963d77c,6NA,4237325
-2024-05-24 11:35:53,4237325,Ricardo Jose Lacerda Prudencio,MALL11,Executada,Compra,11.0,11.0,,111.98,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411894399441,6ff495f1be4a4be38ec716c74baf54d3,6NA,4237325
-2024-05-24 11:35:53,4237325,Ricardo Jose Lacerda Prudencio,PLCR11,Executada,Compra,23.0,23.0,,88.4,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8411894399440,c8eabd6ffc1046e4b789bc84c1cf1ef0,6NA,4237325
+2024-05-27 12:10:25,4508159,Felipe Costa Tamer,ASAI3F,Executada,Compra,49.0,49.0,,13.04061224,Limitada,13.05,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280343,,CNI,4508159
+2024-05-27 12:10:07,4508159,Felipe Costa Tamer,ARZZ3F,Executada,Compra,14.0,14.0,,51.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280342,,CNI,4508159
+2024-05-27 12:09:48,4508159,Felipe Costa Tamer,VIVT3F,Executada,Compra,14.0,14.0,,45.77,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280353,,CNI,4508159
+2024-05-27 12:09:48,4508159,Felipe Costa Tamer,VALE3F,Executada,Compra,10.0,10.0,,65.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280352,,CNI,4508159
+2024-05-27 12:09:48,4508159,Felipe Costa Tamer,SLCE3F,Executada,Venda,3.0,3.0,,18.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280351,,CNI,4508159
+2024-05-27 12:09:48,4508159,Felipe Costa Tamer,PRIO3F,Executada,Compra,6.0,6.0,,43.59,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280350,,CNI,4508159
+2024-05-27 12:09:48,4508159,Felipe Costa Tamer,LEVE3F,Executada,Compra,17.0,17.0,,32.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280349,,CNI,4508159
+2024-05-27 12:09:48,4508159,Felipe Costa Tamer,ITUB4F,Executada,Compra,60.0,60.0,,31.76,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280347,,CNI,4508159
+2024-05-27 12:09:48,4508159,Felipe Costa Tamer,KEPL3F,Executada,Compra,20.0,20.0,,9.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280348,,CNI,4508159
+2024-05-27 12:09:48,4508159,Felipe Costa Tamer,HYPE3F,Executada,Compra,25.0,25.0,,30.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280346,,CNI,4508159
+2024-05-27 12:09:48,4508159,Felipe Costa Tamer,CPFE3F,Executada,Compra,4.0,4.0,,34.99,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280345,,CNI,4508159
+2024-05-27 12:09:48,4508159,Felipe Costa Tamer,BBSE3F,Executada,Compra,20.0,20.0,,32.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240527150948280344,,CNI,4508159
