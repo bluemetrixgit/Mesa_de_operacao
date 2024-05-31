@@ -178,3 +178,84 @@ class Comercial():
         print('email enviado')
 
 
+
+    def gerando_pdf_rel_estado(self,UF,tabela):
+        filename = f'relatorio__{UF}__.pdf'
+
+
+        doc = SimpleDocTemplate(filename, pagesize=letter,topMargin=25)
+        story = []
+
+
+        img_path = "LOGO_BLUEMETRIX_VERTICAL jpg.jpg"
+        img = Image(img_path, width=250, height=200)
+        story.append(img)
+
+
+        styles = getSampleStyleSheet()
+        assessor_text = f'<b>UF :</b> {UF}'
+
+        story.append(Paragraph(assessor_text, styles["Normal"]))
+
+        table_style = [('GRID', (0, 0), (-1, -1), 1, 'grey'),
+                ('FONTNAME', (0, 0), (-1, -1), 'Helvetica'),
+                ('FONTSIZE', (0, 0), (-1, -1), 8.5),
+                ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+                ('WORDWRAP', (0, 0), (-1, -1)),
+                ('COLWIDTHS', (0, 0), (-1, -1), [2.2*inch, 2.2*inch, 3.4*inch, 2.2*inch, 1.5*inch, 2.2*inch, 2.2*inch]),
+        ]
+
+
+        data = [tabela.columns.values.tolist()] + tabela.values.tolist()
+        t = Table(data, style=table_style) 
+
+
+        story.append(t)
+
+
+        w, h = t.wrap(doc.width, doc.height)
+
+
+        if h < doc.height:
+            story.append(PageBreak())
+
+
+        doc.build(story)
+
+        return filename
+
+
+    def enviar_email_uf(self,nome_assessor,nome_do_arquivo_pdf):
+        lista_email_assessores = {'DF':'laurotfl@gmail.com',
+                                  'GO':'LAUROTFL@gmail.com',
+                                  'SUL':'laurotfl@gmail.com',
+                                  'Agregado por região':'operacional@bluemetrix.com.br'
+                     }
+        
+        email_assessor = lista_email_assessores.get(nome_assessor)
+        corpo_do_email = """
+        Operações agregado
+        """
+        msg = MIMEMultipart()
+        msg['Subject'] = f'Operações Clientes - {nome_assessor} '
+        msg['From'] = 'lauro.bluemetrix@gmail.com'
+        msg['To'] = email_assessor
+        password = 'dlthvrayjsecacbt'
+        msg.add_header('Content-Type', 'text/html')
+
+        msg.attach(MIMEText(corpo_do_email, 'plain'))
+
+        with open(nome_do_arquivo_pdf, 'rb') as f:
+            arquivo_pdf = f.read()
+            arquivo_anexado = MIMEApplication(arquivo_pdf, _subtype="pdf")
+            arquivo_anexado.add_header('content-disposition', 'attachment', filename=nome_do_arquivo_pdf)
+            msg.attach(arquivo_anexado)
+
+        s=smtplib.SMTP('smtp.gmail.com: 587')
+        s.starttls()
+
+        s.login(msg['From'],password)
+        s.sendmail(msg['From'],msg['To'],msg.as_string().encode('utf-8'))
+        print('email enviado')
+
+

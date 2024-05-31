@@ -132,9 +132,25 @@ if selecionar == 'Comercial':
     seletor_assessor = st.sidebar.selectbox('Selecione o Assessor',options=tabela_estado['Assessor'].unique(),key='Assessor go')
     tabela_de_visualização = arquivo_final[(arquivo_final['UF']==seletor_assessor_uf)&(arquivo_final['Assessor']==seletor_assessor)].reset_index(drop='index')
 
+    ajustando_coluna_valor = arquivo_final.copy()
+    ajustando_coluna_valor['Operacao'] = ajustando_coluna_valor['Operacao'].str.replace('Compra','Aplicação').str.replace('TED Mesma Titularidade','Resgate').str.replace('Venda','Resgate').str.replace('TEF Mesma Titularidade','Resgate')
+    ajustando_coluna_valor['Valor'] = ajustando_coluna_valor['Valor'].str.replace('\xa0', '').str.replace(',', '_').str.replace('.', '').str.replace('_', '.')
+    ajustando_coluna_valor['Valor'] = ajustando_coluna_valor['Valor'].str[2:]
+    ajustando_coluna_valor['Valor'] = pd.to_numeric(ajustando_coluna_valor['Valor'])
+
+    resgastes_apli_inteiro = ajustando_coluna_valor.groupby(['UF','Operacao'])['Valor'].sum().reset_index()
+    resgastes_apli_inteiro['Valor'] = resgastes_apli_inteiro['Valor'].map(lambda x: f'{x:,.2f}')
+    resgastes_apli = resgastes_apli_inteiro[resgastes_apli_inteiro['UF']==seletor_assessor_uf]
+    
+    st.subheader('Aplicações e Resgastes por região')
+    st.dataframe(resgastes_apli)
+
+    st.subheader('Operções por assessor\n\n')
     st.dataframe(tabela_de_visualização,use_container_width=True,)
 
+    uf_lista = list(ajustando_coluna_valor['UF'].unique())
     assessores_lista_nomes = list(arquivo_final['Assessor'].unique())
+
 
     lista_email_assessores = {#'Theo Ramos Moutinho':'laurotfl@gmail.com',
          'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
@@ -168,8 +184,13 @@ if selecionar == 'Comercial':
                      'Joney Alves ':'joney.alves@bluemetrix.com.br',
                      'Acompanhamento de operações':'operacional@bluemetrix.com.br',
                      'Acompanhamento de operações.':'guilherme@bluemetrix.com.br',
-                     }
+                      }
     
+    lista_email_uf = {'DF':'laurotfl@gmail.com',
+                      'GO':'laurotfl@gmail.com',
+                      'SUL':'laurotfl@gmail.com',
+                      'Agregado por região':'operacional@bluemetrix.com.br' }
+
     dia_e_hora_pdf = datetime.datetime.now()-datetime.timedelta(days=1)
     
     if st.button('Gerar Relatorio '):
@@ -191,7 +212,24 @@ if selecionar == 'Comercial':
         email_assessor_comp = lista_email_assessores.get('Acompanhamento de operações.')
         if email_assessor_comp:  
                     cl.enviar_email('Acompanhamento de operações.', pdf_comp2,arquivo_final['Solicitada'].iloc[0])
-                    
+
+        for uf in uf_lista:
+            tabela_estado = resgastes_apli_inteiro[resgastes_apli_inteiro['UF']==uf]
+            pdf_estado = cl.gerando_pdf_rel_estado(uf,tabela_estado)
+
+            email_estado = lista_email_uf.get(uf)
+            if email_estado:
+                cl.enviar_email_uf(uf,pdf_estado)
+            else:
+                st.warning(f'E-mail do assessor {uf} não encontrado.') 
+
+        pdf_comp_estado = cl.gerando_pdf_rel_estado('Agregado por região',resgastes_apli_inteiro)
+        email_estado_comp = lista_email_uf.get('Agregado por região')
+        if email_estado_comp:  
+                    cl.enviar_email_uf('Agregado por região', pdf_comp_estado)
+                 
+
+
 
 
              
@@ -736,16 +774,14 @@ elif authenticator.login():
                         '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']
             
             lista_acoes_em_caixa = carteira.acoes_em_caixa()
-            caixa = [
-                'BTG PACTUAL TESOURO SELIC FI RF REF DI',
-                'TESOURO DIRETO - LFT']
+            caixa = ['BTG Tesouro Selic FIRFRefDI','TESOURO DIRETO - LFT','BLUEMETRIX RF ATIVO FI RF']
             
             small_caps = ['BPAC11','ENEV3','HBSA3','IFCM3','JALL3','KEPL3',
             'MYPK3','PRIO3','SIMH3','TASA4','TUPY3','WIZC3']
 
 
             #dividendos = ['TAEE11','VIVT3','BBSE3','ABCB4','VBBR3','CPLE6','TRPL4',]
-            dividendos = ['CDB','BTG PACTUAL TESOURO SELIC FI RF REF DI']
+            dividendos = ['CDB','BTG Tesouro Selic FIRFRefDI','TESOURO DIRETO - LFT','BLUEMETRIX RF ATIVO FI RF']
                 
             
             def criando_graficos_rf_rv (df,title,color):
@@ -770,7 +806,6 @@ elif authenticator.login():
                 df['Total Caixa Ativos'] = df['Caixa'] + df['Ativos']
                 labels = ['Caixa', 'Ativos']
                 values = [df['Caixa'].sum(), df['Ativos'].sum()]
-                colors = cafe_colors
                 fig2 = go.Figure(data=[go.Pie(labels=labels, values=values, marker=dict(colors=color))])
                 fig2.update_layout(title_text=title,
                                     title_x=0.2,
