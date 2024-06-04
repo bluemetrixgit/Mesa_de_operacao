@@ -51,9 +51,10 @@ class Relatorio_Comercial():
         controle_=controle_.rename(columns ={
                                              'Valor':'D-2',
                                              })
+        controle_agregado = controle_.groupby('Assessor')[['D-1','D-2','Retorno']].sum()
         
 
-        return controle_
+        return controle_agregado
     
 
 if __name__=='__main__':
@@ -62,11 +63,11 @@ if __name__=='__main__':
 
     planilha = rlt.compilando_controle(r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos.xlsx',
                                        r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos - Carteiras Co-Administradas.xlsx',
-                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 29 05 2024.xlsx')
+                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 03 06 2024.xlsx')
     
     st.subheader('Arquivo Final')
     st.dataframe(planilha)
-    #planilha.to_excel(r'C:\Users\lauro.telles\Desktop\Dados comercial\31-05-2024 Dados comercial.xlsx')
+    planilha.to_excel(r'C:\Users\lauro.telles\Desktop\Dados comercial\04-06-2024 Dados comercial.xlsx')
 
 
 
