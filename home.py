@@ -26,6 +26,7 @@ import yaml
 from streamlit_authenticator import Authenticate
 from assessores import Comercial
 from yaml.loader import SafeLoader
+from rentabilidade import RentabilidadeMedia
 
 dia_e_hora = datetime.datetime.now()
 t0 = time.perf_counter()
@@ -145,7 +146,7 @@ if selecionar == 'Comercial':
     st.subheader('Aplicações e Resgastes por região')
     st.dataframe(resgastes_apli)
 
-    st.subheader('Operções por assessor\n\n')
+    st.subheader('Operações por assessor\n\ n')
     st.dataframe(tabela_de_visualização,use_container_width=True,)
 
     uf_lista = list(ajustando_coluna_valor['UF'].unique())
@@ -954,6 +955,17 @@ elif authenticator.login():
             elif carteira_mod_prev:
                 with col1:st.plotly_chart(figura_carteira_MOD_PREV_MOD,use_container_width=True)
                 with col2:st.dataframe(carteira_MOD_PREV_MOD)
+
+            with col1:
+                if __name__=='__main__':
+
+                    rent = RentabilidadeMedia()
+
+                    arquivos = rent.compilando_arquivos()
+                    st.header('Rentabilidade Média das Carteiras')
+                    st.table(arquivos)
+
+               
 
         if selecionar == 'Risco':
                         
