@@ -36,7 +36,6 @@ class Relatorio_Comercial():
 
         controle_['Conta'] = controle_['Conta'].astype(str).str[:-2].apply(lambda  x: '00'+x)
         controle_ = controle_.merge(btg_pl_d2,on='Conta',how='outer')
-        controle_['Retorno'] = ((controle_['D-1']-controle_['Valor'])/controle_['D-1'])
         
 
         assssores_theo =['Theo Ramos Moutinho', 'Bruno Henrique' 'Rejane Machado Souza',
@@ -51,7 +50,10 @@ class Relatorio_Comercial():
         controle_=controle_.rename(columns ={
                                              'Valor':'D-2',
                                              })
-        controle_agregado = controle_.groupby('Assessor')[['D-1','D-2','Retorno']].sum()
+        controle_agregado = controle_.groupby('Assessor')[['D-1','D-2']].sum().reset_index()
+
+        controle_agregado['Retorno'] = (controle_agregado['D-1']-controle_agregado['D-2'])/controle_agregado['D-1']
+
         
 
         return controle_agregado
@@ -63,11 +65,11 @@ if __name__=='__main__':
 
     planilha = rlt.compilando_controle(r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos.xlsx',
                                        r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos - Carteiras Co-Administradas.xlsx',
-                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 03 06 2024.xlsx')
+                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 04 06 2024.xlsx')
     
     st.subheader('Arquivo Final')
     st.dataframe(planilha)
-    planilha.to_excel(r'C:\Users\lauro.telles\Desktop\Dados comercial\04-06-2024 Dados comercial.xlsx')
+    planilha.to_excel(r'C:\Users\lauro.telles\Desktop\Dados comercial\05-06-2024 Dados comercial.xlsx')
 
 
 
