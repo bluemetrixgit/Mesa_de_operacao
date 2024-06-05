@@ -745,8 +745,8 @@ elif authenticator.login():
 
             for dfs in lista_para_incluir_coluna_de_porcentagem:
                 dfs['Porcentagem'] = (dfs['Valor Bruto']/dfs['Valor Bruto'].sum())*100
-            # for dfs in lista_remover_excecoes:
-            #     dfs.drop(dfs[dfs['Porcentagem']<1].index, inplace=True) 
+            for dfs in lista_remover_excecoes:
+                dfs.drop(dfs[~(dfs['Porcentagem'] > 0) & (dfs['Porcentagem'] < 1)].index, inplace=True) 
 
             carteira_con = carteira_con.drop(carteira_con[carteira_con['Porcentagem']<0.2].index)
 

@@ -62,7 +62,7 @@ if __name__=='__main__':
 
     planilha = rlt.compilando_controle(r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos.xlsx',
                                        r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos - Carteiras Co-Administradas.xlsx',
-                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 29 05 2024.xlsx')
+                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 04 06 2024.xlsx')
     
     st.subheader('Arquivo Final')
     st.dataframe(planilha)
