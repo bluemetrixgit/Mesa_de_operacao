@@ -8,4 +8,5 @@
 + Visualização das carteiras desenquadradas da estratégia
 + Faz o  envio diário das ordens dos clientes para os acessores
 ## Tecnologia utilizada:
-+ Python
++ Python<br>
+<br>**Fazer o *pip install* dos seguintes pacotes<br>streamlit<br>django<br>plotly<br>yfinance<br>pandas<br>openpyxl<br>xlsxwriter<br>streamlit_authenticator<br>reportlab<br>numpy<br>**
