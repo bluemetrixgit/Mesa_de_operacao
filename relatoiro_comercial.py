@@ -96,8 +96,8 @@ if __name__=='__main__':
 
     planilha = rlt.compilando_controle(r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos.xlsx',
                                        r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos - Carteiras Co-Administradas.xlsx',
-                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 10 06 2024.xlsx',
-                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 07 06 2024.xlsx')
+                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 12 06 2024.xlsx',
+                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 11 06 2024.xlsx')
     
     st.subheader('Arquivo Final')
     st.dataframe(planilha)
@@ -115,7 +115,7 @@ if __name__=='__main__':
     st.subheader('Planilhas mescladas')
     st.dataframe(planilha_mesclada)
 
-    planilha_mesclada.to_excel(r'C:\Users\lauro.telles\Desktop\Dados comercial\Mensal\Dados Mensal.xlsx')
+    #planilha_mesclada.to_excel(r'C:\Users\lauro.telles\Desktop\Dados comercial\Dados Comercial 12 06 2024.xlsx')
 
 
 

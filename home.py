@@ -187,9 +187,9 @@ if selecionar == 'Comercial':
                      'Acompanhamento de operações.':'guilherme@bluemetrix.com.br',
                       }
     
-    lista_email_uf = {'DF':'laurotfl@gmail.com',
-                      'GO':'laurotfl@gmail.com',
-                      'SUL':'laurotfl@gmail.com',
+    lista_email_uf = {#'DF':'laurotfl@gmail.com',
+    #                   'GO':'laurotfl@gmail.com',
+    #                   'SUL':'laurotfl@gmail.com',
                       'Agregado por região':'operacional@bluemetrix.com.br' }
 
     dia_e_hora_pdf = datetime.datetime.now()-datetime.timedelta(days=1)
@@ -746,8 +746,8 @@ elif authenticator.login():
 
             for dfs in lista_para_incluir_coluna_de_porcentagem:
                 dfs['Porcentagem'] = (dfs['Valor Bruto']/dfs['Valor Bruto'].sum())*100
-            for dfs in lista_remover_excecoes:
-                dfs.drop(dfs[~(dfs['Porcentagem'] > 0) & (dfs['Porcentagem'] < 1)].index, inplace=True) 
+            # for dfs in lista_remover_excecoes:
+            #     dfs.drop(dfs[~(dfs['Porcentagem'] > 0) & (dfs['Porcentagem'] < 1)].index, inplace=True) 
 
             carteira_con = carteira_con.drop(carteira_con[carteira_con['Porcentagem']<0.2].index)
 
@@ -956,14 +956,14 @@ elif authenticator.login():
                 with col1:st.plotly_chart(figura_carteira_MOD_PREV_MOD,use_container_width=True)
                 with col2:st.dataframe(carteira_MOD_PREV_MOD)
 
-            with col1:
-                if __name__=='__main__':
+            # with col1:
+            #     if __name__=='__main__':
 
-                    rent = RentabilidadeMedia()
+            #         rent = RentabilidadeMedia()
 
-                    arquivos = rent.compilando_arquivos()
-                    st.header('Rentabilidade Média das Carteiras')
-                    st.table(arquivos)
+            #         arquivos = rent.compilando_arquivos()
+            #         st.header('Rentabilidade Média das Carteiras')
+            #         st.table(arquivos)
 
                
 
