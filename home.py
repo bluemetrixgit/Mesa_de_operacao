@@ -631,7 +631,8 @@ elif authenticator.login():
                         'Ativo':'background-color: green',
                         'Pode Operar':'background-color: green',
                         'Checar conta':'background-color: red',
-                        np.nan:'background-color: #B8860B'}
+                        np.nan:'background-color: #B8860B',
+                        'Encerrado':'background-color: #A0522D'}
                     
                 st.dataframe(filtrando_saldo.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
 
@@ -675,9 +676,10 @@ elif authenticator.login():
                         'Checar conta':'background-color: red',
                         'Encerrado':'background-color: #A0522D',
                         np.nan:'background-color: #A0522D',
-                        'Pode operar':'background-color: green'}
+                        'Pode operar':'background-color: green',
+                        }
                     
-                
+                st.dataframe(dividindo_operadores.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
                 st.dataframe(dividindo_operadores.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
                 st.subheader('Checar contas')
                 st.dataframe(contas_nao_contradas)
