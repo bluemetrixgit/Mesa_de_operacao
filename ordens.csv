@@ -1,21 +1,49 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-06-12 12:27:53,5274028,Rafael Soares Sousa,PLCR11,Executada,Venda,16.0,16.0,,84.85625,Limitada,84.83,Posição,,BVSP,Dia,,,,,,,20240612152734361997,,CNI,5274028
-2024-06-12 12:27:34,5274028,Rafael Soares Sousa,TRXF11,Executada,Venda,13.0,13.0,,105.97,Mercado,,Posição,,BVSP,Dia,,,,,,,20240612152734361998,,CNI,5274028
-2024-06-12 12:27:34,5274028,Rafael Soares Sousa,MALL11,Executada,Venda,7.0,7.0,,108.02,Mercado,,Posição,,BVSP,Dia,,,,,,,20240612152734361996,,CNI,5274028
-2024-06-12 12:27:34,5274028,Rafael Soares Sousa,KNCA11,Executada,Venda,8.0,8.0,,100.71,Mercado,,Posição,,BVSP,Dia,,,,,,,20240612152734361995,,CNI,5274028
-2024-06-12 12:27:34,5274028,Rafael Soares Sousa,HGLG11,Executada,Venda,14.0,14.0,,159.71,Mercado,,Posição,,BVSP,Dia,,,,,,,20240612152734361994,,CNI,5274028
-2024-06-12 12:27:34,5274028,Rafael Soares Sousa,BTLG11,Executada,Venda,22.0,22.0,,99.7,Mercado,,Posição,,BVSP,Dia,,,,,,,20240612152734361993,,CNI,5274028
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,ARZZ3F,Executada,Compra,17.0,17.0,,48.57,Mercado,,Posição,,BVSP,Dia,,,,,,,8610777397234,32c1b237f0e44889bd068ec9c53c83bd,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,ASAI3F,Executada,Compra,68.0,68.0,,11.83,Mercado,,Posição,,BVSP,Dia,,,,,,,8610777397231,56b804cc1dd04fd6ab6f258c866ef758,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,ASAI3,Executada,Compra,100.0,100.0,,11.82,Mercado,,Posição,,BVSP,Dia,,,,,,,8610777397230,b459f5b52a4442ab832b3c157fdf6309,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,BBSE3F,Executada,Compra,3.0,3.0,,32.37,Mercado,,Posição,,BVSP,Dia,,,,,,,8610777397229,d92886d0c2cc46d484cfcdf66561f439,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,CPFE3F,Executada,Compra,2.0,2.0,,32.58,Mercado,,Posição,,BVSP,Dia,,,,,,,8411970468813,c701413d5f434b53b4fb764b599a4d08,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,BOVA11,Executada,Venda,11.0,11.0,,116.55,Mercado,,Posição,,BVSP,Dia,,,,,,,8813221833761,40151428efa24bbdba8f512e4c88ffdd,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,HYPE3F,Executada,Compra,34.0,34.0,,28.6,Mercado,,Posição,,BVSP,Dia,,,,,,,8610777397228,93eba7e1e439497684ce1c033505990d,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,KEPL3F,Executada,Compra,48.0,48.0,,9.77,Mercado,,Posição,,BVSP,Dia,,,,,,,8610777397227,995c4ffc85974c1a94f625af577f8462,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,ITUB4F,Executada,Compra,23.0,23.0,,31.36,Mercado,,Posição,,BVSP,Dia,,,,,,,905395022073,01c8c484848c479f86ae9785dd307fb1,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,SLCE3F,Executada,Compra,60.0,60.0,,17.46,Mercado,,Posição,,BVSP,Dia,,,,,,,8610777397224,7b6111565ee44fb18fe974f00858d8da,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,VIVT3F,Executada,Compra,36.0,36.0,,44.5,Mercado,,Posição,,BVSP,Dia,,,,,,,8610777397223,b4e866981f8f42fab199318a5298bec9,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,LEVE3F,Executada,Compra,14.0,14.0,,30.55,Mercado,,Posição,,BVSP,Dia,,,,,,,8411970468812,1c4e9b23e2754dfba63f4ecad30f72f3,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,PRIO3F,Executada,Compra,40.0,40.0,,42.63,Mercado,,Posição,,BVSP,Dia,,,,,,,829137644508,819da06e966e45fe8bbeebdc620d69a3,6NA,4499920
-2024-06-12 10:56:57,4499920,Fabiano Luis De Oliveira,VALE3F,Executada,Compra,17.0,17.0,,60.8,Mercado,,Posição,,BVSP,Dia,,,,,,,807348491024,a71d1ade1a5f4a56a7e3c934251ab243,6NA,4499920
+2024-06-13 17:07:51,4231509,Theomar Nicolau Morhy,EQTL3,Executada,Venda,900.0,900.0,,29.05,Mercado,,Posição,,BVSP,MOC,,,,,,,8411983059205,3154d7f4866740c4b627782b7bf2542f,R6K,4231509
+2024-06-13 17:07:47,4231509,Theomar Nicolau Morhy,BBAS3,Executada,Venda,1000.0,1000.0,,26.72,Mercado,,Posição,,BVSP,MOC,,,,,,,925692902849,7ae28b594cdb4115899dba0a4c55c4a1,R6K,4231509
+2024-06-13 17:07:37,4231509,Theomar Nicolau Morhy,VAMO3,Executada,Venda,1700.0,1700.0,,6.9,Mercado,,Posição,,BVSP,MOC,,,,,,,8610790826614,8cdad76c37cb44c7966bbc6619ae5d93,R6K,4231509
+2024-06-13 16:48:26,4983378,Marcelo Jaime Ferreira,BOVA11,Executada,Compra,1000.0,1000.0,,116.38,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613194826479805,,CNI,4983378
+2024-06-13 14:17:48,4912314,Fabricio Massula Dutra,SLCE3F,Executada,Venda,85.0,85.0,,17.60258824,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383435,,5KP,4912314
+2024-06-13 14:17:12,4912314,Fabricio Massula Dutra,KEPL3,Executada,Venda,3300.0,3300.0,,9.93,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383428,,5KP,4912314
+2024-06-13 14:16:21,4912314,Fabricio Massula Dutra,VIVT3F,Executada,Venda,84.0,84.0,,44.27119048,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383439,,5KP,4912314
+2024-06-13 14:16:19,4912314,Fabricio Massula Dutra,LEVE3,Executada,Venda,800.0,800.0,,30.56,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383430,,5KP,4912314
+2024-06-13 14:16:15,4912314,Fabricio Massula Dutra,BBSE3,Executada,Venda,900.0,900.0,,32.73,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383419,,5KP,4912314
+2024-06-13 14:16:13,4912314,Fabricio Massula Dutra,HYPE3F,Executada,Venda,22.0,22.0,,28.6,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383425,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,VIVT3,Executada,Venda,500.0,500.0,,44.27,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383438,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,VALE3F,Executada,Venda,26.0,26.0,,60.96,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383437,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,VALE3,Executada,Venda,700.0,700.0,,60.97,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383436,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,ARZZ3,Executada,Venda,500.0,500.0,,48.77,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383415,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,SLCE3,Executada,Venda,1500.0,1500.0,,17.61,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383434,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,PRIO3F,Executada,Venda,95.0,95.0,,42.05,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383433,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,PRIO3,Executada,Venda,600.0,600.0,,42.07,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383432,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,LEVE3F,Executada,Venda,70.0,70.0,,30.55,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383431,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,KEPL3F,Executada,Venda,89.0,89.0,,9.91,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383429,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,ITUB4F,Executada,Venda,95.0,95.0,,31.4,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383427,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,ARZZ3F,Executada,Venda,70.0,70.0,,48.73,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383416,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,ITUB4,Executada,Venda,800.0,800.0,,31.41,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383426,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,HYPE3,Executada,Venda,1100.0,1100.0,,28.6,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383424,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,CPFE3F,Executada,Venda,74.0,74.0,,32.75,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383423,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,CPFE3,Executada,Venda,700.0,700.0,,32.76,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383422,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,BOVA11,Executada,Compra,506.0,506.0,,116.57,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383421,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,BBSE3F,Executada,Venda,13.0,13.0,,32.71,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383420,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,ASAI3F,Executada,Venda,28.0,28.0,,11.67,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383418,,5KP,4912314
+2024-06-13 14:16:06,4912314,Fabricio Massula Dutra,ASAI3,Executada,Venda,2100.0,2100.0,,11.69,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613171606383417,,5KP,4912314
+2024-06-13 13:45:05,4550750,Theo Ramos Moutinho,BOVA11,Executada,Compra,90.0,90.0,,116.26,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613164505364509,,5KP,4550750
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,VIVT3F,Executada,Compra,12.0,12.0,,44.08,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271599,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,VALE3F,Executada,Compra,16.0,16.0,,60.54,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271598,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,SLCE3F,Executada,Compra,36.0,36.0,,17.37,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271597,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,PRIO3F,Executada,Compra,22.0,22.0,,42.07,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271596,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,LEVE3F,Executada,Compra,20.0,20.0,,30.46,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271595,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,KEPL3F,Executada,Compra,61.0,61.0,,9.79,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271594,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,ITUB4F,Executada,Compra,18.0,18.0,,31.36,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271593,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,HYPE3F,Executada,Compra,24.0,24.0,,28.73,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271592,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,CPFE3F,Executada,Compra,9.0,9.0,,32.78,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271591,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,BBSE3F,Executada,Compra,15.0,15.0,,32.45,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271590,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,ASAI3F,Executada,Compra,75.0,75.0,,11.7,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271589,,5KP,4431689
+2024-06-13 11:28:49,4431689,Luca Dias Bueno,ARZZ3F,Executada,Compra,8.0,8.0,,48.33,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613142849271587,,5KP,4431689
+2024-06-13 10:44:13,4448303,Nassim Taleb,PLCR11,Executada,Compra,25.0,25.0,,84.9184,Limitada,84.92,Posição,,BVSP,Dia,,,,,,,20240613134315236357,,CNI,4448303
+2024-06-13 10:43:54,4448303,Nassim Taleb,MALL11,Executada,Compra,13.0,13.0,,108.17,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613134315236356,,CNI,4448303
+2024-06-13 10:43:44,4448303,Nassim Taleb,KNCA11,Executada,Compra,8.0,8.0,,101.06,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613134315236355,,CNI,4448303
+2024-06-13 10:43:27,4448303,Nassim Taleb,HGLG11,Executada,Compra,22.0,22.0,,159.8,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613134315236354,,CNI,4448303
+2024-06-13 10:43:21,4448303,Nassim Taleb,TRXF11,Executada,Compra,21.0,21.0,,105.82,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613134315236358,,CNI,4448303
+2024-06-13 10:43:15,4448303,Nassim Taleb,BTLG11,Executada,Compra,43.0,43.0,,99.2,Mercado,,Posição,,BVSP,Dia,,,,,,,20240613134315236353,,CNI,4448303
