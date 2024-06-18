@@ -692,12 +692,13 @@ elif authenticator.login():
 
             posicao_btg = posicao_original.iloc[:,[0,4,10]].fillna(0)
             planilha_controle = controle.iloc[:,[2,12,]]
-            #posicao_btg = posicao_btg.rename(columns={'CONTA':'Conta','PRODUTO':'Produto','ATIVO':'Ativo','VALOR BRUTO':'Valor Bruto','QUANTIDADE':'Quantidade'})
+            posicao_btg = posicao_btg.rename(columns={'Valor Bruto (R$)':'Valor Bruto'})
             posicao_btg = posicao_btg[~((posicao_btg['Produto'].str.contains('PREV'))|(posicao_btg['Produto']=='COE'))]
 
             planilha_controle = planilha_controle.drop(0)
             planilha_controle['Unnamed: 2'] =planilha_controle['Unnamed: 2'].map((lambda x: '00'+str(x))) 
             planilha_final = pd.merge(posicao_btg,planilha_controle,left_on='Conta',right_on='Unnamed: 2',how='outer').reset_index()
+
 
 
             soma_dos_ativos_por_carteira = planilha_final.groupby(['Unnamed: 12','Produto'])['Valor Bruto'].sum().reset_index()
