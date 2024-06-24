@@ -1,37 +1,24 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-06-20 15:06:38,5053939,Virgilio Reis Sarmento,SLCE3F,Executada,Venda,52.0,52.0,,17.73769231,Limitada,17.67,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545093,,5053939,5053939
-2024-06-20 15:06:33,5053939,Virgilio Reis Sarmento,LEVE3F,Executada,Venda,3.0,3.0,,30.81666667,Limitada,30.73,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545089,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,VIVT3F,Executada,Venda,84.0,84.0,,44.55,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180603545098,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,VIVT3,Executada,Venda,100.0,100.0,,44.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180603545097,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,VALE3F,Executada,Venda,22.0,22.0,,61.26,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180603545096,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,VALE3,Executada,Venda,300.0,300.0,,61.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180603545094,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,SLCE3,Executada,Venda,700.0,700.0,,17.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545092,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,PRIO3F,Executada,Venda,20.0,20.0,,41.15,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545091,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,PRIO3,Executada,Venda,300.0,300.0,,41.16,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545090,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,LEVE3,Executada,Venda,300.0,300.0,,30.82,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545088,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,KEPL3F,Executada,Venda,86.0,86.0,,9.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545087,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,KEPL3,Executada,Venda,1600.0,1600.0,,9.04,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545086,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,HYPE3F,Executada,Venda,74.0,74.0,,28.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545085,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,HYPE3,Executada,Venda,400.0,400.0,,28.76,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545084,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,CPFE3F,Executada,Venda,19.0,19.0,,32.63,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545083,,5053939,5053939
-2024-06-20 15:06:03,5053939,Virgilio Reis Sarmento,CPFE3,Executada,Venda,300.0,300.0,,32.63,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545082,,5053939,5053939
-2024-06-20 15:06:02,5053939,Virgilio Reis Sarmento,BBSE3F,Executada,Venda,96.0,96.0,,32.58,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545081,,5053939,5053939
-2024-06-20 15:06:02,5053939,Virgilio Reis Sarmento,BBSE3,Executada,Venda,200.0,200.0,,32.59,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545080,,5053939,5053939
-2024-06-20 15:06:02,5053939,Virgilio Reis Sarmento,ASAI3F,Executada,Venda,85.0,85.0,,10.82,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545078,,5053939,5053939
-2024-06-20 15:06:02,5053939,Virgilio Reis Sarmento,ASAI3,Executada,Venda,800.0,800.0,,10.82,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545077,,5053939,5053939
-2024-06-20 15:06:02,5053939,Virgilio Reis Sarmento,ARZZ3F,Executada,Venda,2.0,2.0,,49.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545076,,5053939,5053939
-2024-06-20 15:06:02,5053939,Virgilio Reis Sarmento,ARZZ3,Executada,Venda,200.0,200.0,,49.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620180602545075,,5053939,5053939
-2024-06-20 14:05:11,4983378,Marcelo Jaime Ferreira,SLCE3F,Executada,Venda,19.0,19.0,,17.72105263,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620170428441457,,5KP,4983378
-2024-06-20 14:05:05,4983378,Marcelo Jaime Ferreira,SLCE3,Executada,Venda,3800.0,3800.0,,17.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620170428441456,,5KP,4983378
-2024-06-20 14:04:36,4983378,Marcelo Jaime Ferreira,PRIO3F,Executada,Venda,65.0,65.0,,41.0,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620170428441455,,5KP,4983378
-2024-06-20 14:04:34,4983378,Marcelo Jaime Ferreira,PRIO3,Executada,Venda,3500.0,3500.0,,41.0,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620170428441453,,5KP,4983378
-2024-06-20 14:04:28,4983378,Marcelo Jaime Ferreira,HYPE3,Executada,Venda,5300.0,5300.0,,28.72,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620170428441451,,5KP,4983378
-2024-06-20 14:04:28,4983378,Marcelo Jaime Ferreira,HYPE3F,Executada,Venda,21.0,21.0,,28.71,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620170428441452,,5KP,4983378
-2024-06-20 14:04:28,4983378,Marcelo Jaime Ferreira,ASAI3F,Executada,Venda,14.0,14.0,,10.77,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620170428441450,,5KP,4983378
-2024-06-20 14:04:28,4983378,Marcelo Jaime Ferreira,ASAI3,Executada,Venda,9200.0,9200.0,,10.78,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240620170428441449,,5KP,4983378
-2024-06-20 13:51:08,4206790,Emmanuelle Alkmim De Castro Branco,PLCR11,Executada,Venda,545.0,545.0,,84.93016514,Limitada,84.93,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412012159886,385e1588d4434533accc7c16a20c7216,03Q,4206790
-2024-06-20 13:51:05,4206790,Emmanuelle Alkmim De Castro Branco,MALL11,Executada,Venda,233.0,233.0,,110.35424893,Limitada,110.24,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412012159887,b7e8892ac3ad47a08ea3f7ee7797199c,03Q,4206790
-2024-06-20 13:51:01,4206790,Emmanuelle Alkmim De Castro Branco,BTLG11,Executada,Venda,766.0,766.0,,97.92424282,Limitada,97.9,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412012159893,c2d46678f034474bb33c3b9b13f9d726,03Q,4206790
-2024-06-20 13:50:58,4206790,Emmanuelle Alkmim De Castro Branco,HGLG11,Executada,Venda,487.0,487.0,,157.60498973,Limitada,157.57,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412012159891,c97394b5fda04cad898cb0e8ede89ed4,03Q,4206790
-2024-06-20 13:50:55,4206790,Emmanuelle Alkmim De Castro Branco,KNCA11,Executada,Venda,246.0,246.0,,100.67422764,Limitada,100.59,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610819625486,9180b3affde746fb802d33a34f1b2bd2,03Q,4206790
-2024-06-20 13:50:36,4206790,Emmanuelle Alkmim De Castro Branco,TRXF11,Executada,Venda,434.0,434.0,,104.61,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412012159885,db77e2e40d6244a5aee9cb0e37462b34,03Q,4206790
+2024-06-21 11:14:53,4877741,Luiz Felipe Leal Dos Santos,PRIO3F,Executada,Venda,34.0,34.0,,41.26,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392616,,5KP,4877741
+2024-06-21 11:14:42,5305965,Sidmar Luiz Teixeira,HYPE3F,Executada,Venda,18.0,18.0,,28.7,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392600,,5KP,5305965
+2024-06-21 11:14:33,5305965,Sidmar Luiz Teixeira,VALE3F,Executada,Venda,16.0,16.0,,61.15,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392606,,5KP,5305965
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,VIVT3F,Executada,Venda,17.0,17.0,,44.58,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392619,,5KP,4877741
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,SLCE3F,Executada,Venda,76.0,76.0,,17.5,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392617,,5KP,4877741
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,VALE3F,Executada,Venda,28.0,28.0,,61.14,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392618,,5KP,4877741
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,LEVE3F,Executada,Venda,27.0,27.0,,30.82,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392615,,5KP,4877741
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,KEPL3F,Executada,Venda,12.0,12.0,,8.98,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392614,,5KP,4877741
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,KEPL3,Executada,Venda,100.0,100.0,,8.97,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392613,,5KP,4877741
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,HYPE3F,Executada,Venda,37.0,37.0,,28.69,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392612,,5KP,4877741
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,CPFE3F,Executada,Venda,29.0,29.0,,32.57,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392611,,5KP,4877741
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,BBSE3F,Executada,Venda,27.0,27.0,,32.97,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392610,,5KP,4877741
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,ASAI3F,Executada,Venda,75.0,75.0,,10.79,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392609,,5KP,4877741
+2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,ARZZ3F,Executada,Venda,18.0,18.0,,50.45,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392608,,5KP,4877741
+2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,VIVT3F,Executada,Venda,11.0,11.0,,44.58,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392607,,5KP,5305965
+2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,SLCE3F,Executada,Venda,31.0,31.0,,17.5,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392605,,5KP,5305965
+2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,PRIO3F,Executada,Venda,16.0,16.0,,41.26,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392604,,5KP,5305965
+2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,LEVE3F,Executada,Venda,18.0,18.0,,30.82,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392603,,5KP,5305965
+2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,KEPL3F,Executada,Venda,68.0,68.0,,8.98,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392601,,5KP,5305965
+2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,CPFE3F,Executada,Venda,19.0,19.0,,32.57,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392599,,5KP,5305965
+2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,BBSE3F,Executada,Venda,18.0,18.0,,32.97,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392598,,5KP,5305965
+2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,ASAI3F,Executada,Venda,32.0,32.0,,10.8,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392597,,5KP,5305965
+2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,ARZZ3F,Executada,Venda,9.0,9.0,,50.45,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392596,,5KP,5305965
