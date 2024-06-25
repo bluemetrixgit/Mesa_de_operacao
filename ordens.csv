@@ -1,24 +1,40 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-06-21 11:14:53,4877741,Luiz Felipe Leal Dos Santos,PRIO3F,Executada,Venda,34.0,34.0,,41.26,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392616,,5KP,4877741
-2024-06-21 11:14:42,5305965,Sidmar Luiz Teixeira,HYPE3F,Executada,Venda,18.0,18.0,,28.7,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392600,,5KP,5305965
-2024-06-21 11:14:33,5305965,Sidmar Luiz Teixeira,VALE3F,Executada,Venda,16.0,16.0,,61.15,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392606,,5KP,5305965
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,VIVT3F,Executada,Venda,17.0,17.0,,44.58,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392619,,5KP,4877741
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,SLCE3F,Executada,Venda,76.0,76.0,,17.5,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392617,,5KP,4877741
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,VALE3F,Executada,Venda,28.0,28.0,,61.14,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392618,,5KP,4877741
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,LEVE3F,Executada,Venda,27.0,27.0,,30.82,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392615,,5KP,4877741
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,KEPL3F,Executada,Venda,12.0,12.0,,8.98,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392614,,5KP,4877741
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,KEPL3,Executada,Venda,100.0,100.0,,8.97,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392613,,5KP,4877741
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,HYPE3F,Executada,Venda,37.0,37.0,,28.69,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392612,,5KP,4877741
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,CPFE3F,Executada,Venda,29.0,29.0,,32.57,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392611,,5KP,4877741
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,BBSE3F,Executada,Venda,27.0,27.0,,32.97,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392610,,5KP,4877741
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,ASAI3F,Executada,Venda,75.0,75.0,,10.79,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392609,,5KP,4877741
-2024-06-21 11:14:31,4877741,Luiz Felipe Leal Dos Santos,ARZZ3F,Executada,Venda,18.0,18.0,,50.45,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392608,,5KP,4877741
-2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,VIVT3F,Executada,Venda,11.0,11.0,,44.58,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392607,,5KP,5305965
-2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,SLCE3F,Executada,Venda,31.0,31.0,,17.5,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392605,,5KP,5305965
-2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,PRIO3F,Executada,Venda,16.0,16.0,,41.26,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392604,,5KP,5305965
-2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,LEVE3F,Executada,Venda,18.0,18.0,,30.82,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392603,,5KP,5305965
-2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,KEPL3F,Executada,Venda,68.0,68.0,,8.98,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392601,,5KP,5305965
-2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,CPFE3F,Executada,Venda,19.0,19.0,,32.57,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392599,,5KP,5305965
-2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,BBSE3F,Executada,Venda,18.0,18.0,,32.97,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392598,,5KP,5305965
-2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,ASAI3F,Executada,Venda,32.0,32.0,,10.8,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392597,,5KP,5305965
-2024-06-21 11:14:31,5305965,Sidmar Luiz Teixeira,ARZZ3F,Executada,Venda,9.0,9.0,,50.45,Mercado,,Posição,,BVSP,Dia,,,,,,,20240621141431392596,,5KP,5305965
+2024-06-24 16:06:48,5305448,Alphasitio Incorporacoes Ltda,KEPL3,Executada,Compra,2600.0,2600.0,,9.26923077,Limitada,9.3,Posição,,BVSP,Dia,,,,,,,8610834670324,daaf19efee7f431b9f4f88e2b1ab54ac,CNI,5305448
+2024-06-24 16:06:42,5305448,Alphasitio Incorporacoes Ltda,LEVE3,Executada,Compra,700.0,700.0,,32.47714286,Limitada,32.5,Posição,,BVSP,Dia,,,,,,,8412028142311,549d60ed339f4cce8d70560729876bcd,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,VIVT3F,Executada,Compra,2.0,2.0,,45.29,Mercado,,Posição,,BVSP,Dia,,,,,,,8610834670359,3a9c37f4f5864caa9b1c644027bda4f9,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,VIVT3,Executada,Compra,800.0,800.0,,45.28,Mercado,,Posição,,BVSP,Dia,,,,,,,8610834670343,9ceebc5d6024412ea09f09cee83b26d6,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,PRIO3F,Executada,Compra,22.0,22.0,,42.06,Mercado,,Posição,,BVSP,Dia,,,,,,,829196464660,85bd17ee5a764e2eb5738316bd7f87a4,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,PRIO3,Executada,Compra,600.0,600.0,,42.05,Mercado,,Posição,,BVSP,Dia,,,,,,,829196464659,11dce0c6b4c741b8835187a5057ac765,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,LEVE3F,Executada,Compra,4.0,4.0,,32.49,Mercado,,Posição,,BVSP,Dia,,,,,,,8412028142327,3d32520d2c2b494c87ade07cc3e5e7e9,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,ITUB4F,Executada,Compra,83.0,83.0,,32.4,Mercado,,Posição,,BVSP,Dia,,,,,,,905420682929,699c92fbaba5481db131c78ef6632743,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,ITUB4,Executada,Compra,300.0,300.0,,32.39,Mercado,,Posição,,BVSP,Dia,,,,,,,905420682928,7df8a53ac4554788a2501641459bc8d0,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,KEPL3F,Executada,Compra,97.0,97.0,,9.27,Mercado,,Posição,,BVSP,Dia,,,,,,,8610834670327,c605eeb27a4445e09276a1d20caf9b8f,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,HYPE3F,Executada,Compra,1.0,1.0,,29.24,Mercado,,Posição,,BVSP,Dia,,,,,,,8610834670288,6dcdc830eba04b52819f3f083fa0f0cf,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,HYPE3,Executada,Compra,800.0,800.0,,29.25,Mercado,,Posição,,BVSP,Dia,,,,,,,8610834670287,27a7b272b5e14de8acbabf9f5c670319,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,BBSE3F,Executada,Compra,39.0,39.0,,33.72,Mercado,,Posição,,BVSP,Dia,,,,,,,8610834670281,b1efbd9dea75440b89068ad05f9defc2,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,ASAI3,Executada,Compra,2200.0,2200.0,,11.1,Mercado,,Posição,,BVSP,Dia,,,,,,,8610834670273,76d4076df5464803977b72b01558fd6d,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,ASAI3F,Executada,Compra,7.0,7.0,,11.11,Mercado,,Posição,,BVSP,Dia,,,,,,,8610834670272,451b5fcfa824474f8454dc059b5aa123,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,ARZZ3F,Executada,Compra,49.0,49.0,,50.19,Mercado,,Posição,,BVSP,Dia,,,,,,,8610834670271,7406ec04ad244c5fb92a43bfaceccbc9,CNI,5305448
+2024-06-24 16:06:14,5305448,Alphasitio Incorporacoes Ltda,ARZZ3,Executada,Compra,400.0,400.0,,50.15,Mercado,,Posição,,BVSP,Dia,,,,,,,8610834670270,2fb94a4f875e4453833c59fb7105d3b1,CNI,5305448
+2024-06-24 12:13:48,5324840,Pedro Sergio Vieira Da Silva,LEVE3F,Executada,Venda,44.0,44.0,,32.11,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624151346314971,,5KP,5324840
+2024-06-24 12:13:46,5324840,Pedro Sergio Vieira Da Silva,ITUB4F,Executada,Venda,42.0,42.0,,32.69,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624151346314970,,5KP,5324840
+2024-06-24 10:26:02,4381095,Thiago Lucas Leite De Noronha,HYPE3F,Executada,Venda,63.0,63.0,,29.08793651,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228943,,5KP,4381095
+2024-06-24 10:25:55,4381095,Thiago Lucas Leite De Noronha,ITUB4F,Executada,Venda,39.0,39.0,,32.33,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228945,,5KP,4381095
+2024-06-24 10:25:54,4381095,Thiago Lucas Leite De Noronha,KEPL3F,Executada,Venda,43.0,43.0,,9.16,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228947,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,VIVT3F,Executada,Venda,48.0,48.0,,44.58,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228955,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,VALE3F,Executada,Venda,1.0,1.0,,60.65,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228954,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,VALE3,Executada,Venda,100.0,100.0,,60.65,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228953,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,SLCE3F,Executada,Venda,9.0,9.0,,17.47,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228952,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,SLCE3,Executada,Venda,200.0,200.0,,17.47,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228951,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,PRIO3F,Executada,Venda,36.0,36.0,,41.31,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228950,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,LEVE3F,Executada,Venda,37.0,37.0,,31.88,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228949,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,LEVE3,Executada,Venda,100.0,100.0,,31.84,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228948,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,KEPL3,Executada,Venda,200.0,200.0,,9.15,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228946,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,ITUB4,Executada,Venda,100.0,100.0,,32.32,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228944,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,HYPE3,Executada,Venda,100.0,100.0,,29.1,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228942,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,CPFE3F,Executada,Venda,37.0,37.0,,32.7,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228941,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,CPFE3,Executada,Venda,100.0,100.0,,32.71,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228940,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,BBSE3F,Executada,Venda,67.0,67.0,,33.37,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228939,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,BBSE3,Executada,Venda,100.0,100.0,,33.37,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228938,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,ASAI3F,Executada,Compra,87.0,87.0,,10.87,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228937,,5KP,4381095
+2024-06-24 10:25:48,4381095,Thiago Lucas Leite De Noronha,ARZZ3F,Executada,Venda,88.0,88.0,,49.8,Mercado,,Posição,,BVSP,Dia,,,,,,,20240624132548228936,,5KP,4381095
