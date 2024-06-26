@@ -680,7 +680,7 @@ elif authenticator.login():
                         }
                     
                 st.dataframe(dividindo_operadores.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
-                st.dataframe(dividindo_operadores.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
+                #st.dataframe(dividindo_operadores.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
                 st.subheader('Checar contas')
                 st.dataframe(contas_nao_contradas)
                 st.text(f" Contagem Total de clientes por {contando_operadoress['Operador'].value_counts().to_string()}")
