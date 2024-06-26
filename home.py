@@ -143,7 +143,7 @@ if selecionar == 'Comercial':
     resgastes_apli_inteiro['Valor'] = resgastes_apli_inteiro['Valor'].map(lambda x: f'{x:,.2f}')
     resgastes_apli = resgastes_apli_inteiro[resgastes_apli_inteiro['UF']==seletor_assessor_uf]
     
-    st.subheader('Aplicações e Resgastes por região')
+    st.subheader('Aplicações e Resgates por região')
     st.dataframe(resgastes_apli)
 
     st.subheader('Operações por assessor\n\ n')
@@ -680,7 +680,7 @@ elif authenticator.login():
                         }
                     
                 st.dataframe(dividindo_operadores.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
-                #st.dataframe(dividindo_operadores.style.applymap(lambda x: cores[x], subset=['Status']),use_container_width=True)
+                
                 st.subheader('Checar contas')
                 st.dataframe(contas_nao_contradas)
                 st.text(f" Contagem Total de clientes por {contando_operadoress['Operador'].value_counts().to_string()}")
