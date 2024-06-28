@@ -1,24 +1,41 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-06-26 13:52:34,4567324,Francisco Fernandes Moreira Neto,HYPE3F,Executada,Compra,86.0,86.0,,29.00837209,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389573,,5KP,4567324
-2024-06-26 13:52:30,4567324,Francisco Fernandes Moreira Neto,ARZZ3F,Executada,Compra,94.0,94.0,,50.42042553,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389565,,5KP,4567324
-2024-06-26 13:52:25,4567324,Francisco Fernandes Moreira Neto,SLCE3F,Executada,Compra,69.0,69.0,,17.58710145,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389584,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,VIVT3F,Executada,Compra,3.0,3.0,,45.99,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389592,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,VIVT3,Executada,Compra,100.0,100.0,,45.97,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389587,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,VALE3F,Executada,Compra,21.0,21.0,,61.41,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389586,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,VALE3,Executada,Compra,100.0,100.0,,61.4,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389585,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,SLCE3,Executada,Compra,200.0,200.0,,17.58,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389583,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,PRIO3F,Executada,Compra,25.0,25.0,,43.28,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389582,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,PRIO3,Executada,Compra,100.0,100.0,,43.29,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389581,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,LEVE3F,Executada,Compra,36.0,36.0,,32.44,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389580,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,KEPL3F,Executada,Compra,70.0,70.0,,9.48,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389577,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,LEVE3,Executada,Compra,100.0,100.0,,32.42,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389578,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,KEPL3,Executada,Compra,500.0,500.0,,9.48,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389576,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,ITUB4F,Executada,Compra,47.0,47.0,,32.22,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389575,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,ITUB4,Executada,Compra,100.0,100.0,,32.21,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389574,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,HYPE3,Executada,Compra,100.0,100.0,,29.0,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389572,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,CPFE3F,Executada,Compra,25.0,25.0,,32.54,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389571,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,CPFE3,Executada,Compra,100.0,100.0,,32.53,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389570,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,BBSE3F,Executada,Compra,43.0,43.0,,33.11,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389569,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,BBSE3,Executada,Compra,100.0,100.0,,33.09,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389568,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,ASAI3F,Executada,Compra,40.0,40.0,,10.79,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389567,,5KP,4567324
-2024-06-26 13:52:13,4567324,Francisco Fernandes Moreira Neto,ASAI3,Executada,Compra,400.0,400.0,,10.78,Mercado,,Posição,,BVSP,Dia,,,,,,,20240626165213389566,,5KP,4567324
+2024-06-27 14:52:42,4556853,Marcel Jaqueto,ABCB4,Executada,Compra,1000.0,1000.0,,22.175,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425456,,5KP,4556853
+2024-06-27 14:52:32,4556853,Marcel Jaqueto,ITUB4F,Executada,Compra,47.0,47.0,,32.47,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425464,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,VBBR3F,Executada,Venda,67.0,67.0,,21.2,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425480,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,TRPL4F,Executada,Venda,19.0,19.0,,26.17,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425479,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,ITSA4F,Executada,Venda,8.0,8.0,,9.83,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425478,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,ITSA4,Executada,Venda,3600.0,3600.0,,9.83,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425477,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,BBDC4F,Executada,Venda,3.0,3.0,,12.33,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425476,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,BBDC4,Executada,Venda,1900.0,1900.0,,12.32,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425475,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,B3SA3,Executada,Venda,700.0,700.0,,10.35,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425474,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,ABEV3,Executada,Venda,2100.0,2100.0,,11.44,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425473,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,HGLG11,Executada,Venda,195.0,195.0,,161.81,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425472,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,VIVT3F,Executada,Compra,92.0,92.0,,46.21,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425471,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,TAEE11,Executada,Compra,600.0,600.0,,34.11,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425468,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,VIVT3,Executada,Compra,800.0,800.0,,46.18,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425470,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,TAEE11F,Executada,Compra,36.0,36.0,,34.13,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425469,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,SAPR11F,Executada,Compra,3.0,3.0,,27.34,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425467,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,PETR4F,Executada,Compra,22.0,22.0,,37.67,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425465,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,SAPR11,Executada,Compra,100.0,100.0,,27.3,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425466,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,CPLE6F,Executada,Compra,40.0,40.0,,9.41,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425463,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,CPLE6,Executada,Compra,2300.0,2300.0,,9.41,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425462,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,CMIG4F,Executada,Compra,41.0,41.0,,10.09,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425461,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,BBSE3F,Executada,Compra,5.0,5.0,,32.86,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425460,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,BBSE3,Executada,Compra,600.0,600.0,,32.84,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425459,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,BBAS3F,Executada,Compra,18.0,18.0,,26.56,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425458,,5KP,4556853
+2024-06-27 14:52:30,4556853,Marcel Jaqueto,ABCB4F,Executada,Compra,22.0,22.0,,22.19,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627175230425457,,5KP,4556853
+2024-06-27 11:56:22,3435941,Heitor De Lima Gomes,CPFE3F,Executada,Venda,62.0,62.0,,32.87,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320036,,CNI,3435941
+2024-06-27 11:56:07,3435941,Heitor De Lima Gomes,PRIO3F,Executada,Venda,57.0,57.0,,42.72,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320042,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,VIVT3F,Executada,Venda,52.0,52.0,,46.27,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320046,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,VALE3F,Executada,Venda,57.0,57.0,,61.01,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320045,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,SLCE3F,Executada,Venda,27.0,27.0,,17.5,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320044,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,SLCE3,Executada,Venda,100.0,100.0,,17.5,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320043,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,LEVE3F,Executada,Venda,67.0,67.0,,32.13,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320041,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,KEPL3F,Executada,Venda,65.0,65.0,,9.39,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320040,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,KEPL3,Executada,Venda,200.0,200.0,,9.39,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320039,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,ITUB4F,Executada,Venda,71.0,71.0,,32.45,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320038,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,HYPE3F,Executada,Venda,89.0,89.0,,29.09,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320037,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,BBSE3F,Executada,Venda,71.0,71.0,,32.92,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320035,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,ASAI3F,Executada,Venda,75.0,75.0,,10.53,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320034,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,ASAI3,Executada,Venda,100.0,100.0,,10.54,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320033,,CNI,3435941
+2024-06-27 11:55:39,3435941,Heitor De Lima Gomes,ARZZ3F,Executada,Venda,48.0,48.0,,50.92,Mercado,,Posição,,BVSP,Dia,,,,,,,20240627145539320032,,CNI,3435941
