@@ -25,10 +25,13 @@ class Relatorio_Comercial():
 
         assssores_theo =['Theo Ramos Moutinho', 'Bruno Henrique' 'Rejane Machado Souza',
                         'Matheus Vilar', 'Gustavo Amorim','Caroline Facó Ehlers', 
-                        'Yasmin Maia Muniz Xavier',  'Luca Bueno','Alexandre Teixeira Campos',  'Pedro Vinicius Pereira De Andrade',
-                        'Breno Lemes',  'Guilherme dos Santos','Cecilia Arcoverde Bezerra Pires','Gabriel Bicalho Fontes Raydan',
-                        'Leandro Soares Lemos De Sousa', 'Bruno Ribeiro','Bruno De Carvalho Borges',
-                        'Antonio Carlos Dos Santos', 'Augusto Sampaio', 'Rogerio Magalhaes Coelho','Neyla Mara De Sousa Abrantes Pereira']
+                        'Yasmin Maia Muniz Xavier',  'Luca Bueno','Alexandre Teixeira Campos',
+                        'Pedro Vinicius Pereira De Andrade','Andre Oliveira','Caio Cesar Da Rocha Valente Araujo',
+                        'Breno Lemes',  'Guilherme dos Santos','Cecilia Arcoverde Bezerra Pires','Felipe Cravos',
+                        'Gabriel Bicalho Fontes Raydan','Daniel Cambraia Danzig'
+                        'Leandro Soares Lemos De Sousa','Bruno De Carvalho Borges','Felipe Miranda',
+                        'Antonio Carlos Dos Santos', 'Augusto Sampaio', 'Rogerio Magalhaes Coelho',
+                        'Neyla Mara De Sousa Abrantes Pereira']
 
 
         controle_ = controle_[controle_['Assessor'].isin(assssores_theo)].reset_index()
@@ -47,7 +50,10 @@ class Relatorio_Comercial():
 
 
 
-    def mensal_compilando_controle(self,controle,co_admin,pl_d_2,btg_pl_d1):
+    def mensal_compilando_controle(self,controle,co_admin,pl_d_2,btg_pl_d1,pl_d_3):
+    
+        
+        pl_d_3 = pd.read_excel(pl_d_3).iloc[:,[0,2]].rename(columns={"Valor":"Junho"})
     
         btg_pl_d2 = pd.read_excel(pl_d_2).iloc[:,[0,2]]
         btg_pl_d1 = pd.read_excel(btg_pl_d1).iloc[:,[0,2]].rename(columns={"Valor":"D-1"})
@@ -58,26 +64,28 @@ class Relatorio_Comercial():
         controle_ = pd.concat([controle_,co_admin]).reset_index(drop='index')
 
         controle_['Conta'] = controle_['Conta'].astype(str).str[:-2].apply(lambda  x: '00'+x)
-        controle_ = controle_.merge(btg_pl_d2,on='Conta',how='outer').merge(btg_pl_d1,on='Conta',how='outer')
+        controle_ = controle_.merge(btg_pl_d2,on='Conta',how='outer').merge(btg_pl_d1,on='Conta',how='outer').merge(pl_d_3,on='Conta',how='outer')
         
-        print(list(controle_['Assessor'].unique()))
 
         assssores_theo =['Theo Ramos Moutinho', 'Bruno Henrique' 'Rejane Machado Souza',
                         'Matheus Vilar', 'Gustavo Amorim','Caroline Facó Ehlers', 
-                        'Yasmin Maia Muniz Xavier',  'Luca Bueno','Alexandre Teixeira Campos',  'Pedro Vinicius Pereira De Andrade',
-                        'Breno Lemes',  'Guilherme dos Santos','Cecilia Arcoverde Bezerra Pires','Gabriel Bicalho Fontes Raydan',
-                        'Leandro Soares Lemos De Sousa', 'Bruno Ribeiro','Bruno De Carvalho Borges',
-                        'Antonio Carlos Dos Santos', 'Augusto Sampaio', 'Rogerio Magalhaes Coelho','Neyla Mara De Sousa Abrantes Pereira']
-
+                        'Yasmin Maia Muniz Xavier',  'Luca Bueno','Alexandre Teixeira Campos',
+                        'Pedro Vinicius Pereira De Andrade','Andre Oliveira','Caio Cesar Da Rocha Valente Araujo',
+                        'Breno Lemes',  'Guilherme dos Santos','Cecilia Arcoverde Bezerra Pires','Felipe Cravos',
+                        'Gabriel Bicalho Fontes Raydan','Daniel Cambraia Danzig'
+                        'Leandro Soares Lemos De Sousa','Bruno De Carvalho Borges','Felipe Miranda',
+                        'Antonio Carlos Dos Santos', 'Augusto Sampaio', 'Rogerio Magalhaes Coelho',
+                        'Neyla Mara De Sousa Abrantes Pereira']
 
         controle_ = controle_[controle_['Assessor'].isin(assssores_theo)].reset_index()
         controle_=controle_.rename(columns ={
                                              'Valor':'D-2',
                                              })
-        controle_agregado = controle_.groupby('Assessor')[['D-1','D-2']].sum().reset_index()
+        controle_agregado = controle_.groupby('Assessor')[['D-1','D-2','Junho']].sum().reset_index()
 
-        controle_agregado['Retorno'] = (controle_agregado['D-1']-controle_agregado['D-2'])/controle_agregado['D-1']
-        controle_agregado = controle_agregado.rename(columns={'D-1':'Maio','D-2':'Abril'}).iloc[:,[0,2,1,3]]
+        controle_agregado['Retorno'] = (controle_agregado['Junho']-controle_agregado['D-1'])/controle_agregado['Junho']
+        print(controle_agregado.info())
+        controle_agregado = controle_agregado.rename(columns={'D-1':'Maio','D-2':'Abril'}).iloc[:,[0,2,1,3,4]]
 
         
 
@@ -97,8 +105,8 @@ if __name__=='__main__':
 
     planilha = rlt.compilando_controle(r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos.xlsx',
                                        r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos - Carteiras Co-Administradas.xlsx',
-                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 27 06 2024.xlsx',
-                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 28 06 2024.xlsx')
+                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 28 06 2024.xlsx',
+                                       r'C:\Users\lauro.telles\Desktop\Dados comercial\PL Diario\PL Total 01 07 2024.xlsx')
     
     st.subheader('Arquivo Final')
     st.dataframe(planilha)
@@ -106,8 +114,9 @@ if __name__=='__main__':
 
     mensal_planilha = rlt.mensal_compilando_controle(r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos.xlsx',
                                        r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\Controle de Contratos - Carteiras Co-Administradas.xlsx',
-                                       r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\pl_mensal\PL Total Abril.xlsx',
-                                       r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\pl_mensal\PL Total Maio.xlsx')
+                                       r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\pl_corretoras_d-2\pl_mensal\PL Total Abril.xlsx',
+                                       r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\pl_corretoras_d-2\pl_mensal\PL Total Maio.xlsx',
+                                       r'C:\Users\lauro.telles\Desktop\Mesa_app_3\app_mesa_de_opera-es_corrigido\pl_corretoras_d-2\pl_mensal\PL Total Junho.xlsx')
     st.subheader('Variação Mensal Arquivo Final')
     st.dataframe(mensal_planilha)
     #planilha.to_excel(r'C:\Users\lauro.telles\Desktop\Dados comercial\Mensal\Mensal Abril-Maio.xlsx')
@@ -116,7 +125,7 @@ if __name__=='__main__':
     st.subheader('Planilhas mescladas')
     st.dataframe(planilha_mesclada)
 
-    #planilha_mesclada.to_excel(r'C:\Users\lauro.telles\Desktop\Dados comercial\Dados Comercial 28 06 2024.xlsx')
+    planilha_mesclada.to_excel(r'C:\Users\lauro.telles\Desktop\Dados comercial\Dados Comercial 01 07 2024.xlsx')
 
 
 

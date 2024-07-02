@@ -1,42 +1,8 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-06-28 12:51:07,4497875,Henrique Figueiredo Marquezine,PRIO3F,Executada,Compra,69.0,69.0,,43.89942029,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357352,,5KP,4497875
-2024-06-28 12:51:06,4497875,Henrique Figueiredo Marquezine,ARZZ3F,Executada,Compra,14.0,14.0,,51.43,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357342,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,VIVT3F,Executada,Compra,85.0,85.0,,45.68,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357355,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,VALE3F,Executada,Compra,5.0,5.0,,62.33,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357354,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,SLCE3F,Executada,Compra,85.0,85.0,,17.65,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357353,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,LEVE3F,Executada,Compra,16.0,16.0,,32.38,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357351,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,KEPL3F,Executada,Compra,16.0,16.0,,9.71,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357350,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,KEPL3,Executada,Compra,500.0,500.0,,9.7,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357349,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,ITUB4F,Executada,Compra,21.0,21.0,,32.3,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357348,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,HYPE3F,Executada,Compra,45.0,45.0,,29.32,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357347,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,CPFE3F,Executada,Venda,16.0,16.0,,32.88,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357346,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,BBSE3F,Executada,Venda,21.0,21.0,,32.87,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357345,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,ASAI3F,Executada,Compra,89.0,89.0,,10.49,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357344,,5KP,4497875
-2024-06-28 12:50:54,4497875,Henrique Figueiredo Marquezine,ASAI3,Executada,Compra,800.0,800.0,,10.48,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628155054357343,,5KP,4497875
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,WIZC3F,Executada,Compra,49.0,49.0,,5.81,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353888,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,WIZC3,Executada,Compra,200.0,200.0,,5.81,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353887,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,TUPY3F,Executada,Compra,36.0,36.0,,23.76,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353886,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,TUPY3,Executada,Compra,100.0,100.0,,23.73,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353885,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,TASA4F,Executada,Compra,93.0,93.0,,11.51,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353884,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,TASA4,Executada,Compra,100.0,100.0,,11.5,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353883,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,SIMH3F,Executada,Compra,87.0,87.0,,5.42,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353881,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,SIMH3,Executada,Compra,300.0,300.0,,5.42,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353880,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,MYPK3F,Executada,Compra,21.0,21.0,,12.01,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353879,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,MYPK3,Executada,Compra,100.0,100.0,,12.0,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353878,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,VIVT3F,Executada,Compra,8.0,8.0,,45.7,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353877,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,VIVT3,Executada,Compra,100.0,100.0,,45.68,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353876,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,HYPE3F,Executada,Compra,92.0,92.0,,29.33,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353875,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,HYPE3,Executada,Compra,100.0,100.0,,29.33,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353874,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,ASAI3F,Executada,Compra,62.0,62.0,,10.51,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353873,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,ASAI3,Executada,Compra,400.0,400.0,,10.5,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353872,,CNI,4254210
-2024-06-28 12:44:45,4254210,Marco Rafael Dos Remedios Evangelista,ARZZ3F,Executada,Compra,97.0,97.0,,51.38,Mercado,,Posição,,BVSP,Dia,,,,,,,20240628154445353871,,CNI,4254210
-2024-06-28 12:41:00,4405234,Julio Antonio Barbeta,VALE3F,Executada,Compra,66.0,66.0,,62.39636364,Limitada,62.42,Posição,,BVSP,Dia,,,,,,,807381688573,a554e769ceff402f966ea2fedb22331a,6NA,4405234
-2024-06-28 12:40:56,4405234,Julio Antonio Barbeta,VIVT3F,Executada,Compra,57.0,57.0,,45.7,Mercado,,Posição,,BVSP,Dia,,,,,,,8610859711487,9291162097f74a79ba235b03b8fa1ed2,6NA,4405234
-2024-06-28 12:40:56,4405234,Julio Antonio Barbeta,SLCE3F,Executada,Compra,48.0,48.0,,17.65,Mercado,,Posição,,BVSP,Dia,,,,,,,8610859711485,d3675020566942649182b3e058edacdc,6NA,4405234
-2024-06-28 12:40:56,4405234,Julio Antonio Barbeta,LEVE3F,Executada,Compra,75.0,75.0,,32.45,Mercado,,Posição,,BVSP,Dia,,,,,,,8412054004551,456221116b85405089dbfb8ef2c39fef,6NA,4405234
-2024-06-28 12:40:56,4405234,Julio Antonio Barbeta,SLCE3,Executada,Compra,100.0,100.0,,17.65,Mercado,,Posição,,BVSP,Dia,,,,,,,8610859711484,5a4ac0b9632e416db3e4d4355697c839,6NA,4405234
-2024-06-28 12:40:56,4405234,Julio Antonio Barbeta,HYPE3F,Executada,Compra,2.0,2.0,,29.29,Mercado,,Posição,,BVSP,Dia,,,,,,,8610859711483,7bac21de4926422eaad0749844b14fe9,6NA,4405234
-2024-06-28 12:40:56,4405234,Julio Antonio Barbeta,HYPE3,Executada,Compra,100.0,100.0,,29.28,Mercado,,Posição,,BVSP,Dia,,,,,,,8610859711481,690a0d4948724719bdf2f6f5281b77d1,6NA,4405234
-2024-06-28 12:40:56,4405234,Julio Antonio Barbeta,ASAI3F,Executada,Compra,49.0,49.0,,10.48,Mercado,,Posição,,BVSP,Dia,,,,,,,8610859711480,edb4e81f31a246afa2f45e1db6c23032,6NA,4405234
-2024-06-28 12:40:56,4405234,Julio Antonio Barbeta,ASAI3,Executada,Compra,200.0,200.0,,10.47,Mercado,,Posição,,BVSP,Dia,,,,,,,8610859711479,2bba62a5d8434600a4df36e5a76bd59b,6NA,4405234
-2024-06-28 12:40:56,4405234,Julio Antonio Barbeta,ARZZ3F,Executada,Compra,51.0,51.0,,51.42,Mercado,,Posição,,BVSP,Dia,,,,,,,8610859711478,a4cf7bd70c364611aaba6c7e8b24c524,6NA,4405234
+2024-07-01 13:30:26,4237325,Ricardo Jose Lacerda Prudencio,PLCR11,Executada,Compra,22.0,22.0,,84.06454545,Limitada,84.28,Posição,,BVSP,Dia,,,,,,,8412063482353,af1a741bee33473b82fea93b6671cf00,6NA,4237325
+2024-07-01 13:30:23,4237325,Ricardo Jose Lacerda Prudencio,BTLG11,Executada,Compra,29.0,29.0,,99.34137931,Limitada,99.47,Posição,,BVSP,Dia,,,,,,,8412063482357,c353fd40791d4fb19fe99ea80af63550,6NA,4237325
+2024-07-01 13:30:21,4237325,Ricardo Jose Lacerda Prudencio,MALL11,Executada,Compra,9.0,9.0,,109.89222222,Limitada,110.02,Posição,,BVSP,Dia,,,,,,,8412063482354,a41510bc932741c0ae068d28d5782c67,6NA,4237325
+2024-07-01 13:30:14,4237325,Ricardo Jose Lacerda Prudencio,HGLG11,Executada,Compra,19.0,19.0,,158.07,Mercado,,Posição,,BVSP,Dia,,,,,,,8412063482356,ed352dcba15742febbfa2631ad390357,6NA,4237325
+2024-07-01 13:30:14,4237325,Ricardo Jose Lacerda Prudencio,KNCA11,Executada,Compra,8.0,8.0,,101.1,Mercado,,Posição,,BVSP,Dia,,,,,,,8610869002080,9c587ad228c6405083635cbc7607d75e,6NA,4237325
+2024-07-01 13:30:14,4237325,Ricardo Jose Lacerda Prudencio,TRXF11,Executada,Compra,20.0,20.0,,104.45,Mercado,,Posição,,BVSP,Dia,,,,,,,8412063482352,0d6b20f9f3934e8c9bf46363d416aabc,6NA,4237325
+2024-07-01 12:25:13,4958578,Assako Utsumi Okada,BOVA11,Executada,Compra,12.0,12.0,,121.43,Mercado,,Posição,,BVSP,Dia,,,,,,,20240701152513318375,,CNI,4958578
