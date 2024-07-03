@@ -1,8 +1,1 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-07-01 13:30:26,4237325,Ricardo Jose Lacerda Prudencio,PLCR11,Executada,Compra,22.0,22.0,,84.06454545,Limitada,84.28,Posição,,BVSP,Dia,,,,,,,8412063482353,af1a741bee33473b82fea93b6671cf00,6NA,4237325
-2024-07-01 13:30:23,4237325,Ricardo Jose Lacerda Prudencio,BTLG11,Executada,Compra,29.0,29.0,,99.34137931,Limitada,99.47,Posição,,BVSP,Dia,,,,,,,8412063482357,c353fd40791d4fb19fe99ea80af63550,6NA,4237325
-2024-07-01 13:30:21,4237325,Ricardo Jose Lacerda Prudencio,MALL11,Executada,Compra,9.0,9.0,,109.89222222,Limitada,110.02,Posição,,BVSP,Dia,,,,,,,8412063482354,a41510bc932741c0ae068d28d5782c67,6NA,4237325
-2024-07-01 13:30:14,4237325,Ricardo Jose Lacerda Prudencio,HGLG11,Executada,Compra,19.0,19.0,,158.07,Mercado,,Posição,,BVSP,Dia,,,,,,,8412063482356,ed352dcba15742febbfa2631ad390357,6NA,4237325
-2024-07-01 13:30:14,4237325,Ricardo Jose Lacerda Prudencio,KNCA11,Executada,Compra,8.0,8.0,,101.1,Mercado,,Posição,,BVSP,Dia,,,,,,,8610869002080,9c587ad228c6405083635cbc7607d75e,6NA,4237325
-2024-07-01 13:30:14,4237325,Ricardo Jose Lacerda Prudencio,TRXF11,Executada,Compra,20.0,20.0,,104.45,Mercado,,Posição,,BVSP,Dia,,,,,,,8412063482352,0d6b20f9f3934e8c9bf46363d416aabc,6NA,4237325
-2024-07-01 12:25:13,4958578,Assako Utsumi Okada,BOVA11,Executada,Compra,12.0,12.0,,121.43,Mercado,,Posição,,BVSP,Dia,,,,,,,20240701152513318375,,CNI,4958578
