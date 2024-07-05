@@ -1,1 +1,92 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,WIZC3F,Executada,Compra,67.0,67.0,,5.94,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610891414895,3a618d0d7ee143f186f22578e5916cb0,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,WIZC3,Executada,Compra,400.0,400.0,,5.94,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610891414894,c426e21e3ab74ba5acb7d290c4447770,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,TUPY3F,Executada,Venda,48.0,48.0,,25.1,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412084607857,5330f9c8eae8493daaa6e83d6e7fb4b9,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,TUPY3,Executada,Venda,100.0,100.0,,25.11,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412084607856,6f95beb95d554393805eab30db54556b,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,TASA4F,Executada,Venda,5.0,5.0,,12.26,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610891414893,d7c83e088359405da2c22a794cc9fcb7,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,SHUL4F,Executada,Compra,95.0,95.0,,6.2,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412084607852,8a4d43b42d4e433988ad65206a4890f5,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,SHUL4,Executada,Compra,900.0,900.0,,6.2,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412084607851,b34fb05f8b054994ae29acf835b33df0,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,TASA4,Executada,Venda,200.0,200.0,,12.27,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610891414889,cdf2e80f6a544a1d94f656261460de58,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,RANI3F,Executada,Compra,3.0,3.0,,8.76,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412084607849,ecb24778505b44a599a7c33030b46d91,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,RANI3,Executada,Compra,700.0,700.0,,8.75,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412084607848,d4fdf77950be4e3ab46a16384fc1efbd,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,MYPK3F,Executada,Venda,61.0,61.0,,12.07,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412084607842,798219412ce446dbb0905ffb0d516295,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,MYPK3,Executada,Venda,100.0,100.0,,12.09,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412084607841,1db0cb7b81494b929dd7dceb93be52c3,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,JALL3F,Executada,Venda,15.0,15.0,,7.62,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610891414886,ed85b0953484494ba55f345b3805155a,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,ABCB4F,Executada,Compra,79.0,79.0,,22.09,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905438379368,13b5abd97159418a8303afd04500a7f3,CNI,4254210
+2024-07-04 16:46:00,4254210,Marco Rafael Dos Remedios Evangelista,ABCB4,Executada,Compra,200.0,200.0,,22.08,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905438379367,efc095a6451b42ffae16330910d6503e,CNI,4254210
+2024-07-04 15:40:51,4436055,Marco Antonio Fonseca Braga,MYPK3F,Executada,Venda,21.0,21.0,,12.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426233,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,WIZC3F,Executada,Compra,48.0,48.0,,5.96,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426245,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,WIZC3,Executada,Compra,400.0,400.0,,5.95,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426244,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,TUPY3F,Executada,Venda,21.0,21.0,,25.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426243,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,TUPY3,Executada,Venda,100.0,100.0,,25.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426242,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,TASA4,Executada,Compra,200.0,200.0,,12.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426240,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,TASA4F,Executada,Compra,67.0,67.0,,12.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426241,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,SHUL4F,Executada,Compra,62.0,62.0,,6.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426239,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,SHUL4,Executada,Compra,1200.0,1200.0,,6.19,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426238,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,RANI3F,Executada,Compra,88.0,88.0,,8.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426237,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,RANI3,Executada,Compra,800.0,800.0,,8.8,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426236,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,PRIO3F,Executada,Venda,81.0,81.0,,46.1,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426235,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,PRIO3,Executada,Venda,100.0,100.0,,46.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426234,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,MYPK3,Executada,Venda,100.0,100.0,,12.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426232,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,KEPL3F,Executada,Venda,78.0,78.0,,9.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426231,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,KEPL3,Executada,Venda,800.0,800.0,,9.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426230,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,JALL3F,Executada,Venda,18.0,18.0,,7.61,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426229,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,JALL3,Executada,Venda,700.0,700.0,,7.62,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426228,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,ABCB4F,Executada,Compra,53.0,53.0,,22.16,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426227,,03Q,4436055
+2024-07-04 15:40:37,4436055,Marco Antonio Fonseca Braga,ABCB4,Executada,Compra,300.0,300.0,,22.15,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704184037426226,,03Q,4436055
+2024-07-04 13:57:58,5324840,Pedro Sergio Vieira Da Silva,PRIO3F,Executada,Venda,44.0,44.0,,46.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704165748352287,,03Q,5324840
+2024-07-04 13:57:48,5324840,Pedro Sergio Vieira Da Silva,SLCE3F,Executada,Venda,83.0,83.0,,19.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704165748352288,,03Q,5324840
+2024-07-04 13:57:48,5324840,Pedro Sergio Vieira Da Silva,LEVE3F,Executada,Venda,4.0,4.0,,33.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704165748352286,,03Q,5324840
+2024-07-04 13:57:48,5324840,Pedro Sergio Vieira Da Silva,KEPL3F,Executada,Venda,57.0,57.0,,9.95,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704165748352285,,03Q,5324840
+2024-07-04 13:57:48,5324840,Pedro Sergio Vieira Da Silva,KEPL3,Executada,Venda,100.0,100.0,,9.96,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704165748352284,,03Q,5324840
+2024-07-04 13:57:48,5324840,Pedro Sergio Vieira Da Silva,ITUB4F,Executada,Compra,1.0,1.0,,33.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704165748352283,,03Q,5324840
+2024-07-04 13:26:05,5231126,Washington Jose De Lyra Junior,PRIO3F,Executada,Venda,14.0,14.0,,46.76,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829245056566,30cc79ad6da048a08c4be8dc98ef639f,03Q,5231126
+2024-07-04 13:26:04,5231126,Washington Jose De Lyra Junior,SLCE3F,Executada,Venda,43.0,43.0,,19.06046512,Limitada,19.04,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610889170067,00ce9b93ec604484a9d80b279c8a0f00,03Q,5231126
+2024-07-04 13:25:55,5231126,Washington Jose De Lyra Junior,ITUB4F,Executada,Venda,21.0,21.0,,33.07,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905437801968,15cd1a049290422187bff60b233615f0,03Q,5231126
+2024-07-04 13:25:55,5231126,Washington Jose De Lyra Junior,ARZZ3F,Executada,Venda,17.0,17.0,,51.92,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610889170075,89a8fee0ae334a91a6b59291f6475bbd,03Q,5231126
+2024-07-04 13:25:55,5231126,Washington Jose De Lyra Junior,ASAI3F,Executada,Compra,34.0,34.0,,10.95,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610889170074,ec14781a374745d58b9690e1e602692b,03Q,5231126
+2024-07-04 13:25:55,5231126,Washington Jose De Lyra Junior,BBSE3F,Executada,Venda,20.0,20.0,,33.13,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610889170073,365f02a7178a4e70b3f3c7953a49e749,03Q,5231126
+2024-07-04 13:25:55,5231126,Washington Jose De Lyra Junior,CPFE3F,Executada,Venda,17.0,17.0,,33.23,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412082720074,a65a64a5efbb40aa92bfd69cb58b7f4f,03Q,5231126
+2024-07-04 13:25:55,5231126,Washington Jose De Lyra Junior,LEVE3F,Executada,Venda,24.0,24.0,,33.78,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412082720073,489d68a259d44bfebf0cb6d702a205f5,03Q,5231126
+2024-07-04 13:25:55,5231126,Washington Jose De Lyra Junior,KEPL3F,Executada,Venda,67.0,67.0,,9.95,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610889170069,d5b0e9d5fbdc4a878e18f401b6286317,03Q,5231126
+2024-07-04 13:25:55,5231126,Washington Jose De Lyra Junior,HYPE3F,Executada,Venda,15.0,15.0,,28.89,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610889170070,54806c4eea014cb4b590b676a1145068,03Q,5231126
+2024-07-04 13:25:55,5231126,Washington Jose De Lyra Junior,VALE3F,Executada,Venda,13.0,13.0,,64.01,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807392519090,0afa3ea1e770466c9d326b823f72ae98,03Q,5231126
+2024-07-04 13:25:55,5231126,Washington Jose De Lyra Junior,VIVT3F,Executada,Venda,14.0,14.0,,45.86,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610889170066,84934dcf3ece4833a6d81625980b7491,03Q,5231126
+2024-07-04 12:34:13,4376145,Lucyene Dos Santos Borges,ASAI3F,Executada,Compra,86.0,86.0,,10.97988372,Limitada,11.01,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888663426,95835d22c77a40f8b19f6004cf1a6518,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,VIVT3F,Executada,Compra,17.0,17.0,,45.97,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888663436,9e405bcc54ba4f6e9a2ebee1f8ac3557,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,VALE3F,Executada,Compra,14.0,14.0,,64.1,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807392296775,e0e3ee8cfc7f4d5a85b3302d395664c3,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,SLCE3F,Executada,Compra,21.0,21.0,,19.04,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888663435,0767b5f3935e41fd81643a49224ba45e,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,PRIO3F,Executada,Compra,18.0,18.0,,46.59,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829244669525,8fda3815ffed4a41a81c6b0bacba160e,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,KEPL3F,Executada,Compra,68.0,68.0,,9.97,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888663433,bcdb6cb2b0114414999e0609ccb030db,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,ITUB4F,Executada,Compra,18.0,18.0,,33.15,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905437658515,d86340f4776d407fa117f114ee233c77,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,CPFE3F,Executada,Compra,12.0,12.0,,33.39,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412082301234,8661edba2df648458d6421e369014a9f,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,HYPE3F,Executada,Compra,34.0,34.0,,28.97,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888663431,4f2f420b456d4640ba94c7b40361e23c,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,BBSE3F,Executada,Compra,15.0,15.0,,33.15,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888663427,a83486862e6c427da9d7b3f7f9aa41b9,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,ASAI3,Executada,Compra,100.0,100.0,,10.97,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888663424,10cb77287c304c0dacb931a901550bfc,CNI,4376145
+2024-07-04 12:34:02,4376145,Lucyene Dos Santos Borges,ARZZ3F,Executada,Compra,9.0,9.0,,52.21,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888663423,4099c185ca774315a20a19a5a14cdbe8,CNI,4376145
+2024-07-04 12:29:10,4221638,Caroline Bastos De Souza,VIVT3F,Executada,Compra,2.0,2.0,,45.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704152909315779,,CNI,4221638
+2024-07-04 12:29:10,4221638,Caroline Bastos De Souza,PRIO3F,Executada,Compra,2.0,2.0,,46.61,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704152909315778,,CNI,4221638
+2024-07-04 12:29:09,4221638,Caroline Bastos De Souza,LEVE3F,Executada,Venda,4.0,4.0,,33.85,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704152909315777,,CNI,4221638
+2024-07-04 12:29:09,4221638,Caroline Bastos De Souza,KEPL3F,Executada,Compra,7.0,7.0,,9.96,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704152909315776,,CNI,4221638
+2024-07-04 12:29:09,4221638,Caroline Bastos De Souza,ITUB4F,Executada,Compra,1.0,1.0,,33.17,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704152909315775,,CNI,4221638
+2024-07-04 12:29:09,4221638,Caroline Bastos De Souza,HYPE3F,Executada,Compra,5.0,5.0,,28.97,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704152909315774,,CNI,4221638
+2024-07-04 12:29:09,4221638,Caroline Bastos De Souza,CPFE3F,Executada,Compra,1.0,1.0,,33.39,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704152909315773,,CNI,4221638
+2024-07-04 12:29:09,4221638,Caroline Bastos De Souza,ASAI3F,Executada,Compra,51.0,51.0,,10.97,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240704152909315772,,CNI,4221638
+2024-07-04 11:56:44,4436055,Marco Antonio Fonseca Braga,HBSA3,Executada,Venda,3500.0,3500.0,,3.89028571,Limitada,3.88,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195930,3494f2ca5ec1428684e76d8b7a1e2d9e,CNI,4436055
+2024-07-04 11:56:18,4259659,Bento Rodrigo Fernandes Bueno,ENEV3F,Executada,Venda,59.0,59.0,,12.95,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412081938754,0c5ba5b023354a36a6fb12a42f822792,CNI,4259659
+2024-07-04 11:56:18,4259659,Bento Rodrigo Fernandes Bueno,ENEV3,Executada,Venda,100.0,100.0,,12.96,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412081938753,16ade717367341308c4710cd0a36ec7e,CNI,4259659
+2024-07-04 11:56:18,4436055,Marco Antonio Fonseca Braga,ENEV3F,Executada,Venda,65.0,65.0,,12.95,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412081938756,628914c5d63a43d4a297d6e97c122256,CNI,4436055
+2024-07-04 11:56:18,4436055,Marco Antonio Fonseca Braga,ENEV3,Executada,Venda,600.0,600.0,,12.96,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412081938755,2ccfdd09a99c4c3db79ef961f45a401a,CNI,4436055
+2024-07-04 11:56:18,4254210,Marco Rafael Dos Remedios Evangelista,ENEV3F,Executada,Venda,2.0,2.0,,12.95,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412081938752,bc1fdbd6c7204920bc9bb34789e71fda,CNI,4254210
+2024-07-04 11:56:18,4254210,Marco Rafael Dos Remedios Evangelista,ENEV3,Executada,Venda,400.0,400.0,,12.96,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412081938751,720c91cc397247dcb845e05cd055d6ce,CNI,4254210
+2024-07-04 11:56:18,4436055,Marco Antonio Fonseca Braga,HBSA3F,Executada,Venda,75.0,75.0,,3.89,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195940,4a53734199ca424fb11d37c259e1c116,CNI,4436055
+2024-07-04 11:56:18,4259659,Bento Rodrigo Fernandes Bueno,HBSA3F,Executada,Venda,35.0,35.0,,3.9,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195919,f9c79d97bd024c12890376ba0bd47b3f,CNI,4259659
+2024-07-04 11:56:18,4254210,Marco Rafael Dos Remedios Evangelista,HBSA3F,Executada,Venda,18.0,18.0,,3.9,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195902,08bcddef44fd4ea395797aab83c6a90d,CNI,4254210
+2024-07-04 11:56:18,4259659,Bento Rodrigo Fernandes Bueno,HBSA3,Executada,Venda,900.0,900.0,,3.9,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195906,468deead4c624aeea2cbb443549d5304,CNI,4259659
+2024-07-04 11:56:18,4436055,Marco Antonio Fonseca Braga,SIMH3,Executada,Venda,2100.0,2100.0,,6.34,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195888,780dd629c1214877890b6f11fa2bd66a,CNI,4436055
+2024-07-04 11:56:18,4254210,Marco Rafael Dos Remedios Evangelista,HBSA3,Executada,Venda,2000.0,2000.0,,3.9,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195890,30c3548cc8ad4048bb3d03dff956fece,CNI,4254210
+2024-07-04 11:56:18,4436055,Marco Antonio Fonseca Braga,SIMH3F,Executada,Venda,97.0,97.0,,6.33,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195889,8b6abd571674454ea00b92632c6f130f,CNI,4436055
+2024-07-04 11:56:18,4254210,Marco Rafael Dos Remedios Evangelista,SIMH3,Executada,Venda,1800.0,1800.0,,6.34,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195874,72bcc846871f4b1bbe73ab3dd3fc2743,CNI,4254210
+2024-07-04 11:56:18,4259659,Bento Rodrigo Fernandes Bueno,SIMH3F,Executada,Venda,9.0,9.0,,6.33,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195885,19f9c24e5a6443cf8423900f421178ea,CNI,4259659
+2024-07-04 11:56:18,4259659,Bento Rodrigo Fernandes Bueno,SIMH3,Executada,Venda,300.0,300.0,,6.33,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195876,b6fba84f3e694e8caf30487412cbcf12,CNI,4259659
+2024-07-04 11:56:18,4254210,Marco Rafael Dos Remedios Evangelista,SIMH3F,Executada,Venda,36.0,36.0,,6.33,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610888195875,3df86948d4d94c6cbb40edd13d028415,CNI,4254210
