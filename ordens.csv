@@ -1,66 +1,62 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-07-05 14:24:34,5105970,Vera Lucia Elias De Oliveira,VIVT3F,Executada,Venda,38.0,38.0,,46.27236842,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391285,,5KP,5105970
-2024-07-05 14:24:24,5105970,Vera Lucia Elias De Oliveira,PRIO3F,Executada,Venda,45.0,45.0,,45.99066667,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391282,,5KP,5105970
-2024-07-05 14:24:19,5105970,Vera Lucia Elias De Oliveira,BBSE3F,Executada,Venda,54.0,54.0,,33.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391275,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,VALE3F,Executada,Venda,46.0,46.0,,63.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391284,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,SLCE3F,Executada,Venda,99.0,99.0,,18.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391283,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,LEVE3F,Executada,Venda,45.0,45.0,,33.18,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391281,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,KEPL3F,Executada,Venda,90.0,90.0,,9.78,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391280,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,KEPL3,Executada,Venda,100.0,100.0,,9.78,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391279,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,ITUB4F,Executada,Venda,56.0,56.0,,32.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391278,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,HYPE3F,Executada,Venda,69.0,69.0,,29.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391277,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,CPFE3F,Executada,Venda,46.0,46.0,,33.15,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391276,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,ASAI3F,Executada,Venda,18.0,18.0,,11.28,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391274,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,ASAI3,Executada,Venda,100.0,100.0,,11.29,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391273,,5KP,5105970
-2024-07-05 14:24:10,5105970,Vera Lucia Elias De Oliveira,ARZZ3F,Executada,Venda,33.0,33.0,,52.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705172410391272,,5KP,5105970
-2024-07-05 12:16:47,5105970,Vera Lucia Elias De Oliveira,ARZZ3F,Executada,Compra,33.0,33.0,,52.14909091,Limitada,52.15,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313832,,CNI,5105970
-2024-07-05 12:16:40,5105970,Vera Lucia Elias De Oliveira,PRIO3F,Executada,Compra,45.0,45.0,,46.23933333,Limitada,46.25,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313842,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,ITUB4F,Executada,Compra,56.0,56.0,,32.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313838,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,VIVT3F,Executada,Compra,38.0,38.0,,46.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313845,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,SLCE3F,Executada,Compra,99.0,99.0,,18.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313843,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,VALE3F,Executada,Compra,46.0,46.0,,63.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313844,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,LEVE3F,Executada,Compra,45.0,45.0,,33.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313841,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,KEPL3F,Executada,Compra,90.0,90.0,,9.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313840,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,KEPL3,Executada,Compra,100.0,100.0,,9.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313839,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,HYPE3F,Executada,Compra,69.0,69.0,,29.24,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313837,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,CPFE3F,Executada,Compra,46.0,46.0,,33.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313836,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,ASAI3F,Executada,Compra,18.0,18.0,,11.37,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313834,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,BBSE3F,Executada,Compra,54.0,54.0,,33.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313835,,CNI,5105970
-2024-07-05 12:16:30,5105970,Vera Lucia Elias De Oliveira,ASAI3,Executada,Compra,100.0,100.0,,11.36,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705151630313833,,CNI,5105970
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,VIVT3F,Executada,Compra,2.0,2.0,,46.42,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310060,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,VALE3F,Executada,Compra,2.0,2.0,,63.69,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310059,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,SLCE3F,Executada,Venda,2.0,2.0,,18.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310058,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,PRIO3F,Executada,Compra,6.0,6.0,,46.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310057,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,LEVE3F,Executada,Venda,10.0,10.0,,33.33,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310056,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,KEPL3F,Executada,Compra,23.0,23.0,,9.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310055,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,ITUB4F,Executada,Compra,5.0,5.0,,32.77,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310054,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,HYPE3F,Executada,Compra,12.0,12.0,,29.13,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310053,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,CPFE3F,Executada,Compra,1.0,1.0,,33.12,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310052,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,ASAI3F,Executada,Compra,12.0,12.0,,11.38,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310051,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,ASAI3,Executada,Compra,100.0,100.0,,11.38,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310050,,CNI,4508526
-2024-07-05 12:07:47,4508526,Cassio Kaminagakura,ARZZ3F,Executada,Venda,1.0,1.0,,52.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705150747310049,,CNI,4508526
-2024-07-05 12:04:17,5624274,Clayton De Souza Pontes,XPML11,Executada,Venda,267.0,267.0,,113.94,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412087315325,040c4a86dca4439cbe67e9c65bac9f64,CNI,5624274
-2024-07-05 12:02:27,5624274,Clayton De Souza Pontes,ASAI3F,Executada,Compra,66.0,66.0,,11.31,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610894343723,0982d11399af451a982c36fecf2c4ddf,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,VIVT3F,Executada,Compra,30.0,30.0,,46.47,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610894343758,39e53129d71a4416b006526aa3f041be,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,VALE3F,Executada,Compra,30.0,30.0,,63.58,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807394360017,f492e3fb8dab43c595a5be28109f9e10,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,PRIO3F,Executada,Compra,46.0,46.0,,46.27,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829250113312,707c507547ae49c19a2f79067f820377,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,SLCE3F,Executada,Compra,99.0,99.0,,18.79,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610894343741,8295f564ed684584b1927f275b2873ec,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,KEPL3F,Executada,Compra,18.0,18.0,,9.81,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610894343738,6bfb93ba5faf4e87a21ef5210d197218,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,LEVE3F,Executada,Compra,52.0,52.0,,33.36,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412087315331,020383f5c75543548734d642a34ba23e,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,ITUB4F,Executada,Compra,11.0,11.0,,32.77,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905439495163,85bc1c9e42b94697b1b7b26d5a7043db,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,KEPL3,Executada,Compra,200.0,200.0,,9.79,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610894343730,92ec0f388d8746b7b1b2359bda66decf,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,HYPE3F,Executada,Compra,73.0,73.0,,29.01,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610894343725,284ff51287234000a265c66b59bbad4c,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,BBSE3F,Executada,Compra,57.0,57.0,,33.03,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610894343724,4c95912d37a44f978bff46972438a6c1,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,ASAI3,Executada,Compra,100.0,100.0,,11.31,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610894343722,952189a7209e42cd82ae4e5bb299a4b1,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,ARZZ3F,Executada,Compra,36.0,36.0,,52.09,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610894343721,8a652ab6b6ce4a56a5f4cb70240a83c0,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,AAZQ11,Executada,Venda,2250.0,2250.0,,7.26,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610894343720,061e6d789f2b4f0799ae976d7a2e353d,CNI,5624274
-2024-07-05 12:02:15,5624274,Clayton De Souza Pontes,CPFE3F,Executada,Compra,48.0,48.0,,33.11,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412087315326,6c34d98591bf416bbacb1bc03f0ab622,CNI,5624274
-2024-07-05 11:52:18,4212581,Maria Socorro Rodrigues,BOVA11,Executada,Venda,107.0,107.0,,122.29,Limitada,122.29,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8813465484546,51e363d8071b4db387dd131cf74fb098,03Q,4212581
-2024-07-05 10:57:03,5076418,Leonardo Fernandes De Oliveira,KEPL3F,Executada,Venda,69.0,69.0,,9.78043478,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705135650264427,,5KP,5076418
-2024-07-05 10:56:50,5076418,Leonardo Fernandes De Oliveira,SLCE3F,Executada,Venda,80.0,80.0,,18.84,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705135650264430,,5KP,5076418
-2024-07-05 10:56:50,5076418,Leonardo Fernandes De Oliveira,PRIO3F,Executada,Venda,36.0,36.0,,46.12,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705135650264429,,5KP,5076418
-2024-07-05 10:56:50,5076418,Leonardo Fernandes De Oliveira,LEVE3F,Executada,Venda,42.0,42.0,,33.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705135650264428,,5KP,5076418
-2024-07-05 10:56:50,5076418,Leonardo Fernandes De Oliveira,KEPL3,Executada,Venda,100.0,100.0,,9.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705135650264426,,5KP,5076418
-2024-07-05 10:56:50,5076418,Leonardo Fernandes De Oliveira,ITUB4F,Executada,Venda,45.0,45.0,,32.67,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705135650264425,,5KP,5076418
-2024-07-05 10:56:50,5076418,Leonardo Fernandes De Oliveira,CPFE3F,Executada,Venda,39.0,39.0,,33.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705135650264424,,5KP,5076418
-2024-07-05 10:56:50,5076418,Leonardo Fernandes De Oliveira,BBSE3F,Executada,Venda,45.0,45.0,,33.06,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240705135650264423,,5KP,5076418
+2024-07-08 14:32:28,5081833,Pedro Ernesto Goncalves Pessoa,ITUB4F,Executada,Compra,29.0,29.0,,32.74,Limitada,32.76,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905442442641,337206c96309445a90fb4f0c029d9ac1,5KP,5081833
+2024-07-08 14:32:28,5081833,Pedro Ernesto Goncalves Pessoa,ITUB4,Executada,Compra,100.0,100.0,,32.72,Limitada,32.76,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905442442640,9a1194c83f444f1ebd81310a1c2456d5,5KP,5081833
+2024-07-08 14:31:31,5081833,Pedro Ernesto Goncalves Pessoa,ARZZ3F,Executada,Venda,47.0,47.0,,53.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425935,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,VALE3,Executada,Venda,100.0,100.0,,62.77,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425951,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,VIVT3F,Executada,Venda,35.0,35.0,,46.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425952,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,SLCE3F,Executada,Venda,31.0,31.0,,18.89,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425950,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,PRIO3F,Executada,Venda,2.0,2.0,,45.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425948,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,SLCE3,Executada,Venda,200.0,200.0,,18.89,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425949,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,PRIO3,Executada,Venda,100.0,100.0,,45.06,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425947,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,KEPL3F,Executada,Venda,81.0,81.0,,9.88,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425945,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,LEVE3F,Executada,Venda,75.0,75.0,,33.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425946,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,KEPL3,Executada,Venda,400.0,400.0,,9.89,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425944,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,ITUB4F,Rejeitada,Compra,29.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240708173125425943,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,ITUB4,Rejeitada,Compra,100.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240708173125425942,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,HYPE3F,Executada,Venda,51.0,51.0,,28.63,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425941,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,HYPE3,Executada,Venda,100.0,100.0,,28.64,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425940,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,CPFE3F,Executada,Venda,93.0,93.0,,33.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425939,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,BBSE3F,Executada,Venda,68.0,68.0,,33.06,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425938,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,ASAI3F,Executada,Venda,30.0,30.0,,11.57,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425937,,5KP,5081833
+2024-07-08 14:31:25,5081833,Pedro Ernesto Goncalves Pessoa,ASAI3,Executada,Venda,200.0,200.0,,11.59,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708173125425936,,5KP,5081833
+2024-07-08 13:47:04,5171652,Bruno Henrique Borges Silva,SOJA3F,Executada,Compra,5.0,5.0,,15.202,Limitada,15.22,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708164434399858,,CNI,5171652
+2024-07-08 13:44:34,5171652,Bruno Henrique Borges Silva,PCAR3F,Executada,Compra,65.0,65.0,,3.1,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708164434399857,,CNI,5171652
+2024-07-08 13:44:34,5171652,Bruno Henrique Borges Silva,ITUB4F,Executada,Compra,3.0,3.0,,32.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708164434399856,,CNI,5171652
+2024-07-08 13:44:34,5171652,Bruno Henrique Borges Silva,ABEV3F,Executada,Compra,11.0,11.0,,11.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708164434399855,,CNI,5171652
+2024-07-08 11:22:36,4452912,Bruno Sacani Sobrinho,VALE3F,Executada,Venda,36.0,36.0,,63.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708142236314959,,5KP,4452912
+2024-07-08 11:22:36,4452912,Bruno Sacani Sobrinho,SLCE3F,Executada,Venda,12.0,12.0,,18.85,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708142236314958,,5KP,4452912
+2024-07-08 11:22:36,4452912,Bruno Sacani Sobrinho,SLCE3,Executada,Venda,200.0,200.0,,18.85,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708142236314957,,5KP,4452912
+2024-07-08 11:22:36,4452912,Bruno Sacani Sobrinho,LEVE3F,Executada,Venda,18.0,18.0,,33.19,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708142236314956,,5KP,4452912
+2024-07-08 11:22:36,4452912,Bruno Sacani Sobrinho,KEPL3F,Executada,Venda,27.0,27.0,,9.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708142236314955,,5KP,4452912
+2024-07-08 11:22:36,4452912,Bruno Sacani Sobrinho,KEPL3,Executada,Venda,300.0,300.0,,9.89,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708142236314954,,5KP,4452912
+2024-07-08 11:22:36,4452912,Bruno Sacani Sobrinho,ITUB4F,Executada,Compra,5.0,5.0,,32.7,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708142236314953,,5KP,4452912
+2024-07-08 11:22:36,4452912,Bruno Sacani Sobrinho,HYPE3F,Executada,Compra,56.0,56.0,,28.77,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708142236314952,,5KP,4452912
+2024-07-08 11:22:36,4452912,Bruno Sacani Sobrinho,CPFE3F,Executada,Venda,9.0,9.0,,33.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708142236314951,,5KP,4452912
+2024-07-08 11:22:36,4452912,Bruno Sacani Sobrinho,BBSE3F,Executada,Compra,33.0,33.0,,33.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708142236314949,,5KP,4452912
+2024-07-08 11:13:00,4940560,Cristiano Augusto Andrade De Resende,CPFE3F,Executada,Compra,72.0,72.0,,33.21,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308157,,CNI,4940560
+2024-07-08 11:12:49,4940560,Cristiano Augusto Andrade De Resende,ITUB4F,Executada,Compra,38.0,38.0,,32.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308159,,CNI,4940560
+2024-07-08 11:12:45,4940560,Cristiano Augusto Andrade De Resende,ARZZ3F,Executada,Compra,19.0,19.0,,53.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308153,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,VIVT3F,Executada,Compra,40.0,40.0,,46.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308166,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,VALE3F,Executada,Compra,61.0,61.0,,63.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308165,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,SLCE3F,Executada,Compra,65.0,65.0,,18.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308164,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,KEPL3F,Executada,Compra,20.0,20.0,,9.93,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308161,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,PRIO3F,Executada,Compra,11.0,11.0,,45.86,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308163,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,LEVE3F,Executada,Compra,37.0,37.0,,33.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308162,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,KEPL3,Executada,Compra,200.0,200.0,,9.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308160,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,HYPE3F,Executada,Compra,94.0,94.0,,29.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308158,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,BBSE3F,Executada,Compra,56.0,56.0,,33.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308156,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,ASAI3F,Executada,Compra,44.0,44.0,,11.47,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308155,,CNI,4940560
+2024-07-08 11:12:43,4940560,Cristiano Augusto Andrade De Resende,ASAI3,Executada,Compra,300.0,300.0,,11.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708141243308154,,CNI,4940560
+2024-07-08 10:55:11,4862746,Cesar Eduardo Castro Ferreira Martins,ARZZ3F,Executada,Venda,30.0,30.0,,52.67533333,Limitada,52.67,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278730,,CNI,4862746
+2024-07-08 10:54:40,4862746,Cesar Eduardo Castro Ferreira Martins,ITUB4F,Executada,Venda,40.0,40.0,,32.65675,Limitada,32.65,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278735,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,VIVT3F,Executada,Venda,28.0,28.0,,45.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278742,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,VALE3F,Executada,Venda,28.0,28.0,,63.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278741,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,SLCE3F,Executada,Venda,76.0,76.0,,18.93,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278740,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,PRIO3F,Executada,Venda,29.0,29.0,,45.89,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278739,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,LEVE3F,Executada,Venda,39.0,39.0,,33.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278738,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,KEPL3F,Executada,Venda,38.0,38.0,,9.84,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278737,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,KEPL3,Executada,Venda,100.0,100.0,,9.84,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278736,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,HYPE3F,Executada,Venda,41.0,41.0,,28.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278734,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,CPFE3F,Executada,Venda,34.0,34.0,,32.95,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278733,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,BBSE3F,Executada,Venda,40.0,40.0,,33.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278732,,CNI,4862746
+2024-07-08 10:54:17,4862746,Cesar Eduardo Castro Ferreira Martins,ASAI3F,Executada,Venda,49.0,49.0,,11.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240708135417278731,,CNI,4862746
