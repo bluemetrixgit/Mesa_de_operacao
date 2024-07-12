@@ -154,7 +154,7 @@ if selecionar == 'Comercial':
 
 
     lista_email_assessores = {#'Theo Ramos Moutinho':'laurotfl@gmail.com',
-         'Theo Ramos Moutinho':'theo.moutinho@bluemetrix.com.br',
+         'Theo Ramos Moutinho':'',
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
       'Thiago Canabrava':'thiagocanabrava99@gmail.com',
@@ -614,7 +614,10 @@ elif authenticator.login():
                 filtrando_saldo_1 = arquivo1.filtrando_dados_e_separando_operadores(arquivo_compilado=arquivo_compilado,co_admin=co_admin)
                 ler_arquivos = Carteiras_co_admin()            
                 dados_agregados = ler_arquivos.juntando_planilhas(pl,controle_co_admin,saldo)
-                dados_agregados = dados_agregados.iloc[:,[0,2,1,4,3,5,6,9,7,8]].rename(columns={'PL':'Valor'})
+
+                dados_agregados = dados_agregados.iloc[:,[0,2,1,4,3,6,5,9,7,8,9]].rename(columns={'PL':'Valor'})
+                dados_agregados = dados_agregados.iloc[:,[0,1,2,3,4,8,5,6,7]]
+
                 
                 filtrando_saldo = pd.concat([filtrando_saldo_1,dados_agregados]).reset_index(drop='index')
                 contando_operadores = arquivo1.contando_oepradores(arquivo_compilado=arquivo_compilado)

@@ -14,17 +14,20 @@ class Divisao_de_contas():
         self.saldo = saldo
         self.pl =  pl
 
-        
-        self.controle = self.controle.iloc[:-5,[1,2,6,7,12,16,17,18,-1]].rename(columns={
+ 
+        self.controle = self.controle.iloc[:-5,[1,2,6,7,8,12,16,17,18,-1]].rename(columns={
             'Unnamed: 1':'Nome','Unnamed: 2':'Conta','Mesa de Operação':'Operador','Backoffice/ Mesa':'Status','Unnamed: 12':'Perfil da carteira',
             'Mesa de Operação.1':'Avisos Mesa','Gestão/ Head comercial':'Avisos comercial','Backoffice.2 ':'Avisos Backoffice','Unnamed: 80':'PL Controle'
         })
+
         self.controle['Conta'] = self.controle['Conta'].astype(str).apply(lambda x: '00'+x).str[:-2]
 
         self.saldo = saldo.iloc[:,[0,2]]
         self.pl = pl.iloc[:,[0,2]]
 
-        self.arquivo_compilado = pd.merge(self.saldo,self.pl,on='Conta',how='outer').merge(self.controle,on='Conta',how='outer').iloc[:,[0,3,1,5,6,7,8,9,10,2,4]]
+
+        self.arquivo_compilado = pd.merge(self.saldo,self.pl,on='Conta',how='outer').merge(self.controle,on='Conta',how='outer').iloc[:,[0,3,1,5,6,7,8,9,10,2,4,11]]
+        self.arquivo_compilado = self.arquivo_compilado.iloc[:,[0,1,2,3,4,5,6,7,8,9,10,11]].drop(columns='Operador')
 
         return self.arquivo_compilado       
         
