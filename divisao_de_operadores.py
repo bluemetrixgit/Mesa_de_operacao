@@ -27,7 +27,7 @@ class Divisao_de_contas():
 
 
         self.arquivo_compilado = pd.merge(self.saldo,self.pl,on='Conta',how='outer').merge(self.controle,on='Conta',how='outer').iloc[:,[0,3,1,5,6,7,8,9,10,2,4,11]]
-        self.arquivo_compilado = self.arquivo_compilado.iloc[:,[0,1,2,3,4,5,6,7,8,9,10,11]].drop(columns='Operador')
+        self.arquivo_compilado = self.arquivo_compilado.iloc[:,[0,1,2,3,4,5,6,7,8,9,10,11]]
 
         return self.arquivo_compilado       
         
