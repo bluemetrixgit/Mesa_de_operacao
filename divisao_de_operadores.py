@@ -53,7 +53,7 @@ class Divisao_de_contas():
     def contas_nao_encontradas(self,arquivo_compilado,controle_novas):
         self.controle_novas_contas = controle_novas
         contas_co_admin = ['005190138','004724018','004641487','004643737','004855570','004855596','004643746','005320069','004884046','005053939','004879567',
-                           '005305448','004567324']
+                           '005305448','004567324','004384167']
         self.contas_nao_encontrados = arquivo_compilado[(arquivo_compilado['Cliente'].isnull())&(arquivo_compilado['Saldo']>1000)|(arquivo_compilado['Saldo']<0)]
         contas_novas = list(self.controle_novas_contas['Conta'])
         self.contas_nao_encontrados = self.contas_nao_encontrados[~((self.contas_nao_encontrados['Conta'].isin(contas_co_admin))|(self.contas_nao_encontrados['Conta'].isin(contas_novas)))]

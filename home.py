@@ -616,7 +616,7 @@ elif authenticator.login():
                 dados_agregados = ler_arquivos.juntando_planilhas(pl,controle_co_admin,saldo)
 
                 dados_agregados = dados_agregados.iloc[:,[0,2,1,4,3,6,5,9,7,8,9]].rename(columns={'PL':'Valor'})
-                dados_agregados = dados_agregados.iloc[:,[0,1,2,3,4,8,5,6,7]]
+                dados_agregados = dados_agregados.iloc[:,[0,1,2,3,4,8,5,6,7,9]]
 
                 
                 filtrando_saldo = pd.concat([filtrando_saldo_1,dados_agregados]).reset_index(drop='index')
