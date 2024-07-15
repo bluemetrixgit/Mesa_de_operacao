@@ -1,1 +1,55 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
+2024-07-12 16:29:16,4231509,Theomar Nicolau Morhy,LEVE3F,Executada,Venda,73.0,73.0,,34.22,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540363,,5KP,4231509
+2024-07-12 16:29:14,4231509,Theomar Nicolau Morhy,ITUB4F,Executada,Venda,95.0,95.0,,33.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540361,,5KP,4231509
+2024-07-12 16:29:13,4231509,Theomar Nicolau Morhy,PRIO3F,Executada,Venda,54.0,54.0,,45.7,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540365,,5KP,4231509
+2024-07-12 16:28:23,4231509,Theomar Nicolau Morhy,LEVE3,Executada,Venda,600.0,600.0,,34.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540362,,5KP,4231509
+2024-07-12 16:28:23,4231509,Theomar Nicolau Morhy,PRIO3,Executada,Venda,500.0,500.0,,45.7,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540364,,5KP,4231509
+2024-07-12 16:28:23,4231509,Theomar Nicolau Morhy,ITUB4,Executada,Venda,600.0,600.0,,33.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540360,,5KP,4231509
+2024-07-12 16:28:23,4231509,Theomar Nicolau Morhy,EQTL3F,Executada,Venda,18.0,18.0,,34.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540359,,5KP,4231509
+2024-07-12 16:28:23,4231509,Theomar Nicolau Morhy,BBSE3F,Executada,Venda,1.0,1.0,,33.88,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540357,,5KP,4231509
+2024-07-12 16:28:23,4231509,Theomar Nicolau Morhy,CPFE3F,Executada,Venda,83.0,83.0,,33.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540358,,5KP,4231509
+2024-07-12 16:28:23,4231509,Theomar Nicolau Morhy,BBSE3,Executada,Venda,700.0,700.0,,33.87,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540356,,5KP,4231509
+2024-07-12 16:28:23,4231509,Theomar Nicolau Morhy,VILG11,Executada,Venda,1.0,1.0,,91.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192823540355,,5KP,4231509
+2024-07-12 16:22:53,4332747,Lohran Soares De Oliveira,VIVT3F,Executada,Venda,4.0,4.0,,49.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536137,,03Q,4332747
+2024-07-12 16:22:53,4332747,Lohran Soares De Oliveira,BBSE3F,Executada,Venda,94.0,94.0,,33.88,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536126,,03Q,4332747
+2024-07-12 16:22:50,4332747,Lohran Soares De Oliveira,LEVE3F,Executada,Venda,60.0,60.0,,34.21,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536133,,03Q,4332747
+2024-07-12 16:22:50,4332747,Lohran Soares De Oliveira,VIVT3,Executada,Venda,500.0,500.0,,49.72,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536136,,03Q,4332747
+2024-07-12 16:22:50,4332747,Lohran Soares De Oliveira,VALE3F,Executada,Venda,82.0,82.0,,62.84,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536135,,03Q,4332747
+2024-07-12 16:22:50,4332747,Lohran Soares De Oliveira,VALE3,Executada,Venda,500.0,500.0,,62.85,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536134,,03Q,4332747
+2024-07-12 16:22:50,4332747,Lohran Soares De Oliveira,LEVE3,Executada,Venda,600.0,600.0,,34.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536132,,03Q,4332747
+2024-07-12 16:22:50,4332747,Lohran Soares De Oliveira,ITUB4F,Executada,Venda,17.0,17.0,,33.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536130,,03Q,4332747
+2024-07-12 16:22:50,4332747,Lohran Soares De Oliveira,ITUB4,Executada,Venda,700.0,700.0,,33.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536129,,03Q,4332747
+2024-07-12 16:22:50,4332747,Lohran Soares De Oliveira,CPFE3F,Executada,Venda,62.0,62.0,,33.78,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536128,,03Q,4332747
+2024-07-12 16:22:50,4332747,Lohran Soares De Oliveira,CPFE3,Executada,Venda,500.0,500.0,,33.8,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536127,,03Q,4332747
+2024-07-12 16:22:50,4332747,Lohran Soares De Oliveira,BBSE3,Executada,Venda,600.0,600.0,,33.88,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712192250536125,,03Q,4332747
+2024-07-12 13:40:28,5324840,Pedro Sergio Vieira Da Silva,SLCE3F,Executada,Compra,5.0,5.0,,19.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712164017410365,,6NA,5324840
+2024-07-12 13:40:17,5324840,Pedro Sergio Vieira Da Silva,VIVT3F,Executada,Venda,33.0,33.0,,49.6,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712164017410367,,6NA,5324840
+2024-07-12 13:40:17,5324840,Pedro Sergio Vieira Da Silva,VALE3F,Executada,Compra,11.0,11.0,,62.43,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712164017410366,,6NA,5324840
+2024-07-12 13:40:17,5324840,Pedro Sergio Vieira Da Silva,PRIO3F,Executada,Compra,4.0,4.0,,45.86,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712164017410364,,6NA,5324840
+2024-07-12 13:40:17,5324840,Pedro Sergio Vieira Da Silva,LEVE3F,Executada,Compra,2.0,2.0,,34.12,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712164017410363,,6NA,5324840
+2024-07-12 13:40:17,5324840,Pedro Sergio Vieira Da Silva,KEPL3F,Executada,Compra,7.0,7.0,,10.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712164017410362,,6NA,5324840
+2024-07-12 13:40:17,5324840,Pedro Sergio Vieira Da Silva,ITUB4F,Executada,Compra,2.0,2.0,,33.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712164017410361,,6NA,5324840
+2024-07-12 13:40:17,5324840,Pedro Sergio Vieira Da Silva,CPFE3F,Executada,Compra,4.0,4.0,,33.87,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712164017410360,,6NA,5324840
+2024-07-12 13:40:17,5324840,Pedro Sergio Vieira Da Silva,BBSE3F,Executada,Compra,7.0,7.0,,33.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712164017410359,,6NA,5324840
+2024-07-12 13:40:17,5324840,Pedro Sergio Vieira Da Silva,ARZZ3F,Executada,Compra,3.0,3.0,,53.7,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712164017410358,,6NA,5324840
+2024-07-12 11:03:08,5076418,Leonardo Fernandes De Oliveira,KEPL3F,Executada,Venda,76.0,76.0,,9.95,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712140231302011,,CNI,5076418
+2024-07-12 11:03:00,5076418,Leonardo Fernandes De Oliveira,VIVT3F,Executada,Venda,33.0,33.0,,49.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712140300302464,,CNI,5076418
+2024-07-12 11:03:00,5076418,Leonardo Fernandes De Oliveira,CPFE3F,Executada,Venda,39.0,39.0,,33.62,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712140231302008,,CNI,5076418
+2024-07-12 11:02:40,5076418,Leonardo Fernandes De Oliveira,LEVE3F,Executada,Venda,42.0,42.0,,33.8,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712140231302012,,CNI,5076418
+2024-07-12 11:02:31,5076418,Leonardo Fernandes De Oliveira,SLCE3F,Executada,Venda,79.0,79.0,,19.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712140231302014,,CNI,5076418
+2024-07-12 11:02:31,5076418,Leonardo Fernandes De Oliveira,PRIO3F,Executada,Venda,38.0,38.0,,45.44,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712140231302013,,CNI,5076418
+2024-07-12 11:02:31,5076418,Leonardo Fernandes De Oliveira,KEPL3,Executada,Venda,100.0,100.0,,9.95,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712140231302010,,CNI,5076418
+2024-07-12 11:02:31,5076418,Leonardo Fernandes De Oliveira,VIVT,Rejeitada,Venda,33.0,,33.0,,Mercado,,Posição,btg_desktop,,Dia,,,,,,[ER005 - Security not found - symbol: VIVT],gz4I7jp3qAbomeyC,,CNI,5076418
+2024-07-12 11:02:31,5076418,Leonardo Fernandes De Oliveira,ITUB4F,Executada,Venda,46.0,46.0,,33.44,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712140231302009,,CNI,5076418
+2024-07-12 11:02:31,5076418,Leonardo Fernandes De Oliveira,BBSE3F,Executada,Venda,45.0,45.0,,33.57,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712140231302006,,CNI,5076418
+2024-07-12 10:31:23,4460491,Pedro Guilherme Ramos Goya,HGLG11,Executada,Compra,2.0,2.0,,162.02,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412115987932,37597cbf63954943834658ddf81b3683,5KP,4460491
+2024-07-12 10:31:23,4460491,Pedro Guilherme Ramos Goya,MALL11,Executada,Compra,1.0,1.0,,110.46,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412115987931,bd5b3381ed254d7aa9d3600161dd093b,5KP,4460491
+2024-07-12 10:31:23,4460491,Pedro Guilherme Ramos Goya,PLCR11,Executada,Compra,6.0,6.0,,85.67,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412115987930,c2b8083462ae4492bd06e15962057304,5KP,4460491
+2024-07-12 10:31:23,4460491,Pedro Guilherme Ramos Goya,KNCA11,Executada,Compra,7.0,7.0,,101.23,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610924447665,118ddafaf7d24132a0dbfc790d02b71f,5KP,4460491
+2024-07-12 10:31:23,4460491,Pedro Guilherme Ramos Goya,TRXF11,Executada,Compra,18.0,18.0,,105.65,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412115987929,7d5123e8662c48d9a2e64e0f6c809753,5KP,4460491
+2024-07-12 10:30:52,4460491,Pedro Guilherme Ramos Goya,TRXF11,Rejeitada,Compra,18.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240712133052267209,,5KP,4460491
+2024-07-12 10:30:52,4460491,Pedro Guilherme Ramos Goya,PLCR11,Rejeitada,Compra,6.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240712133051267208,,5KP,4460491
+2024-07-12 10:30:51,4460491,Pedro Guilherme Ramos Goya,MALL11,Rejeitada,Compra,1.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240712133051267204,,5KP,4460491
+2024-07-12 10:30:51,4460491,Pedro Guilherme Ramos Goya,KNCA11,Rejeitada,Compra,7.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240712133051267203,,5KP,4460491
+2024-07-12 10:30:51,4460491,Pedro Guilherme Ramos Goya,HGLG11,Rejeitada,Compra,2.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240712133050267202,,5KP,4460491
+2024-07-12 10:30:50,4460491,Pedro Guilherme Ramos Goya,BTLG11,Executada,Venda,12.0,12.0,,102.18,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240712133050267200,,5KP,4460491
