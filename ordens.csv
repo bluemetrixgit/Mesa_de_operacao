@@ -1,15 +1,40 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-07-16 11:37:37,5002390,Luciano Ricardo Arimateas Montenegro,VIVT3F,Executada,Compra,27.0,27.0,,49.49962963,Limitada,49.55,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610939555289,db58b5a0fb5e4233a8b5c07f7ceec5d6,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,ARZZ3F,Executada,Compra,27.0,27.0,,53.51,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610939555308,5f7adc3076044579a5f5e701494e788b,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,ASAI3F,Executada,Compra,34.0,34.0,,11.24,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610939555307,557d8715bf964388ab9b08a6766ff4f2,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,BBSE3F,Executada,Compra,40.0,40.0,,34.23,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610939555301,e2306312a0344f5c87c5bcd02781dea9,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,ASAI3,Executada,Compra,200.0,200.0,,11.25,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610939555303,dba6e49d731e4113b5e9bbc15a52b6e3,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,CPFE3F,Executada,Compra,40.0,40.0,,33.57,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412130346011,ee2955e046534520b9c331840644cc98,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,LEVE3F,Executada,Compra,31.0,31.0,,34.27,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412130346008,1cfea39d57af43dc8b1a1dab46619e4a,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,HYPE3F,Executada,Compra,73.0,73.0,,29.1,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610939555300,60f94eeb92124c39bd6df9747279d3ab,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,KEPL3F,Executada,Compra,87.0,87.0,,10.05,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610939555294,786426cd3562499ca410d8240deb97db,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,ITUB4F,Executada,Compra,46.0,46.0,,33.7,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905455339490,383104e9f53448e8b5220eedca7670c9,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,KEPL3,Executada,Compra,100.0,100.0,,10.04,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610939555293,43ed3018ca314c748e31e3d7a9688491,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,SLCE3F,Executada,Compra,78.0,78.0,,19.1,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610939555290,16a63df658dc4fb98944bf596830d35d,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,PRIO3F,Executada,Compra,44.0,44.0,,46.16,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829287843761,87e8e91850da45b8804e8371b1f11b66,03Q,5002390
-2024-07-16 11:37:31,5002390,Luciano Ricardo Arimateas Montenegro,VALE3F,Executada,Compra,48.0,48.0,,61.6,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807411355722,bb4ffe92b16e47959e45c565694bce6d,03Q,5002390
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,VIVT3F,Executada,Venda,12.0,12.0,,49.68,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190545616716,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,VIVT3,Executada,Venda,200.0,200.0,,49.7,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190545616715,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,VALE3F,Executada,Venda,83.0,83.0,,61.76,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190545616714,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,VALE3,Executada,Venda,200.0,200.0,,61.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190545616713,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,SLCE3F,Executada,Venda,3.0,3.0,,19.28,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190545616712,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,SLCE3,Executada,Venda,700.0,700.0,,19.28,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190545616711,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,PRIO3F,Executada,Venda,78.0,78.0,,45.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190545616710,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,PRIO3,Executada,Venda,200.0,200.0,,45.82,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190545616709,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,LEVE3F,Executada,Venda,6.0,6.0,,34.69,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190545616708,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,LEVE3,Executada,Venda,400.0,400.0,,34.7,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190545616707,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,KEPL3F,Executada,Venda,61.0,61.0,,10.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616706,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,KEPL3,Executada,Venda,1300.0,1300.0,,10.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616705,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,ITUB4F,Executada,Venda,71.0,71.0,,34.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616704,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,ITUB4,Executada,Venda,300.0,300.0,,34.21,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616703,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,HYPE3F,Executada,Venda,32.0,32.0,,28.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616702,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,HYPE3,Executada,Venda,400.0,400.0,,28.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616701,,CNI,4461070
+2024-07-17 16:05:45,4461070,Eduardo Henrique Gomes Martinez,CPFE3F,Executada,Venda,31.0,31.0,,33.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616700,,CNI,4461070
+2024-07-17 16:05:44,4461070,Eduardo Henrique Gomes Martinez,CPFE3,Executada,Venda,300.0,300.0,,33.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616699,,CNI,4461070
+2024-07-17 16:05:44,4461070,Eduardo Henrique Gomes Martinez,BBSE3F,Executada,Venda,81.0,81.0,,34.44,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616698,,CNI,4461070
+2024-07-17 16:05:44,4461070,Eduardo Henrique Gomes Martinez,BBSE3,Executada,Venda,300.0,300.0,,34.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616697,,CNI,4461070
+2024-07-17 16:05:44,4461070,Eduardo Henrique Gomes Martinez,ASAI3F,Executada,Venda,6.0,6.0,,10.86,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616696,,CNI,4461070
+2024-07-17 16:05:44,4461070,Eduardo Henrique Gomes Martinez,ASAI3,Executada,Venda,500.0,500.0,,10.87,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616695,,CNI,4461070
+2024-07-17 16:05:44,4461070,Eduardo Henrique Gomes Martinez,ARZZ3F,Executada,Venda,41.0,41.0,,53.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616694,,CNI,4461070
+2024-07-17 16:05:44,4461070,Eduardo Henrique Gomes Martinez,ARZZ3,Executada,Venda,200.0,200.0,,53.96,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190544616693,,CNI,4461070
+2024-07-17 16:02:07,5231126,Washington Jose De Lyra Junior,KEPL3F,Executada,Venda,43.0,43.0,,10.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190207613776,,CNI,5231126
+2024-07-17 16:02:07,5231126,Washington Jose De Lyra Junior,VIVT3F,Executada,Venda,13.0,13.0,,49.69,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190207613780,,CNI,5231126
+2024-07-17 16:02:07,5231126,Washington Jose De Lyra Junior,SLCE3F,Executada,Venda,18.0,18.0,,19.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190207613779,,CNI,5231126
+2024-07-17 16:02:07,5231126,Washington Jose De Lyra Junior,PRIO3F,Executada,Venda,16.0,16.0,,45.84,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190207613778,,CNI,5231126
+2024-07-17 16:02:07,5231126,Washington Jose De Lyra Junior,LEVE3F,Executada,Venda,10.0,10.0,,34.69,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190207613777,,CNI,5231126
+2024-07-17 16:02:07,5231126,Washington Jose De Lyra Junior,ITUB4F,Executada,Venda,13.0,13.0,,34.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190207613775,,CNI,5231126
+2024-07-17 16:02:07,5231126,Washington Jose De Lyra Junior,CPFE3F,Executada,Venda,12.0,12.0,,33.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190207613774,,CNI,5231126
+2024-07-17 16:02:07,5231126,Washington Jose De Lyra Junior,BBSE3F,Executada,Venda,23.0,23.0,,34.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717190207613772,,CNI,5231126
+2024-07-17 15:47:16,3921139,Geisa Borges De Alcantara,PRIO3F,Executada,Venda,22.0,22.0,,45.76409091,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717184651601818,,CNI,3921139
+2024-07-17 15:46:59,3921139,Geisa Borges De Alcantara,SLCE3F,Executada,Venda,49.0,49.0,,19.33,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717184651601819,,CNI,3921139
+2024-07-17 15:46:51,3921139,Geisa Borges De Alcantara,LEVE3F,Executada,Venda,28.0,28.0,,34.6,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717184651601817,,CNI,3921139
+2024-07-17 15:46:51,3921139,Geisa Borges De Alcantara,KEPL3F,Executada,Venda,90.0,90.0,,10.21,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717184651601816,,CNI,3921139
+2024-07-17 15:46:51,3921139,Geisa Borges De Alcantara,ITUB4F,Executada,Venda,28.0,28.0,,34.18,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717184651601815,,CNI,3921139
+2024-07-17 15:46:51,3921139,Geisa Borges De Alcantara,CPFE3F,Executada,Venda,26.0,26.0,,33.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717184651601814,,CNI,3921139
+2024-07-17 15:46:51,3921139,Geisa Borges De Alcantara,BBSE3F,Executada,Venda,28.0,28.0,,34.41,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240717184651601813,,CNI,3921139
