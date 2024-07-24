@@ -1,15 +1,13 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-07-22 14:25:30,4767746,Isabele Papafanurakis Ferreira Noronha,LEVE3F,Executada,Compra,37.0,37.0,,33.33648649,Limitada,33.37,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722172347458217,,CNI,4767746
-2024-07-22 14:24:14,4767746,Isabele Papafanurakis Ferreira Noronha,CPFE3F,Executada,Compra,34.0,34.0,,33.16,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722172347458215,,CNI,4767746
-2024-07-22 14:23:47,4767746,Isabele Papafanurakis Ferreira Noronha,VIVT3F,Executada,Compra,27.0,27.0,,49.57,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722172347458219,,CNI,4767746
-2024-07-22 14:23:47,4767746,Isabele Papafanurakis Ferreira Noronha,VALE3F,Executada,Compra,34.0,34.0,,60.93,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722172347458218,,CNI,4767746
-2024-07-22 14:23:47,4767746,Isabele Papafanurakis Ferreira Noronha,HYPE3F,Executada,Compra,53.0,53.0,,28.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722172347458216,,CNI,4767746
-2024-07-22 14:23:47,4767746,Isabele Papafanurakis Ferreira Noronha,ASAI3F,Executada,Compra,24.0,24.0,,10.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722172347458214,,CNI,4767746
-2024-07-22 14:23:47,4767746,Isabele Papafanurakis Ferreira Noronha,ASAI3,Executada,Compra,100.0,100.0,,10.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722172347458213,,CNI,4767746
-2024-07-22 14:23:47,4767746,Isabele Papafanurakis Ferreira Noronha,ARZZ3F,Executada,Compra,25.0,25.0,,53.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722172347458212,,CNI,4767746
-2024-07-22 10:26:26,4383190,Mafalda Rosa Monaco,PLCR11,Executada,Venda,55.0,55.0,,85.67272727,Limitada,85.6,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722132601263641,,5KP,4383190
-2024-07-22 10:26:21,4383190,Mafalda Rosa Monaco,TRXF11,Executada,Venda,44.0,44.0,,107.94318182,Limitada,107.86,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722132601263642,,5KP,4383190
-2024-07-22 10:26:16,4383190,Mafalda Rosa Monaco,BTLG11,Executada,Venda,90.0,90.0,,102.36577778,Limitada,102.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722132601263637,,5KP,4383190
-2024-07-22 10:26:05,4383190,Mafalda Rosa Monaco,MALL11,Executada,Venda,22.0,22.0,,111.86,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722132601263640,,5KP,4383190
-2024-07-22 10:26:01,4383190,Mafalda Rosa Monaco,KNCA11,Executada,Venda,28.0,28.0,,102.0,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722132601263639,,5KP,4383190
-2024-07-22 10:26:01,4383190,Mafalda Rosa Monaco,HGLG11,Executada,Venda,49.0,49.0,,163.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240722132601263638,,5KP,4383190
+2024-07-23 14:34:24,4996634,Hiroko Nishiwaki Yanigiharo,VIVT3F,Executada,Venda,66.0,66.0,,48.64060606,Limitada,48.63,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610977635325,bc3a43eea3ab48099bfaa9424cd18510,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,VALE3F,Executada,Venda,4.0,4.0,,60.26,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807424208152,f7b0be26e95b450bb2d7d7049e4742d1,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,PRIO3F,Executada,Venda,4.0,4.0,,43.8,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829314416101,6e02ebfb07b24556b1b919c06c3f0db5,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,SLCE3F,Executada,Venda,25.0,25.0,,18.75,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610977635324,5bfada62b7174d448980fcf533e57823,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,ITUB4F,Executada,Venda,12.0,12.0,,34.22,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905466185576,c727c1a8182447939beacd7aea24602e,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,LEVE3F,Executada,Venda,17.0,17.0,,33.08,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412166970461,19997ab229c645e6af64f65ee1ab1d0a,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,CPFE3F,Executada,Venda,6.0,6.0,,32.73,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412166970460,d53ae74db5e9489e843b85c89fda678b,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,KEPL3F,Executada,Venda,39.0,39.0,,10.45,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610977635321,4a594b99257b471693914f43bba68261,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,HYPE3F,Executada,Venda,18.0,18.0,,28.32,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610977635320,d0dc7eff092140f9af0aa94f31282ac5,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,BBSE3F,Executada,Venda,13.0,13.0,,34.29,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610977635319,397524910a07497f9dcd2ecedc1cdf16,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,ASAI3F,Executada,Compra,41.0,41.0,,10.5,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610977635318,2965d19b8e48463ca7af84cf7b466b69,CNI,4996634
+2024-07-23 14:34:19,4996634,Hiroko Nishiwaki Yanigiharo,ARZZ3F,Executada,Venda,8.0,8.0,,52.77,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610977635317,1a69e28fc56441aea3866622b94d1896,CNI,4996634
