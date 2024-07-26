@@ -1,26 +1,33 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-07-24 14:10:07,4376853,Alberto Carlos De Aguiar Rodrigues,ITUB4F,Executada,Venda,12.0,12.0,,34.26583333,Limitada,34.21,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479830,,6NA,4376853
-2024-07-24 14:10:00,4376853,Alberto Carlos De Aguiar Rodrigues,PRIO3F,Executada,Compra,14.0,14.0,,45.51928571,Limitada,45.56,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479833,,6NA,4376853
-2024-07-24 14:09:45,4376853,Alberto Carlos De Aguiar Rodrigues,VALE3F,Executada,Compra,19.0,19.0,,60.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479836,,6NA,4376853
-2024-07-24 14:09:45,4376853,Alberto Carlos De Aguiar Rodrigues,VIVT3F,Executada,Compra,4.0,4.0,,49.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479837,,6NA,4376853
-2024-07-24 14:09:45,4376853,Alberto Carlos De Aguiar Rodrigues,SLCE3F,Executada,Compra,7.0,7.0,,18.6,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479834,,6NA,4376853
-2024-07-24 14:09:45,4376853,Alberto Carlos De Aguiar Rodrigues,LEVE3F,Executada,Venda,12.0,12.0,,32.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479832,,6NA,4376853
-2024-07-24 14:09:45,4376853,Alberto Carlos De Aguiar Rodrigues,KEPL3F,Executada,Venda,21.0,21.0,,10.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479831,,6NA,4376853
-2024-07-24 14:09:45,4376853,Alberto Carlos De Aguiar Rodrigues,HYPE3F,Executada,Compra,33.0,33.0,,28.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479829,,6NA,4376853
-2024-07-24 14:09:45,4376853,Alberto Carlos De Aguiar Rodrigues,CPFE3F,Executada,Venda,1.0,1.0,,33.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479828,,6NA,4376853
-2024-07-24 14:09:45,4376853,Alberto Carlos De Aguiar Rodrigues,BBSE3F,Executada,Venda,15.0,15.0,,34.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479827,,6NA,4376853
-2024-07-24 14:09:45,4376853,Alberto Carlos De Aguiar Rodrigues,ASAI3F,Executada,Compra,56.0,56.0,,10.57,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479826,,6NA,4376853
-2024-07-24 14:09:45,4376853,Alberto Carlos De Aguiar Rodrigues,ASAI3,Executada,Compra,200.0,200.0,,10.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724170945479824,,6NA,4376853
-2024-07-24 13:52:44,4450760,Silvio Henrique Maia De Almeida,BBSE3F,Executada,Venda,67.0,67.0,,34.23925373,Limitada,34.2,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464859,,03Q,4450760
-2024-07-24 13:52:39,4450760,Silvio Henrique Maia De Almeida,ITUB4F,Executada,Venda,46.0,46.0,,34.27978261,Limitada,34.25,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464863,,03Q,4450760
-2024-07-24 13:52:30,4450760,Silvio Henrique Maia De Almeida,KEPL3F,Executada,Venda,56.0,56.0,,10.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464865,,03Q,4450760
-2024-07-24 13:52:21,4450760,Silvio Henrique Maia De Almeida,VALE3F,Executada,Compra,63.0,63.0,,60.43,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464870,,03Q,4450760
-2024-07-24 13:52:21,4450760,Silvio Henrique Maia De Almeida,SLCE3F,Executada,Compra,4.0,4.0,,18.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464869,,03Q,4450760
-2024-07-24 13:52:21,4450760,Silvio Henrique Maia De Almeida,PRIO3F,Executada,Compra,46.0,46.0,,45.39,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464868,,03Q,4450760
-2024-07-24 13:52:21,4450760,Silvio Henrique Maia De Almeida,LEVE3F,Executada,Venda,55.0,55.0,,32.83,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464866,,03Q,4450760
-2024-07-24 13:52:21,4450760,Silvio Henrique Maia De Almeida,KEPL3,Executada,Venda,100.0,100.0,,10.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464864,,03Q,4450760
-2024-07-24 13:52:21,4450760,Silvio Henrique Maia De Almeida,HYPE3F,Executada,Compra,10.0,10.0,,28.22,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464862,,03Q,4450760
-2024-07-24 13:52:21,4450760,Silvio Henrique Maia De Almeida,CPFE3F,Executada,Venda,5.0,5.0,,33.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464860,,03Q,4450760
-2024-07-24 13:52:21,4450760,Silvio Henrique Maia De Almeida,HYPE3,Executada,Compra,100.0,100.0,,28.18,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464861,,03Q,4450760
-2024-07-24 13:52:21,4450760,Silvio Henrique Maia De Almeida,ASAI3F,Executada,Compra,98.0,98.0,,10.59,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464858,,03Q,4450760
-2024-07-24 13:52:21,4450760,Silvio Henrique Maia De Almeida,ASAI3,Executada,Compra,900.0,900.0,,10.58,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240724165221464856,,03Q,4450760
+2024-07-25 17:47:21,5142592,Alberto De Oliveira Faleiro Neto,SPGM11,Parcialmente Executada,Venda,3000.0,760.0,2240.0,10.67,Limitada,10.67,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183090996,a0bebdcc108e44f8867ff8c51c98adde,5KP,5142592
+2024-07-25 17:47:12,5142592,Alberto De Oliveira Faleiro Neto,SPGM15,Parcialmente Executada,Venda,8109.0,1984.0,6125.0,11.55,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183108289,155e85ed86814ad6aa8c132e8d88a327,5KP,5142592
+2024-07-25 17:47:04,5142592,Alberto De Oliveira Faleiro Neto,SPGM16,Parcialmente Executada,Venda,300.0,75.0,225.0,10.0,Limitada,10.0,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183090994,6e9ca74b98d547ad9ac78058e50d9efa,5KP,5142592
+2024-07-25 16:38:54,5142624,Rodrigo Rabelo Bagno,SPGM11,Executada,Venda,500.0,500.0,,10.67,Limitada,10.67,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183090992,ab20bc03814f44509a61ec3961f09e30,5KP,5142624
+2024-07-25 16:38:54,5142661,Sabrina Molina Bellose Matiole,SPGM11,Executada,Venda,500.0,500.0,,10.67,Limitada,10.67,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183090990,a210f0411f9143b59c4bc62e8c49ccdd,5KP,5142661
+2024-07-25 16:38:54,5142624,Rodrigo Rabelo Bagno,SPGM16,Executada,Venda,50.0,50.0,,10.0,Limitada,10.0,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183090991,003c860582c049ababccf85bf6b29270,5KP,5142624
+2024-07-25 16:38:53,5142661,Sabrina Molina Bellose Matiole,SPGM16,Executada,Venda,50.0,50.0,,10.0,Limitada,10.0,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183090989,0abd16f333b941d9b61dc57b8e363776,5KP,5142661
+2024-07-25 16:34:37,5142592,Alberto De Oliveira Faleiro Neto,SPGM15,Nova,Venda,8110.0,,8110.0,,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183108294,6cd7976fdc084a27aa1067119f3a5bd8,5KP,5142592
+2024-07-25 16:34:37,5142592,Alberto De Oliveira Faleiro Neto,SPGM15,Nova,Venda,8109.0,,8109.0,,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183108293,0fbcb33c847149959dbce91625c76c43,5KP,5142592
+2024-07-25 16:34:37,5142592,Alberto De Oliveira Faleiro Neto,SPGM15,Nova,Venda,8110.0,,8110.0,,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183108292,5a305ceea93944f59f3cbda9ef239631,5KP,5142592
+2024-07-25 16:34:37,5142592,Alberto De Oliveira Faleiro Neto,SPGM15,Nova,Venda,8109.0,,8109.0,,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183108291,572d4f2afd8c48e89e90e268a665a9d5,5KP,5142592
+2024-07-25 16:34:37,5142592,Alberto De Oliveira Faleiro Neto,SPGM15,Nova,Venda,8109.0,,8109.0,,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183108290,2813a42be87e43ceb828fad8fc4e2c4e,5KP,5142592
+2024-07-25 11:24:34,4237325,Ricardo Jose Lacerda Prudencio,PLCR11,Executada,Compra,35.0,35.0,,86.07942857,Limitada,86.15,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412178258934,bd976f77aac540c88eb72bc1ebdf2cf8,CNI,4237325
+2024-07-25 11:24:24,4237325,Ricardo Jose Lacerda Prudencio,MALL11,Executada,Compra,13.0,13.0,,112.73846154,Limitada,112.74,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412178258933,4d54cc798b964dc882fffd4d12df8d4f,CNI,4237325
+2024-07-25 11:23:38,4237325,Ricardo Jose Lacerda Prudencio,TRXF11,Executada,Compra,24.0,24.0,,107.22,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412178258935,62fade5bcb6144cea17a946edc3b97ab,CNI,4237325
+2024-07-25 11:23:38,4237325,Ricardo Jose Lacerda Prudencio,BTLG11,Executada,Compra,43.0,43.0,,101.8,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412178258925,584d250775234a7e93701fd93bdb0180,CNI,4237325
+2024-07-25 11:23:38,4237325,Ricardo Jose Lacerda Prudencio,KNCA11,Executada,Compra,15.0,15.0,,102.12,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8610988689035,32524e471f9f4206927d19b6fb8eecab,CNI,4237325
+2024-07-25 11:23:38,4237325,Ricardo Jose Lacerda Prudencio,HGLG11,Executada,Compra,25.0,25.0,,162.55,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412178258926,921f6bc2e2ea4ac9a7633622ac461dc8,CNI,4237325
+2024-07-25 11:01:15,4237325,Ricardo Jose Lacerda Prudencio,VIVT3F,Executada,Venda,71.0,71.0,,49.22,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725140115306260,,CNI,4237325
+2024-07-25 10:23:53,4584982,Bruno De Azevedo Oliveira,ASAI3F,Executada,Compra,92.0,92.0,,9.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269483,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,ITUB4F,Executada,Compra,16.0,16.0,,34.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269487,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,VALE3F,Executada,Compra,27.0,27.0,,60.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269492,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,VIVT3F,Executada,Compra,8.0,8.0,,49.24,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269493,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,SLCE3F,Executada,Compra,39.0,39.0,,18.44,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269491,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,PRIO3F,Executada,Compra,22.0,22.0,,45.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269490,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,KEPL3F,Executada,Compra,75.0,75.0,,10.16,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269488,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,LEVE3F,Executada,Compra,20.0,20.0,,32.93,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269489,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,CPFE3F,Executada,Compra,20.0,20.0,,32.88,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269485,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,HYPE3F,Executada,Compra,46.0,46.0,,27.95,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269486,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,BBSE3F,Executada,Compra,15.0,15.0,,34.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269484,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,ASAI3,Executada,Compra,100.0,100.0,,9.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269482,,03Q,4584982
+2024-07-25 10:23:46,4584982,Bruno De Azevedo Oliveira,ARZZ3F,Executada,Compra,11.0,11.0,,51.87,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240725132346269481,,03Q,4584982
