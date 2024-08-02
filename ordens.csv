@@ -1,5 +1,57 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-07-30 17:43:37,5142611,Guilherme Faleiro Guerra Pinto Coelho,SPGM15,Parcialmente Executada,Venda,8303.0,2594.0,5709.0,11.55,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412194074986,bd4b15bc48b44951846d22e6877bce3f,6NA,5142611
+2024-08-01 11:27:30,4971448,Clovis Tadeu Rodrigues,VIVT3F,Executada,Venda,86.0,86.0,,49.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240801142730346905,,03Q,4971448
+2024-08-01 11:19:32,4752494,Sergio Eduardo Canella,VALE3F,Executada,Venda,16.0,16.0,,61.07,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807449087956,fabd0a59e41d4979a1164dc6933586b6,CNI,4752494
+2024-08-01 11:19:30,4752494,Sergio Eduardo Canella,VIVT3F,Executada,Venda,13.0,13.0,,49.68,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611020502650,e267e59e4c594dc79d8fa0bc34437d13,CNI,4752494
+2024-08-01 11:19:30,4752494,Sergio Eduardo Canella,SLCE3F,Executada,Venda,31.0,31.0,,17.94,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611020502648,7e1606b6f5544bf89d8c79c7692ac42d,CNI,4752494
+2024-08-01 11:19:30,4752494,Sergio Eduardo Canella,ITUB4F,Executada,Venda,21.0,21.0,,33.73,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905478609999,4a47507b9b694784a7c7df5388b6968c,CNI,4752494
+2024-08-01 11:19:30,4752494,Sergio Eduardo Canella,LEVE3F,Executada,Venda,17.0,17.0,,33.92,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412210700607,93ac71bd842b45fab2a39d2d58e37622,CNI,4752494
+2024-08-01 11:19:30,4752494,Sergio Eduardo Canella,PRIO3F,Executada,Venda,13.0,13.0,,48.86,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829352429137,61c1d8ec523145a9b339e7f9ce224982,CNI,4752494
+2024-08-01 11:19:30,4752494,Sergio Eduardo Canella,KEPL3F,Executada,Venda,58.0,58.0,,10.81,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611020502646,772f0f4d25474cdda9d12443ef4259fb,CNI,4752494
+2024-08-01 11:19:30,4752494,Sergio Eduardo Canella,HYPE3F,Executada,Venda,24.0,24.0,,28.5,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611020502645,c5817fa6d3f444218b5fed3663c018ef,CNI,4752494
+2024-08-01 11:19:30,4752494,Sergio Eduardo Canella,CPFE3F,Executada,Venda,17.0,17.0,,32.59,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412210700606,35ee94ee907c40dfa71b01a5fb22d67d,CNI,4752494
+2024-08-01 11:19:30,4752494,Sergio Eduardo Canella,BBSE3F,Executada,Venda,18.0,18.0,,35.26,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611020502644,7e38dc02226c422cbf0acb9dd8dc0a6a,CNI,4752494
+2024-08-01 10:55:45,4752494,Sergio Eduardo Canella,LEVE3F,Executada,Venda,95.0,95.0,,33.98957895,Limitada,33.95,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412210115553,af296ca6156d4d1592bae006a03110d2,CNI,4752494
+2024-08-01 10:55:04,4752494,Sergio Eduardo Canella,SLCE3F,Executada,Venda,77.0,77.0,,18.06,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611019972892,e624a2e14f34424986ebb2add26a7f6a,CNI,4752494
+2024-08-01 10:54:43,4752494,Sergio Eduardo Canella,CPFE3F,Executada,Venda,65.0,65.0,,32.6,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412210115551,214626117e504712a56c2c97f79dbf07,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,LEVE3,Executada,Venda,100.0,100.0,,33.98,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412210115552,adcad8b7226f427ca61bd8254d0bfc75,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,CPFE3,Executada,Venda,100.0,100.0,,32.6,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412210115550,a01f39e2d4b64577b00824b470d933b3,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,VALE3F,Executada,Venda,44.0,44.0,,61.26,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807448734491,77d1ec5a4a3f4e4585aae8187a570979,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,VALE3,Executada,Venda,100.0,100.0,,61.25,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807448734490,6f73738e787848eea486fa43a47cd325,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,VIVT3,Executada,Venda,100.0,100.0,,49.46,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611019972893,33a503ac63a949799b8a1874fcf4462b,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,VIVT3F,Executada,Venda,52.0,52.0,,49.44,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611019972903,774ba72b1f3f470db0a4d286fae4a2c2,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,ITUB4F,Executada,Venda,77.0,77.0,,33.75,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905478402471,c01c1b97ca094eb0b9543025e6e8e500,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,ITUB4,Executada,Venda,100.0,100.0,,33.75,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905478402470,a31e707afa294dc496cbe83f581683db,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,PRIO3F,Executada,Venda,75.0,75.0,,48.95,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829351770526,8c30653a87c64fe789ae0b4687708015,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,PRIO3,Executada,Venda,100.0,100.0,,48.96,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829351770525,9a583d0441404765b84f7ca0c585d812,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,SLCE3,Executada,Venda,300.0,300.0,,18.05,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611019972891,65cd0a0f48de4d7d914586303fa7009d,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,KEPL3F,Executada,Venda,45.0,45.0,,10.8,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611019972890,e5c4a1c413814afdae28b22c37aa1f93,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,KEPL3,Executada,Venda,800.0,800.0,,10.8,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611019972889,305e747218f24cfd9cee33a20a4db431,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,HYPE3F,Executada,Venda,57.0,57.0,,28.27,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611019972888,51d22b66846c4d33b687a678337923e5,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,HYPE3,Executada,Venda,200.0,200.0,,28.29,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611019972887,ded0cc4bcd80407fac384ec26ea09f22,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,BBSE3F,Executada,Venda,3.0,3.0,,35.18,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611019972886,53406abe0a2f4c0a9baa1cb616a2c216,CNI,4752494
+2024-08-01 10:54:32,4752494,Sergio Eduardo Canella,BBSE3,Executada,Venda,200.0,200.0,,35.18,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611019972885,b3117326d63c46d7922f712b7d87ddf4,CNI,4752494
+2024-07-31 16:04:34,5142592,Alberto De Oliveira Faleiro Neto,SPGM15,Executada,Venda,9.0,9.0,,11.55,Limitada,11.55,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731162224421034,,CNI,5142592
+2024-07-31 16:04:34,2277249,Danilo Reis De Souza,SPGM11,Executada,Compra,10.0,10.0,,10.67,Limitada,10.67,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412207682151,b0d157e812714218ab990a993c077f93,CNI,2277249
+2024-07-31 16:04:34,2277249,Danilo Reis De Souza,SPGM15,Parcialmente Executada,Compra,102.0,52.0,50.0,11.55,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412207682150,9322f78a761a49c5bc5f942d5861fa98,CNI,2277249
+2024-07-31 16:04:34,2277249,Danilo Reis De Souza,SPGM16,Executada,Compra,1.0,1.0,,10.0,Limitada,10.0,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412207682149,a95ddbca48614eeeb138a32f6ad8a24c,CNI,2277249
+2024-07-31 16:02:44,4181486,Andrea Satyro Sa Ribeiro Fritzsche,SPGM16,Executada,Compra,1.0,1.0,,10.0,Limitada,10.0,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190244564951,,CNI,4181486
+2024-07-31 16:02:44,4181486,Andrea Satyro Sa Ribeiro Fritzsche,SPGM15,Executada,Compra,102.0,102.0,,11.55,Limitada,11.55,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190244564950,,CNI,4181486
+2024-07-31 16:02:44,4181486,Andrea Satyro Sa Ribeiro Fritzsche,SPGM11,Executada,Compra,10.0,10.0,,10.67,Limitada,10.67,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190244564949,,CNI,4181486
+2024-07-31 16:02:44,4383190,Mafalda Rosa Monaco,SPGM16,Executada,Compra,1.0,1.0,,10.0,Limitada,10.0,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190244564948,,CNI,4383190
+2024-07-31 16:02:44,4383190,Mafalda Rosa Monaco,SPGM15,Executada,Compra,102.0,102.0,,11.55,Limitada,11.55,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190244564947,,CNI,4383190
+2024-07-31 16:02:44,4383190,Mafalda Rosa Monaco,SPGM11,Executada,Compra,10.0,10.0,,10.67,Limitada,10.67,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190244564946,,CNI,4383190
+2024-07-31 16:02:44,2277249,Danilo Reis De Souza,SPGM16,Rejeitada,Compra,1.0,,,,Limitada,10.0,Posição,btg_desktop,BVSP,VAC,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240731190244564942,,CNI,2277249
+2024-07-31 16:02:44,2277249,Danilo Reis De Souza,SPGM15,Rejeitada,Compra,102.0,,,,Limitada,11.55,Posição,btg_desktop,BVSP,VAC,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240731190244564940,,CNI,2277249
+2024-07-31 16:02:44,2277249,Danilo Reis De Souza,SPGM11,Rejeitada,Compra,10.0,,,,Limitada,10.67,Posição,btg_desktop,BVSP,VAC,,,,,,EXPTN.053 REJEIÇÃO SUITABILITY: REJEITADA PELO PERFIL DE RISCO, ACESSE A PÁGINA DA CORRETORA E REVISE SEU PERFIL.,20240731190243564937,,CNI,2277249
+2024-07-31 16:02:43,4940560,Cristiano Augusto Andrade De Resende,SPGM16,Executada,Compra,1.0,1.0,,10.0,Limitada,10.0,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190243564936,,CNI,4940560
+2024-07-31 16:02:43,4940560,Cristiano Augusto Andrade De Resende,SPGM15,Executada,Compra,102.0,102.0,,11.55,Limitada,11.55,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190243564935,,CNI,4940560
+2024-07-31 16:02:43,4940560,Cristiano Augusto Andrade De Resende,SPGM11,Executada,Compra,10.0,10.0,,10.67,Limitada,10.67,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190243564934,,CNI,4940560
+2024-07-31 16:02:43,4346716,Tiago Perfeito De Santana,SPGM16,Executada,Compra,1.0,1.0,,10.0,Limitada,10.0,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190243564933,,CNI,4346716
+2024-07-31 16:02:43,4346716,Tiago Perfeito De Santana,SPGM15,Executada,Compra,102.0,102.0,,11.55,Limitada,11.55,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190243564932,,CNI,4346716
+2024-07-31 16:02:43,4346716,Tiago Perfeito De Santana,SPGM11,Executada,Compra,10.0,10.0,,10.67,Limitada,10.67,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731190243564931,,CNI,4346716
+2024-07-31 14:57:00,5142624,Rodrigo Rabelo Bagno,SPGM15,Executada,Venda,439.0,439.0,,11.55,Limitada,11.55,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731142452339104,,6NA,5142624
+2024-07-31 14:57:00,5142661,Sabrina Molina Bellose Matiole,SPGM15,Executada,Venda,439.0,439.0,,11.55,Limitada,11.55,Posição,btg_desktop,BVSP,VAC,,,,,,,20240731142452339105,,6NA,5142661
+2024-07-31 14:07:19,5142611,Guilherme Faleiro Guerra Pinto Coelho,SPGM15,Executada,Venda,8303.0,8303.0,,11.55,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412194074986,bd4b15bc48b44951846d22e6877bce3f,6NA,5142611
 2024-07-30 16:11:48,4335144,Edmundo Starling Loureiro Franca,ITUB4F,Executada,Compra,90.0,90.0,,34.31944444,Limitada,34.35,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905475636128,c0d4d52dc561470881e3ae34e2a3dddb,CNI,4335144
 2024-07-30 16:11:30,4497875,Henrique Figueiredo Marquezine,CPFE3F,Executada,Compra,36.0,36.0,,32.82916667,Limitada,32.85,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412201025019,14bc3957c29143988ad2c70c0502544d,CNI,4497875
 2024-07-30 16:11:22,4497875,Henrique Figueiredo Marquezine,KEPL3F,Executada,Venda,32.0,32.0,,10.36,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611010455157,fefa5e14640249ebb729e12ef363afe9,CNI,4497875
@@ -180,3 +232,114 @@ Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restan
 2024-07-30 13:23:19,4214460,Maria Das Gracas Da Silva Pires,QDFI11,Executada,Venda,42.0,42.0,,4.06,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240730162319427774,,5KP,4214460
 2024-07-30 10:09:54,4983378,Marcelo Jaime Ferreira,VALE3F,Executada,Compra,50.0,50.0,,61.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240730130954262045,,CNI,4983378
 2024-07-30 10:00:00,5142592,Alberto De Oliveira Faleiro Neto,SPGM15,Executada,Venda,8110.0,8110.0,,11.55,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183108294,6cd7976fdc084a27aa1067119f3a5bd8,5KP,5142592
+2024-07-29 15:06:48,4237325,Ricardo Jose Lacerda Prudencio,PRIO3F,Executada,Venda,18.0,18.0,,47.62,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729180648497843,,CNI,4237325
+2024-07-29 15:06:48,4237325,Ricardo Jose Lacerda Prudencio,PRIO3,Executada,Venda,100.0,100.0,,47.63,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729180648497842,,CNI,4237325
+2024-07-29 15:05:47,4813088,Juliana Gomes Falleiros Cavalheiro,CPFE3F,Executada,Compra,77.0,77.0,,32.96987013,Limitada,32.97,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412194438709,c822def4db21414ba14e084b9c7fa663,CNI,4813088
+2024-07-29 15:05:42,4813088,Juliana Gomes Falleiros Cavalheiro,SLCE3F,Executada,Compra,36.0,36.0,,18.22583333,Limitada,18.23,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611003865383,9ed5f69e6fff45718cb881bf3a91febd,CNI,4813088
+2024-07-29 15:05:37,4813088,Juliana Gomes Falleiros Cavalheiro,BBAS3F,Executada,Venda,72.0,72.0,,27.08,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,925735775988,1a2617af96c4428890e0b0c0ea944ce5,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,ITUB4F,Executada,Compra,18.0,18.0,,34.53,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905473957301,b0b2d716199f449684e0ca26a7f0ebbd,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,ITUB4,Executada,Compra,100.0,100.0,,34.52,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905473957300,154d4b64b7094ba7b1ed38ad21f21215,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,VALE3F,Executada,Compra,93.0,93.0,,61.45,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807439370582,e13e472165f148ce8ef6283571a190ae,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,VIVT3F,Executada,Compra,41.0,41.0,,48.25,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611003865386,7cda2eaf69304a0f991f1fd98f0d6c7d,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,KEPL3F,Executada,Venda,26.0,26.0,,10.46,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611003865382,9632b2f731ba4b53b79e665f041eaf5e,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,HYPE3F,Executada,Compra,27.0,27.0,,29.41,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611003865381,96fc1f5e463d4674922318aa5eafd779,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,BBSE3F,Executada,Compra,48.0,48.0,,34.7,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611003865380,9ee9c60c424442aab83f8f5df1f96e8f,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,ARZZ3F,Executada,Compra,15.0,15.0,,50.08,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611003865379,6243efb1fbbc4bbb9a613d4039d9c4f8,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,IGTI11F,Executada,Venda,40.0,40.0,,21.01,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611003865378,78d0e7aba2724f6da4beee7ef5c01243,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,RAIL3F,Executada,Venda,50.0,50.0,,22.46,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8813692624791,ff207178e8aa46d4a93d6d151c7cbe3c,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,RAIL3,Executada,Venda,100.0,100.0,,22.48,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8813692624790,eb31e48b43604e1cbe47e67d87ab6022,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,BBAS3,Executada,Venda,200.0,200.0,,27.07,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,925735775987,7ba8825d78bc4699b7b2fd9733275335,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,LEVE3F,Executada,Compra,31.0,31.0,,32.79,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412194438710,a9bd308e35c74b0d8478dd2e3eae2da3,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,CPLE6F,Executada,Venda,24.0,24.0,,10.11,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412194438708,bb71d9d587ed44cfa37289ff8f5ff6d5,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,CPLE6,Executada,Venda,800.0,800.0,,10.11,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412194438707,21ec36e922664976a512a69c6eaac3b3,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,PRIO3F,Executada,Compra,7.0,7.0,,47.67,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829339088463,d0fd25e2d7fc41dc9428d26ef1c900a8,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,RENT3F,Executada,Venda,49.0,49.0,,42.95,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829339088462,0a9b200eb42f4572986795138790cd56,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,PETR4F,Executada,Venda,17.0,17.0,,36.68,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829339088461,f34b9254c142431d8f4b884c0028c33a,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,PETR4,Executada,Venda,100.0,100.0,,36.68,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829339088460,b0eac7ae48b74f73a1d623c5b98ddc69,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,IGTI11,Executada,Venda,100.0,100.0,,21.02,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611003865377,93c92801fd6144e3a603c8845d66f7b2,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,GMAT3F,Executada,Venda,8.0,8.0,,6.75,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611003865376,1beafc17c85246adbac7e6211b68b352,CNI,4813088
+2024-07-29 15:05:30,4813088,Juliana Gomes Falleiros Cavalheiro,GMAT3,Executada,Venda,400.0,400.0,,6.75,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611003865375,e897989eb5704665b27fb28964d1c9b5,CNI,4813088
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,VALE3F,Executada,Compra,79.0,79.0,,61.5,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488762,,6NA,4454491
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,VIVT3F,Executada,Compra,35.0,35.0,,48.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488763,,6NA,4454491
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,PRIO3F,Executada,Compra,9.0,9.0,,47.62,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488760,,6NA,4454491
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,SLCE3F,Executada,Compra,33.0,33.0,,18.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488761,,6NA,4454491
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,LEVE3F,Executada,Compra,27.0,27.0,,32.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488759,,6NA,4454491
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,ITUB4F,Executada,Compra,99.0,99.0,,34.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488757,,6NA,4454491
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,KEPL3F,Executada,Venda,23.0,23.0,,10.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488758,,6NA,4454491
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,CPFE3F,Executada,Compra,65.0,65.0,,32.96,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488755,,6NA,4454491
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,HYPE3F,Executada,Compra,24.0,24.0,,29.41,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488756,,6NA,4454491
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,BBSE3F,Executada,Compra,40.0,40.0,,34.7,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488754,,6NA,4454491
+2024-07-29 14:58:17,4454491,Marco Antonio Guerreiro,ARZZ3F,Executada,Compra,14.0,14.0,,50.12,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175817488753,,6NA,4454491
+2024-07-29 14:57:04,4450760,Silvio Henrique Maia De Almeida,LEVE3F,Executada,Compra,29.0,29.0,,32.73689655,Limitada,32.79,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486911,,6NA,4450760
+2024-07-29 14:56:58,4450760,Silvio Henrique Maia De Almeida,BBSE3F,Executada,Compra,95.0,95.0,,34.70368421,Limitada,34.72,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486903,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,VIVT3F,Executada,Compra,14.0,14.0,,48.28,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486917,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,VIVT3,Executada,Compra,100.0,100.0,,48.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486916,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,VALE3F,Executada,Compra,19.0,19.0,,61.43,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486915,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,VALE3,Executada,Compra,200.0,200.0,,61.43,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486914,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,SLCE3F,Executada,Compra,75.0,75.0,,18.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486913,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,PRIO3F,Executada,Venda,32.0,32.0,,47.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486912,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,LEVE3,Executada,Compra,100.0,100.0,,32.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486910,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,KEPL3F,Executada,Venda,48.0,48.0,,10.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486909,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,ITUB4F,Executada,Compra,3.0,3.0,,34.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486908,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,ITUB4,Executada,Compra,400.0,400.0,,34.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486907,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,HYPE3F,Executada,Venda,55.0,55.0,,29.38,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486906,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,CPFE3F,Executada,Compra,30.0,30.0,,32.98,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486905,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,CPFE3,Executada,Compra,200.0,200.0,,32.97,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486904,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,BBSE3,Executada,Compra,100.0,100.0,,34.69,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486902,,6NA,4450760
+2024-07-29 14:56:43,4450760,Silvio Henrique Maia De Almeida,ARZZ3F,Executada,Compra,35.0,35.0,,50.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729175643486901,,6NA,4450760
+2024-07-29 14:47:04,4940560,Cristiano Augusto Andrade De Resende,BBSE3F,Executada,Compra,75.0,75.0,,34.69226667,Limitada,34.75,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478030,,03Q,4940560
+2024-07-29 14:46:58,4940560,Cristiano Augusto Andrade De Resende,ITUB4F,Executada,Compra,77.0,77.0,,34.5338961,Limitada,34.59,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478034,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,VIVT3F,Executada,Compra,49.0,49.0,,48.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478043,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,VALE3F,Executada,Compra,39.0,39.0,,61.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478042,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,VALE3,Executada,Compra,100.0,100.0,,61.38,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478041,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,SLCE3F,Executada,Compra,67.0,67.0,,18.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478040,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,PRIO3F,Executada,Venda,11.0,11.0,,47.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478039,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,LEVE3F,Executada,Compra,78.0,78.0,,32.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478037,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,KEPL3F,Executada,Venda,21.0,21.0,,10.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478036,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,KEPL3,Executada,Venda,100.0,100.0,,10.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478035,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,ITUB4,Executada,Compra,100.0,100.0,,34.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478033,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,CPFE3F,Executada,Compra,22.0,22.0,,32.96,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478032,,03Q,4940560
+2024-07-29 14:46:46,4940560,Cristiano Augusto Andrade De Resende,CPFE3,Executada,Compra,100.0,100.0,,32.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174646478031,,03Q,4940560
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,VIVT3F,Executada,Venda,60.0,60.0,,48.15,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472729,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,VALE3F,Executada,Compra,20.0,20.0,,61.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472728,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,VALE3,Executada,Compra,100.0,100.0,,61.44,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472727,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,SLCE3F,Executada,Compra,26.0,26.0,,18.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472726,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,PRIO3F,Executada,Compra,50.0,50.0,,47.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472724,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,SLCE3,Executada,Compra,100.0,100.0,,18.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472725,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,LEVE3F,Executada,Venda,61.0,61.0,,32.6,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472723,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,LEVE3,Executada,Venda,100.0,100.0,,32.57,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472722,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,KEPL3F,Executada,Compra,77.0,77.0,,10.47,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472721,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,KEPL3,Executada,Compra,100.0,100.0,,10.47,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472720,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,ITUB4F,Executada,Compra,47.0,47.0,,34.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472718,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,ITUB4,Executada,Compra,100.0,100.0,,34.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472717,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,HYPE3F,Executada,Compra,93.0,93.0,,29.26,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472715,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,CPFE3F,Executada,Compra,8.0,8.0,,32.89,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472714,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,CPFE3,Executada,Compra,100.0,100.0,,32.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472713,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,BBSE3F,Executada,Venda,37.0,37.0,,34.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472712,,CNI,5599726
+2024-07-29 14:40:00,5599726,Jorge Gomes De Araujo,BBSE3,Executada,Venda,100.0,100.0,,34.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729174000472711,,CNI,5599726
+2024-07-29 14:31:25,5142611,Guilherme Faleiro Guerra Pinto Coelho,SPGM11,Executada,Venda,500.0,500.0,,10.67,Limitada,10.67,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412194074987,77dc4a4e420843d2b2afbe41e7a65b17,6NA,5142611
+2024-07-29 14:31:25,5142611,Guilherme Faleiro Guerra Pinto Coelho,SPGM16,Executada,Venda,50.0,50.0,,10.0,Limitada,10.0,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412194074985,4cfe22f1bbe344fc8915c7224aa8bbf8,6NA,5142611
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,VIVT3F,Executada,Compra,21.0,21.0,,48.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451686,,03Q,4361159
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,VALE3F,Executada,Venda,1.0,1.0,,61.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451685,,03Q,4361159
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,SLCE3F,Executada,Compra,20.0,20.0,,18.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451684,,03Q,4361159
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,PRIO3F,Executada,Compra,17.0,17.0,,47.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451683,,03Q,4361159
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,LEVE3F,Executada,Compra,4.0,4.0,,32.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451682,,03Q,4361159
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,KEPL3F,Executada,Compra,7.0,7.0,,10.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451681,,03Q,4361159
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,KEPL3,Executada,Compra,100.0,100.0,,10.44,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451679,,03Q,4361159
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,ITUB4F,Executada,Venda,17.0,17.0,,34.49,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451678,,03Q,4361159
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,HYPE3F,Executada,Venda,9.0,9.0,,29.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451677,,03Q,4361159
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,CPFE3F,Executada,Venda,8.0,8.0,,32.93,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451676,,03Q,4361159
+2024-07-29 14:12:06,4361159,Hfr - Construtora Ltda,BBSE3F,Executada,Venda,15.0,15.0,,34.85,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729171206451669,,03Q,4361159
+2024-07-29 12:16:27,5142592,Alberto De Oliveira Faleiro Neto,SPGM15,Executada,Venda,8109.0,8109.0,,11.55,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183108293,0fbcb33c847149959dbce91625c76c43,5KP,5142592
+2024-07-29 12:03:48,5142592,Alberto De Oliveira Faleiro Neto,SPGM15,Executada,Venda,8110.0,8110.0,,11.55,Limitada,11.55,Posição,SOLUTIONS-DIGITAL,BVSP,VAC,,,,,,,8412183108292,5a305ceea93944f59f3cbda9ef239631,5KP,5142592
+2024-07-29 11:03:10,4222784,Rafael Crispim Goncalves,KNRI11,Executada,Venda,68.0,68.0,,153.78235294,Limitada,153.5,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308906,,CNI,4222784
+2024-07-29 11:00:16,4222784,Rafael Crispim Goncalves,VIVT3F,Executada,Compra,7.0,7.0,,48.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308915,,CNI,4222784
+2024-07-29 11:00:16,4222784,Rafael Crispim Goncalves,VIVT3,Executada,Compra,300.0,300.0,,48.5,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308914,,CNI,4222784
+2024-07-29 11:00:16,4222784,Rafael Crispim Goncalves,ITUB4F,Executada,Compra,90.0,90.0,,34.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308913,,CNI,4222784
+2024-07-29 11:00:15,4222784,Rafael Crispim Goncalves,ITUB4,Executada,Compra,200.0,200.0,,34.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308912,,CNI,4222784
+2024-07-29 11:00:15,4222784,Rafael Crispim Goncalves,CPFE3F,Executada,Compra,11.0,11.0,,32.78,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308911,,CNI,4222784
+2024-07-29 11:00:15,4222784,Rafael Crispim Goncalves,CPFE3,Executada,Compra,300.0,300.0,,32.77,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308910,,CNI,4222784
+2024-07-29 11:00:15,4222784,Rafael Crispim Goncalves,BBSE3F,Executada,Compra,4.0,4.0,,34.7,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308909,,CNI,4222784
+2024-07-29 11:00:15,4222784,Rafael Crispim Goncalves,BBSE3,Executada,Compra,400.0,400.0,,34.72,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308908,,CNI,4222784
+2024-07-29 11:00:15,4222784,Rafael Crispim Goncalves,RBRF11,Executada,Venda,840.0,840.0,,7.55,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308907,,CNI,4222784
+2024-07-29 11:00:15,4222784,Rafael Crispim Goncalves,HGLG11,Executada,Venda,59.0,59.0,,163.0,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240729140015308903,,CNI,4222784
