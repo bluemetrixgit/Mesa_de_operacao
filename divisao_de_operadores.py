@@ -63,9 +63,9 @@ class Divisao_de_contas():
         
         self.arquivo_compilado = arquivo_compilado
 
-        self.arquivo_compilado.loc[self.arquivo_compilado['Valor']>700000, 'Operador'] = 'Bruno'
-        self.arquivo_compilado.loc[(self.arquivo_compilado['Valor'] > 400000) & (self.arquivo_compilado['Valor'] < 700000), 'Operador'] = 'Breno'
-        self.arquivo_compilado.loc[self.arquivo_compilado['Valor']<400000, 'Operador'] = 'Augusto'
+        self.arquivo_compilado.loc[self.arquivo_compilado['Valor']>500000, 'Operador'] = 'Bruno'
+        
+        self.arquivo_compilado.loc[self.arquivo_compilado['Valor']<500000, 'Operador'] = 'Breno'
 
         return self.arquivo_compilado
     
