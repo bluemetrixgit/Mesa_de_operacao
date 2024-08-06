@@ -31,9 +31,9 @@ class Guide_Divisao_contas():
 
         self.dividindo_operadores = arquivo_compilado.loc[(arquivo_compilado['Saldo']>1000)|(arquivo_compilado['Saldo']<0)].sort_values(by='Saldo',ascending=False)
 
-        self.dividindo_operadores.loc[self.dividindo_operadores['PL']>700000, 'Operador'] = 'Bruno'
-        self.dividindo_operadores.loc[(self.dividindo_operadores['PL'] > 400000) & (self.dividindo_operadores['PL'] < 700000), 'Operador'] = 'Breno'
-        self.dividindo_operadores.loc[self.dividindo_operadores['PL']<400000, 'Operador'] = 'Augusto'
+        self.dividindo_operadores.loc[self.dividindo_operadores['PL']>200000, 'Operador'] = 'Bruno'
+        
+        self.dividindo_operadores.loc[self.dividindo_operadores['PL']<200000, 'Operador'] = 'Breno'
         colunas_ajustar_decimal = ['Saldo','PL']
         contas_co_admin = ['005338054','004313254','005190138','004724018','004641487','004643737','004855570','004855596','004643746','005320069','004884046','005053939']
         self.dividindo_operadores = self.dividindo_operadores[~self.dividindo_operadores['Conta'].isin(contas_co_admin)]
@@ -53,9 +53,9 @@ class Guide_Divisao_contas():
 
     def contando_oepradores(self,arquivo_compilado):
         self.arquivo_compilado = arquivo_compilado
-        self.arquivo_compilado.loc[self.arquivo_compilado['PL']>700000, 'Operador'] = 'Bruno'
-        self.arquivo_compilado.loc[(self.arquivo_compilado['PL'] > 400000) & (self.arquivo_compilado['PL'] < 700000), 'Operador'] = 'Breno'
-        self.arquivo_compilado.loc[self.arquivo_compilado['PL']<400000, 'Operador'] = 'Augusto'
+        self.arquivo_compilado.loc[self.arquivo_compilado['PL']>200000, 'Operador'] = 'Bruno'
+        
+        self.arquivo_compilado.loc[self.arquivo_compilado['PL']<200000, 'Operador'] = 'Breno'
         
         return self.arquivo_compilado
                 
