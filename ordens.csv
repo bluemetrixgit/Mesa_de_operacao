@@ -1,22 +1,301 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-08-15 14:24:34,5046805,Ricardo Bauermann Ehlers,PRIO3F,Executada,Venda,76.0,76.0,,49.15,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829425012749,10af4110695c4f0096a853471abb1d35,6NA,5046805
-2024-08-15 14:24:34,5046805,Ricardo Bauermann Ehlers,HYPE3,Executada,Venda,100.0,100.0,,31.62,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611100896633,a379450d9444414995f146000cd19abb,6NA,5046805
-2024-08-15 14:24:34,5046805,Ricardo Bauermann Ehlers,HYPE3F,Executada,Venda,20.0,20.0,,31.57,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611100896634,81ece273d52a43879edbabe5946fdc09,6NA,5046805
-2024-08-15 10:25:56,5920340,Paula Santana Lopes Da Silva,AZZA3F,Executada,Compra,50.0,50.0,,55.8658,Limitada,55.93,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611095923257,5b59840abb1d44a09a138936272a2fc3,CNI,5920340
-2024-08-15 10:25:30,5920340,Paula Santana Lopes Da Silva,VIVT3F,Executada,Compra,60.0,60.0,,51.6,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611095923267,6e959f5b241b4c0a8a7b2ca0e1a4dad6,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,VALE3F,Executada,Compra,87.0,87.0,,55.86,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807493744430,3a35540a20714b80965e962225e83def,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,PRIO3F,Executada,Compra,61.0,61.0,,49.68,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829421864629,6b91bb976e68453484116e3f23067f93,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,LEVE3F,Executada,Compra,80.0,80.0,,31.73,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412285288652,5c758644dd0b46919ef630b2cd510720,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,CPFE3F,Executada,Compra,80.0,80.0,,33.75,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412285288651,f2c51fb961084e9c803b436631396029,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,SLCE3F,Executada,Compra,51.0,51.0,,18.04,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611095923266,4b423b64f36c4f529a90417c964b808e,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,SLCE3,Executada,Compra,100.0,100.0,,18.04,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611095923265,72ca08c68a6745a3823ec036e32762d8,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,KEPL3F,Executada,Compra,66.0,66.0,,11.43,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611095923262,a2a3804c6885486b8c5945d99ff72b83,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,ABEV3F,Executada,Compra,81.0,81.0,,12.73,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8813871524547,b391d7aa15ed4e4dbfe56509f2bdd3b8,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,ABEV3,Executada,Compra,100.0,100.0,,12.73,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8813871524546,b37cd158300b41e9b7248890fc92a183,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,ITUB4F,Executada,Compra,77.0,77.0,,36.71,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905513426996,8725323928904383ba07dc176e417b31,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,KEPL3,Executada,Compra,200.0,200.0,,11.42,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611095923261,2b40f6685c4e4aa597871ec9a7d70478,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,HYPE3F,Executada,Compra,3.0,3.0,,31.54,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611095923260,d158961091b8412c983b3ff0b0eee27f,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,HYPE3,Executada,Compra,100.0,100.0,,31.52,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611095923259,c07133b199fe45449f9d02de03c255d4,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,BBSE3F,Executada,Compra,83.0,83.0,,37.62,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611095923258,7438de9fe31e48838cb6b2dcbef65f61,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,BBDC4F,Executada,Compra,27.0,27.0,,15.12,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905513426995,0f662977d6ff485a9fee2aa13cd3f0fb,CNI,5920340
-2024-08-15 10:25:29,5920340,Paula Santana Lopes Da Silva,BBDC4,Executada,Compra,100.0,100.0,,15.12,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905513426994,0367aba36727401aa7b0b9d8a4a6b149,CNI,5920340
+2024-08-16 20:00:18,5654258,Naiara Galvao Da Silva,KEPL3F,Expirada,Venda,16.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367770,,5KP,5654258
+2024-08-16 20:00:18,5651698,Joao Paulo Da Cruz Britto,KEPL3F,Expirada,Venda,43.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367768,,5KP,5651698
+2024-08-16 20:00:18,5920340,Paula Santana Lopes Da Silva,KEPL3F,Expirada,Venda,33.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367774,,5KP,5920340
+2024-08-16 20:00:18,5624274,Clayton De Souza Pontes,KEPL3F,Expirada,Venda,9.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367766,,5KP,5624274
+2024-08-16 20:00:18,5599726,Jorge Gomes De Araujo,KEPL3F,Expirada,Venda,89.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367761,,5KP,5599726
+2024-08-16 20:00:18,5660459,Moacir Vieira Dos Santos,KEPL3F,Expirada,Venda,23.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367772,,5KP,5660459
+2024-08-16 20:00:18,5324981,Jo Hwi Song,KEPL3F,Expirada,Venda,6.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367757,,5KP,5324981
+2024-08-16 20:00:18,5429528,Bianca Faria E Rocha,KEPL3F,Expirada,Venda,55.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367759,,5KP,5429528
+2024-08-16 20:00:18,5616259,Maria Socorro Rodrigues,KEPL3F,Expirada,Venda,58.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367763,,5KP,5616259
+2024-08-16 20:00:18,5324840,Pedro Sergio Vieira Da Silva,KEPL3F,Expirada,Venda,1.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367755,,5KP,5324840
+2024-08-16 20:00:18,5255637,Patricia Maria Pizzo Reis,KEPL3F,Expirada,Venda,54.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367750,,5KP,5255637
+2024-08-16 20:00:18,5293480,Wagner Bartolozzi Silva,KEPL3F,Expirada,Venda,95.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367753,,5KP,5293480
+2024-08-16 20:00:18,5198093,Ana Beatriz Dupre Silva,KEPL3F,Expirada,Venda,16.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367739,,5KP,5198093
+2024-08-16 20:00:18,5256036,Luiz Napoleao Da Silva Brito,KEPL3F,Expirada,Venda,57.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367751,,5KP,5256036
+2024-08-16 20:00:18,5152037,Rodrigo De Biagi Lopes,KEPL3F,Expirada,Venda,61.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367734,,5KP,5152037
+2024-08-16 20:00:18,5105970,Vera Lucia Elias De Oliveira,KEPL3F,Expirada,Venda,6.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367728,,5KP,5105970
+2024-08-16 20:00:18,5242683,Lucas Gabriel Lopes De Sousa,KEPL3F,Expirada,Venda,3.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367748,,5KP,5242683
+2024-08-16 20:00:18,5233971,Leivanio Ponte Teixeira,KEPL3F,Expirada,Venda,63.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367744,,5KP,5233971
+2024-08-16 20:00:18,5079458,Jonas Buitrago Bornholdt,KEPL3F,Expirada,Venda,62.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367721,,5KP,5079458
+2024-08-16 20:00:18,5203796,Marcia Stella,KEPL3F,Expirada,Venda,69.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367742,,5KP,5203796
+2024-08-16 20:00:18,5046790,Beatriz Roveri De Abreu,KEPL3F,Expirada,Venda,37.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367717,,5KP,5046790
+2024-08-16 20:00:18,5135281,Rafael Guerzoni,KEPL3F,Expirada,Venda,72.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367730,,5KP,5135281
+2024-08-16 20:00:18,5170415,Monica De Oliveira,KEPL3F,Expirada,Venda,48.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367737,,5KP,5170415
+2024-08-16 20:00:18,5140667,Mateus Fernandes Carvalho,KEPL3F,Expirada,Venda,72.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367732,,5KP,5140667
+2024-08-16 20:00:18,5061124,Bruno Menezes Karner,KEPL3F,Expirada,Venda,41.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367720,,5KP,5061124
+2024-08-16 20:00:18,5092207,Bruno Sacani Sobrinho,KEPL3F,Expirada,Venda,30.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367726,,5KP,5092207
+2024-08-16 20:00:18,5055239,Norman Prochet Neto,KEPL3F,Expirada,Venda,56.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367718,,5KP,5055239
+2024-08-16 20:00:18,5024046,Alexandre Zanin Neto,KEPL3F,Expirada,Venda,78.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367714,,5KP,5024046
+2024-08-16 20:00:18,5002390,Luciano Ricardo Arimateas Montenegro,KEPL3F,Expirada,Venda,25.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367706,,5KP,5002390
+2024-08-16 20:00:18,4999434,Eduardo Augusto Rosa,KEPL3F,Expirada,Venda,64.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367704,,5KP,4999434
+2024-08-16 20:00:18,5003629,Andre Reichert Da Silva Godoy,KEPL3F,Expirada,Venda,59.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367711,,5KP,5003629
+2024-08-16 20:00:18,5002457,Rosangela Arimateas Caldas,KEPL3F,Expirada,Venda,7.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367708,,5KP,5002457
+2024-08-16 20:00:18,4946997,Eduardo Rios Da Costa Carvalho,KEPL3F,Expirada,Venda,71.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367691,,5KP,4946997
+2024-08-16 20:00:18,4912314,Fabricio Massula Dutra,KEPL3F,Expirada,Venda,42.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367684,,5KP,4912314
+2024-08-16 20:00:18,5009992,Aline Lordes Saliba,KEPL3F,Expirada,Venda,33.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367713,,5KP,5009992
+2024-08-16 20:00:18,4948033,Guilherme De Macedo Soares,KEPL3F,Expirada,Venda,66.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367696,,5KP,4948033
+2024-08-16 20:00:18,4972351,Caio De Almeida Leite,KEPL3F,Expirada,Venda,99.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367701,,5KP,4972351
+2024-08-16 20:00:18,4995535,Asiel Henrique De Sousa,KEPL3F,Expirada,Venda,24.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367703,,5KP,4995535
+2024-08-16 20:00:18,4971783,Erika Muniz,KEPL3F,Expirada,Venda,51.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367697,,5KP,4971783
+2024-08-16 20:00:18,4927044,Cintia Tais Polizer Zanin,KEPL3F,Expirada,Venda,1.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367688,,5KP,4927044
+2024-08-16 20:00:18,4935287,Odilon Alexandre Silveira Marques Pereira,KEPL3F,Expirada,Venda,76.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367690,,5KP,4935287
+2024-08-16 20:00:18,4862746,Cesar Eduardo Castro Ferreira Martins,KEPL3F,Expirada,Venda,67.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367678,,5KP,4862746
+2024-08-16 20:00:18,4895776,Fernando Henrique Fontes Dos Reis,KEPL3F,Expirada,Venda,69.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367682,,5KP,4895776
+2024-08-16 20:00:18,4890544,Assako Utsumi Okada,KEPL3F,Expirada,Venda,46.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367680,,5KP,4890544
+2024-08-16 20:00:18,4862677,Renato Afonso Amorim,KEPL3F,Expirada,Venda,34.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367676,,5KP,4862677
+2024-08-16 20:00:18,4813134,Monica Torres Silva,KEPL3F,Expirada,Venda,42.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367674,,5KP,4813134
+2024-08-16 20:00:18,4767746,Isabele Papafanurakis Ferreira Noronha,KEPL3F,Expirada,Venda,75.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367666,,5KP,4767746
+2024-08-16 20:00:18,4752494,Sergio Eduardo Canella,KEPL3F,Expirada,Venda,24.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367662,,5KP,4752494
+2024-08-16 20:00:18,4751770,Dilson Manoel Catarino,KEPL3F,Expirada,Venda,71.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367660,,5KP,4751770
+2024-08-16 20:00:18,4805269,Clisia Mara Carreira,KEPL3F,Expirada,Venda,3.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367670,,5KP,4805269
+2024-08-16 20:00:18,4751154,Catarine Tempest Calijuri,KEPL3F,Expirada,Venda,98.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367658,,5KP,4751154
+2024-08-16 20:00:18,4804036,Luciana Soares Spindola,KEPL3F,Expirada,Venda,16.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367668,,5KP,4804036
+2024-08-16 20:00:18,4754056,Bruno Tedesco Rosa,KEPL3F,Expirada,Venda,96.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367664,,5KP,4754056
+2024-08-16 20:00:18,4584982,Bruno De Azevedo Oliveira,KEPL3F,Expirada,Venda,96.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367653,,5KP,4584982
+2024-08-16 20:00:18,4565146,Gustavo Jiran Queiroz,KEPL3F,Expirada,Venda,35.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367643,,5KP,4565146
+2024-08-16 20:00:18,4630773,Nabor Augusto Wagner Pereira,KEPL3F,Expirada,Venda,94.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367655,,5KP,4630773
+2024-08-16 20:00:18,4693308,Laura Nascimento,KEPL3F,Expirada,Venda,41.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367656,,5KP,4693308
+2024-08-16 20:00:18,4556974,Kelly Fernanda Pereira E Silva,KEPL3F,Expirada,Venda,90.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367639,,5KP,4556974
+2024-08-16 20:00:18,4584517,Caio Augusto Costa Campos,KEPL3F,Expirada,Venda,60.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367651,,5KP,4584517
+2024-08-16 20:00:18,4582648,Anuar Michel Matni,KEPL3F,Expirada,Venda,33.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367649,,5KP,4582648
+2024-08-16 20:00:18,4570632,Fabricio Parra Garcia,KEPL3F,Expirada,Venda,95.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367645,,5KP,4570632
+2024-08-16 20:00:18,4565108,Gustavo Rodrigues Queiroz,KEPL3F,Expirada,Venda,9.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367641,,5KP,4565108
+2024-08-16 20:00:18,4551472,Diego Franco Noronha,KEPL3F,Expirada,Venda,21.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367636,,5KP,4551472
+2024-08-16 20:00:17,4512434,Caio Cesar Damitto Rosa,KEPL3F,Expirada,Venda,42.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367626,,5KP,4512434
+2024-08-16 20:00:17,4514241,Andre Yoshio Itiyama,KEPL3F,Expirada,Venda,28.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367628,,5KP,4514241
+2024-08-16 20:00:17,4508526,Cassio Kaminagakura,KEPL3F,Expirada,Venda,45.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367624,,5KP,4508526
+2024-08-16 20:00:17,4550415,Diogo Salomao Pontes,KEPL3F,Expirada,Venda,30.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367634,,5KP,4550415
+2024-08-16 20:00:17,4515548,Flavia Bordin Silva,KEPL3F,Expirada,Venda,53.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367630,,5KP,4515548
+2024-08-16 20:00:17,4539779,Ricardo Jose Rodrigues,KEPL3F,Expirada,Venda,17.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367632,,5KP,4539779
+2024-08-16 20:00:17,4508516,Eduardo Guerzoni,KEPL3F,Expirada,Venda,70.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367622,,5KP,4508516
+2024-08-16 20:00:17,4508504,Fernando Luiz Guerzoni,KEPL3F,Expirada,Venda,70.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367621,,5KP,4508504
+2024-08-16 20:00:17,4482102,Natalia Falavigna Silva,KEPL3F,Expirada,Venda,16.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367607,,5KP,4482102
+2024-08-16 20:00:17,4500804,Rafael Guerzoni,KEPL3F,Expirada,Venda,69.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367620,,5KP,4500804
+2024-08-16 20:00:17,4482090,Cezar Falavigna Silva,KEPL3F,Expirada,Venda,2.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367605,,5KP,4482090
+2024-08-16 20:00:17,4499920,Fabiano Luis De Oliveira,KEPL3F,Expirada,Venda,92.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367617,,5KP,4499920
+2024-08-16 20:00:17,4500087,Janne Stella Takahara,KEPL3F,Expirada,Venda,99.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367619,,5KP,4500087
+2024-08-16 20:00:17,4497875,Henrique Figueiredo Marquezine,KEPL3F,Expirada,Venda,1.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367615,,5KP,4497875
+2024-08-16 20:00:17,4484207,Flavia Valone Gorini Jacob,KEPL3F,Expirada,Venda,81.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367613,,5KP,4484207
+2024-08-16 20:00:17,4482163,Ciria Coelho Ribeiro,KEPL3F,Expirada,Venda,40.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367610,,5KP,4482163
+2024-08-16 20:00:17,4479287,Ana Lucia Falavigna Guilherme,KEPL3F,Expirada,Venda,57.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367603,,5KP,4479287
+2024-08-16 20:00:17,4472538,Rodolfo Cesar Azevedo Palma,KEPL3F,Expirada,Venda,30.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367601,,5KP,4472538
+2024-08-16 20:00:17,4472386,Gabriel Villas Boas Dos Santos Tabosa,KEPL3F,Expirada,Venda,77.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367599,,5KP,4472386
+2024-08-16 20:00:17,4471893,Paula Falavigna Silva,KEPL3F,Expirada,Venda,67.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367597,,5KP,4471893
+2024-08-16 20:00:17,4462930,Walter Koelsch Junior,KEPL3F,Expirada,Venda,95.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367592,,5KP,4462930
+2024-08-16 20:00:17,4461070,Eduardo Henrique Gomes Martinez,KEPL3F,Expirada,Venda,6.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367588,,5KP,4461070
+2024-08-16 20:00:17,4468717,Heloisa Trevisan Hata,KEPL3F,Expirada,Venda,91.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367595,,5KP,4468717
+2024-08-16 20:00:17,4452946,Otavio Ribeiro Madureira,KEPL3F,Expirada,Venda,30.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367574,,5KP,4452946
+2024-08-16 20:00:17,4467884,Ana Lucia Garcia Spironelli Quintiliano,KEPL3F,Expirada,Venda,97.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367593,,5KP,4467884
+2024-08-16 20:00:17,4455489,Solange Alves De Moraes Mendes,KEPL3F,Expirada,Venda,89.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367586,,5KP,4455489
+2024-08-16 20:00:17,4452790,Gustavo Falavigna Guilherme,KEPL3F,Expirada,Venda,68.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367570,,5KP,4452790
+2024-08-16 20:00:17,4455356,Marcelo Kanitz,KEPL3F,Expirada,Venda,33.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367583,,5KP,4455356
+2024-08-16 20:00:17,4462543,Rodolfo Bittencourt Andrade,KEPL3F,Expirada,Venda,87.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367589,,5KP,4462543
+2024-08-16 20:00:17,4453157,Jose Roberto Boselli Junior,KEPL3F,Expirada,Venda,81.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367578,,5KP,4453157
+2024-08-16 20:00:17,4453132,Bruno Montenegro Sacani,KEPL3F,Expirada,Venda,56.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367576,,5KP,4453132
+2024-08-16 20:00:17,4454491,Marco Antonio Guerreiro,KEPL3F,Expirada,Venda,76.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367580,,5KP,4454491
+2024-08-16 20:00:17,4452597,Lara Falavigna Guilherme Nacruth,KEPL3F,Expirada,Venda,53.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367568,,5KP,4452597
+2024-08-16 20:00:17,4452912,Bruno Sacani Sobrinho,KEPL3F,Expirada,Venda,29.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367572,,5KP,4452912
+2024-08-16 20:00:17,4451978,Antonio Carlos Resende E Silva,KEPL3F,Expirada,Venda,70.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367566,,5KP,4451978
+2024-08-16 20:00:17,4419782,Nady Dequech,KEPL3F,Expirada,Venda,76.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367552,,5KP,4419782
+2024-08-16 20:00:17,4431689,Luca Dias Bueno,KEPL3F,Expirada,Venda,50.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367557,,5KP,4431689
+2024-08-16 20:00:17,4450760,Silvio Henrique Maia De Almeida,KEPL3F,Expirada,Venda,81.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367563,,5KP,4450760
+2024-08-16 20:00:17,4405234,Julio Antonio Barbeta,KEPL3F,Expirada,Venda,24.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367546,,5KP,4405234
+2024-08-16 20:00:17,4415557,Filipe Augusto Estorilio Silva Pinto,KEPL3F,Expirada,Venda,77.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367550,,5KP,4415557
+2024-08-16 20:00:17,4385806,Anilson Alves De Sousa Junior,KEPL3F,Expirada,Venda,80.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367542,,5KP,4385806
+2024-08-16 20:00:17,4436055,Marco Antonio Fonseca Braga,KEPL3F,Expirada,Venda,84.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367561,,5KP,4436055
+2024-08-16 20:00:17,4435987,Marco Antonio Fonseca Braga,KEPL3F,Expirada,Venda,71.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367559,,5KP,4435987
+2024-08-16 20:00:17,4413523,Rosane Inez Piloni,KEPL3F,Expirada,Venda,10.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367548,,5KP,4413523
+2024-08-16 20:00:17,4376853,Alberto Carlos De Aguiar Rodrigues,KEPL3F,Expirada,Venda,24.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367536,,5KP,4376853
+2024-08-16 20:00:17,4386464,Carlos Humberto Fauaze Filho,KEPL3F,Expirada,Venda,76.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367544,,5KP,4386464
+2024-08-16 20:00:17,4376145,Lucyene Dos Santos Borges,KEPL3F,Expirada,Venda,81.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367534,,5KP,4376145
+2024-08-16 20:00:17,4381359,Pedro Rocha Junior,KEPL3F,Expirada,Venda,21.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367540,,5KP,4381359
+2024-08-16 20:00:17,4381095,Thiago Lucas Leite De Noronha,KEPL3F,Expirada,Venda,88.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367538,,5KP,4381095
+2024-08-16 20:00:17,4369172,Luiza Garcia Siqueira,KEPL3F,Expirada,Venda,48.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367532,,5KP,4369172
+2024-08-16 20:00:17,4364200,Bloco Construcoes E Comercio Ltda,KEPL3F,Expirada,Venda,45.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367530,,5KP,4364200
+2024-08-16 20:00:17,4313254,Gustavo Machado Amorim,KEPL3F,Expirada,Venda,25.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367502,,5KP,4313254
+2024-08-16 20:00:17,4290978,Larissa Friedrich Reinert Barbosa,KEPL3F,Expirada,Venda,8.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367496,,5KP,4290978
+2024-08-16 20:00:17,4363250,Helio Jasckstet,KEPL3F,Expirada,Venda,20.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367525,,5KP,4363250
+2024-08-16 20:00:17,4357848,Aurelio Da Cunha Matos E Silva,KEPL3F,Expirada,Venda,43.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367520,,5KP,4357848
+2024-08-16 20:00:17,4332544,Celia Rios Guercio,KEPL3F,Expirada,Venda,68.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367508,,5KP,4332544
+2024-08-16 20:00:17,4332783,Iron Luiz Gomes Dos Reis,KEPL3F,Expirada,Venda,78.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367510,,5KP,4332783
+2024-08-16 20:00:17,4321092,Daniel Cambraia Danzig,KEPL3F,Expirada,Venda,2.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367505,,5KP,4321092
+2024-08-16 20:00:17,4298042,Luiz Alberto Portilho De Lima,KEPL3F,Expirada,Venda,22.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367501,,5KP,4298042
+2024-08-16 20:00:17,4363260,Larissa Weber Gomes Reis,KEPL3F,Expirada,Venda,29.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367527,,5KP,4363260
+2024-08-16 20:00:17,4352384,Brasfort Empresa De Seguranca Ltda,KEPL3F,Expirada,Venda,14.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367517,,5KP,4352384
+2024-08-16 20:00:17,4342617,Juraci Guedes Filho,KEPL3F,Expirada,Venda,46.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367514,,5KP,4342617
+2024-08-16 20:00:17,4335144,Edmundo Starling Loureiro Franca,KEPL3F,Expirada,Venda,20.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367512,,5KP,4335144
+2024-08-16 20:00:17,4361159,Hfr - Construtora Ltda,KEPL3F,Expirada,Venda,93.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367522,,5KP,4361159
+2024-08-16 20:00:17,4321016,Joaquim Ferreira Cambraia,KEPL3F,Expirada,Venda,64.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367504,,5KP,4321016
+2024-08-16 20:00:17,4267044,Patricia Teixeira Canabrava,KEPL3F,Expirada,Venda,58.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367490,,5KP,4267044
+2024-08-16 20:00:17,4273239,Daniel Darlen Correa Ribeiro,KEPL3F,Expirada,Venda,5.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367492,,5KP,4273239
+2024-08-16 20:00:17,4221638,Caroline Bastos De Souza,KEPL3F,Expirada,Venda,62.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367483,,5KP,4221638
+2024-08-16 20:00:17,4254210,Marco Rafael Dos Remedios Evangelista,KEPL3F,Expirada,Venda,21.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367487,,5KP,4254210
+2024-08-16 20:00:17,4216434,Jaime Estevam Gomes Filho,KEPL3F,Expirada,Venda,23.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367477,,5KP,4216434
+2024-08-16 20:00:17,4222784,Rafael Crispim Goncalves,KEPL3F,Expirada,Venda,47.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367485,,5KP,4222784
+2024-08-16 20:00:17,4211922,Carlos Alberto De Carvalho,KEPL3F,Expirada,Venda,22.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367471,,5KP,4211922
+2024-08-16 20:00:17,4214460,Maria Das Gracas Da Silva Pires,KEPL3F,Expirada,Venda,42.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367475,,5KP,4214460
+2024-08-16 20:00:17,4216657,Joao Pedro Guimaraes Quinan,KEPL3F,Expirada,Venda,34.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367480,,5KP,4216657
+2024-08-16 20:00:17,4259659,Bento Rodrigo Fernandes Bueno,KEPL3F,Expirada,Venda,79.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367489,,5KP,4259659
+2024-08-16 20:00:17,4212409,Rafael Lopes Goncalves,KEPL3F,Expirada,Venda,28.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367473,,5KP,4212409
+2024-08-16 20:00:17,4207184,Cristina Cervigni Marques,KEPL3F,Expirada,Venda,79.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367469,,5KP,4207184
+2024-08-16 20:00:17,4200433,Bento Rodrigo Fernandes Bueno,KEPL3F,Expirada,Venda,76.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367468,,5KP,4200433
+2024-08-16 20:00:17,3553997,Mirella Braga Park,KEPL3F,Expirada,Venda,97.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367463,,5KP,3553997
+2024-08-16 20:00:17,2823185,Simone Nunes Paixao,KEPL3F,Expirada,Venda,14.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367459,,5KP,2823185
+2024-08-16 20:00:17,2687737,Jose Maurilio Coelho Rios,KEPL3F,Expirada,Venda,43.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367457,,5KP,2687737
+2024-08-16 20:00:17,4165515,Mauro Calzolari Borges,KEPL3F,Expirada,Venda,18.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367466,,5KP,4165515
+2024-08-16 20:00:17,2828327,Renan Pereira De Oliveira Tinoco,KEPL3F,Expirada,Venda,16.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367461,,5KP,2828327
+2024-08-16 20:00:17,1922009,Sofia Nepomuceno Gorini,KEPL3F,Expirada,Venda,32.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367455,,5KP,1922009
+2024-08-16 20:00:17,1759765,Natal Ferreira Das Dores,KEPL3F,Expirada,Venda,53.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367453,,5KP,1759765
+2024-08-16 20:00:17,1651617,Mirella Braga Park,KEPL3F,Expirada,Venda,6.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367452,,5KP,1651617
+2024-08-16 20:00:17,1090818,Maria Carmelita Dos Santos,KEPL3F,Expirada,Venda,83.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144515367449,,5KP,1090818
+2024-08-16 20:00:17,772433,Marcelo Frossard Pincinato,KEPL3F,Expirada,Venda,39.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144515367447,,5KP,772433
+2024-08-16 20:00:12,5920340,Paula Santana Lopes Da Silva,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367773,,5KP,5920340
+2024-08-16 20:00:12,5651698,Joao Paulo Da Cruz Britto,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367767,,5KP,5651698
+2024-08-16 20:00:12,5654258,Naiara Galvao Da Silva,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367769,,5KP,5654258
+2024-08-16 20:00:12,5660459,Moacir Vieira Dos Santos,KEPL3,Expirada,Venda,600.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367771,,5KP,5660459
+2024-08-16 20:00:12,5624274,Clayton De Souza Pontes,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367764,,5KP,5624274
+2024-08-16 20:00:12,5616259,Maria Socorro Rodrigues,KEPL3,Expirada,Venda,1100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367762,,5KP,5616259
+2024-08-16 20:00:12,5599726,Jorge Gomes De Araujo,KEPL3,Expirada,Venda,500.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367760,,5KP,5599726
+2024-08-16 20:00:12,5324981,Jo Hwi Song,KEPL3,Expirada,Venda,700.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367756,,5KP,5324981
+2024-08-16 20:00:12,5429528,Bianca Faria E Rocha,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367758,,5KP,5429528
+2024-08-16 20:00:12,5324840,Pedro Sergio Vieira Da Silva,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367754,,5KP,5324840
+2024-08-16 20:00:12,5255637,Patricia Maria Pizzo Reis,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367749,,5KP,5255637
+2024-08-16 20:00:12,5105970,Vera Lucia Elias De Oliveira,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367727,,5KP,5105970
+2024-08-16 20:00:12,5198093,Ana Beatriz Dupre Silva,KEPL3,Expirada,Venda,1000.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367738,,5KP,5198093
+2024-08-16 20:00:12,5293480,Wagner Bartolozzi Silva,KEPL3,Expirada,Venda,600.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367752,,5KP,5293480
+2024-08-16 20:00:12,5233971,Leivanio Ponte Teixeira,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367743,,5KP,5233971
+2024-08-16 20:00:12,5135281,Rafael Guerzoni,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367729,,5KP,5135281
+2024-08-16 20:00:12,5046790,Beatriz Roveri De Abreu,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367716,,5KP,5046790
+2024-08-16 20:00:12,5203796,Marcia Stella,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367740,,5KP,5203796
+2024-08-16 20:00:12,5242683,Lucas Gabriel Lopes De Sousa,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367746,,5KP,5242683
+2024-08-16 20:00:12,5140667,Mateus Fernandes Carvalho,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367731,,5KP,5140667
+2024-08-16 20:00:12,5170415,Monica De Oliveira,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367736,,5KP,5170415
+2024-08-16 20:00:12,5061124,Bruno Menezes Karner,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367719,,5KP,5061124
+2024-08-16 20:00:12,5092207,Bruno Sacani Sobrinho,KEPL3,Expirada,Venda,2200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144520367722,,5KP,5092207
+2024-08-16 20:00:12,5009992,Aline Lordes Saliba,KEPL3,Expirada,Venda,1300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367712,,5KP,5009992
+2024-08-16 20:00:12,5002390,Luciano Ricardo Arimateas Montenegro,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367705,,5KP,5002390
+2024-08-16 20:00:12,5003629,Andre Reichert Da Silva Godoy,KEPL3,Expirada,Venda,1800.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367710,,5KP,5003629
+2024-08-16 20:00:12,5002457,Rosangela Arimateas Caldas,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367707,,5KP,5002457
+2024-08-16 20:00:12,4912314,Fabricio Massula Dutra,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367683,,5KP,4912314
+2024-08-16 20:00:12,4948033,Guilherme De Macedo Soares,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367694,,5KP,4948033
+2024-08-16 20:00:12,4862746,Cesar Eduardo Castro Ferreira Martins,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367677,,5KP,4862746
+2024-08-16 20:00:12,4995535,Asiel Henrique De Sousa,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367702,,5KP,4995535
+2024-08-16 20:00:12,4927044,Cintia Tais Polizer Zanin,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367686,,5KP,4927044
+2024-08-16 20:00:12,4813134,Monica Torres Silva,KEPL3,Expirada,Venda,1200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367673,,5KP,4813134
+2024-08-16 20:00:12,4890544,Assako Utsumi Okada,KEPL3,Expirada,Venda,2700.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367679,,5KP,4890544
+2024-08-16 20:00:12,4972351,Caio De Almeida Leite,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367699,,5KP,4972351
+2024-08-16 20:00:12,4862677,Renato Afonso Amorim,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367675,,5KP,4862677
+2024-08-16 20:00:12,4935287,Odilon Alexandre Silveira Marques Pereira,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367689,,5KP,4935287
+2024-08-16 20:00:12,4813088,Juliana Gomes Falleiros Cavalheiro,KEPL3,Expirada,Venda,800.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367671,,5KP,4813088
+2024-08-16 20:00:12,4805269,Clisia Mara Carreira,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367669,,5KP,4805269
+2024-08-16 20:00:12,4804036,Luciana Soares Spindola,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367667,,5KP,4804036
+2024-08-16 20:00:12,4767746,Isabele Papafanurakis Ferreira Noronha,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367665,,5KP,4767746
+2024-08-16 20:00:12,4752494,Sergio Eduardo Canella,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367661,,5KP,4752494
+2024-08-16 20:00:12,4751770,Dilson Manoel Catarino,KEPL3,Expirada,Venda,1500.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367659,,5KP,4751770
+2024-08-16 20:00:12,4751154,Catarine Tempest Calijuri,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367657,,5KP,4751154
+2024-08-16 20:00:12,4584982,Bruno De Azevedo Oliveira,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367652,,5KP,4584982
+2024-08-16 20:00:12,4754056,Bruno Tedesco Rosa,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367663,,5KP,4754056
+2024-08-16 20:00:12,4565146,Gustavo Jiran Queiroz,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367642,,5KP,4565146
+2024-08-16 20:00:12,4630773,Nabor Augusto Wagner Pereira,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144519367654,,5KP,4630773
+2024-08-16 20:00:12,4584517,Caio Augusto Costa Campos,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367650,,5KP,4584517
+2024-08-16 20:00:12,4570632,Fabricio Parra Garcia,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367644,,5KP,4570632
+2024-08-16 20:00:12,4556974,Kelly Fernanda Pereira E Silva,KEPL3,Expirada,Venda,900.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367638,,5KP,4556974
+2024-08-16 20:00:12,4582648,Anuar Michel Matni,KEPL3,Expirada,Venda,2100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367647,,5KP,4582648
+2024-08-16 20:00:12,4565108,Gustavo Rodrigues Queiroz,KEPL3,Expirada,Venda,500.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367640,,5KP,4565108
+2024-08-16 20:00:12,4551472,Diego Franco Noronha,KEPL3,Expirada,Venda,500.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367635,,5KP,4551472
+2024-08-16 20:00:12,4515548,Flavia Bordin Silva,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367629,,5KP,4515548
+2024-08-16 20:00:12,4550415,Diogo Salomao Pontes,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367633,,5KP,4550415
+2024-08-16 20:00:12,4539779,Ricardo Jose Rodrigues,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367631,,5KP,4539779
+2024-08-16 20:00:12,4512434,Caio Cesar Damitto Rosa,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367625,,5KP,4512434
+2024-08-16 20:00:12,4508526,Cassio Kaminagakura,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367623,,5KP,4508526
+2024-08-16 20:00:12,4514241,Andre Yoshio Itiyama,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367627,,5KP,4514241
+2024-08-16 20:00:12,4482102,Natalia Falavigna Silva,KEPL3,Expirada,Venda,1000.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367606,,5KP,4482102
+2024-08-16 20:00:12,4472386,Gabriel Villas Boas Dos Santos Tabosa,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367598,,5KP,4472386
+2024-08-16 20:00:12,4482090,Cezar Falavigna Silva,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367604,,5KP,4482090
+2024-08-16 20:00:12,4472538,Rodolfo Cesar Azevedo Palma,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367600,,5KP,4472538
+2024-08-16 20:00:12,4500087,Janne Stella Takahara,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367618,,5KP,4500087
+2024-08-16 20:00:12,4462930,Walter Koelsch Junior,KEPL3,Expirada,Venda,700.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367590,,5KP,4462930
+2024-08-16 20:00:12,4471893,Paula Falavigna Silva,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367596,,5KP,4471893
+2024-08-16 20:00:12,4461070,Eduardo Henrique Gomes Martinez,KEPL3,Expirada,Venda,1300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367587,,5KP,4461070
+2024-08-16 20:00:12,4499920,Fabiano Luis De Oliveira,KEPL3,Expirada,Venda,900.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367616,,5KP,4499920
+2024-08-16 20:00:12,4497875,Henrique Figueiredo Marquezine,KEPL3,Expirada,Venda,2300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367614,,5KP,4497875
+2024-08-16 20:00:12,4468717,Heloisa Trevisan Hata,KEPL3,Expirada,Venda,600.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367594,,5KP,4468717
+2024-08-16 20:00:12,4484207,Flavia Valone Gorini Jacob,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367612,,5KP,4484207
+2024-08-16 20:00:12,4482163,Ciria Coelho Ribeiro,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367608,,5KP,4482163
+2024-08-16 20:00:12,4479287,Ana Lucia Falavigna Guilherme,KEPL3,Expirada,Venda,500.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367602,,5KP,4479287
+2024-08-16 20:00:12,4455489,Solange Alves De Moraes Mendes,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367584,,5KP,4455489
+2024-08-16 20:00:12,4455356,Marcelo Kanitz,KEPL3,Expirada,Venda,600.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144518367582,,5KP,4455356
+2024-08-16 20:00:12,4452946,Otavio Ribeiro Madureira,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367573,,5KP,4452946
+2024-08-16 20:00:12,4452790,Gustavo Falavigna Guilherme,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367569,,5KP,4452790
+2024-08-16 20:00:12,4451978,Antonio Carlos Resende E Silva,KEPL3,Expirada,Venda,1400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367565,,5KP,4451978
+2024-08-16 20:00:12,4453157,Jose Roberto Boselli Junior,KEPL3,Expirada,Venda,700.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367577,,5KP,4453157
+2024-08-16 20:00:12,4454491,Marco Antonio Guerreiro,KEPL3,Expirada,Venda,600.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367579,,5KP,4454491
+2024-08-16 20:00:12,4453132,Bruno Montenegro Sacani,KEPL3,Expirada,Venda,600.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367575,,5KP,4453132
+2024-08-16 20:00:12,4419782,Nady Dequech,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367551,,5KP,4419782
+2024-08-16 20:00:12,4452912,Bruno Sacani Sobrinho,KEPL3,Expirada,Venda,2900.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367571,,5KP,4452912
+2024-08-16 20:00:12,4452597,Lara Falavigna Guilherme Nacruth,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367567,,5KP,4452597
+2024-08-16 20:00:12,4431689,Luca Dias Bueno,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367553,,5KP,4431689
+2024-08-16 20:00:12,4450760,Silvio Henrique Maia De Almeida,KEPL3,Expirada,Venda,2300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367562,,5KP,4450760
+2024-08-16 20:00:12,4415557,Filipe Augusto Estorilio Silva Pinto,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367549,,5KP,4415557
+2024-08-16 20:00:12,4436055,Marco Antonio Fonseca Braga,KEPL3,Expirada,Venda,500.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367560,,5KP,4436055
+2024-08-16 20:00:12,4435987,Marco Antonio Fonseca Braga,KEPL3,Expirada,Venda,1100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367558,,5KP,4435987
+2024-08-16 20:00:12,4413523,Rosane Inez Piloni,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367547,,5KP,4413523
+2024-08-16 20:00:12,4405234,Julio Antonio Barbeta,KEPL3,Expirada,Venda,500.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367545,,5KP,4405234
+2024-08-16 20:00:12,4385806,Anilson Alves De Sousa Junior,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367541,,5KP,4385806
+2024-08-16 20:00:12,4386464,Carlos Humberto Fauaze Filho,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367543,,5KP,4386464
+2024-08-16 20:00:12,4290978,Larissa Friedrich Reinert Barbosa,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367495,,5KP,4290978
+2024-08-16 20:00:12,4364200,Bloco Construcoes E Comercio Ltda,KEPL3,Expirada,Venda,700.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367528,,5KP,4364200
+2024-08-16 20:00:12,4363250,Helio Jasckstet,KEPL3,Expirada,Venda,900.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367524,,5KP,4363250
+2024-08-16 20:00:12,4376853,Alberto Carlos De Aguiar Rodrigues,KEPL3,Expirada,Venda,600.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367535,,5KP,4376853
+2024-08-16 20:00:12,4357848,Aurelio Da Cunha Matos E Silva,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367518,,5KP,4357848
+2024-08-16 20:00:12,4376145,Lucyene Dos Santos Borges,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367533,,5KP,4376145
+2024-08-16 20:00:12,4381359,Pedro Rocha Junior,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367539,,5KP,4381359
+2024-08-16 20:00:12,4381095,Thiago Lucas Leite De Noronha,KEPL3,Expirada,Venda,1400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367537,,5KP,4381095
+2024-08-16 20:00:12,4332544,Celia Rios Guercio,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367506,,5KP,4332544
+2024-08-16 20:00:12,4363260,Larissa Weber Gomes Reis,KEPL3,Expirada,Venda,900.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367526,,5KP,4363260
+2024-08-16 20:00:12,4332783,Iron Luiz Gomes Dos Reis,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367509,,5KP,4332783
+2024-08-16 20:00:12,4352384,Brasfort Empresa De Seguranca Ltda,KEPL3,Expirada,Venda,8100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367516,,5KP,4352384
+2024-08-16 20:00:12,4342617,Juraci Guedes Filho,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367513,,5KP,4342617
+2024-08-16 20:00:12,4361159,Hfr - Construtora Ltda,KEPL3,Expirada,Venda,2900.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367521,,5KP,4361159
+2024-08-16 20:00:12,4298042,Luiz Alberto Portilho De Lima,KEPL3,Expirada,Venda,1200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367498,,5KP,4298042
+2024-08-16 20:00:12,4254210,Marco Rafael Dos Remedios Evangelista,KEPL3,Expirada,Venda,1700.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367486,,5KP,4254210
+2024-08-16 20:00:12,4335144,Edmundo Starling Loureiro Franca,KEPL3,Expirada,Venda,2100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144517367511,,5KP,4335144
+2024-08-16 20:00:12,4221638,Caroline Bastos De Souza,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367482,,5KP,4221638
+2024-08-16 20:00:12,4321016,Joaquim Ferreira Cambraia,KEPL3,Expirada,Venda,1700.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367503,,5KP,4321016
+2024-08-16 20:00:12,4216434,Jaime Estevam Gomes Filho,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367476,,5KP,4216434
+2024-08-16 20:00:12,4216657,Joao Pedro Guimaraes Quinan,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367478,,5KP,4216657
+2024-08-16 20:00:12,4273239,Daniel Darlen Correa Ribeiro,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367491,,5KP,4273239
+2024-08-16 20:00:12,4211922,Carlos Alberto De Carvalho,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367470,,5KP,4211922
+2024-08-16 20:00:12,4259659,Bento Rodrigo Fernandes Bueno,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367488,,5KP,4259659
+2024-08-16 20:00:12,4212409,Rafael Lopes Goncalves,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367472,,5KP,4212409
+2024-08-16 20:00:12,4222784,Rafael Crispim Goncalves,KEPL3,Expirada,Venda,500.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367484,,5KP,4222784
+2024-08-16 20:00:12,4200433,Bento Rodrigo Fernandes Bueno,KEPL3,Expirada,Venda,1500.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367467,,5KP,4200433
+2024-08-16 20:00:12,4214460,Maria Das Gracas Da Silva Pires,KEPL3,Expirada,Venda,1600.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367474,,5KP,4214460
+2024-08-16 20:00:12,3553997,Mirella Braga Park,KEPL3,Expirada,Venda,1800.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367462,,5KP,3553997
+2024-08-16 20:00:12,4165515,Mauro Calzolari Borges,KEPL3,Expirada,Venda,300.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367464,,5KP,4165515
+2024-08-16 20:00:12,2828327,Renan Pereira De Oliveira Tinoco,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367460,,5KP,2828327
+2024-08-16 20:00:12,2823185,Simone Nunes Paixao,KEPL3,Expirada,Venda,200.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367458,,5KP,2823185
+2024-08-16 20:00:12,2687737,Jose Maurilio Coelho Rios,KEPL3,Expirada,Venda,600.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367456,,5KP,2687737
+2024-08-16 20:00:12,1922009,Sofia Nepomuceno Gorini,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367454,,5KP,1922009
+2024-08-16 20:00:12,1651617,Mirella Braga Park,KEPL3,Expirada,Venda,1800.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144516367450,,5KP,1651617
+2024-08-16 20:00:12,1090818,Maria Carmelita Dos Santos,KEPL3,Expirada,Venda,400.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144515367448,,5KP,1090818
+2024-08-16 20:00:12,772433,Marcelo Frossard Pincinato,KEPL3,Expirada,Venda,100.0,,,,Limitada,11.3,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816144515367446,,5KP,772433
+2024-08-16 15:02:21,4237325,Ricardo Jose Lacerda Prudencio,HYPE3F,Executada,Venda,84.0,84.0,,30.98,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611110242438,7f50ae5fe41f47bbabdf880d205445e6,CNI,4237325
+2024-08-16 15:02:21,4237325,Ricardo Jose Lacerda Prudencio,HYPE3,Executada,Venda,100.0,100.0,,30.99,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611110242430,e82e4d66841349d3a13b185e18ed0986,CNI,4237325
+2024-08-16 15:02:21,4237325,Ricardo Jose Lacerda Prudencio,AZZA3F,Executada,Venda,80.0,80.0,,51.86,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611110242429,d912bdb1678a4875a67c0ccd229e233b,CNI,4237325
+2024-08-16 14:56:52,5660459,Moacir Vieira Dos Santos,ITUB4F,Executada,Venda,65.0,65.0,,36.8,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543023,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,VIVT3F,Executada,Venda,6.0,6.0,,51.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543027,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,VALE3F,Executada,Compra,63.0,63.0,,55.93,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543026,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,VALE3,Executada,Compra,100.0,100.0,,55.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543025,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,PRIO3F,Executada,Venda,10.0,10.0,,48.6,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543024,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,HYPE3F,Executada,Venda,40.0,40.0,,31.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543022,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,CPFE3F,Executada,Venda,50.0,50.0,,33.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543021,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,BBSE3F,Executada,Venda,50.0,50.0,,37.34,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543020,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,BBDC4F,Executada,Compra,30.0,30.0,,14.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543019,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,BBDC4,Executada,Compra,500.0,500.0,,14.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543018,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,AZZA3F,Executada,Venda,33.0,33.0,,51.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543017,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,ASAI3F,Executada,Venda,46.0,46.0,,10.29,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543016,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,ASAI3,Executada,Venda,1200.0,1200.0,,10.29,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543015,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,ABEV3F,Executada,Compra,22.0,22.0,,13.13,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543014,,5KP,5660459
+2024-08-16 14:56:41,5660459,Moacir Vieira Dos Santos,ABEV3,Executada,Compra,700.0,700.0,,13.13,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240816175641543013,,5KP,5660459
