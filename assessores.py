@@ -157,7 +157,7 @@ class Comercial():
         """
         msg = MIMEMultipart()
         msg['Subject'] = f'Operações Clientes - {nome_assessor} - {dia_e_hora_pdf}'
-        msg['From'] = 'lauro.bluemetrix@gmail.com'
+        msg['From'] = 'ti@bluemetrix.com.br'
         msg['To'] = email_assessor
         password = 'dlthvrayjsecacbt'
         msg.add_header('Content-Type', 'text/html')
@@ -226,9 +226,9 @@ class Comercial():
 
 
     def enviar_email_uf(self,nome_assessor,nome_do_arquivo_pdf):
-        lista_email_assessores = {'DF':'laurotfl@gmail.com',
-                                  'GO':'LAUROTFL@gmail.com',
-                                  'SUL':'laurotfl@gmail.com',
+        lista_email_assessores = {'DF':'ti@bluemetrix.com.br',
+                                  'GO':'ti@bluemetrix.com.br',
+                                  'SUL':'ti@bluemetrix.com.br',
                                   'Agregado por região':'operacional@bluemetrix.com.br'
                      }
         
@@ -238,7 +238,7 @@ class Comercial():
         """
         msg = MIMEMultipart()
         msg['Subject'] = f'Operações Clientes - {nome_assessor} '
-        msg['From'] = 'lauro.bluemetrix@gmail.com'
+        msg['From'] = 'ti@bluemetrix.com.br'
         msg['To'] = email_assessor
         password = 'dlthvrayjsecacbt'
         msg.add_header('Content-Type', 'text/html')
