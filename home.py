@@ -153,7 +153,7 @@ if selecionar == 'Comercial':
     assessores_lista_nomes = list(arquivo_final['Assessor'].unique())
 
 
-    lista_email_assessores = {#'Theo Ramos Moutinho':'laurotfl@gmail.com',
+    lista_email_assessores = {#'Theo Ramos Moutinho':'ti@bluemetrix.com.br',
          'Theo Ramos Moutinho':'',
   'Vivian':'vivianpinheiro@bluemetrix.com.br',
     'Bruno Henrique':'bruno.borges@bluemetrix.com.br',
@@ -187,9 +187,9 @@ if selecionar == 'Comercial':
                      'Acompanhamento de operações.':'guilherme@bluemetrix.com.br',
                       }
     
-    lista_email_uf = {#'DF':'laurotfl@gmail.com',
-    #                   'GO':'laurotfl@gmail.com',
-    #                   'SUL':'laurotfl@gmail.com',
+    lista_email_uf = {#'DF':'ti@bluemetrix.com.br',
+    #                   'GO':'ti@bluemetrix.com.br',
+    #                   'SUL':'ti@bluemetrix.com.br',
                       'Agregado por região':'operacional@bluemetrix.com.br' }
 
     dia_e_hora_pdf = datetime.datetime.now()-datetime.timedelta(days=1)
