@@ -159,7 +159,7 @@ class Comercial():
         msg['Subject'] = f'Operações Clientes - {nome_assessor} - {dia_e_hora_pdf}'
         msg['From'] = 'ti@bluemetrix.com.br'
         msg['To'] = email_assessor
-        password = 'dlthvrayjsecacbt'
+        password = 'Asset@2024'
         msg.add_header('Content-Type', 'text/html')
 
         msg.attach(MIMEText(corpo_do_email, 'plain'))
@@ -240,7 +240,7 @@ class Comercial():
         msg['Subject'] = f'Operações Clientes - {nome_assessor} '
         msg['From'] = 'ti@bluemetrix.com.br'
         msg['To'] = email_assessor
-        password = 'dlthvrayjsecacbt'
+        password = 'Asset@2024'
         msg.add_header('Content-Type', 'text/html')
 
         msg.attach(MIMEText(corpo_do_email, 'plain'))
