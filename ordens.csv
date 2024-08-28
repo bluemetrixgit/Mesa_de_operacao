@@ -1,1 +1,18 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
+2024-08-27 15:37:40,5081833,Pedro Ernesto Goncalves Pessoa,VALE3F,Executada,Venda,25.0,25.0,,60.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827183740520078,,CNI,5081833
+2024-08-27 15:37:40,5081833,Pedro Ernesto Goncalves Pessoa,VALE3,Executada,Venda,100.0,100.0,,60.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827183740520077,,CNI,5081833
+2024-08-27 15:37:40,5081833,Pedro Ernesto Goncalves Pessoa,CPFE3F,Executada,Venda,10.0,10.0,,33.24,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827183740520076,,CNI,5081833
+2024-08-27 15:37:40,5081833,Pedro Ernesto Goncalves Pessoa,CPFE3,Executada,Venda,100.0,100.0,,33.24,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827183740520075,,CNI,5081833
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,VIVT3F,Executada,Compra,15.0,15.0,,52.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403237,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,VALE3F,Executada,Compra,73.0,73.0,,59.66,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403236,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,SAPR11F,Executada,Compra,10.0,10.0,,28.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403235,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,PRIO3F,Executada,Venda,2.0,2.0,,47.47,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403234,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,KEPL3F,Executada,Compra,8.0,8.0,,11.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403233,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,ITUB4F,Executada,Compra,32.0,32.0,,36.47,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403232,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,HYPE3F,Executada,Compra,19.0,19.0,,30.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403231,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,CPFE3F,Executada,Compra,42.0,42.0,,33.24,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403230,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,BOVA11,Executada,Compra,8.0,8.0,,133.15,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403229,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,BBSE3F,Executada,Compra,30.0,30.0,,36.64,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403228,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,BBDC4F,Executada,Compra,78.0,78.0,,15.44,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403227,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,AZZA3F,Executada,Compra,11.0,11.0,,52.83,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403226,,CNI,4386464
+2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,ABEV3F,Executada,Compra,97.0,97.0,,12.98,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403225,,CNI,4386464
