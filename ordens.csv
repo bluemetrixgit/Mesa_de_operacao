@@ -1,18 +1,23 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-08-27 15:37:40,5081833,Pedro Ernesto Goncalves Pessoa,VALE3F,Executada,Venda,25.0,25.0,,60.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827183740520078,,CNI,5081833
-2024-08-27 15:37:40,5081833,Pedro Ernesto Goncalves Pessoa,VALE3,Executada,Venda,100.0,100.0,,60.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827183740520077,,CNI,5081833
-2024-08-27 15:37:40,5081833,Pedro Ernesto Goncalves Pessoa,CPFE3F,Executada,Venda,10.0,10.0,,33.24,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827183740520076,,CNI,5081833
-2024-08-27 15:37:40,5081833,Pedro Ernesto Goncalves Pessoa,CPFE3,Executada,Venda,100.0,100.0,,33.24,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827183740520075,,CNI,5081833
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,VIVT3F,Executada,Compra,15.0,15.0,,52.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403237,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,VALE3F,Executada,Compra,73.0,73.0,,59.66,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403236,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,SAPR11F,Executada,Compra,10.0,10.0,,28.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403235,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,PRIO3F,Executada,Venda,2.0,2.0,,47.47,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403234,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,KEPL3F,Executada,Compra,8.0,8.0,,11.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403233,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,ITUB4F,Executada,Compra,32.0,32.0,,36.47,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403232,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,HYPE3F,Executada,Compra,19.0,19.0,,30.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403231,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,CPFE3F,Executada,Compra,42.0,42.0,,33.24,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403230,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,BOVA11,Executada,Compra,8.0,8.0,,133.15,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403229,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,BBSE3F,Executada,Compra,30.0,30.0,,36.64,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403228,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,BBDC4F,Executada,Compra,78.0,78.0,,15.44,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403227,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,AZZA3F,Executada,Compra,11.0,11.0,,52.83,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403226,,CNI,4386464
-2024-08-27 13:00:13,4386464,Carlos Humberto Fauaze Filho,ABEV3F,Executada,Compra,97.0,97.0,,12.98,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240827160013403225,,CNI,4386464
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,VIVT3F,Rejeitada,Compra,32.0,,32.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],Q5VM1VgrhBhT@BUB,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,VALE3F,Rejeitada,Compra,55.0,,55.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],zBhTSIJa2D91BCgD,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,SAPR11F,Rejeitada,Compra,36.0,,36.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],iANMM@C5hAKFuyPC,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,PRIO3F,Rejeitada,Compra,36.0,,36.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],V9RdyCejU2$GvPDr,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,KEPL3F,Rejeitada,Compra,74.0,,74.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],hRbu$prRVAmB68pC,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,ITUB4F,Rejeitada,Compra,39.0,,39.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],X@FK0IB1UDnrAOxB,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,HYPE3F,Rejeitada,Compra,53.0,,53.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],pUVpSAFs5RAEisD4,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,CPFE3F,Rejeitada,Compra,45.0,,45.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],bZ0xm9htsCczOvrt,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,BOVA11,Rejeitada,Compra,11.0,,11.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],1h3ngUJjk8iDMvDb,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,BBSE3F,Rejeitada,Compra,47.0,,47.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],esArcckzkzB49lCY,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,BBDC4F,Rejeitada,Compra,94.0,,94.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],qF9ebfdCdCERdXRD,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,AZZA3F,Rejeitada,Compra,28.0,,28.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],Rt5qfV8cTXB9nLB9,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,ABEV3F,Rejeitada,Compra,13.0,,13.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],GPxTN13@GtoRQHB@,,CNI,2636063
+2024-08-29 14:41:55,2636063,Leda Dos Reis Martins,ABEV3,Rejeitada,Compra,100.0,,100.0,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,[ER003 - Customer has not Home Broker enabled - account: 2636063],KMX6b8A4eCIDLuC4,,CNI,2636063
+2024-08-29 14:40:11,1651617,Mirella Braga Park,SUZB3,Executada,Venda,1100.0,1100.0,,55.4,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814037036642,94c761421fb74c4286fe0f2ff78c2950,6NA,1651617
+2024-08-29 14:40:11,1651617,Mirella Braga Park,SAPR4,Executada,Venda,6000.0,6000.0,,5.74,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412363577627,f6491ccb56464e9692d110a12d4e3fc0,6NA,1651617
+2024-08-29 12:48:31,4809902,Pedro Augusto Prado Miranda,HGLG11,Executada,Venda,10.0,10.0,,161.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240829154807422391,,CNI,4809902
+2024-08-29 12:48:07,4809902,Pedro Augusto Prado Miranda,TRXF11,Executada,Venda,9.0,9.0,,106.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240829154807422395,,CNI,4809902
+2024-08-29 12:48:07,4809902,Pedro Augusto Prado Miranda,PLCR11,Executada,Venda,11.0,11.0,,86.68,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240829154807422394,,CNI,4809902
+2024-08-29 12:48:07,4809902,Pedro Augusto Prado Miranda,KNCA11,Executada,Venda,5.0,5.0,,104.98,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240829154807422392,,CNI,4809902
+2024-08-29 12:48:07,4809902,Pedro Augusto Prado Miranda,MALL11,Executada,Venda,5.0,5.0,,110.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240829154807422393,,CNI,4809902
+2024-08-29 12:48:07,4809902,Pedro Augusto Prado Miranda,BTLG11,Executada,Venda,16.0,16.0,,102.17,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240829154807422390,,CNI,4809902
