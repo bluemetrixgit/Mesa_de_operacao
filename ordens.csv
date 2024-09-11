@@ -1,33 +1,21 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,VIVT3F,Executada,Venda,5.0,5.0,,54.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555415,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,VALE3F,Executada,Venda,12.0,12.0,,56.93,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555414,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,SAPR11F,Executada,Venda,10.0,10.0,,30.36,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555413,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,PRIO3F,Executada,Venda,17.0,17.0,,42.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555412,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,KEPL3F,Executada,Venda,37.0,37.0,,11.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555411,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,HYPE3F,Executada,Venda,16.0,16.0,,28.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555410,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,CPFE3F,Executada,Venda,10.0,10.0,,34.49,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555409,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,BOVA11,Executada,Venda,2.0,2.0,,131.2,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555408,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,BBSE3F,Executada,Venda,9.0,9.0,,36.63,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555407,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,BBDC4F,Executada,Venda,18.0,18.0,,15.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555406,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,AZZA3F,Executada,Venda,7.0,7.0,,46.5,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555405,,5KP,1759765
-2024-09-09 15:35:00,1759765,Natal Ferreira Das Dores,ABEV3F,Executada,Venda,21.0,21.0,,13.1,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909183500555404,,5KP,1759765
-2024-09-09 14:24:13,4448303,Nassim Taleb,KNCA11,Executada,Compra,20.0,20.0,,104.525,Limitada,104.55,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611244803971,251d843b63c54d1092c24bdaf179bf91,CNI,4448303
-2024-09-09 14:24:01,4448303,Nassim Taleb,PLCR11,Executada,Compra,54.0,54.0,,84.99814815,Limitada,85.0,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412417327060,9c503f72f37440afa2966cddc74b89fe,CNI,4448303
-2024-09-09 14:23:51,4448303,Nassim Taleb,BTLG11,Executada,Compra,64.0,64.0,,102.06,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412417327057,d586252c1f3f4560a2150e7410c4c24d,CNI,4448303
-2024-09-09 14:23:38,4448303,Nassim Taleb,MALL11,Executada,Compra,26.0,26.0,,106.81,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412417327059,75b4c028b041431d8379fcb7d1e2f5e3,CNI,4448303
-2024-09-09 14:23:38,4448303,Nassim Taleb,TRXF11,Executada,Compra,43.0,43.0,,105.89,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412417327061,e9f887a480304820905cc262add01e3a,CNI,4448303
-2024-09-09 14:23:38,4448303,Nassim Taleb,HGLG11,Executada,Compra,46.0,46.0,,160.46,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412417327058,9d9c115e7a344b1da6948d827cf4fe51,CNI,4448303
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,VIVT3F,Executada,Compra,14.0,14.0,,54.47,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611244777340,539b62e4913844ff8586a743117c8607,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,VALE3F,Executada,Compra,24.0,24.0,,57.07,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807565396204,f176cfff86b344a89eb367bf336d4586,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,SAPR11F,Executada,Compra,15.0,15.0,,30.43,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412417299347,05700011a7804f57ae00d61d7ab1f83a,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,PRIO3F,Executada,Compra,33.0,33.0,,42.29,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829523239405,b80077f507c1473ca262e14e9fa95242,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,KEPL3F,Executada,Compra,31.0,31.0,,11.12,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611244777332,4847a5a77a824ac2913af225c3f8ae0b,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,ITUB4F,Executada,Compra,17.0,17.0,,37.42,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905567097242,db865bb908984be881b908334f3126ec,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,HYPE3F,Executada,Compra,22.0,22.0,,28.4,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611244777331,1c2d213c42574231b5f1171f61ed2127,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,CPFE3F,Executada,Compra,11.0,11.0,,34.58,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412417299346,39bfe040742242debc55de53d1a2af76,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,BOVA11,Executada,Compra,5.0,5.0,,131.5,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814139838698,136c10863cff44d7bc30c813c9223737,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,BBSE3F,Executada,Compra,19.0,19.0,,36.72,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611244777326,a7441335dffc44688ddcb36e16c6ba13,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,ABEV3F,Executada,Compra,42.0,42.0,,13.15,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814139838695,20066dc3d16e449cb971ed26772c60ce,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,AZZA3F,Executada,Compra,12.0,12.0,,46.64,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611244777325,e81300ee0d4e4f29b2a0a389115c3d5b,CNI,4386464
-2024-09-09 14:20:55,4386464,Carlos Humberto Fauaze Filho,BBDC4F,Executada,Compra,30.0,30.0,,15.8,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905567097241,b5b981dc526640d39d547249c38ed5ba,CNI,4386464
-2024-09-09 13:15:11,4290978,Larissa Friedrich Reinert Barbosa,KEPL3,Executada,Venda,100.0,100.0,,11.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240909161511448275,,03Q,4290978
+2024-09-10 14:18:45,4570632,Fabricio Parra Garcia,ITUB4F,Executada,Venda,46.0,46.0,,37.28565217,Limitada,37.13,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502699,,5KP,4570632
+2024-09-10 14:18:40,4570632,Fabricio Parra Garcia,PRIO3F,Executada,Venda,45.0,45.0,,41.42177778,Limitada,41.26,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502702,,5KP,4570632
+2024-09-10 14:18:35,4570632,Fabricio Parra Garcia,SAPR11F,Executada,Venda,55.0,55.0,,31.14018182,Limitada,30.97,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502703,,5KP,4570632
+2024-09-10 14:18:34,4570632,Fabricio Parra Garcia,VIVT3F,Executada,Venda,46.0,46.0,,54.58,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502705,,5KP,4570632
+2024-09-10 14:18:26,4570632,Fabricio Parra Garcia,HYPE3F,Executada,Venda,80.0,80.0,,28.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502698,,5KP,4570632
+2024-09-10 14:18:26,4570632,Fabricio Parra Garcia,VALE3F,Executada,Venda,44.0,44.0,,56.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502704,,5KP,4570632
+2024-09-10 14:18:19,4570632,Fabricio Parra Garcia,KEPL3F,Executada,Venda,23.0,23.0,,11.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502701,,5KP,4570632
+2024-09-10 14:18:19,4570632,Fabricio Parra Garcia,KEPL3,Executada,Venda,100.0,100.0,,11.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502700,,5KP,4570632
+2024-09-10 14:18:19,4570632,Fabricio Parra Garcia,BOVA11,Executada,Venda,13.0,13.0,,130.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502696,,5KP,4570632
+2024-09-10 14:18:19,4570632,Fabricio Parra Garcia,CPFE3F,Executada,Venda,50.0,50.0,,34.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502697,,5KP,4570632
+2024-09-10 14:18:19,4570632,Fabricio Parra Garcia,AZZA3F,Executada,Venda,43.0,43.0,,47.17,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502692,,5KP,4570632
+2024-09-10 14:18:19,4570632,Fabricio Parra Garcia,BBSE3F,Executada,Venda,60.0,60.0,,36.7,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502695,,5KP,4570632
+2024-09-10 14:18:19,4570632,Fabricio Parra Garcia,BBDC4F,Executada,Venda,9.0,9.0,,15.68,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502694,,5KP,4570632
+2024-09-10 14:18:19,4570632,Fabricio Parra Garcia,BBDC4,Executada,Venda,100.0,100.0,,15.69,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502693,,5KP,4570632
+2024-09-10 14:18:19,4570632,Fabricio Parra Garcia,ABEV3F,Executada,Venda,27.0,27.0,,13.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502691,,5KP,4570632
+2024-09-10 14:18:19,4570632,Fabricio Parra Garcia,ABEV3,Executada,Venda,100.0,100.0,,13.26,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240910171819502690,,5KP,4570632
+2024-09-10 11:23:03,5268516,Luis Daniel Bonfim Fernandes,MXRF11,Executada,Compra,19.0,19.0,,10.01,Mercado,,Posição,BTG_INVESTIMENTOS,BVSP,Dia,,,,,,,20240910142303354460,,5268516,5268516
+2024-09-10 11:15:23,5268516,Luis Daniel Bonfim Fernandes,VGIA11,Executada,Compra,20.0,20.0,,9.17,Mercado,,Posição,BTG_INVESTIMENTOS,BVSP,Dia,,,,,,,20240910141523346212,,5268516,5268516
+2024-09-10 11:11:36,5268516,Luis Daniel Bonfim Fernandes,AGRO3F,Executada,Compra,10.0,10.0,,26.16,Mercado,,Posição,BTG_INVESTIMENTOS,BVSP,Dia,,,,,,,20240910141135342186,,5268516,5268516
+2024-09-10 11:02:12,5268516,Luis Daniel Bonfim Fernandes,ITSA4F,Executada,Compra,17.0,17.0,,11.18,Mercado,,Posição,BTG_INVESTIMENTOS,BVSP,Dia,,,,,,,20240910140212332367,,5268516,5268516
