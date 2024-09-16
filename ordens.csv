@@ -1,1 +1,14 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
+2024-09-13 14:53:24,4948033,Guilherme De Macedo Soares,PRIO3F,Executada,Compra,50.0,50.0,,43.6294,Limitada,43.64,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544577,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,VIVT3F,Executada,Compra,18.0,18.0,,54.85,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544580,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,VALE3F,Executada,Compra,20.0,20.0,,58.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544579,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,SAPR11F,Executada,Venda,16.0,16.0,,32.33,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544578,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,KEPL3F,Executada,Compra,61.0,61.0,,11.04,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544576,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,ITUB4F,Executada,Compra,15.0,15.0,,36.67,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544575,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,HYPE3F,Executada,Compra,21.0,21.0,,28.93,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544574,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,CPFE3F,Executada,Compra,27.0,27.0,,34.29,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544573,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,BOVA11,Executada,Compra,5.0,5.0,,131.21,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544572,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,BBSE3F,Executada,Compra,39.0,39.0,,36.34,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544571,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,BBDC4F,Executada,Compra,48.0,48.0,,15.48,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544570,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,AZZA3F,Executada,Compra,26.0,26.0,,48.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544569,,03Q,4948033
+2024-09-13 14:53:09,4948033,Guilherme De Macedo Soares,ABEV3F,Executada,Compra,69.0,69.0,,12.78,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240913175309544567,,03Q,4948033
