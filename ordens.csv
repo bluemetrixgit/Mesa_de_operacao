@@ -1,26 +1,50 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-09-16 11:39:54,5949170,Cintia Resende,VIVT3F,Executada,Compra,22.0,22.0,,55.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366464,,CNI,5949170
-2024-09-16 11:39:48,5949170,Cintia Resende,HYPE3F,Executada,Compra,29.0,29.0,,29.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366451,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,VALE3F,Executada,Compra,17.0,17.0,,58.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366461,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,VALE3,Executada,Compra,200.0,200.0,,58.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366460,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,VIVT3,Executada,Compra,100.0,100.0,,55.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366462,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,SAPR11F,Executada,Compra,31.0,31.0,,32.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366459,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,SAPR11,Executada,Compra,100.0,100.0,,32.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366458,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,PRIO3F,Executada,Compra,56.0,56.0,,43.13,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366457,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,PRIO3,Executada,Compra,100.0,100.0,,43.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366456,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,KEPL3F,Executada,Compra,6.0,6.0,,11.0,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366455,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,KEPL3,Executada,Compra,300.0,300.0,,11.0,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366454,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,ITUB4F,Executada,Compra,60.0,60.0,,36.95,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366453,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,ITUB4,Executada,Compra,100.0,100.0,,36.93,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366452,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,HYPE3,Executada,Compra,200.0,200.0,,29.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366450,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,CPFE3F,Executada,Compra,73.0,73.0,,34.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366449,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,CPFE3,Executada,Compra,100.0,100.0,,34.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366446,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,BOVA11,Executada,Compra,45.0,45.0,,131.63,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366444,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,BBSE3F,Executada,Compra,86.0,86.0,,36.43,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366443,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,BBSE3,Executada,Compra,100.0,100.0,,36.41,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366442,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,BBDC4F,Executada,Compra,82.0,82.0,,15.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366441,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,BBDC4,Executada,Compra,300.0,300.0,,15.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366440,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,AZZA3F,Executada,Compra,23.0,23.0,,47.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366439,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,AZZA3,Executada,Compra,100.0,100.0,,47.8,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366438,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,ABEV3F,Executada,Compra,60.0,60.0,,12.82,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366437,,CNI,5949170
-2024-09-16 11:39:47,5949170,Cintia Resende,ABEV3,Executada,Compra,400.0,400.0,,12.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240916143947366436,,CNI,5949170
+2024-09-17 16:11:09,1090818,Maria Carmelita Dos Santos,RAIZ4,Executada,Venda,1400.0,1400.0,,3.17,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917191109652280,,5KP,1090818
+2024-09-17 12:34:28,5046790,Beatriz Roveri De Abreu,KEPL3F,Executada,Compra,10.0,10.0,,10.996,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437769,,5KP,5046790
+2024-09-17 12:34:20,5046790,Beatriz Roveri De Abreu,VIVT3F,Executada,Compra,10.0,10.0,,55.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437773,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,VALE3F,Executada,Compra,40.0,40.0,,58.16,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437772,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,SAPR11F,Executada,Compra,10.0,10.0,,32.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437771,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,PRIO3F,Executada,Compra,9.0,9.0,,43.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437770,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,ITUB4F,Executada,Compra,19.0,19.0,,36.81,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437768,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,HYPE3F,Executada,Compra,13.0,13.0,,29.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437767,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,CPFE3F,Executada,Compra,24.0,24.0,,33.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437766,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,BOVA11,Executada,Compra,6.0,6.0,,131.04,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437765,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,BBSE3F,Executada,Compra,18.0,18.0,,36.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437764,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,BBDC4F,Executada,Compra,48.0,48.0,,15.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437763,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,AZZA3F,Executada,Compra,8.0,8.0,,47.59,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437762,,5KP,5046790
+2024-09-17 12:34:15,5046790,Beatriz Roveri De Abreu,ABEV3F,Executada,Compra,62.0,62.0,,12.98,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917153415437761,,5KP,5046790
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,VIVT3F,Executada,Compra,8.0,8.0,,55.72,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375844,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,VALE3F,Executada,Compra,13.0,13.0,,58.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375843,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,SAPR11F,Executada,Compra,13.0,13.0,,32.59,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375842,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,PRIO3F,Executada,Venda,2.0,2.0,,43.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375841,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,KEPL3F,Executada,Compra,19.0,19.0,,10.99,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375839,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,ITUB4F,Executada,Compra,10.0,10.0,,36.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375838,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,HYPE3F,Executada,Venda,21.0,21.0,,29.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375837,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,CPFE3F,Executada,Compra,13.0,13.0,,34.18,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375836,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,BOVA11,Executada,Compra,2.0,2.0,,131.0,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375834,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,BBSE3F,Executada,Compra,11.0,11.0,,36.16,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375833,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,BBDC4F,Executada,Compra,25.0,25.0,,15.26,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375832,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,AZZA3F,Executada,Compra,3.0,3.0,,47.69,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375831,,CNI,4212409
+2024-09-17 11:32:57,4212409,Rafael Lopes Goncalves,ABEV3F,Executada,Compra,21.0,21.0,,12.89,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240917143257375829,,CNI,4212409
+2024-09-17 10:46:18,2823185,Simone Nunes Paixao,BBDC4F,Executada,Venda,71.0,71.0,,15.27,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905579240148,ad0e77ddf74341b4b07d464f518be4b4,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,ABEV3F,Executada,Venda,19.0,19.0,,12.84,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814213616539,088a65cab1844282949ba0a5fcec8aff,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,ABEV3,Executada,Venda,300.0,300.0,,12.85,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814213616538,b1cb1eec66b44a95861f4ba42e5035f0,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,AZZA3F,Executada,Venda,80.0,80.0,,47.38,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611280150759,b9c3f3d9e00141769bdd71e836d2d043,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,BBDC4,Executada,Venda,200.0,200.0,,15.27,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905579240147,a493920d0b654a21850e89d3da257cfe,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,BBSE3F,Executada,Venda,34.0,34.0,,36.05,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611280150752,e595af3546374aa1a43322b7a9610a2a,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,BBSE3,Executada,Venda,100.0,100.0,,36.06,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611280150751,f7d0365b63f649e8a22f51f88f420b0c,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,BOVA11,Executada,Venda,32.0,32.0,,130.63,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814213616531,704cd44329424dddab06838c4fe4cd37,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,CPFE3F,Executada,Venda,20.0,20.0,,33.89,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412454859298,a8ddf7e17e2c4086a879691fcb4add84,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,CPFE3,Executada,Venda,100.0,100.0,,33.9,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412454859297,dfc1113437a945fe831fce799e9a310a,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,HYPE3F,Executada,Venda,65.0,65.0,,28.93,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611280150745,a7294fd5ca464a2798d3f4315ec57b6f,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,HYPE3,Executada,Venda,100.0,100.0,,28.96,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611280150744,20dec902bbba4c8a99dd7fe7f892a66e,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,ITUB4,Executada,Venda,100.0,100.0,,36.72,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905579240144,3e3403b7f11341e59cd7a9f1514edb58,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,KEPL3F,Executada,Venda,13.0,13.0,,10.95,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611280150743,0a601277edf64664b80b1942b57f7cc2,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,KEPL3,Executada,Venda,200.0,200.0,,10.97,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611280150739,2a8f57519f3d415c946f5b1c9790f016,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,PRIO3F,Executada,Venda,2.0,2.0,,42.81,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829549562872,b9588b1ca6c44737bcaa05f006f419d4,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,PRIO3,Executada,Venda,100.0,100.0,,42.84,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829549562871,7bd0c08db50a49adafa157ce4c6f3ea1,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,VALE3F,Executada,Venda,29.0,29.0,,58.25,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807579177052,7160f38c0e254d4e8e5b15635bf61538,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,SAPR11F,Executada,Venda,23.0,23.0,,32.47,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412454859271,990466899ee841409144bf98cd3d3bd9,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,SAPR11,Executada,Venda,100.0,100.0,,32.48,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412454859270,c599f5ec5306415fa621851c1136599b,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,VALE3,Executada,Venda,100.0,100.0,,58.25,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807579177051,a172ad4d1e4e4992ae803478a9e97169,03Q,2823185
+2024-09-17 10:46:16,2823185,Simone Nunes Paixao,VIVT3F,Executada,Venda,96.0,96.0,,55.57,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611280150732,5141788f48a9487ab404a0f494d45d13,03Q,2823185
