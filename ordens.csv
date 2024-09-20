@@ -1,15 +1,39 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-09-18 11:29:55,4363260,Larissa Weber Gomes Reis,HYPE3F,Executada,Compra,13.0,13.0,,29.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390870,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,VIVT3F,Executada,Venda,14.0,14.0,,56.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390877,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,VALE3F,Executada,Compra,5.0,5.0,,57.58,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390876,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,SAPR11F,Executada,Venda,28.0,28.0,,31.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390875,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,SAPR11,Executada,Venda,100.0,100.0,,31.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390874,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,PRIO3F,Executada,Compra,87.0,87.0,,42.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390873,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,KEPL3F,Executada,Compra,85.0,85.0,,11.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390872,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,ITUB4F,Executada,Compra,13.0,13.0,,36.88,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390871,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,CPFE3F,Executada,Compra,95.0,95.0,,34.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390869,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,BOVA11,Executada,Compra,1.0,1.0,,130.51,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390868,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,BBSE3F,Executada,Compra,54.0,54.0,,35.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390867,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,BBDC4F,Executada,Compra,35.0,35.0,,15.26,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390866,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,AZZA3F,Executada,Compra,33.0,33.0,,48.39,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390865,,5KP,4363260
-2024-09-18 11:29:48,4363260,Larissa Weber Gomes Reis,ABEV3F,Executada,Compra,15.0,15.0,,13.06,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240918142948390864,,5KP,4363260
+2024-09-19 15:11:26,4216434,Jaime Estevam Gomes Filho,SAPR11F,Executada,Venda,56.0,56.0,,31.66142857,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668770,,5KP,4216434
+2024-09-19 15:11:10,4216434,Jaime Estevam Gomes Filho,KEPL3F,Executada,Venda,22.0,22.0,,10.66181818,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668769,,5KP,4216434
+2024-09-19 15:11:00,4216434,Jaime Estevam Gomes Filho,CPFE3F,Executada,Venda,56.0,56.0,,33.465,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668766,,5KP,4216434
+2024-09-19 15:10:26,4216434,Jaime Estevam Gomes Filho,VIVT3F,Executada,Venda,47.0,47.0,,55.35,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668771,,5KP,4216434
+2024-09-19 15:10:26,4216434,Jaime Estevam Gomes Filho,KEPL3,Executada,Venda,100.0,100.0,,10.67,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668768,,5KP,4216434
+2024-09-19 15:10:26,4216434,Jaime Estevam Gomes Filho,ITUB4F,Executada,Venda,52.0,52.0,,36.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668767,,5KP,4216434
+2024-09-19 15:10:26,4216434,Jaime Estevam Gomes Filho,BBSE3F,Executada,Venda,66.0,66.0,,35.48,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668765,,5KP,4216434
+2024-09-19 15:10:26,4216434,Jaime Estevam Gomes Filho,BBDC4F,Executada,Venda,23.0,23.0,,15.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668764,,5KP,4216434
+2024-09-19 15:10:26,4216434,Jaime Estevam Gomes Filho,BBDC4,Executada,Venda,100.0,100.0,,15.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668763,,5KP,4216434
+2024-09-19 15:10:26,4216434,Jaime Estevam Gomes Filho,ABEV3F,Executada,Venda,45.0,45.0,,12.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668762,,5KP,4216434
+2024-09-19 15:10:26,4216434,Jaime Estevam Gomes Filho,ABEV3,Executada,Venda,100.0,100.0,,12.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919181026668761,,5KP,4216434
+2024-09-19 14:58:02,4563252,Fernando Paschoal Lopes,VIVT3F,Executada,Venda,14.0,14.0,,55.49,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919175802653316,,CNI,4563252
+2024-09-19 11:20:07,4508526,Cassio Kaminagakura,AZZA3F,Executada,Compra,18.0,18.0,,47.63,Limitada,47.63,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409687,,CNI,4508526
+2024-09-19 11:17:30,4508526,Cassio Kaminagakura,KEPL3F,Executada,Venda,41.0,41.0,,10.78,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409694,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,VIVT3F,Executada,Venda,5.0,5.0,,55.29,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409699,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,VALE3F,Executada,Compra,66.0,66.0,,58.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409698,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,SAPR11F,Executada,Venda,31.0,31.0,,31.72,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409696,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,PRIO3F,Executada,Compra,16.0,16.0,,43.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409695,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,ITUB4F,Executada,Compra,25.0,25.0,,36.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409693,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,HYPE3F,Executada,Compra,2.0,2.0,,28.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409692,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,CPFE3F,Executada,Compra,32.0,32.0,,33.76,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409691,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,BOVA11,Executada,Compra,6.0,6.0,,130.26,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409690,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,BBSE3F,Executada,Compra,15.0,15.0,,35.62,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409689,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,BBDC4F,Executada,Compra,65.0,65.0,,15.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409688,,CNI,4508526
+2024-09-19 11:17:19,4508526,Cassio Kaminagakura,ABEV3F,Executada,Compra,70.0,70.0,,13.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919141719409686,,CNI,4508526
+2024-09-19 11:03:17,5587298,Julio Cesar Ferreira Costa,BBDC4F,Executada,Compra,69.0,69.0,,15.16275362,Limitada,15.21,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390783,,5KP,5587298
+2024-09-19 11:03:08,5587298,Julio Cesar Ferreira Costa,CPFE3F,Executada,Compra,31.0,31.0,,33.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390786,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,VALE3F,Executada,Compra,39.0,39.0,,58.4,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390792,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,PRIO3F,Executada,Compra,28.0,28.0,,43.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390790,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,VIVT3F,Executada,Compra,22.0,22.0,,55.37,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390793,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,SAPR11F,Executada,Compra,24.0,24.0,,31.8,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390791,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,KEPL3F,Executada,Compra,55.0,55.0,,10.87,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390789,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,ITUB4F,Executada,Compra,29.0,29.0,,36.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390788,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,HYPE3F,Executada,Compra,42.0,42.0,,28.99,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390787,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,BOVA11,Executada,Compra,8.0,8.0,,130.39,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390785,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,BBSE3F,Executada,Compra,34.0,34.0,,35.63,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390784,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,AZZA3F,Executada,Compra,22.0,22.0,,47.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390782,,5KP,5587298
+2024-09-19 11:03:07,5587298,Julio Cesar Ferreira Costa,ABEV3F,Executada,Compra,80.0,80.0,,13.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20240919140307390781,,5KP,5587298
