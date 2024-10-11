@@ -1,55 +1,100 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-10-09 12:34:40,4813088,Juliana Gomes Falleiros Cavalheiro,VALE3F,Executada,Venda,28.0,28.0,,60.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428974,,5KP,4813088
-2024-10-09 12:34:40,4813088,Juliana Gomes Falleiros Cavalheiro,VIVT3F,Executada,Venda,21.0,21.0,,54.04,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428975,,5KP,4813088
-2024-10-09 12:34:40,4813088,Juliana Gomes Falleiros Cavalheiro,PRIO3F,Executada,Compra,11.0,11.0,,44.04,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428972,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,SAPR11F,Executada,Venda,44.0,44.0,,27.99,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428973,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,KEPL3F,Executada,Compra,13.0,13.0,,9.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428971,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,KEPL3,Executada,Compra,100.0,100.0,,9.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428970,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,ITUB4F,Executada,Venda,17.0,17.0,,35.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428969,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,HYPE3F,Executada,Compra,75.0,75.0,,27.15,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428968,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,CPFE3F,Executada,Venda,4.0,4.0,,33.96,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428967,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,BOVA11,Executada,Compra,7.0,7.0,,126.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428966,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,BBDC4F,Executada,Compra,62.0,62.0,,15.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428964,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,BBSE3F,Executada,Compra,25.0,25.0,,34.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428965,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,AZZA3F,Executada,Compra,67.0,67.0,,41.09,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428963,,5KP,4813088
-2024-10-09 12:34:39,4813088,Juliana Gomes Falleiros Cavalheiro,ABEV3F,Executada,Compra,46.0,46.0,,13.1,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009153439428962,,5KP,4813088
-2024-10-09 12:28:15,4453157,Jose Roberto Boselli Junior,PRIO3F,Executada,Compra,10.0,10.0,,43.94,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421650,,CNI,4453157
-2024-10-09 12:27:48,4453157,Jose Roberto Boselli Junior,ABEV3F,Executada,Compra,45.0,45.0,,13.1,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421641,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,VIVT3F,Executada,Compra,8.0,8.0,,54.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421653,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,VALE3F,Executada,Compra,34.0,34.0,,60.55,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421652,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,SAPR11F,Executada,Compra,18.0,18.0,,28.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421651,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,KEPL3F,Executada,Compra,28.0,28.0,,9.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421649,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,ITUB4F,Executada,Compra,8.0,8.0,,35.04,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421648,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,HYPE3F,Executada,Venda,17.0,17.0,,27.13,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421647,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,CPFE3F,Executada,Compra,2.0,2.0,,34.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421646,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,BOVA11,Executada,Compra,3.0,3.0,,126.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421645,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,BBSE3F,Executada,Compra,26.0,26.0,,34.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421644,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,BBDC4F,Executada,Compra,5.0,5.0,,15.01,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421643,,CNI,4453157
-2024-10-09 12:27:44,4453157,Jose Roberto Boselli Junior,AZZA3F,Executada,Compra,6.0,6.0,,41.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009152744421642,,CNI,4453157
-2024-10-09 12:21:57,4364200,Bloco Construcoes E Comercio Ltda,ABEV3F,Executada,Venda,20.0,20.0,,13.0885,Limitada,13.06,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814459989587,d4693c71aefb4556b00d90865fcbd572,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,AZZA3F,Executada,Compra,66.0,66.0,,41.15,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611408542385,2449ae9308fc4e1ea2984f6d94c4b891,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,BOVA11,Executada,Compra,3.0,3.0,,126.73,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814459989586,3c1076888b1441b38887e5abed470dc5,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,BBDC4F,Executada,Compra,26.0,26.0,,15.02,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905623290905,f7be70088a4b4f90ac8b467b70d78b8b,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,ITUB4F,Executada,Compra,17.0,17.0,,35.01,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905623290904,ba033fffe735498e99098c536445010c,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,VALE3F,Executada,Venda,23.0,23.0,,60.5,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807634895130,e2f4c6c608684d68a856c09a193c80a4,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,PRIO3F,Executada,Compra,22.0,22.0,,43.96,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829641045586,1d49b8eefb4044b8b10c4121d38a54cd,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,BBSE3F,Executada,Compra,24.0,24.0,,34.01,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611408542384,b2c44af834a241e4ab4b611ab7b7e126,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,HYPE3F,Executada,Compra,57.0,57.0,,27.18,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611408542383,8e1fc34750e443288f0b36621dfee408,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,KEPL3F,Executada,Compra,29.0,29.0,,9.53,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611408542382,4786c50d3ecf4e9f9e42ced820f4b022,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,CPFE3F,Executada,Venda,9.0,9.0,,33.94,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412575814919,20d8566de592434eb170fd4bad7045f8,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,SAPR11F,Executada,Compra,7.0,7.0,,28.0,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412575814918,00658e011bfb4e47a8dc0a2269c631c9,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,KEPL3,Executada,Compra,100.0,100.0,,9.52,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611408542381,883e464fc4d5412f98d4f6d3576b4a55,6NA,4364200
-2024-10-09 12:21:52,4364200,Bloco Construcoes E Comercio Ltda,VIVT3F,Executada,Venda,10.0,10.0,,53.97,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611408542380,f15aacb0f89548d7a4875371983ee9ad,6NA,4364200
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,VALE3F,Executada,Compra,23.0,23.0,,60.36,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360563,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,CPFE3F,Executada,Compra,11.0,11.0,,34.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360557,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,SAPR11F,Executada,Venda,6.0,6.0,,27.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360562,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,PRIO3F,Executada,Compra,8.0,8.0,,43.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360561,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,VIVT3F,Executada,Venda,3.0,3.0,,54.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360564,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,ITUB4F,Executada,Compra,12.0,12.0,,34.85,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360559,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,BBDC4F,Executada,Compra,30.0,30.0,,14.97,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360554,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,KEPL3F,Executada,Compra,4.0,4.0,,9.57,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360560,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,HYPE3F,Executada,Compra,19.0,19.0,,26.99,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360558,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,BOVA11,Executada,Compra,3.0,3.0,,126.67,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360556,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,BBSE3F,Executada,Compra,8.0,8.0,,34.04,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360555,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,AZZA3F,Executada,Compra,9.0,9.0,,41.17,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360553,,CNI,4332544
-2024-10-09 11:31:20,4332544,Celia Rios Guercio,ABEV3F,Executada,Compra,29.0,29.0,,13.0,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241009143120360552,,CNI,4332544
+2024-10-10 14:29:40,4260002,Erica Vilela Pereira Kurihara,VIVT3F,Executada,Compra,69.0,69.0,,54.02304348,Limitada,54.05,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416782293,335f616f2586483ab8fb562f97b1c703,5KP,4260002
+2024-10-10 14:29:34,4260002,Erica Vilela Pereira Kurihara,HYPE3F,Executada,Compra,46.0,46.0,,27.20478261,Limitada,27.21,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416782301,f3fb1a3b91f2464cb332b3186a945a04,5KP,4260002
+2024-10-10 14:29:28,4260002,Erica Vilela Pereira Kurihara,PRIO3F,Executada,Compra,87.0,87.0,,44.56,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829647037050,8b8cc592d1eb4076b0480af63e9293b3,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,ABEV3F,Executada,Compra,99.0,99.0,,13.14,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814476999485,9aa8f658ec494bdf841f902ad647f82e,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,ABEV3,Executada,Compra,100.0,100.0,,13.13,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814476999484,fe718141d44245018c8a578238389930,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,AZZA3F,Executada,Compra,78.0,78.0,,40.82,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416782307,57e9360c1a6a40c796a7651a3a2cf90b,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,BBDC4F,Executada,Compra,78.0,78.0,,14.88,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905626264764,8cebea4b61004ff1b538bc0eb7dd3093,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,BBDC4,Executada,Compra,100.0,100.0,,14.88,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905626264763,7e94462f774a41c888f1a4ce089762db,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,BOVA11,Executada,Compra,21.0,21.0,,126.72,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814476999482,61ede8ce086649ebbf4eee875812941d,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,BBSE3F,Executada,Compra,9.0,9.0,,33.85,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416782304,6ebd33ccaaf54840b0bebddd772640db,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,BBSE3,Executada,Compra,100.0,100.0,,33.83,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416782303,886f3fe5fbb149a88295b717325b1d77,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,CPFE3F,Executada,Compra,3.0,3.0,,32.8,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412583865112,3421f414a91f4d628f01e23152d034a2,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,CPFE3,Executada,Compra,100.0,100.0,,32.78,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412583865110,66471593b7ad400f88f96907e6e840c6,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,ITUB4F,Executada,Compra,94.0,94.0,,34.85,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905626264762,b6bbf0b6cfab43f5bdd69fe8f2ffbf91,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,HYPE3,Executada,Compra,100.0,100.0,,27.19,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416782298,98d90da875e74bcd85668e7859144dbd,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,KEPL3F,Executada,Compra,92.0,92.0,,9.47,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416782297,978c435bae0c4d15b06074f448dbf627,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,KEPL3,Executada,Compra,100.0,100.0,,9.46,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416782295,9560bd3ca159446aacc967baba53fe30,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,SAPR11F,Executada,Compra,58.0,58.0,,27.57,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412583865109,9ad6a4d8902f426998f6f7c07e6ede2e,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,VALE3F,Executada,Compra,18.0,18.0,,61.22,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807638447977,410e2878e3a74d69b4e0b781e17ede03,5KP,4260002
+2024-10-10 14:29:26,4260002,Erica Vilela Pereira Kurihara,VALE3,Executada,Compra,100.0,100.0,,61.23,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807638447976,237d6de7fd074b10bcb5424172be2f26,5KP,4260002
+2024-10-10 14:28:10,4515548,Flavia Bordin Silva,SAPR11F,Executada,Venda,19.0,19.0,,27.54,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412583850860,a7ee7f2ead374cd6b9a04ed0a8c7b003,5KP,4515548
+2024-10-10 14:28:07,4515548,Flavia Bordin Silva,HYPE3F,Executada,Compra,26.0,26.0,,27.19,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416770695,49160d20dd1e406eb20fc7993c8d3c5d,5KP,4515548
+2024-10-10 14:27:55,4515548,Flavia Bordin Silva,ABEV3F,Executada,Compra,38.0,38.0,,13.13,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814476968424,c82a39cc7e1143cca5a0ff08538aaa31,5KP,4515548
+2024-10-10 14:27:54,4515548,Flavia Bordin Silva,AZZA3F,Executada,Compra,19.0,19.0,,40.82,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416770697,170a51148cc743a5bd0f3cf92ecd9383,5KP,4515548
+2024-10-10 14:27:54,4515548,Flavia Bordin Silva,BBSE3F,Executada,Compra,6.0,6.0,,33.85,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416770696,4f053be519e04c1f9e84e1999f5961e1,5KP,4515548
+2024-10-10 14:27:54,4515548,Flavia Bordin Silva,KEPL3F,Executada,Venda,10.0,10.0,,9.45,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416770694,ad6cb6dd24854eaea538f8a79143d38d,5KP,4515548
+2024-10-10 14:27:54,4515548,Flavia Bordin Silva,VIVT3F,Executada,Venda,7.0,7.0,,53.99,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416770693,117b7cadf5954216b5a44df73d052b64,5KP,4515548
+2024-10-10 14:27:54,4515548,Flavia Bordin Silva,CPFE3F,Executada,Compra,24.0,24.0,,32.79,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412583850861,9f9232c4cd434f20be185235011caabf,5KP,4515548
+2024-10-10 14:27:54,4515548,Flavia Bordin Silva,BOVA11,Executada,Compra,5.0,5.0,,126.71,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814476968423,a51c3dac806040d391ced7f19c23324a,5KP,4515548
+2024-10-10 14:27:54,4515548,Flavia Bordin Silva,PRIO3F,Executada,Compra,6.0,6.0,,44.55,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829647025751,16d0ab26399e409281487f11d7116eac,5KP,4515548
+2024-10-10 14:27:54,4515548,Flavia Bordin Silva,VALE3F,Executada,Compra,34.0,34.0,,61.2,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807638444112,53e863051b214cdb8a5e4f722fa2f0ad,5KP,4515548
+2024-10-10 14:27:54,4515548,Flavia Bordin Silva,BBDC4F,Executada,Compra,46.0,46.0,,14.89,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905626262543,a11e1be610f04422b56034680b24ab5f,5KP,4515548
+2024-10-10 14:27:54,4515548,Flavia Bordin Silva,ITUB4F,Executada,Compra,19.0,19.0,,34.86,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905626262542,c0aafb2f64f647f88473a8c40efe7083,5KP,4515548
+2024-10-10 14:23:58,4584982,Bruno De Azevedo Oliveira,PRIO3F,Executada,Compra,16.0,16.0,,44.54,Limitada,44.58,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491339,,03Q,4584982
+2024-10-10 14:23:53,4584982,Bruno De Azevedo Oliveira,HYPE3F,Executada,Compra,8.0,8.0,,27.1975,Limitada,27.22,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491336,,03Q,4584982
+2024-10-10 14:23:42,4584982,Bruno De Azevedo Oliveira,VALE3F,Executada,Venda,5.0,5.0,,61.18,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491341,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,LEVE3F,Executada,Compra,11.0,11.0,,30.24,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491343,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,SAPR11F,Executada,Venda,1.0,1.0,,27.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491340,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,CPFE3F,Executada,Compra,37.0,37.0,,32.79,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491335,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,VIVT3F,Executada,Venda,1.0,1.0,,53.98,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491342,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,KEPL3F,Executada,Compra,11.0,11.0,,9.46,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491338,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,ITUB4F,Executada,Compra,40.0,40.0,,34.84,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491337,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,BBDC4F,Executada,Compra,34.0,34.0,,14.87,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491332,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,BOVA11,Executada,Compra,9.0,9.0,,126.68,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491334,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,BBSE3F,Executada,Compra,11.0,11.0,,33.82,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491333,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,AZZA3F,Executada,Compra,27.0,27.0,,40.84,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491331,,03Q,4584982
+2024-10-10 14:23:36,4584982,Bruno De Azevedo Oliveira,ABEV3F,Executada,Compra,16.0,16.0,,13.13,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010172336491330,,03Q,4584982
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,ABEV3F,Executada,Compra,52.0,52.0,,13.11,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814476522542,2925adf2f7614e3498dd34f7b546e4d7,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,AZZA3F,Executada,Compra,18.0,18.0,,40.62,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416572322,cdb50590bce341c38c1fbd2a2a9b8029,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,BBDC4F,Executada,Compra,51.0,51.0,,14.86,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905626208596,fd730d5b4a6d46a18b54e6989708e821,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,BOVA11,Executada,Compra,5.0,5.0,,126.38,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814476522533,8e64fef1ceef4f23aabb7d3a7bc599b6,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,BBSE3F,Executada,Compra,22.0,22.0,,33.82,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416572321,e44ff3cf97264bbca681391ba4e846e4,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,CPFE3F,Executada,Compra,25.0,25.0,,32.7,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412583670961,dcf885dd5a314fc1aea51e0bd23ac5e8,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,HYPE3F,Executada,Compra,36.0,36.0,,27.11,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416572320,983e1fb461734d7281bf7afaf7b08b95,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,PRIO3F,Executada,Compra,17.0,17.0,,44.44,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829646909503,a1c153bc602146e7a96529124cfc9ebf,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,VALE3F,Executada,Compra,34.0,34.0,,61.06,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807638379200,7a7c379028a64cad87bbdaab06b5c94f,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,KEPL3F,Executada,Compra,30.0,30.0,,9.43,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416572318,97cbf026b88d485099a8fcd0739c5eca,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,VIVT3F,Executada,Compra,7.0,7.0,,53.98,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416572317,816cacb9cabc460b96aea73bd7cb7d9b,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,ITUB4F,Executada,Compra,23.0,23.0,,34.78,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905626208595,a40e7bd048354ffc83d44ad99605f316,6NA,772433
+2024-10-10 14:14:17,772433,Marcelo Frossard Pincinato,SAPR11F,Executada,Compra,4.0,4.0,,27.52,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412583670958,ce0cdffdb7134daea183e543e76473d2,6NA,772433
+2024-10-10 13:38:11,4214460,Maria Das Gracas Da Silva Pires,BITH11,Executada,Compra,320.0,320.0,,77.69375,Limitada,77.7,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814475587659,212a6a1ef01d468f9477248122034b20,CNI,4214460
+2024-10-10 13:38:01,4214460,Maria Das Gracas Da Silva Pires,SAPR11F,Executada,Compra,26.0,26.0,,27.62615385,Limitada,27.65,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412583211359,22b0e3139d9d4384a41ea44653c169aa,CNI,4214460
+2024-10-10 13:37:52,4214460,Maria Das Gracas Da Silva Pires,CPFE3F,Executada,Venda,19.0,19.0,,32.85,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412583211354,c3506db26b404f9bb16a69613f341ae8,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,VALE3F,Executada,Venda,62.0,62.0,,61.17,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807638191823,7d601c1a81e14d03aa00f27c34ec49d2,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,VIVT3F,Executada,Venda,12.0,12.0,,54.08,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416129466,f370ef373e9b49deb505cdd916e59dcc,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,PRIO3F,Executada,Venda,36.0,36.0,,44.41,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829646597051,d08a3fbd08e447d79a8a9deb6d6ecc21,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,KEPL3F,Executada,Compra,18.0,18.0,,9.49,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416129465,88c87307606a4448aa6c521f01ace851,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,HYPE3,Executada,Venda,100.0,100.0,,27.11,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416129462,3f3cc09f191246ac918161c890b8f104,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,ITUB4F,Executada,Venda,12.0,12.0,,34.86,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905626035052,f6abe855a78e4c749eb962a479a7c6ba,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,BOVA11,Executada,Venda,9.0,9.0,,126.79,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814475587667,73c7142cef9f46bf9d8d4bfe5b435811,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,BBSE3F,Executada,Venda,8.0,8.0,,33.88,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416129461,a176d5c63ffe4409ae9ad4e617de20b3,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,AZZA3F,Executada,Compra,9.0,9.0,,40.89,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611416129460,3c3932ddeb3e485aa907d605b2c516d7,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,BBDC4F,Executada,Venda,81.0,81.0,,14.89,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905626035051,942baf38c2df473682703428b8002ae2,CNI,4214460
+2024-10-10 13:37:45,4214460,Maria Das Gracas Da Silva Pires,ABEV3F,Executada,Venda,37.0,37.0,,13.12,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814475587665,f66e7ed9674449f1b1608dcc085339d2,CNI,4214460
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,ABEV3F,Executada,Compra,11.0,11.0,,13.17,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814472234736,f64d6684a2f34a05b1f2a0c7ceeb2437,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,AZZA3F,Executada,Compra,14.0,14.0,,40.92,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611414728531,d73153aa7c2a46f4a97035f80a926c4b,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,BBDC4F,Executada,Compra,21.0,21.0,,14.88,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905625535326,dcf2ccb165c648bb94ced74e33b809fd,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,BBSE3F,Executada,Compra,17.0,17.0,,34.05,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611414728530,f669ef92cc9d40599a7563fdb15d769f,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,BOVA11,Executada,Compra,2.0,2.0,,126.77,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8814472234708,6bedc538cb694370a0b52a43665bca64,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,CPFE3F,Executada,Compra,6.0,6.0,,32.84,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412581774317,da466de9f6e642f58713c9b721b729b6,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,HYPE3F,Executada,Compra,28.0,28.0,,26.82,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611414728529,9523a6dc352f47638b34bc74eb7d3fad,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,ITUB4F,Executada,Compra,7.0,7.0,,34.91,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905625535325,2d287993b70146298c1e268bb1603599,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,KEPL3F,Executada,Compra,28.0,28.0,,9.43,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611414728526,b3b0fa9375c548ff9b795657ba07de16,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,PRIO3F,Executada,Compra,10.0,10.0,,44.5,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,829645651646,e76b43894df540e995af04a5ac0e44ae,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,SAPR11F,Executada,Compra,1.0,1.0,,27.57,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412581774315,5142af46ad454140985e147a27ba2682,6NA,5046790
+2024-10-10 11:37:06,5046790,Beatriz Roveri De Abreu,VALE3F,Executada,Venda,1.0,1.0,,61.21,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,807637715438,96cde70f18964bd0a6b58eaf95738f4c,6NA,5046790
+2024-10-10 11:27:34,4472431,Luis Guilherme Maciel,PRIO3F,Executada,Compra,6.0,6.0,,44.495,Limitada,44.52,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345014,,03Q,4472431
+2024-10-10 11:27:25,4472431,Luis Guilherme Maciel,ABEV3F,Executada,Compra,25.0,25.0,,13.16,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345005,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,CPFE3F,Executada,Compra,13.0,13.0,,32.9,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345010,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,VALE3F,Executada,Compra,21.0,21.0,,61.25,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345016,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,VIVT3F,Executada,Venda,3.0,3.0,,54.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345017,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,SAPR11F,Executada,Venda,6.0,6.0,,27.54,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345015,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,KEPL3F,Executada,Compra,4.0,4.0,,9.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345013,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,ITUB4F,Executada,Compra,12.0,12.0,,34.76,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345012,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,HYPE3F,Executada,Compra,18.0,18.0,,26.8,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345011,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,BBDC4F,Executada,Compra,30.0,30.0,,14.88,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345007,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,BOVA11,Executada,Compra,3.0,3.0,,126.78,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345009,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,BBSE3F,Executada,Compra,8.0,8.0,,34.06,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345008,,03Q,4472431
+2024-10-10 11:27:19,4472431,Luis Guilherme Maciel,AZZA3F,Executada,Compra,9.0,9.0,,40.95,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241010142719345006,,03Q,4472431
