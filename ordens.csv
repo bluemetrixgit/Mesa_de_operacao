@@ -1,1 +1,14 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,VALE3F,Executada,Compra,21.0,21.0,,61.67,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368989,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,VIVT3F,Executada,Venda,2.0,2.0,,53.32,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368990,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,PRIO3F,Executada,Compra,7.0,7.0,,42.75,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368987,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,SAPR11F,Executada,Venda,5.0,5.0,,27.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368988,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,KEPL3F,Executada,Compra,1.0,1.0,,9.37,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368986,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,ITUB4F,Executada,Compra,11.0,11.0,,34.95,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368985,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,CPFE3F,Executada,Compra,14.0,14.0,,32.73,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368983,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,HYPE3F,Executada,Compra,13.0,13.0,,27.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368984,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,BBDC4F,Executada,Compra,29.0,29.0,,15.02,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368980,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,BOVA11,Executada,Compra,3.0,3.0,,127.39,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368982,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,BBSE3F,Executada,Compra,8.0,8.0,,33.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368981,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,AZZA3F,Executada,Compra,12.0,12.0,,41.27,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368979,,5KP,4221638
+2024-10-16 11:02:12,4221638,Caroline Bastos De Souza,ABEV3F,Executada,Compra,33.0,33.0,,12.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241016140212368978,,5KP,4221638
