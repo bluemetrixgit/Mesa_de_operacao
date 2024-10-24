@@ -34,7 +34,7 @@ class Divisao_de_contas():
     def filtrando_dados_e_separando_operadores(self,arquivo_compilado,co_admin):
 
         self.arquivo_compilado = arquivo_compilado
-        self.filtrando_saldo = self.arquivo_compilado.loc[(self.arquivo_compilado['Saldo']>1000)|(self.arquivo_compilado['Saldo']<0)].sort_values(by='Saldo',ascending=False)
+        self.filtrando_saldo = self.arquivo_compilado.loc[(self.arquivo_compilado['Saldo']>999)|(self.arquivo_compilado['Saldo']<0)].sort_values(by='Saldo',ascending=False)
 
         self.filtrando_saldo.loc[self.filtrando_saldo['Valor']>500000, 'Operador'] = 'Bruno'
         
@@ -54,7 +54,7 @@ class Divisao_de_contas():
         self.controle_novas_contas = controle_novas
         contas_co_admin = ['005190138','004724018','004641487','004643737','004855570','004855596','004643746','005320069','004884046','005053939','004879567',
                            '005305448','004567324','004384167']
-        self.contas_nao_encontrados = arquivo_compilado[(arquivo_compilado['Cliente'].isnull())&(arquivo_compilado['Saldo']>1000)|(arquivo_compilado['Saldo']<0)]
+        self.contas_nao_encontrados = arquivo_compilado[(arquivo_compilado['Cliente'].isnull())&(arquivo_compilado['Saldo']>999)|(arquivo_compilado['Saldo']<0)]
         contas_novas = list(self.controle_novas_contas['Conta'])
         self.contas_nao_encontrados = self.contas_nao_encontrados[~((self.contas_nao_encontrados['Conta'].isin(contas_co_admin))|(self.contas_nao_encontrados['Conta'].isin(contas_novas)))]
         return self.contas_nao_encontrados
