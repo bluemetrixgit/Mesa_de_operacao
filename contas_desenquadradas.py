@@ -6,11 +6,11 @@ from functools import reduce
 
 
 
-equities = {'Renda Variável': 81,'Pós-fixado':19}
-income = {'Pós-fixado':32,'Inflação':32,'Pré-fixado':35,'FundoDI':1}
-conservadora = {'Pós-fixado':26.70,'Inflação':27.20,'Pré-fixado':29.75,'FundoDI':0.85, 'Renda Variável':15}
-moderada = {'Pós-fixado':22.40,'Inflação':22.40,'Pré-fixado':24.50,'FundoDI':0.70, 'Renda Variável':30}
-arrojada = {'Pós-fixado':16,'Inflação':16,'Pré-fixado':17.50,'FundoDI':0.50, 'Renda Variável':50}
+equities = {'Renda Variável': 99,'Pós-fixado':1}
+income = {'Pós-fixado':34.5,'Inflação':32,'Pré-fixado':35,'FundoDI':1}
+conservadora = {'Pós-fixado':29.32,'Inflação':27.20,'Pré-fixado':27.63,'FundoDI':0.85, 'Renda Variável':15}
+moderada = {'Pós-fixado':24.15,'Inflação':22.40,'Pré-fixado':22.75,'FundoDI':0.70, 'Renda Variável':30}
+arrojada = {'Pós-fixado':17.25,'Inflação':16,'Pré-fixado':16.25,'FundoDI':0.50, 'Renda Variável':50}
 
 class Contas_desenquadradas():
     def __init__(self):
