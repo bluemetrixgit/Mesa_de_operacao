@@ -4,26 +4,26 @@ class Ativos_e_proporcoes():
         print('Hello world')
 
     def equities(self):
-        equities = {'ARZZ3': 7.0,'ASAI3':7.0,'BBSE3':7.0,'CPFE3':6.0,'HYPE3':8.00,'KEPL3':8,'ITUB4':7.00, 'Caixs':11.5, 'LEVE3':6.50,'PRIO3':8,'SLCE3':7,'VALE3':11,'VIVT3':7,}
+        equities = {'ABEV3' :7, 'AZZA3' :7, 'BBDC4' :7, 'BBSE3' :8,'BOVA11' :7, 'CPFE3' :7, 'HYPE3' :8, 'ITUB4' :7, 'LFTS11' :5, 'PRIO3' :8, 'SAPR11' :5, 'VALE3' :15, 'VIVT3' :8, 'Caixa' :1}
         
         return equities
     
     def income(self):
-        income = {'POS':15,'Inflação':38,'PRE':44,'FundoDI':3,'Caixa':3}
+        income = {'POS':22.5,'Inflação':32,'PRE':32.5,'FundoDI':1,'Caixa':12}
         
         return income
 
     def small_caps(self):
-        small_caps = {'BPAC11':10,'ENEV3':4,'HBSA3':7,'IFCM3':5,'IFCM3':5,'JALL3':10,'KEPL3':12,'MYPK3':5,'PRIO3':12,'SIMH3':8,'TASA4':8,'TUPY3':11,'WIZC3':5}
+        small_caps = {'ABCB4':7,'JALL3':10,'RANI3':7,'MYPK3':5,'PRIO3':12,'SHUL4':7,'TASA4':8,'TUPY3':11,'WIZC3':5, 'Caixa':25}
         return small_caps
 
     def fii(self):
-        fii = {'BTLG11':22.30,'Caixa':6,'HGLG11':22.30,'KNCA11':7.25,'MALL11':7.75,'PLCR11':13.57,'RURA11':7.26,'TRXF11':13.57}
+        fii = {'BTLG11':22.30,'Caixa':20.51,'HGLG11':22.30,'MALL11':7.75,'PLCR11':13.57,'TRXF11':13.57}
             
         return fii
     
     def acoes_em_caixa(self):
-        lista_acoes_em_caixa = [ 'ARZZ3', 'ASAI3', 'BBSE3', 'CPFE3','HYPE3', 'KEPL3', 'LEVE3', 'PRIO3', 'ITUB4', 'VIVT3', 'SLCE3', 'VALE3']
+        lista_acoes_em_caixa = [ 'ABEV3', 'AZZA3', 'BBDC4', 'BBSE3','BOVA11', 'CPFE3', 'HYPE3', 'ITUB4', 'LFTS11', 'PRIO3', 'SAPR11', 'VALE3', 'VIVT3']
 
         return lista_acoes_em_caixa
         
