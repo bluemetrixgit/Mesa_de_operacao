@@ -14,8 +14,8 @@ from scipy.optimize import minimize
 
 
 
-lista_acoes_yf = ["ARZZ3.SA",'ASAI3.SA','BBSE3.SA','CPFE3.SA','HYPE3.SA','KEPL3.SA','LEVE3.SA','PRIO3.SA','SLCE3.SA','VALE3.SA','VIVT3.SA','ITUB4.SA']
-pesos_carteira_eq = [0.07,0.07,0.07,0.06,0.08,0.08,0.065,0.08,0.07,0.11,0.07,0.07]
+lista_acoes_yf = ["ABEV3.SA",'AZZA3.SA','BBDC4.SA','BBSE3.SA','CPFE3.SA','HYPE3.SA','ITUB4.SA','PRIO3.SA','SAPR11.SA','VALE3.SA','VIVT3.SA']
+pesos_carteira_eq = [0.07,0.07,0.07,0.08,0.07,0.08,0.07,0.08,0.05,0.15,0.08]
 
 
 
