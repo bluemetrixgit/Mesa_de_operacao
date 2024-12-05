@@ -1,8 +1,8 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2024-12-03 17:35:19,5171652,Bruno Henrique Borges Silva,CMIG4F,Executada,Compra,21.0,21.0,,11.56,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241203203519691248,,CNI,5171652
-2024-12-03 17:34:51,5171652,Bruno Henrique Borges Silva,ABCB4F,Executada,Compra,24.0,24.0,,20.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241203203451690887,,CNI,5171652
-2024-12-03 10:34:58,8115273,Nilson Claro Da Silva,PLCR11,Executada,Venda,92.0,92.0,,75.65217391,Limitada,75.32,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412862083000,39deaacb33ce43cc912d5bd1327ddde8,6NA,8115273
-2024-12-03 10:34:54,8115273,Nilson Claro Da Silva,TRXF11,Executada,Venda,75.0,75.0,,99.7308,Limitada,99.62,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412862082999,90db7b0ba9c14669b2f4f8372d9cbae5,6NA,8115273
-2024-12-03 10:34:44,8115273,Nilson Claro Da Silva,MALL11,Executada,Venda,59.0,59.0,,96.4,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412862083001,156f8d1c0a4a4acc895293f624919437,6NA,8115273
-2024-12-03 10:34:44,8115273,Nilson Claro Da Silva,HGLG11,Executada,Venda,54.0,54.0,,148.32,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412862083002,c379063b94e74d5884b4f8818e119daa,6NA,8115273
-2024-12-03 10:34:44,8115273,Nilson Claro Da Silva,BTLG11,Executada,Venda,84.0,84.0,,92.57,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412862083006,1143582b6ebe4c8b9fbacd0c19b9f0cf,6NA,8115273
+2024-12-04 15:38:57,4335144,Edmundo Starling Loureiro Franca,TAEE11F,Executada,Compra,61.0,61.0,,34.07,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412875300076,2835acb557394887b657bc65ea5006e2,CNI,4335144
+2024-12-04 15:37:28,4335144,Edmundo Starling Loureiro Franca,CPLE6F,Executada,Compra,86.0,86.0,,9.73,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412875300073,08f82fc4de3d4e10969c5f41c7fa8663,CNI,4335144
+2024-12-04 15:37:28,4335144,Edmundo Starling Loureiro Franca,VIVT3F,Executada,Compra,45.0,45.0,,51.49,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611710122841,931843b86ced43ec802e9db81f805032,CNI,4335144
+2024-12-04 15:37:28,4335144,Edmundo Starling Loureiro Franca,BBSE3F,Executada,Compra,96.0,96.0,,34.97,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611710122840,4a0f73807f754b938e2db553e7eb42a6,CNI,4335144
+2024-12-04 15:37:28,4335144,Edmundo Starling Loureiro Franca,ABCB4,Executada,Compra,100.0,100.0,,20.59,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905733491642,3af2852f9a1d4732b1cb5e5ad6554ad0,CNI,4335144
+2024-12-04 15:37:28,4335144,Edmundo Starling Loureiro Franca,CPLE6,Executada,Compra,300.0,300.0,,9.73,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412875300074,c9bfac8777b1445e846d87060edda9dd,CNI,4335144
+2024-12-04 15:37:28,4335144,Edmundo Starling Loureiro Franca,ABCB4F,Executada,Compra,65.0,65.0,,20.59,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905733491641,a2b5dfbbc1e9402382d2908c8ecb0eb2,CNI,4335144
