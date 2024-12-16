@@ -1,1 +1,14 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
+2024-12-13 12:24:39,5608744,Douglas Arantes,ABCB4,Executada,Compra,1900.0,1900.0,,20.85,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905752947181,91938c9c43bf4ce5bb93bf821769dd42,5KP,5608744
+2024-12-13 12:24:39,5608744,Douglas Arantes,BBSE3,Executada,Compra,800.0,800.0,,36.67,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611766552657,7b52109d0c284e8da54b7d04da1cdf5a,5KP,5608744
+2024-12-13 12:24:39,5608744,Douglas Arantes,CPLE6,Executada,Compra,2100.0,2100.0,,9.23,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412931746333,ac733f4bb4fa475cbc13212424f06df4,5KP,5608744
+2024-12-13 12:24:39,5608744,Douglas Arantes,TAEE11F,Executada,Compra,94.0,94.0,,34.01,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412931746332,680d007e3aee448781876a67324f0e3a,5KP,5608744
+2024-12-13 12:24:39,5608744,Douglas Arantes,TAEE11,Executada,Compra,200.0,200.0,,33.99,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8412931746328,d8c7818fcebc4554830916c316aab969,5KP,5608744
+2024-12-13 12:23:15,5608744,Douglas Arantes,CPLE6F,Executada,Compra,74.0,74.0,,9.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241213152315403752,,5KP,5608744
+2024-12-13 12:23:15,5608744,Douglas Arantes,TAEE11F,Rejeitada,Compra,94.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,O valor da ordem [3196.94] é maior do que o limite [1910.29] disponível.,20241213152315403754,,5KP,5608744
+2024-12-13 12:23:15,5608744,Douglas Arantes,TAEE11,Rejeitada,Compra,200.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,O valor da ordem [6800] é maior do que o limite [1910.29] disponível.,20241213152315403753,,5KP,5608744
+2024-12-13 12:23:15,5608744,Douglas Arantes,BBSE3F,Executada,Compra,19.0,19.0,,36.68,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241213152315403749,,5KP,5608744
+2024-12-13 12:23:15,5608744,Douglas Arantes,ABCB4F,Executada,Compra,15.0,15.0,,20.89,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20241213152315403747,,5KP,5608744
+2024-12-13 12:23:15,5608744,Douglas Arantes,CPLE6,Rejeitada,Compra,2100.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,O valor da ordem [19383] é maior do que o limite [2034.6] disponível.,20241213152315403751,,5KP,5608744
+2024-12-13 12:23:15,5608744,Douglas Arantes,BBSE3,Rejeitada,Compra,800.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,O valor da ordem [29328] é maior do que o limite [2543.78] disponível.,20241213152315403748,,5KP,5608744
+2024-12-13 12:23:15,5608744,Douglas Arantes,ABCB4,Rejeitada,Compra,1900.0,,,,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,O valor da ordem [39634] é maior do que o limite [2857.13] disponível.,20241213152315403745,,5KP,5608744
