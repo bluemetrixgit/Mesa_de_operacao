@@ -1,1 +1,3 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
+2024-12-17 13:18:16,5268516,Luis Daniel Bonfim Fernandes,CMIG4F,Executada,Compra,2.0,2.0,,11.47,Mercado,,Posição,BTG_INVESTIMENTOS,BVSP,Dia,,,,,,,20241217161816535591,,5268516,5268516
+2024-12-17 13:16:59,5268516,Luis Daniel Bonfim Fernandes,ITUB4F,Executada,Compra,2.0,2.0,,31.9,Mercado,,Posição,BTG_INVESTIMENTOS,BVSP,Dia,,,,,,,20241217161659533951,,5268516,5268516
