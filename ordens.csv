@@ -1,16 +1,41 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2025-01-03 15:13:13,4805273,Clisia Mara Carreira,VALE3F,Executada,Venda,61.0,61.0,,53.23721311,Limitada,53.14,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396496,,5KP,4805273
-2025-01-03 15:13:05,4805273,Clisia Mara Carreira,SAPR11F,Executada,Venda,18.0,18.0,,26.11388889,Limitada,26.07,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396494,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,VIVT3F,Executada,Venda,95.0,95.0,,46.43,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396497,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,VALE3,Executada,Venda,100.0,100.0,,53.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396495,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,SAPR11,Executada,Venda,100.0,100.0,,26.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396493,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,PRIO3F,Executada,Venda,24.0,24.0,,40.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396492,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,PRIO3,Executada,Venda,100.0,100.0,,40.52,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396491,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,ITUB4F,Executada,Venda,29.0,29.0,,30.19,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396490,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,BBSE3F,Executada,Venda,53.0,53.0,,36.07,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396488,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,BBSE3,Executada,Venda,100.0,100.0,,36.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396487,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,ITUB4,Executada,Venda,100.0,100.0,,30.19,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396489,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,BBDC4F,Executada,Venda,96.0,96.0,,11.21,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396486,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,BBDC4,Executada,Venda,200.0,200.0,,11.21,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396485,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,ABEV3F,Executada,Venda,53.0,53.0,,11.33,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396484,,5KP,4805273
-2025-01-03 15:12:55,4805273,Clisia Mara Carreira,ABEV3,Executada,Venda,300.0,300.0,,11.34,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250103181255396483,,5KP,4805273
+2025-01-06 15:55:32,5268516,Luis Daniel Bonfim Fernandes,ITUB4F,Executada,Compra,3.0,3.0,,31.17,Mercado,,Posição,BTG_INVESTIMENTOS,BVSP,Dia,,,,,,,20250106185532485119,,5268516,5268516
+2025-01-06 13:22:57,5002390,Luciano Ricardo Arimateas Montenegro,VIVT3F,Executada,Venda,87.0,87.0,,47.1916092,Limitada,47.16,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367015,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,VALE3F,Executada,Venda,74.0,74.0,,53.08,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367014,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,SAPR11F,Executada,Venda,73.0,73.0,,26.12,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367013,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,PRIO3F,Executada,Venda,56.0,56.0,,41.53,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367012,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,ITUB4F,Executada,Venda,8.0,8.0,,30.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367011,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,ITUB4,Executada,Venda,100.0,100.0,,30.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367010,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,CSMG3F,Executada,Venda,87.0,87.0,,20.86,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367009,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,CPLE6F,Executada,Venda,31.0,31.0,,9.11,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367008,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,CPLE6,Executada,Venda,200.0,200.0,,9.12,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367007,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,CMIG4F,Executada,Venda,92.0,92.0,,10.88,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367006,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,CMIG4,Executada,Venda,100.0,100.0,,10.88,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367005,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,BBSE3F,Executada,Venda,25.0,25.0,,36.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367004,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,BBSE3,Executada,Venda,100.0,100.0,,36.05,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367003,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,BBDC4F,Executada,Venda,76.0,76.0,,11.47,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367002,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,BBDC4,Executada,Venda,100.0,100.0,,11.47,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367001,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,ABEV3F,Executada,Venda,7.0,7.0,,11.26,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245367000,,5KP,5002390
+2025-01-06 13:22:45,5002390,Luciano Ricardo Arimateas Montenegro,ABEV3,Executada,Venda,200.0,200.0,,11.26,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106162245366999,,5KP,5002390
+2025-01-06 12:10:55,4363260,Larissa Weber Gomes Reis,BBSE3F,Executada,Venda,74.0,74.0,,36.02013514,Limitada,35.92,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322796,,5KP,4363260
+2025-01-06 12:10:42,4363260,Larissa Weber Gomes Reis,BBDC4F,Executada,Venda,90.0,90.0,,11.45344444,Limitada,11.38,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322794,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,VIVT3F,Executada,Venda,79.0,79.0,,47.19,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322814,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,VIVT3,Executada,Venda,300.0,300.0,,47.23,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322813,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,VALE3F,Executada,Venda,35.0,35.0,,53.36,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322811,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,VALE3,Executada,Venda,300.0,300.0,,53.36,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322810,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,SAPR11F,Executada,Venda,52.0,52.0,,26.15,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322809,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,SAPR11,Executada,Venda,300.0,300.0,,26.16,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322807,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,PRIO3F,Executada,Venda,45.0,45.0,,41.72,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322806,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,PRIO3,Executada,Venda,200.0,200.0,,41.74,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322805,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,ITUB4F,Executada,Venda,53.0,53.0,,30.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322804,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,ITUB4,Executada,Venda,400.0,400.0,,30.92,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322803,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,CSMG3F,Executada,Venda,89.0,89.0,,20.82,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322802,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,BBDC4,Executada,Venda,600.0,600.0,,11.45,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322793,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,ABEV3F,Executada,Venda,76.0,76.0,,11.3,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322792,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,ABEV3,Executada,Venda,1000.0,1000.0,,11.31,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322791,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,CPLE6F,Executada,Venda,96.0,96.0,,9.13,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322800,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,CPLE6,Executada,Venda,900.0,900.0,,9.14,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322799,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,CSMG3,Executada,Venda,300.0,300.0,,20.82,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322801,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,CMIG4F,Executada,Venda,24.0,24.0,,10.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322798,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,CMIG4,Executada,Venda,800.0,800.0,,10.91,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322797,,5KP,4363260
+2025-01-06 12:10:34,4363260,Larissa Weber Gomes Reis,BBSE3,Executada,Venda,500.0,500.0,,36.03,Mercado,,Posição,btg_desktop,BVSP,Dia,,,,,,,20250106151034322795,,5KP,4363260
