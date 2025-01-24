@@ -1,6 +1,1 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
-2025-01-22 13:18:37,5171652,Bruno Henrique Borges Silva,TIMS3F,Executada,Compra,27.0,27.0,,15.29,Limitada,15.29,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611970652257,22b2fd055ad24c9aac0fd62518258bac,6NA,5171652
-2025-01-22 12:09:08,8054285,Igor Gabriel Nogueira De Andrade,BBSE3F,Executada,Compra,65.0,65.0,,38.24,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611969782063,a27376b59a6f4507aaacc231490ff7a0,6NA,8054285
-2025-01-22 12:09:08,8054285,Igor Gabriel Nogueira De Andrade,ITUB4F,Executada,Compra,77.0,77.0,,32.7,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905822018753,bbbba0852b1f4d1ab5bbdd9e5f348506,6NA,8054285
-2025-01-22 12:09:07,8054285,Igor Gabriel Nogueira De Andrade,PRIO3F,Executada,Compra,59.0,59.0,,42.49,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8210041176440,f4f3cb568233468bbcadb7ca96bece06,6NA,8054285
-2025-01-22 12:09:07,8054285,Igor Gabriel Nogueira De Andrade,VIVT3F,Executada,Compra,49.0,49.0,,50.72,Mercado,,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8611969782001,b2c7b8eb527c42eebfa1b692a3116132,6NA,8054285
