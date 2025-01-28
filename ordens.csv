@@ -1,1 +1,6 @@
 Data/Hora,Conta,Cliente,Ativo,Status,Direção,Qt. Oferta,Qt. Executada,Qt. Restante,Preço Médio,Tipo,Preço Limite,Estratégia,Plataforma,Bolsa,Validade,Até a Data,Disparo Stop,Preço Stop,Disparo Start,Preço Start,Obs,ID,ID Bolsa,Login,Login Alteração,
+2025-01-27 16:06:30,5967015,Heidi Flavia Beraldo E Silva De Freitas,PRIO3F,Executada,Venda,12.0,12.0,,42.19,Limitada,42.19,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8210061040306,3cbe9bce77664aadaa99a6a4c0b35cf6,CNI,5967015
+2025-01-27 15:48:23,5967015,Heidi Flavia Beraldo E Silva De Freitas,PRIO3,Executada,Venda,200.0,200.0,,42.19,Limitada,42.19,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8210061040311,defdd99aa0704ed7b44f7c45f842358c,CNI,5967015
+2025-01-27 15:47:58,5967015,Heidi Flavia Beraldo E Silva De Freitas,BBDC4,Executada,Venda,600.0,600.0,,11.52,Limitada,11.52,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905830959587,583c44d78abf48ed9ff30e822b8a8851,CNI,5967015
+2025-01-27 15:47:58,5967015,Heidi Flavia Beraldo E Silva De Freitas,BBDC4F,Executada,Venda,87.0,87.0,,11.52,Limitada,11.52,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,905830959586,c21b407fe9dc4472b115835810245897,CNI,5967015
+2025-01-27 15:46:31,4514241,Andre Yoshio Itiyama,ABEV3F,Executada,Venda,1.0,1.0,,11.01,Limitada,11.01,Posição,SOLUTIONS-DIGITAL,BVSP,Dia,,,,,,,8815435954855,43e35abe28b1429db11de43436db3ec9,CNI,4514241
